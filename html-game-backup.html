@@ -69,6 +69,7 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 20px;
+            margin-top: 20px;
             align-items: center;
             text-align: center;
         }
@@ -354,6 +355,271 @@
         .overlay.active {
             display: block;
         }
+
+        @media screen and (max-width: 768px) {
+            body {
+                min-height: -webkit-fill-available;
+                height: 100vh;
+                padding: 0;
+            }
+
+            .container {
+                min-height: 100%;
+                height: 100%;
+                margin: 0;
+                border-radius: 0;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            #game-container {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 1.8em;
+                margin-bottom: 15px;
+            }
+
+            .grid-headers {
+                font-size: 0.8em;
+                padding: 8px;
+            }
+
+            .attempt {
+                font-size: 0.8em;
+                padding: 8px;
+            }
+
+            .attempt-info {
+                width: 50px;
+                height: 50px;
+                padding: 5px;
+            }
+
+            .attempt-info img {
+                max-height: 30px;
+            }
+
+            .dropdown-item {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+                grid-template-areas: 
+                    "img name team"
+                    "img stats stats";
+                gap: 10px;
+                padding: 15px;
+            }
+
+            .player-img {
+                grid-area: img;
+                width: 50px;
+                height: 50px;
+            }
+
+            .dropdown-item > div:nth-child(2) {
+                grid-area: name;
+                font-size: 1em;
+            }
+
+            .team-logo {
+                grid-area: team;
+                width: 30px;
+                height: 30px;
+            }
+
+            .player-info-grid {
+                grid-area: stats;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 8px;
+                font-size: 0.85em;
+                background: rgba(255, 255, 255, 0.05);
+                padding: 8px;
+                border-radius: 8px;
+                margin-top: 5px;
+            }
+
+            .stat-container {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                justify-content: center;
+            }
+
+            .stat-icon {
+                opacity: 0.7;
+                font-size: 0.9em;
+            }
+
+            .dropdown {
+                max-height: 50vh;
+                border-radius: 15px;
+            }
+
+            .attempt-label {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+
+            #remaining-guesses {
+                font-size: 1em;
+                padding: 8px 15px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            #hint-button {
+                padding: 8px 16px;
+                font-size: 0.9em;
+                width: 100%;
+                white-space: normal;
+                line-height: 1.2;
+            }
+
+            /* Mobile search improvements */
+            .search-container {
+                position: sticky;
+                top: 20px;
+                z-index: 1001;
+                margin-bottom: 10px;
+            }
+
+            .dropdown {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                max-height: 50vh;
+                border-radius: 15px;
+                z-index: 1001;
+            }
+            
+            /* Remove the previous fixed positioning styles */
+            .dropdown {
+                position: absolute;
+                bottom: auto;
+            }
+
+            /* Basic player info for mobile */
+            .mobile-player-info {
+                display: block;
+                grid-area: info;
+                font-size: 0.8em;
+                color: #888;
+            }
+
+            /* Game over modal adjustments */
+            #game-over {
+                width: 90%;
+                padding: 20px;
+            }
+
+            #game-over h2 {
+                font-size: 1.5em;
+            }
+        }
+
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .loading-content {
+            background: rgba(0, 0, 0, 0.85);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            color: white;
+        }
+
+        .loading-progress {
+            width: 300px;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #45a049);
+            transition: width 0.3s ease;
+        }
+
+        .loading-text {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .correct-guesses {
+            background: rgba(76, 175, 80, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(76, 175, 80, 0.3);
+        }
+
+        .correct-guesses.hidden {
+            display: none;
+        }
+
+        .correct-guesses h3 {
+            margin: 0 0 10px 0;
+            color: #4CAF50;
+            font-size: 1.1em;
+        }
+
+        .guessed-attributes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .guessed-attribute {
+            background: rgba(76, 175, 80, 0.2);
+            padding: 8px 15px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .guessed-attribute img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+
+        @media screen and (max-width: 768px) {
+            .correct-guesses {
+                padding: 10px;
+                margin-bottom: 15px;
+            }
+
+            .guessed-attribute {
+                padding: 6px 12px;
+                font-size: 0.9em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -361,15 +627,11 @@
         <h1>Ghiceste Fotbalistul</h1>
         
         <div id="game-container">
-            <div class="grid-headers hidden">
-                <div>TEAM</div>
-                <div>POS</div>
-                <div>NAT</div>
-                <div>SHIRT</div>
-                <div>AGE</div>
+            <div id="correct-guesses" class="correct-guesses hidden">
+                <h3>Ai ghicit corect:</h3>
+                <div class="guessed-attributes"></div>
             </div>
-            <div id="attempts-container"></div>
-            
+
             <div class="search-container">
                 <input type="text" id="player-search" placeholder="Introdu numele jucatorului...">
                 <div id="dropdown" class="dropdown"></div>
@@ -378,6 +640,15 @@
             <div id="remaining-guesses">Incercari ramase: 8</div>
             <button id="hint-button">Indiciu (costa 1 incercare)</button>
             <div id="hint-text"></div>
+
+            <div class="grid-headers hidden">
+                <div>TEAM</div>
+                <div>POS</div>
+                <div>NAT</div>
+                <div>SHIRT</div>
+                <div>AGE</div>
+            </div>
+            <div id="attempts-container"></div>
             
             <div id="game-over" class="hidden">
                 <h2 id="game-over-message"></h2>
@@ -397,12 +668,67 @@
 
         async function fetchPlayers() {
             try {
+                // Show loading screen
+                const loadingDiv = document.createElement('div');
+                loadingDiv.id = 'loading-screen';
+                loadingDiv.innerHTML = `
+                    <div class="loading-content">
+                        <h2>Se incarca jocul...</h2>
+                        <div class="loading-progress">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <div class="loading-text">Aducem jucatorii pe teren (0%)</div>
+                    </div>
+                `;
+                document.body.appendChild(loadingDiv);
+
+                // Fetch players data
                 const response = await fetch('https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/superliga_players.json');
                 players = await response.json();
+
+                // Preload all images
+                const totalImages = players.length;
+                let loadedImages = 0;
+                
+                const preloadPromises = players.map(player => {
+                    return new Promise((resolve) => {
+                        const img = new Image();
+                        img.onload = () => {
+                            loadedImages++;
+                            updateLoadingProgress(loadedImages, totalImages);
+                            resolve();
+                        };
+                        img.onerror = () => {
+                            // Try JPG if PNG fails
+                            img.src = `https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/player_images/${player.PlayerID}.jpg`;
+                            img.onerror = () => {
+                                loadedImages++;
+                                updateLoadingProgress(loadedImages, totalImages);
+                                resolve();
+                            };
+                        };
+                        img.src = `https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/player_images/${player.PlayerID}.png`;
+                    });
+                });
+
+                // Wait for all images to load
+                await Promise.all(preloadPromises);
+
+                // Remove loading screen and start game
+                document.body.removeChild(loadingDiv);
                 startNewGame();
             } catch (error) {
                 console.error('Error fetching players:', error);
             }
+        }
+
+        function updateLoadingProgress(loaded, total) {
+            const percentage = Math.round((loaded / total) * 100);
+            const progressBar = document.querySelector('.progress-bar');
+            const loadingText = document.querySelector('.loading-text');
+            
+            progressBar.style.width = `${percentage}%`;
+            loadingText.textContent = `Aducem jucatorii pe teren (${percentage}%)`;
         }
 
         function startNewGame() {
@@ -415,10 +741,22 @@
             document.getElementById('remaining-guesses').textContent = `Incercari ramase: ${remainingGuesses}`;
             document.getElementById('player-search').value = '';
             document.getElementById('hint-text').textContent = '';
+            document.getElementById('hint-text').style.display = 'none';
             hintsRemaining = 3;
-            document.getElementById('hint-button').textContent = `Indiciu (costa 1 incercare) (${hintsRemaining} ramase)`;
+            updateHintButtonText();
             document.querySelector('.overlay').classList.remove('active');
             document.querySelector('.grid-headers').classList.add('hidden');
+            document.getElementById('correct-guesses').classList.add('hidden');
+            document.querySelector('.guessed-attributes').innerHTML = '';
+        }
+
+        function updateHintButtonText() {
+            const button = document.getElementById('hint-button');
+            if (window.innerWidth <= 768) {
+                button.textContent = `Indiciu (${hintsRemaining}/3)`;
+            } else {
+                button.textContent = `Indiciu (costa 1 incercare) (${hintsRemaining} ramase)`;
+            }
         }
 
         function createPlayerImage(playerID) {
@@ -642,6 +980,73 @@
             container.prepend(attemptDiv);
         }
 
+        function updateCorrectGuesses() {
+            const correctGuessesDiv = document.getElementById('correct-guesses');
+            const guessedAttributesDiv = correctGuessesDiv.querySelector('.guessed-attributes');
+            let hasCorrectGuesses = false;
+
+            // Clear previous content
+            guessedAttributesDiv.innerHTML = '';
+
+            // Check all attempts for correct guesses
+            const attempts = document.querySelectorAll('.attempt');
+            const correctAttributes = {
+                team: { value: null, icon: '👕', label: 'Echipa' },
+                position: { value: null, icon: '🎯', label: 'Pozitie' },
+                nationality: { value: null, icon: '🌍', label: 'Nationalitate' },
+                number: { value: null, icon: '#️⃣', label: 'Numar' },
+                age: { value: null, icon: '📅', label: 'Varsta' }
+            };
+
+            attempts.forEach(attempt => {
+                const stats = attempt.querySelectorAll('.attempt-info');
+                stats.forEach((stat, index) => {
+                    if (stat.classList.contains('correct')) {
+                        hasCorrectGuesses = true;
+                        const keys = ['team', 'position', 'nationality', 'number', 'age'];
+                        const key = keys[index];
+                        
+                        if (!correctAttributes[key].value) {
+                            if (key === 'team') {
+                                correctAttributes[key].value = stat.querySelector('img').cloneNode(true);
+                            } else if (key === 'nationality') {
+                                correctAttributes[key].value = stat.querySelector('img').cloneNode(true);
+                            } else {
+                                correctAttributes[key].value = stat.textContent;
+                            }
+                        }
+                    }
+                });
+            });
+
+            // Display correct guesses
+            if (hasCorrectGuesses) {
+                Object.entries(correctAttributes).forEach(([key, attr]) => {
+                    if (attr.value) {
+                        const div = document.createElement('div');
+                        div.className = 'guessed-attribute';
+                        
+                        const iconSpan = document.createElement('span');
+                        iconSpan.textContent = attr.icon;
+                        div.appendChild(iconSpan);
+
+                        if (attr.value instanceof HTMLImageElement) {
+                            div.appendChild(attr.value);
+                        } else {
+                            const valueSpan = document.createElement('span');
+                            valueSpan.textContent = attr.value;
+                            div.appendChild(valueSpan);
+                        }
+
+                        guessedAttributesDiv.appendChild(div);
+                    }
+                });
+                correctGuessesDiv.classList.remove('hidden');
+            } else {
+                correctGuessesDiv.classList.add('hidden');
+            }
+        }
+
         function handleGuess(guessedPlayer) {
             if (gameOver) return;
 
@@ -649,6 +1054,7 @@
             document.querySelector('.grid-headers').classList.remove('hidden');
 
             displayAttempt(guessedPlayer);
+            updateCorrectGuesses();
             remainingGuesses--;
             document.getElementById('remaining-guesses').textContent = `Incercari ramase: ${remainingGuesses}`;
 
@@ -851,7 +1257,7 @@
             hintText.textContent = randomHint;
             
             hintsRemaining--;
-            document.getElementById('hint-button').textContent = `Indiciu (costa 1 incercare) (${hintsRemaining} ramase)`;
+            updateHintButtonText();
             remainingGuesses--;
             document.getElementById('remaining-guesses').textContent = `Incercari ramase: ${remainingGuesses}`;
             
@@ -866,6 +1272,9 @@
         // Initialize the game
         fetchPlayers();
         setupSearch();
+
+        // Add this event listener
+        window.addEventListener('resize', updateHintButtonText);
     </script>
 </body>
 </html>
