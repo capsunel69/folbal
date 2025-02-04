@@ -1,0 +1,467 @@
+﻿PlayerID,TeamID,Team,TeamLogo,Number,Name,Position,Age,Nationality,Image
+fcsb_stefan_tarnovanu,fcsb,FCSB,fcsb.png,32,Stefan Tarnovanu,Goalkeeper,"May 9, 2000 (24)",Romania,fcsb_stefan_tarnovanu.png
+fcsb_lukas_zima,fcsb,FCSB,fcsb.png,38,Lukas Zima,Goalkeeper,"Jan 9, 1994 (31)",Czech Republic,fcsb_lukas_zima.png
+fcsb_mihai_udrea,fcsb,FCSB,fcsb.png,1,Mihai Udrea,Goalkeeper,"Jul 20, 2001 (23)",Romania,fcsb_mihai_udrea.png
+fcsb_siyabonga_ngezana,fcsb,FCSB,fcsb.png,30,Siyabonga Ngezana,Centre-Back,"Jul 15, 1997 (27)",South Africa,fcsb_siyabonga_ngezana.png
+fcsb_joyskim_dawa,fcsb,FCSB,fcsb.png,5,Joyskim Dawa,Centre-Back,"Apr 9, 1996 (28)",Cameroon,fcsb_joyskim_dawa.png
+fcsb_mihai_popescu,fcsb,FCSB,fcsb.png,17,Mihai Popescu,Centre-Back,"May 7, 1993 (31)",Romania,fcsb_mihai_popescu.png
+fcsb_vlad_chiriches,fcsb,FCSB,fcsb.png,21,Vlad Chiriches,Centre-Back,"Nov 14, 1989 (35)",Romania,fcsb_vlad_chiriches.png
+fcsb_risto_radunovic,fcsb,FCSB,fcsb.png,33,Risto Radunovic,Left-Back,"May 4, 1992 (32)",Montenegro,fcsb_risto_radunovic.png
+fcsb_david_kiki,fcsb,FCSB,fcsb.png,12,David Kiki,Left-Back,"Nov 25, 1993 (31)",Benin,fcsb_david_kiki.png
+fcsb_ionut_pantiru,fcsb,FCSB,fcsb.png,3,Ionut Pantiru,Left-Back,"Mar 22, 1996 (28)",Romania,fcsb_ionut_pantiru.png
+fcsb_alexandru_pantea,fcsb,FCSB,fcsb.png,28,Alexandru Pantea,Right-Back,"Sep 11, 2003 (21)",Romania,fcsb_alexandru_pantea.png
+fcsb_valentin_cretu,fcsb,FCSB,fcsb.png,2,Valentin Cretu,Right-Back,"Jan 2, 1989 (36)",Romania,fcsb_valentin_cretu.png
+fcsb_adrian_sut,fcsb,FCSB,fcsb.png,8,Adrian Sut,Defensive Midfield,"Apr 30, 1999 (25)",Romania,fcsb_adrian_sut.png
+fcsb_mihai_lixandru,fcsb,FCSB,fcsb.png,16,Mihai Lixandru,Central Midfield,"Jun 5, 2001 (23)",Romania,fcsb_mihai_lixandru.png
+fcsb_baba_alhassan,fcsb,FCSB,fcsb.png,42,Baba Alhassan,Central Midfield,"Jan 3, 2000 (25)",Ghana,fcsb_baba_alhassan.png
+fcsb_juri_cisotti,fcsb,FCSB,fcsb.png,31,Juri Cisotti,Central Midfield,"May 5, 1993 (31)",Italy,fcsb_juri_cisotti.png
+fcsb_malcom_edjouma,fcsb,FCSB,fcsb.png,18,Malcom Edjouma,Central Midfield,"Oct 8, 1996 (28)",Morocco,fcsb_malcom_edjouma.png
+fcsb_darius_olaru,fcsb,FCSB,fcsb.png,27,Darius Olaru,Attacking Midfield,"Mar 3, 1998 (26)",Romania,fcsb_darius_olaru.png
+fcsb_florin_tanase,fcsb,FCSB,fcsb.png,7,Florin Tanase,Attacking Midfield,"Dec 30, 1994 (30)",Romania,fcsb_florin_tanase.png
+fcsb_octavian_popescu,fcsb,FCSB,fcsb.png,10,Octavian Popescu,Left Winger,"Dec 27, 2002 (22)",Romania,fcsb_octavian_popescu.png
+fcsb_alexandru_musi,fcsb,FCSB,fcsb.png,29,Alexandru Musi,Left Winger,"Jul 17, 2004 (20)",Romania,fcsb_alexandru_musi.png
+fcsb_mihai_toma,fcsb,FCSB,fcsb.png,22,Mihai Toma,Left Winger,"Feb 17, 2007 (17)",Romania,fcsb_mihai_toma.png
+fcsb_marius_stefanescu,fcsb,FCSB,fcsb.png,15,Marius Stefanescu,Right Winger,"Aug 14, 1998 (26)",Romania,fcsb_marius_stefanescu.png
+fcsb_alexandru_baluta,fcsb,FCSB,fcsb.png,25,Alexandru Baluta,Right Winger,"Sep 13, 1993 (31)",Romania,fcsb_alexandru_baluta.png
+fcsb_william_baeten,fcsb,FCSB,fcsb.png,24,William Baeten,Right Winger,"Feb 7, 1997 (27)",Belgium,fcsb_william_baeten.png
+fcsb_robert_necsulescu,fcsb,FCSB,fcsb.png,98,Robert Necsulescu,Right Winger,"May 17, 2007 (17)",Romania,fcsb_robert_necsulescu.jpg
+fcsb_daniel_birligea,fcsb,FCSB,fcsb.png,9,Daniel Birligea,Centre-Forward,"Apr 19, 2000 (24)",Romania,fcsb_daniel_birligea.png
+fcsb_david_miculescu,fcsb,FCSB,fcsb.png,11,David Miculescu,Centre-Forward,"May 2, 2001 (23)",Romania,fcsb_david_miculescu.png
+fcsb_daniel_popa,fcsb,FCSB,fcsb.png,19,Daniel Popa,Centre-Forward,"Jul 14, 1995 (29)",Romania,fcsb_daniel_popa.png
+fcsb_alexandru_stoian,fcsb,FCSB,fcsb.png,90,Alexandru Stoian,Centre-Forward,"Dec 15, 2007 (17)",Romania,fcsb_alexandru_stoian.png
+fcsb_denis_colibasanu,fcsb,FCSB,fcsb.png,20,Denis Colibasanu,Centre-Forward,"Mar 10, 2007 (17)",Romania,fcsb_denis_colibasanu.png
+fc_rapid_1923_marian_aioani,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,16,Marian Aioani,Goalkeeper,"Nov 7, 1999 (25)",Romania,fc_rapid_1923_marian_aioani.png
+fc_rapid_1923_benjamin_siegrist,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,1,Benjamin Siegrist,Goalkeeper,"Jan 31, 1992 (32)",Switzerland,fc_rapid_1923_benjamin_siegrist.jpg
+fc_rapid_1923_alexandru_pascanu,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,5,Alexandru Pascanu,Centre-Back,"Sep 28, 1998 (26)",Romania,fc_rapid_1923_alexandru_pascanu.jpg
+fc_rapid_1923_cristian_ignat,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,21,Cristian Ignat,Centre-Back,"Jan 29, 2003 (21)",Romania,fc_rapid_1923_cristian_ignat.png
+fc_rapid_1923_paul_iacob,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,6,Paul Iacob,Centre-Back,"Jun 21, 1996 (28)",Romania,fc_rapid_1923_paul_iacob.png
+fc_rapid_1923_cristian_sapunaru,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,22,Cristian Sapunaru,Centre-Back,"Apr 5, 1984 (40)",Romania,fc_rapid_1923_cristian_sapunaru.png
+fc_rapid_1923_andrei_borza,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,24,Andrei Borza,Left-Back,"Nov 12, 2005 (19)",Romania,fc_rapid_1923_andrei_borza.png
+fc_rapid_1923_robert_badescu,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,3,Robert Badescu,Left-Back,"Apr 2, 2005 (19)",Romania,fc_rapid_1923_robert_badescu.jpg
+fc_rapid_1923_cristian_manea,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,23,Cristian Manea,Right-Back,"Aug 9, 1997 (27)",Romania,fc_rapid_1923_cristian_manea.png
+fc_rapid_1923_razvan_onea,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,19,Razvan Onea,Right-Back,"May 19, 1998 (26)",Romania,fc_rapid_1923_razvan_onea.png
+fc_rapid_1923_christopher_braun,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,47,Christopher Braun,Right-Back,"Jul 15, 1991 (33)",Germany,fc_rapid_1923_christopher_braun.png
+fc_rapid_1923_tobias_christensen,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,17,Tobias Christensen,Defensive Midfield,"May 11, 2000 (24)",Norway,fc_rapid_1923_tobias_christensen.jpg
+fc_rapid_1923_jakub_hromada,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,14,Jakub Hromada,Defensive Midfield,"May 25, 1996 (28)",Slovakia,fc_rapid_1923_jakub_hromada.png
+fc_rapid_1923_diogo_mendes,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,66,Diogo Mendes,Defensive Midfield,"Jan 24, 1998 (26)",Cape Verde,fc_rapid_1923_diogo_mendes.jpg
+fc_rapid_1923_catalin_vulturar,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,15,Catalin Vulturar,Defensive Midfield,"Mar 9, 2004 (20)",Romania,fc_rapid_1923_catalin_vulturar.png
+fc_rapid_1923_constantin_grameni,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,20,Constantin Grameni,Central Midfield,"Oct 23, 2002 (22)",Romania,fc_rapid_1923_constantin_grameni.png
+fc_rapid_1923_mattias_kait,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,4,Mattias Kait,Central Midfield,"Jun 29, 1998 (26)",Estonia,fc_rapid_1923_mattias_kait.png
+fc_rapid_1923_florent_hasani,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,8,Florent Hasani,Attacking Midfield,"Mar 30, 1997 (27)",Kosovo,fc_rapid_1923_florent_hasani.png
+fc_rapid_1923_luka_gojkovic,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,28,Luka Gojkovic,Attacking Midfield,"Nov 28, 1999 (25)",Serbia,fc_rapid_1923_luka_gojkovic.png
+fc_rapid_1923_xian_emmers,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,25,Xian Emmers,Attacking Midfield,"Jul 20, 1999 (25)",Belgium,fc_rapid_1923_xian_emmers.png
+fc_rapid_1923_andrei_sucu,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,34,Andrei Sucu,Attacking Midfield,"Dec 26, 2008 (16)",Romania,fc_rapid_1923_andrei_sucu.png
+fc_rapid_1923_claudiu_petrila,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,10,Claudiu Petrila,Left Winger,"Nov 7, 2000 (24)",Romania,fc_rapid_1923_claudiu_petrila.png
+fc_rapid_1923_alexandru_dobre,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,29,Alexandru Dobre,Left Winger,"Aug 30, 1998 (26)",Romania,fc_rapid_1923_alexandru_dobre.jpg
+fc_rapid_1923_claudiu_micovschi,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,7,Claudiu Micovschi,Left Winger,"May 19, 1999 (25)",Romania,fc_rapid_1923_claudiu_micovschi.png
+fc_rapid_1923_clinton_n'jie,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,9,Clinton N'Jie,Right Winger,"Aug 15, 1993 (31)",Cameroon,fc_rapid_1923_clinton_n'jie.jpg
+fc_rapid_1923_rares_pop,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,55,Rares Pop,Right Winger,"Jun 14, 2005 (19)",Romania,fc_rapid_1923_rares_pop.png
+fc_rapid_1923_aaron_boupendza,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,45,Aaron Boupendza,Centre-Forward,"Aug 7, 1996 (28)",Gabon,fc_rapid_1923_aaron_boupendza.jpg
+fc_rapid_1923_david_ankeye,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,30,David Ankeye,Centre-Forward,"May 22, 2002 (22)",Nigeria,fc_rapid_1923_david_ankeye.jpg
+fc_rapid_1923_borisav_burmaz,fc_rapid_1923,FC Rapid 1923,fc_rapid_1923.png,11,Borisav Burmaz,Centre-Forward,"Apr 21, 2001 (23)",Serbia,fc_rapid_1923_borisav_burmaz.png
+cs_universitatea_craiova_laurentiu_popescu,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,21,Laurentiu Popescu,Goalkeeper,"Jan 18, 1997 (28)",Romania,cs_universitatea_craiova_laurentiu_popescu.png
+cs_universitatea_craiova_relu_stoian,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,32,Relu Stoian,Goalkeeper,"Mar 1, 1996 (28)",Romania,cs_universitatea_craiova_relu_stoian.png
+cs_universitatea_craiova_silviu_lung_jr.,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,33,Silviu Lung Jr.,Goalkeeper,"Jun 4, 1989 (35)",Romania,cs_universitatea_craiova_silviu_lung_jr..png
+cs_universitatea_craiova_denil_maldonado,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,3,Denil Maldonado,Centre-Back,"May 26, 1998 (26)",Honduras,cs_universitatea_craiova_denil_maldonado.png
+cs_universitatea_craiova_gjoko_zajkov,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,26,Gjoko Zajkov,Centre-Back,"Feb 10, 1995 (29)",North Macedonia,cs_universitatea_craiova_gjoko_zajkov.png
+cs_universitatea_craiova_juraj_badelj,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,15,Juraj Badelj,Centre-Back,"Aug 24, 2003 (21)",Croatia,cs_universitatea_craiova_juraj_badelj.png
+cs_universitatea_craiova_marcus_pacurar,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,41,Marcus Pacurar,Centre-Back,"May 2, 2005 (19)",Romania,cs_universitatea_craiova_marcus_pacurar.png
+cs_universitatea_craiova_nicusor_bancu,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,11,Nicusor Bancu,Left-Back,"Sep 18, 1992 (32)",Romania,cs_universitatea_craiova_nicusor_bancu.png
+cs_universitatea_craiova_basilio_ndong,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,12,Basilio Ndong,Left-Back,"Jan 17, 1999 (26)",Equatorial Guinea,cs_universitatea_craiova_basilio_ndong.png
+cs_universitatea_craiova_stefan_vladoiu,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,2,Stefan Vladoiu,Right-Back,"Dec 28, 1998 (26)",Romania,cs_universitatea_craiova_stefan_vladoiu.png
+cs_universitatea_craiova_iago_lopez,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,22,Iago Lopez,Right-Back,"Apr 6, 1999 (25)",Spain,cs_universitatea_craiova_iago_lopez.png
+cs_universitatea_craiova_florin_gaspar,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,36,Florin Gaspar,Right-Back,"Sep 25, 2007 (17)",Romania,cs_universitatea_craiova_florin_gaspar.png
+cs_universitatea_craiova_vladimir_screciu,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,6,Vladimir Screciu,Defensive Midfield,"Jan 13, 2000 (25)",Romania,cs_universitatea_craiova_vladimir_screciu.png
+cs_universitatea_craiova_anzor_mekvabishvili,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,5,Anzor Mekvabishvili,Defensive Midfield,"Jun 5, 2001 (23)",Georgia,cs_universitatea_craiova_anzor_mekvabishvili.png
+cs_universitatea_craiova_takuto_oshima,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,8,Takuto Oshima,Defensive Midfield,"Jun 1, 1998 (26)",Japan,cs_universitatea_craiova_takuto_oshima.png
+cs_universitatea_craiova_robert_lapadatescu,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,39,Robert Lapadatescu,Defensive Midfield,"Nov 8, 2006 (18)",Romania,cs_universitatea_craiova_robert_lapadatescu.png
+cs_universitatea_craiova_mihai_capatina,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,23,Mihai Capatina,Central Midfield,"Dec 16, 1995 (29)",Romania,cs_universitatea_craiova_mihai_capatina.png
+cs_universitatea_craiova_alexandru_cicaldau,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,20,Alexandru Cicaldau,Attacking Midfield,"Jul 8, 1997 (27)",Romania,cs_universitatea_craiova_alexandru_cicaldau.png
+cs_universitatea_craiova_lyes_houri,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,14,Lyes Houri,Attacking Midfield,"Jan 19, 1996 (29)",France,cs_universitatea_craiova_lyes_houri.png
+cs_universitatea_craiova_alexandru_mitrita,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,28,Alexandru Mitrita,Left Winger,"Feb 8, 1995 (29)",Romania,cs_universitatea_craiova_alexandru_mitrita.png
+cs_universitatea_craiova_stefan_baiaram,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,10,Stefan Baiaram,Left Winger,"Dec 31, 2002 (22)",Romania,cs_universitatea_craiova_stefan_baiaram.png
+cs_universitatea_craiova_luis_paradela,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,7,Luis Paradela,Left Winger,"Jan 21, 1997 (28)",Cuba,cs_universitatea_craiova_luis_paradela.png
+cs_universitatea_craiova_carlos_mora,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,17,Carlos Mora,Right Winger,"Mar 18, 2001 (23)",Costa Rica,cs_universitatea_craiova_carlos_mora.png
+cs_universitatea_craiova_stefan_bana,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,31,Stefan Bana,Right Winger,"Oct 29, 2004 (20)",Romania,cs_universitatea_craiova_stefan_bana.png
+cs_universitatea_craiova_elvir_koljic,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,19,Elvir Koljic,Centre-Forward,"Jul 8, 1995 (29)",Bosnia-Herzegovina,cs_universitatea_craiova_elvir_koljic.png
+cs_universitatea_craiova_jovo_lukic,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,24,Jovo Lukic,Centre-Forward,"Nov 28, 1998 (26)",Bosnia-Herzegovina,cs_universitatea_craiova_jovo_lukic.jpg
+cs_universitatea_craiova_david_barbu,cs_universitatea_craiova,CS Universitatea Craiova,cs_universitatea_craiova.png,27,David Barbu,Centre-Forward,"Jun 26, 2006 (18)",Romania,cs_universitatea_craiova_david_barbu.png
+cfr_cluj_mihai_popa,cfr_cluj,CFR Cluj,cfr_cluj.png,21,Mihai Popa,Goalkeeper,"Oct 12, 2000 (24)",Romania,cfr_cluj_mihai_popa.png
+cfr_cluj_otto_hindrich,cfr_cluj,CFR Cluj,cfr_cluj.png,89,Otto Hindrich,Goalkeeper,"Aug 5, 2002 (22)",Romania,cfr_cluj_otto_hindrich.png
+cfr_cluj_rares_gal,cfr_cluj,CFR Cluj,cfr_cluj.png,1,Rares Gal,Goalkeeper,"Jan 25, 2001 (23)",Romania,cfr_cluj_rares_gal.png
+cfr_cluj_mihai_pinzariu,cfr_cluj,CFR Cluj,cfr_cluj.png,12,Mihai Pinzariu,Goalkeeper,"Sep 14, 2004 (20)",Romania,cfr_cluj_mihai_pinzariu.png
+cfr_cluj_mihai_racasan,cfr_cluj,CFR Cluj,cfr_cluj.png,83,Mihai Racasan,Goalkeeper,"Jul 1, 2007 (17)",Romania,cfr_cluj_mihai_racasan.png
+cfr_cluj_matei_ilie,cfr_cluj,CFR Cluj,cfr_cluj.png,27,Matei Ilie,Centre-Back,"Dec 11, 2002 (22)",Romania,cfr_cluj_matei_ilie.png
+cfr_cluj_anton_kresic,cfr_cluj,CFR Cluj,cfr_cluj.png,44,Anton Kresic,Centre-Back,"Jan 29, 1996 (28)",Croatia,cfr_cluj_anton_kresic.png
+cfr_cluj_leo_bolgado,cfr_cluj,CFR Cluj,cfr_cluj.png,4,Leo Bolgado,Centre-Back,"Aug 20, 1998 (26)",Brazil,cfr_cluj_leo_bolgado.png
+cfr_cluj_matija_boben,cfr_cluj,CFR Cluj,cfr_cluj.png,42,Matija Boben,Centre-Back,"Feb 26, 1994 (30)",Slovenia,cfr_cluj_matija_boben.png
+cfr_cluj_daniel_graovac,cfr_cluj,CFR Cluj,cfr_cluj.png,5,Daniel Graovac,Centre-Back,"Aug 8, 1993 (31)",Bosnia-Herzegovina,cfr_cluj_daniel_graovac.png
+cfr_cluj_sheriff_sinyan,cfr_cluj,CFR Cluj,cfr_cluj.png,-,Sheriff Sinyan,Centre-Back,"Jul 19, 1996 (28)",The Gambia,cfr_cluj_sheriff_sinyan.png
+cfr_cluj_alan_aussi,cfr_cluj,CFR Cluj,cfr_cluj.png,22,Alan Aussi,Centre-Back,"Jun 30, 2001 (23)",Ukraine,cfr_cluj_alan_aussi.png
+cfr_cluj_costel_avram,cfr_cluj,CFR Cluj,cfr_cluj.png,78,Costel Avram,Centre-Back,"Jun 11, 2002 (22)",Romania,cfr_cluj_costel_avram.png
+cfr_cluj_simao_rocha,cfr_cluj,CFR Cluj,cfr_cluj.png,13,Simao Rocha,Left-Back,"Dec 13, 2000 (24)",Portugal,cfr_cluj_simao_rocha.png
+cfr_cluj_aly_abeid,cfr_cluj,CFR Cluj,cfr_cluj.png,3,Aly Abeid,Left-Back,"Dec 11, 1997 (27)",Mauritania,cfr_cluj_aly_abeid.png
+cfr_cluj_mario_camora,cfr_cluj,CFR Cluj,cfr_cluj.png,45,Mario Camora,Left-Back,"Nov 10, 1986 (38)",Romania,cfr_cluj_mario_camora.png
+cfr_cluj_vasile_mogos,cfr_cluj,CFR Cluj,cfr_cluj.png,19,Vasile Mogos,Right-Back,"Oct 31, 1992 (32)",Romania,cfr_cluj_vasile_mogos.png
+cfr_cluj_flavius_iacob,cfr_cluj,CFR Cluj,cfr_cluj.png,23,Flavius Iacob,Right-Back,"Oct 30, 2000 (24)",Romania,cfr_cluj_flavius_iacob.png
+cfr_cluj_alexandru_tirlea,cfr_cluj,CFR Cluj,cfr_cluj.png,20,Alexandru Tirlea,Right-Back,"Mar 28, 2000 (24)",Romania,cfr_cluj_alexandru_tirlea.jpg
+cfr_cluj_andrei_peteleu,cfr_cluj,CFR Cluj,cfr_cluj.png,71,Andrei Peteleu,Right-Back,"Aug 20, 1992 (32)",Romania,cfr_cluj_andrei_peteleu.png
+cfr_cluj_kader_keita,cfr_cluj,CFR Cluj,cfr_cluj.png,18,Kader Keita,Defensive Midfield,"Nov 6, 2000 (24)",Cote d'Ivoire,cfr_cluj_kader_keita.png
+cfr_cluj_panagiotis_tachtsidis,cfr_cluj,CFR Cluj,cfr_cluj.png,77,Panagiotis Tachtsidis,Defensive Midfield,"Feb 15, 1991 (33)",Greece,cfr_cluj_panagiotis_tachtsidis.png
+cfr_cluj_alin_fica,cfr_cluj,CFR Cluj,cfr_cluj.png,82,Alin Fica,Central Midfield,"Jun 14, 2001 (23)",Romania,cfr_cluj_alin_fica.png
+cfr_cluj_damjan_djokovic,cfr_cluj,CFR Cluj,cfr_cluj.png,88,Damjan Djokovic,Central Midfield,"Apr 18, 1990 (34)",Croatia,cfr_cluj_damjan_djokovic.png
+cfr_cluj_robert_filip,cfr_cluj,CFR Cluj,cfr_cluj.png,8,Robert Filip,Central Midfield,"Mar 2, 2002 (22)",Romania,cfr_cluj_robert_filip.png
+cfr_cluj_meriton_korenica,cfr_cluj,CFR Cluj,cfr_cluj.png,17,Meriton Korenica,Left Winger,"Dec 15, 1996 (28)",Kosovo,cfr_cluj_meriton_korenica.png
+cfr_cluj_mohammed_kamara,cfr_cluj,CFR Cluj,cfr_cluj.png,7,Mohammed Kamara,Left Winger,"Oct 31, 1997 (27)",Liberia,cfr_cluj_mohammed_kamara.png
+cfr_cluj_adrian_paun,cfr_cluj,CFR Cluj,cfr_cluj.png,11,Adrian Paun,Left Winger,"Apr 1, 1995 (29)",Romania,cfr_cluj_adrian_paun.png
+cfr_cluj_andres_sfait,cfr_cluj,CFR Cluj,cfr_cluj.png,97,Andres Sfait,Left Winger,"Dec 9, 2004 (20)",Romania,cfr_cluj_andres_sfait.png
+cfr_cluj_beni_nkololo,cfr_cluj,CFR Cluj,cfr_cluj.png,96,Beni Nkololo,Right Winger,"Nov 6, 1996 (28)",France,cfr_cluj_beni_nkololo.png
+cfr_cluj_ciprian_deac,cfr_cluj,CFR Cluj,cfr_cluj.png,10,Ciprian Deac,Right Winger,"Feb 16, 1986 (38)",Romania,cfr_cluj_ciprian_deac.png
+cfr_cluj_louis_munteanu,cfr_cluj,CFR Cluj,cfr_cluj.png,9,Louis Munteanu,Centre-Forward,"Jun 16, 2002 (22)",Romania,cfr_cluj_louis_munteanu.png
+cfr_cluj_virgiliu_postolachi,cfr_cluj,CFR Cluj,cfr_cluj.png,93,Virgiliu Postolachi,Centre-Forward,"Mar 17, 2000 (24)",Moldova,cfr_cluj_virgiliu_postolachi.png
+cfr_cluj_stipe_juric,cfr_cluj,CFR Cluj,cfr_cluj.png,99,Stipe Juric,Centre-Forward,"Nov 19, 1998 (26)",Bosnia-Herzegovina,cfr_cluj_stipe_juric.png
+cfr_cluj_luka_juricic,cfr_cluj,CFR Cluj,cfr_cluj.png,-,Luka Juricic,Centre-Forward,"Nov 25, 1996 (28)",Bosnia-Herzegovina,cfr_cluj_luka_juricic.png
+fc_universitatea_cluj_edvinas_gertmonas,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,30,Edvinas Gertmonas,Goalkeeper,"Jun 1, 1996 (28)",Lithuania,fc_universitatea_cluj_edvinas_gertmonas.png
+fc_universitatea_cluj_stefan_lefter,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,1,Stefan Lefter,Goalkeeper,"Nov 18, 2004 (20)",Romania,fc_universitatea_cluj_stefan_lefter.jpg
+fc_universitatea_cluj_denis_moldovan,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,12,Denis Moldovan,Goalkeeper,"Oct 27, 2004 (20)",Romania,fc_universitatea_cluj_denis_moldovan.jpg
+fc_universitatea_cluj_lucas_masoero,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,5,Lucas Masoero,Centre-Back,"Feb 1, 1995 (29)",Argentina,fc_universitatea_cluj_lucas_masoero.png
+fc_universitatea_cluj_iulian_cristea,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,6,Iulian Cristea,Centre-Back,"Jul 17, 1994 (30)",Romania,fc_universitatea_cluj_iulian_cristea.png
+fc_universitatea_cluj_jasper_van_der_werff,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,16,Jasper van der Werff,Centre-Back,"Dec 9, 1998 (26)",Switzerland,fc_universitatea_cluj_jasper_van_der_werff.png
+fc_universitatea_cluj_bogdan_mitrea,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,3,Bogdan Mitrea,Centre-Back,"Sep 29, 1987 (37)",Romania,fc_universitatea_cluj_bogdan_mitrea.png
+fc_universitatea_cluj_andrei_stefan,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,-,Andrei Stefan,Centre-Back,"Jul 6, 2002 (22)",Romania,fc_universitatea_cluj_andrei_stefan.png
+fc_universitatea_cluj_alexandru_chipciu,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,27,Alexandru Chipciu,Left-Back,"May 18, 1989 (35)",Romania,fc_universitatea_cluj_alexandru_chipciu.png
+fc_universitatea_cluj_daniel_lasure,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,17,Daniel Lasure,Left-Back,"Feb 27, 1994 (30)",Spain,fc_universitatea_cluj_daniel_lasure.png
+fc_universitatea_cluj_radu_boboc,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,24,Radu Boboc,Right-Back,"Apr 24, 1999 (25)",Romania,fc_universitatea_cluj_radu_boboc.png
+fc_universitatea_cluj_dorinel_oancea,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,26,Dorinel Oancea,Right-Back,"Apr 2, 1997 (27)",Romania,fc_universitatea_cluj_dorinel_oancea.png
+fc_universitatea_cluj_ovidiu_popescu,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,23,Ovidiu Popescu,Defensive Midfield,"Feb 27, 1994 (30)",Romania,fc_universitatea_cluj_ovidiu_popescu.png
+fc_universitatea_cluj_gabriel_simion,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,98,Gabriel Simion,Defensive Midfield,"May 22, 1998 (26)",Romania,fc_universitatea_cluj_gabriel_simion.png
+fc_universitatea_cluj_razvan_oaida,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,4,Razvan Oaida,Defensive Midfield,"Mar 2, 1998 (26)",Romania,fc_universitatea_cluj_razvan_oaida.png
+fc_universitatea_cluj_andrei_artean,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,18,Andrei Artean,Defensive Midfield,"Aug 14, 1993 (31)",Romania,fc_universitatea_cluj_andrei_artean.png
+fc_universitatea_cluj_ovidiu_bic,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,94,Ovidiu Bic,Central Midfield,"Feb 23, 1994 (30)",Romania,fc_universitatea_cluj_ovidiu_bic.png
+fc_universitatea_cluj_vadim_rata,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,22,Vadim Rata,Central Midfield,"May 5, 1993 (31)",Moldova,fc_universitatea_cluj_vadim_rata.png
+fc_universitatea_cluj_dorin_codrea,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,8,Dorin Codrea,Central Midfield,"Jun 13, 1997 (27)",Romania,fc_universitatea_cluj_dorin_codrea.png
+fc_universitatea_cluj_dan_nistor,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,10,Dan Nistor,Central Midfield,"May 6, 1988 (36)",Romania,fc_universitatea_cluj_dan_nistor.png
+fc_universitatea_cluj_alexandru_bota,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,20,Alexandru Bota,Central Midfield,"Mar 31, 2008 (16)",Romania,fc_universitatea_cluj_alexandru_bota.png
+fc_universitatea_cluj_robert_silaghi,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,7,Robert Silaghi,Attacking Midfield,"Apr 2, 2002 (22)",Romania,fc_universitatea_cluj_robert_silaghi.png
+fc_universitatea_cluj_issouf_macalou,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,-,Issouf Macalou,Right Winger,"Dec 27, 1998 (26)",Cote d'Ivoire,fc_universitatea_cluj_issouf_macalou.jpg
+fc_universitatea_cluj_mamadou_thiam,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,93,Mamadou Thiam,Second Striker,"Mar 20, 1995 (29)",Senegal,fc_universitatea_cluj_mamadou_thiam.png
+fc_universitatea_cluj_vladislav_blanuta,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,77,Vladislav Blanuta,Centre-Forward,"Jan 12, 2002 (23)",Romania,fc_universitatea_cluj_vladislav_blanuta.png
+fc_universitatea_cluj_artur_miranyan,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,11,Artur Miranyan,Centre-Forward,"Dec 27, 1995 (29)",Armenia,fc_universitatea_cluj_artur_miranyan.png
+fc_universitatea_cluj_adel_bettaieb,fc_universitatea_cluj,FC Universitatea Cluj,fc_universitatea_cluj.png,9,Adel Bettaieb,Centre-Forward,"Jan 28, 1997 (27)",Tunisia,fc_universitatea_cluj_adel_bettaieb.png
+sepsi_osk_sf._gheorghe_roland_niczuly,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,33,Roland Niczuly,Goalkeeper,"Sep 21, 1995 (29)",Romania,sepsi_osk_sf._gheorghe_roland_niczuly.png
+sepsi_osk_sf._gheorghe_szilard_gyenge,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,31,Szilard Gyenge,Goalkeeper,"Feb 11, 2001 (23)",Romania,sepsi_osk_sf._gheorghe_szilard_gyenge.png
+sepsi_osk_sf._gheorghe_dinu_moldovan,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,1,Dinu Moldovan,Goalkeeper,"May 3, 1990 (34)",Romania,sepsi_osk_sf._gheorghe_dinu_moldovan.png
+sepsi_osk_sf._gheorghe_hunor_gedo,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,98,Hunor Gedo,Goalkeeper,"Jan 16, 2004 (21)",Romania,sepsi_osk_sf._gheorghe_hunor_gedo.png
+sepsi_osk_sf._gheorghe_denis_ciobotariu,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,13,Denis Ciobotariu,Centre-Back,"Jun 10, 1998 (26)",Romania,sepsi_osk_sf._gheorghe_denis_ciobotariu.png
+sepsi_osk_sf._gheorghe_branislav_ninaj,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,82,Branislav Ninaj,Centre-Back,"May 17, 1994 (30)",Slovakia,sepsi_osk_sf._gheorghe_branislav_ninaj.png
+sepsi_osk_sf._gheorghe_denis_harut,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,4,Denis Harut,Centre-Back,"Feb 25, 1999 (25)",Romania,sepsi_osk_sf._gheorghe_denis_harut.png
+sepsi_osk_sf._gheorghe_matej_simic,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,24,Matej Simic,Centre-Back,"Nov 29, 1995 (29)",Croatia,sepsi_osk_sf._gheorghe_matej_simic.png
+sepsi_osk_sf._gheorghe_mark_tamas,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,44,Mark Tamas,Centre-Back,"Oct 28, 1993 (31)",Hungary,sepsi_osk_sf._gheorghe_mark_tamas.png
+sepsi_osk_sf._gheorghe_andres_dumitrescu,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,2,Andres Dumitrescu,Left-Back,"Mar 11, 2001 (23)",Romania,sepsi_osk_sf._gheorghe_andres_dumitrescu.png
+sepsi_osk_sf._gheorghe_florin_stefan,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,3,Florin Stefan,Left-Back,"May 9, 1996 (28)",Romania,sepsi_osk_sf._gheorghe_florin_stefan.png
+sepsi_osk_sf._gheorghe_bogdan_otelita,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,25,Bogdan Otelita,Right-Back,"Aug 12, 2002 (22)",Romania,sepsi_osk_sf._gheorghe_bogdan_otelita.png
+sepsi_osk_sf._gheorghe_darius_oroian,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,17,Darius Oroian,Right-Back,"Aug 1, 2003 (21)",Romania,sepsi_osk_sf._gheorghe_darius_oroian.png
+sepsi_osk_sf._gheorghe_davide_popsa,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,27,Davide Popsa,Right-Back,"Jul 4, 2002 (22)",Romania,sepsi_osk_sf._gheorghe_davide_popsa.png
+sepsi_osk_sf._gheorghe_nicolae_paun,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,-,Nicolae Paun,Defensive Midfield,"Jan 19, 1999 (26)",Romania,sepsi_osk_sf._gheorghe_nicolae_paun.png
+sepsi_osk_sf._gheorghe_sota_mino,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,5,Sota Mino,Central Midfield,"Oct 20, 1994 (30)",Japan,sepsi_osk_sf._gheorghe_sota_mino.png
+sepsi_osk_sf._gheorghe_david_siger,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,18,David Siger,Central Midfield,"Nov 30, 1990 (34)",Hungary,sepsi_osk_sf._gheorghe_david_siger.png
+sepsi_osk_sf._gheorghe_sherif_kallaku,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,59,Sherif Kallaku,Attacking Midfield,"Mar 1, 1998 (26)",Albania,sepsi_osk_sf._gheorghe_sherif_kallaku.png
+sepsi_osk_sf._gheorghe_cosmin_matei,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,10,Cosmin Matei,Attacking Midfield,"Sep 30, 1991 (33)",Romania,sepsi_osk_sf._gheorghe_cosmin_matei.png
+sepsi_osk_sf._gheorghe_omar_el_sawy,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,7,Omar El Sawy,Attacking Midfield,"Mar 16, 2004 (20)",Romania,sepsi_osk_sf._gheorghe_omar_el_sawy.png
+sepsi_osk_sf._gheorghe_giovani_ghimfus,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,19,Giovani Ghimfus,Attacking Midfield,"Jul 12, 2005 (19)",Romania,sepsi_osk_sf._gheorghe_giovani_ghimfus.jpg
+sepsi_osk_sf._gheorghe_marian_draghiceanu,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,20,Marian Draghiceanu,Attacking Midfield,"Jul 7, 1999 (25)",Romania,sepsi_osk_sf._gheorghe_marian_draghiceanu.png
+sepsi_osk_sf._gheorghe_mihajlo_neskovic,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,77,Mihajlo Neskovic,Left Winger,"Feb 9, 2000 (24)",Serbia,sepsi_osk_sf._gheorghe_mihajlo_neskovic.png
+sepsi_osk_sf._gheorghe_sebastian_mailat,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,26,Sebastian Mailat,Left Winger,"Dec 12, 1997 (27)",Romania,sepsi_osk_sf._gheorghe_sebastian_mailat.png
+sepsi_osk_sf._gheorghe_raul_cimpean,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,6,Raul Cimpean,Right Winger,"Oct 9, 2005 (19)",Romania,sepsi_osk_sf._gheorghe_raul_cimpean.jpg
+sepsi_osk_sf._gheorghe_gabriel_debeljuh,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,22,Gabriel Debeljuh,Centre-Forward,"Sep 28, 1996 (28)",Croatia,sepsi_osk_sf._gheorghe_gabriel_debeljuh.png
+sepsi_osk_sf._gheorghe_marius_coman,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,9,Marius Coman,Centre-Forward,"Jul 31, 1996 (28)",Romania,sepsi_osk_sf._gheorghe_marius_coman.png
+sepsi_osk_sf._gheorghe_dimitri_oberlin,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,11,Dimitri Oberlin,Centre-Forward,"Sep 27, 1997 (27)",Switzerland,sepsi_osk_sf._gheorghe_dimitri_oberlin.png
+sepsi_osk_sf._gheorghe_dorian_babunski,sepsi_osk_sf._gheorghe,Sepsi OSK Sf. Gheorghe,sepsi_osk_sf._gheorghe.png,12,Dorian Babunski,Centre-Forward,"Aug 29, 1996 (28)",North Macedonia,sepsi_osk_sf._gheorghe_dorian_babunski.png
+fc_dinamo_1948_adnan_golubovic,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,1,Adnan Golubovic,Goalkeeper,"Jul 22, 1995 (29)",Slovenia,fc_dinamo_1948_adnan_golubovic.png
+fc_dinamo_1948_alexandru_rosca,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,73,Alexandru Rosca,Goalkeeper,"Nov 12, 2003 (21)",Romania,fc_dinamo_1948_alexandru_rosca.png
+fc_dinamo_1948_alexandru_stoian,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,16,Alexandru Stoian,Goalkeeper,"Mar 12, 2005 (19)",Romania,fc_dinamo_1948_alexandru_stoian.png
+fc_dinamo_1948_kennedy_boateng,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,4,Kennedy Boateng,Centre-Back,"Nov 29, 1996 (28)",Togo,fc_dinamo_1948_kennedy_boateng.png
+fc_dinamo_1948_josue_homawoo,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,28,Josue Homawoo,Centre-Back,"Nov 12, 1997 (27)",Togo,fc_dinamo_1948_josue_homawoo.png
+fc_dinamo_1948_cristian_licsandru,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,6,Cristian Licsandru,Centre-Back,"Mar 27, 2003 (21)",Romania,fc_dinamo_1948_cristian_licsandru.png
+fc_dinamo_1948_razvan_patriche,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,23,Razvan Patriche,Centre-Back,"Apr 29, 1986 (38)",Romania,fc_dinamo_1948_razvan_patriche.png
+fc_dinamo_1948_raul_oprut,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,3,Raul Oprut,Left-Back,"Jan 4, 1998 (27)",Romania,fc_dinamo_1948_raul_oprut.png
+fc_dinamo_1948_antonio_luna,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,80,Antonio Luna,Left-Back,"Mar 17, 1991 (33)",Spain,fc_dinamo_1948_antonio_luna.jpg
+fc_dinamo_1948_maxime_sivis,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,27,Maxime Sivis,Right-Back,"Apr 1, 1998 (26)",France,fc_dinamo_1948_maxime_sivis.png
+fc_dinamo_1948_cristian_costin,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,98,Cristian Costin,Right-Back,"Jun 17, 1998 (26)",Romania,fc_dinamo_1948_cristian_costin.png
+fc_dinamo_1948_eddy_gnahore,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,8,Eddy Gnahore,Defensive Midfield,"Nov 14, 1993 (31)",France,fc_dinamo_1948_eddy_gnahore.png
+fc_dinamo_1948_andrei_marginean,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,90,Andrei Marginean,Defensive Midfield,"Jul 3, 2001 (23)",Romania,fc_dinamo_1948_andrei_marginean.png
+fc_dinamo_1948_catalin_cirjan,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,10,Catalin Cirjan,Central Midfield,"Dec 1, 2002 (22)",Romania,fc_dinamo_1948_catalin_cirjan.png
+fc_dinamo_1948_georgi_milanov,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,17,Georgi Milanov,Central Midfield,"Feb 19, 1992 (32)",Bulgaria,fc_dinamo_1948_georgi_milanov.png
+fc_dinamo_1948_casian_soare,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,-,Casian Soare,Central Midfield,"Nov 24, 2006 (18)",Romania,fc_dinamo_1948_casian_soare.jpg
+fc_dinamo_1948_patrick_olsen,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,33,Patrick Olsen,Attacking Midfield,"Apr 23, 1994 (30)",Denmark,fc_dinamo_1948_patrick_olsen.png
+fc_dinamo_1948_dennis_politic,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,7,Dennis Politic,Left Winger,"Mar 5, 2000 (24)",Romania,fc_dinamo_1948_dennis_politic.png
+fc_dinamo_1948_petru_neagu,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,21,Petru Neagu,Left Winger,"Aug 13, 1999 (25)",Moldova,fc_dinamo_1948_petru_neagu.png
+fc_dinamo_1948_adrian_caragea,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,24,Adrian Caragea,Left Winger,"Sep 7, 2005 (19)",Romania,fc_dinamo_1948_adrian_caragea.png
+fc_dinamo_1948_hakim_abdallah,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,19,Hakim Abdallah,Right Winger,"Jan 9, 1998 (27)",Madagascar,fc_dinamo_1948_hakim_abdallah.png
+fc_dinamo_1948_antonio_bordusanu,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,20,Antonio Bordusanu,Right Winger,"Aug 10, 2004 (20)",Romania,fc_dinamo_1948_antonio_bordusanu.png
+fc_dinamo_1948_astrit_selmani,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,9,Astrit Selmani,Centre-Forward,"May 13, 1997 (27)",Kosovo,fc_dinamo_1948_astrit_selmani.png
+fc_dinamo_1948_alexandru_pop,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,99,Alexandru Pop,Centre-Forward,"Feb 1, 2000 (24)",Romania,fc_dinamo_1948_alexandru_pop.png
+fc_dinamo_1948_raul_rotund,fc_dinamo_1948,FC Dinamo 1948,fc_dinamo_1948.png,30,Raul Rotund,Centre-Forward,"Nov 17, 2005 (19)",Romania,fc_dinamo_1948_raul_rotund.png
+fcv_farul_constanta_alexandru_buzbuchi,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,1,Alexandru Buzbuchi,Goalkeeper,"Oct 31, 1993 (31)",Romania,fcv_farul_constanta_alexandru_buzbuchi.png
+fcv_farul_constanta_razvan_ducan,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,68,Razvan Ducan,Goalkeeper,"Feb 9, 2001 (23)",Romania,fcv_farul_constanta_razvan_ducan.png
+fcv_farul_constanta_gustavo_marins,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,4,Gustavo Marins,Centre-Back,"Feb 11, 2002 (22)",Brazil,fcv_farul_constanta_gustavo_marins.png
+fcv_farul_constanta_mihai_balasa,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,44,Mihai Balasa,Centre-Back,"Jan 14, 1995 (30)",Romania,fcv_farul_constanta_mihai_balasa.png
+fcv_farul_constanta_bogdan_tiru,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,5,Bogdan Tiru,Centre-Back,"Mar 15, 1994 (30)",Romania,fcv_farul_constanta_bogdan_tiru.jpg
+fcv_farul_constanta_gabriel_danuleasa,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,15,Gabriel Danuleasa,Centre-Back,"May 8, 2003 (21)",Romania,fcv_farul_constanta_gabriel_danuleasa.png
+fcv_farul_constanta_gabriel_buta,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,16,Gabriel Buta,Centre-Back,"Jan 29, 2002 (22)",Romania,fcv_farul_constanta_gabriel_buta.png
+fcv_farul_constanta_ionut_larie,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,17,Ionut Larie,Centre-Back,"Jan 16, 1987 (38)",Romania,fcv_farul_constanta_ionut_larie.png
+fcv_farul_constanta_horia_marin,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,-,Horia Marin,Centre-Back,"Jan 16, 2004 (21)",Romania,fcv_farul_constanta_horia_marin.jpg
+fcv_farul_constanta_cristian_ganea,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,11,Cristian Ganea,Left-Back,"May 24, 1992 (32)",Romania,fcv_farul_constanta_cristian_ganea.png
+fcv_farul_constanta_reginaldo,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,-,Reginaldo,Left-Back,"Aug 17, 2001 (23)",Brazil,fcv_farul_constanta_reginaldo.jpg
+fcv_farul_constanta_dan_sirbu,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,22,Dan Sirbu,Right-Back,"Apr 22, 2003 (21)",Romania,fcv_farul_constanta_dan_sirbu.png
+fcv_farul_constanta_ionut_cercel,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,2,Ionut Cercel,Right-Back,"Nov 14, 2006 (18)",Romania,fcv_farul_constanta_ionut_cercel.png
+fcv_farul_constanta_mario_aioanei,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,45,Mario Aioanei,Right-Back,"May 25, 2005 (19)",Romania,fcv_farul_constanta_mario_aioanei.jpg
+fcv_farul_constanta_victor_dican,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,6,Victor Dican,Defensive Midfield,"Oct 11, 2000 (24)",Romania,fcv_farul_constanta_victor_dican.png
+fcv_farul_constanta_dragos_nedelcu,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,14,Dragos Nedelcu,Defensive Midfield,"Feb 16, 1997 (27)",Romania,fcv_farul_constanta_dragos_nedelcu.png
+fcv_farul_constanta_nicolas_popescu,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,80,Nicolas Popescu,Defensive Midfield,"Jan 2, 2003 (22)",Romania,fcv_farul_constanta_nicolas_popescu.png
+fcv_farul_constanta_luca_banu,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,18,Luca Banu,Defensive Midfield,"Jan 31, 2005 (19)",Romania,fcv_farul_constanta_luca_banu.png
+fcv_farul_constanta_ionut_vina,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,8,Ionut Vina,Central Midfield,"Feb 20, 1995 (29)",Romania,fcv_farul_constanta_ionut_vina.png
+fcv_farul_constanta_carlo_casap,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,23,Carlo Casap,Central Midfield,"Dec 29, 1998 (26)",Romania,fcv_farul_constanta_carlo_casap.png
+fcv_farul_constanta_andrei_ciobanu,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,77,Andrei Ciobanu,Central Midfield,"Jan 18, 1998 (27)",Romania,fcv_farul_constanta_andrei_ciobanu.png
+fcv_farul_constanta_eduard_radaslavescu,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,20,Eduard Radaslavescu,Attacking Midfield,"Jul 30, 2004 (20)",Romania,fcv_farul_constanta_eduard_radaslavescu.png
+fcv_farul_constanta_ionut_cojocaru,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,27,Ionut Cojocaru,Left Winger,"Jul 28, 2003 (21)",Romania,fcv_farul_constanta_ionut_cojocaru.png
+fcv_farul_constanta_narek_grigoryan,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,30,Narek Grigoryan,Right Winger,"Jun 17, 2001 (23)",Armenia,fcv_farul_constanta_narek_grigoryan.png
+fcv_farul_constanta_iustin_doicaru,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,99,Iustin Doicaru,Right Winger,"Feb 7, 2007 (17)",Romania,fcv_farul_constanta_iustin_doicaru.png
+fcv_farul_constanta_robert_mustaca,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,66,Robert Mustaca,Right Winger,"Oct 5, 2002 (22)",Romania,fcv_farul_constanta_robert_mustaca.jpg
+fcv_farul_constanta_rivaldinho,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,9,Rivaldinho,Centre-Forward,"Apr 29, 1995 (29)",Brazil,fcv_farul_constanta_rivaldinho.png
+fcv_farul_constanta_denis_alibec,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,7,Denis Alibec,Centre-Forward,"Jan 5, 1991 (34)",Romania,fcv_farul_constanta_denis_alibec.png
+fcv_farul_constanta_gabriel_iancu,fcv_farul_constanta,FCV Farul Constanta,fcv_farul_constanta.png,10,Gabriel Iancu,Centre-Forward,"Apr 15, 1994 (30)",Romania,fcv_farul_constanta_gabriel_iancu.png
+petrolul_ploiesti_mihai_esanu,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,12,Mihai Esanu,Goalkeeper,"Jul 25, 1998 (26)",Romania,petrolul_ploiesti_mihai_esanu.png
+petrolul_ploiesti_oscar_linner,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,34,Oscar Linner,Goalkeeper,"Feb 23, 1997 (27)",Sweden,petrolul_ploiesti_oscar_linner.jpg
+petrolul_ploiesti_raul_balbarau,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,1,Raul Balbarau,Goalkeeper,"Apr 7, 2001 (23)",Romania,petrolul_ploiesti_raul_balbarau.png
+petrolul_ploiesti_marian_huja,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,2,Marian Huja,Centre-Back,"Aug 5, 1999 (25)",Portugal,petrolul_ploiesti_marian_huja.png
+petrolul_ploiesti_paul_papp,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,4,Paul Papp,Centre-Back,"Nov 11, 1989 (35)",Romania,petrolul_ploiesti_paul_papp.png
+petrolul_ploiesti_yohan_roche,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,69,Yohan Roche,Centre-Back,"Jul 7, 1997 (27)",Benin,petrolul_ploiesti_yohan_roche.png
+petrolul_ploiesti_alexandru_stanica,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,3,Alexandru Stanica,Centre-Back,"Sep 6, 2000 (24)",Romania,petrolul_ploiesti_alexandru_stanica.png
+petrolul_ploiesti_hasan_jahic,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,15,Hasan Jahic,Centre-Back,"Jul 30, 2001 (23)",Norway,petrolul_ploiesti_hasan_jahic.png
+petrolul_ploiesti_valentin_ticu,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,5,Valentin Ticu,Left-Back,"Sep 19, 2000 (24)",Romania,petrolul_ploiesti_valentin_ticu.png
+petrolul_ploiesti_bogdan_marian,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,-,Bogdan Marian,Left-Back,"Dec 4, 2004 (20)",Romania,petrolul_ploiesti_bogdan_marian.jpg
+petrolul_ploiesti_ricardinho,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,24,Ricardinho,Right-Back,"Mar 24, 1994 (30)",Portugal,petrolul_ploiesti_ricardinho.png
+petrolul_ploiesti_denis_radu,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,22,Denis Radu,Right-Back,"Mar 25, 2003 (21)",Romania,petrolul_ploiesti_denis_radu.png
+petrolul_ploiesti_fabricio_baiano,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,27,Fabricio Baiano,Defensive Midfield,"Jun 13, 1992 (32)",Brazil,petrolul_ploiesti_fabricio_baiano.png
+petrolul_ploiesti_tommi_jyry,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,6,Tommi Jyry,Central Midfield,"Aug 16, 1999 (25)",Finland,petrolul_ploiesti_tommi_jyry.png
+petrolul_ploiesti_tidiane_keita,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,23,Tidiane Keita,Central Midfield,"Sep 18, 1996 (28)",France,petrolul_ploiesti_tidiane_keita.png
+petrolul_ploiesti_lucian_dumitriu,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,44,Lucian Dumitriu,Central Midfield,"Sep 21, 1992 (32)",Romania,petrolul_ploiesti_lucian_dumitriu.png
+petrolul_ploiesti_alexandru_mateiu,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,8,Alexandru Mateiu,Central Midfield,"Dec 10, 1989 (35)",Romania,petrolul_ploiesti_alexandru_mateiu.png
+petrolul_ploiesti_ioan_tolea,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,30,Ioan Tolea,Central Midfield,"May 11, 2003 (21)",Romania,petrolul_ploiesti_ioan_tolea.png
+petrolul_ploiesti_victor_stancovici,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,33,Victor Stancovici,Central Midfield,"Oct 26, 2005 (19)",Romania,petrolul_ploiesti_victor_stancovici.png
+petrolul_ploiesti_david_paraschiv,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,21,David Paraschiv,Central Midfield,"Sep 28, 2006 (18)",Romania,petrolul_ploiesti_david_paraschiv.png
+petrolul_ploiesti_sergiu_hanca,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,20,Sergiu Hanca,Right Midfield,"Apr 4, 1992 (32)",Romania,petrolul_ploiesti_sergiu_hanca.png
+petrolul_ploiesti_mario_bratu,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,10,Mario Bratu,Right Midfield,"Jun 7, 2002 (22)",Romania,petrolul_ploiesti_mario_bratu.png
+petrolul_ploiesti_gheorghe_grozav,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,7,Gheorghe Grozav,Left Winger,"Sep 29, 1990 (34)",Romania,petrolul_ploiesti_gheorghe_grozav.png
+petrolul_ploiesti_alin_botogan,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,36,Alin Botogan,Left Winger,"Feb 21, 2004 (20)",Romania,petrolul_ploiesti_alin_botogan.png
+petrolul_ploiesti_mihnea_radulescu,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,17,Mihnea Radulescu,Right Winger,"Sep 17, 2005 (19)",Romania,petrolul_ploiesti_mihnea_radulescu.png
+petrolul_ploiesti_alexandru_tudorie,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,19,Alexandru Tudorie,Centre-Forward,"Mar 19, 1996 (28)",Romania,petrolul_ploiesti_alexandru_tudorie.png
+petrolul_ploiesti_nana_akosah-bempah,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,14,Nana Akosah-Bempah,Centre-Forward,"Aug 29, 1997 (27)",United States,petrolul_ploiesti_nana_akosah-bempah.png
+petrolul_ploiesti_christian_irobiso,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,9,Christian Irobiso,Centre-Forward,"May 28, 1993 (31)",Nigeria,petrolul_ploiesti_christian_irobiso.png
+petrolul_ploiesti_herman_moussaki,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,11,Herman Moussaki,Centre-Forward,"Feb 10, 1999 (25)",Congo,petrolul_ploiesti_herman_moussaki.png
+petrolul_ploiesti_david_ilie,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,71,David Ilie,Centre-Forward,"Aug 17, 2004 (20)",Romania,petrolul_ploiesti_david_ilie.png
+petrolul_ploiesti_ali_demirel,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,77,Ali Demirel,Centre-Forward,"Jan 2, 2003 (22)",Türkiye,petrolul_ploiesti_ali_demirel.jpg
+petrolul_ploiesti_iustin_raducan,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,90,Iustin Raducan,Centre-Forward,"Jul 20, 2005 (19)",Romania,petrolul_ploiesti_iustin_raducan.png
+petrolul_ploiesti_raul_bucur,petrolul_ploiesti,Petrolul Ploiesti,petrolul_ploiesti.png,99,Raul Bucur,Centre-Forward,"Dec 24, 2002 (22)",Romania,petrolul_ploiesti_raul_bucur.png
+fc_hermannstadt_catalin_cabuz,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,25,Catalin Cabuz,Goalkeeper,"Jun 18, 1996 (28)",Romania,fc_hermannstadt_catalin_cabuz.png
+fc_hermannstadt_vlad_mutiu,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,31,Vlad Mutiu,Goalkeeper,"Feb 2, 1995 (29)",Romania,fc_hermannstadt_vlad_mutiu.png
+fc_hermannstadt_ionut_pop,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,22,Ionut Pop,Goalkeeper,"Aug 1, 1997 (27)",Romania,fc_hermannstadt_ionut_pop.jpg
+fc_hermannstadt_florin_bejan,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,5,Florin Bejan,Centre-Back,"Mar 28, 1991 (33)",Romania,fc_hermannstadt_florin_bejan.png
+fc_hermannstadt_vahid_selimovic,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,2,Vahid Selimovic,Centre-Back,"Apr 3, 1997 (27)",Luxembourg,fc_hermannstadt_vahid_selimovic.jpg
+fc_hermannstadt_ionut_stoica,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,4,Ionut Stoica,Centre-Back,"Jan 6, 1988 (37)",Romania,fc_hermannstadt_ionut_stoica.png
+fc_hermannstadt_valerica_gaman,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,27,Valerica Gaman,Centre-Back,"Feb 25, 1989 (35)",Romania,fc_hermannstadt_valerica_gaman.png
+fc_hermannstadt_tiago_goncalves,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,15,Tiago Goncalves,Left-Back,"Aug 18, 2000 (24)",Portugal,fc_hermannstadt_tiago_goncalves.png
+fc_hermannstadt_tiberiu_capusa,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,66,Tiberiu Capusa,Right-Back,"Apr 6, 1998 (26)",Romania,fc_hermannstadt_tiberiu_capusa.png
+fc_hermannstadt_alexandru_oroian,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,51,Alexandru Oroian,Right-Back,"Jan 27, 2001 (23)",Romania,fc_hermannstadt_alexandru_oroian.png
+fc_hermannstadt_nana_antwi,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,30,Nana Antwi,Right-Back,"Aug 10, 2000 (24)",Ghana,fc_hermannstadt_nana_antwi.png
+fc_hermannstadt_alessandro_murgia,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,8,Alessandro Murgia,Central Midfield,"Aug 9, 1996 (28)",Italy,fc_hermannstadt_alessandro_murgia.png
+fc_hermannstadt_antoni_ivanov,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,24,Antoni Ivanov,Central Midfield,"Sep 11, 1995 (29)",Bulgaria,fc_hermannstadt_antoni_ivanov.png
+fc_hermannstadt_dragos_iancu,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,17,Dragos Iancu,Central Midfield,"Sep 29, 2002 (22)",Romania,fc_hermannstadt_dragos_iancu.png
+fc_hermannstadt_ciprian_biceanu,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,29,Ciprian Biceanu,Central Midfield,"Feb 26, 1994 (30)",Romania,fc_hermannstadt_ciprian_biceanu.png
+fc_hermannstadt_kalifa_kujabi,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,6,Kalifa Kujabi,Central Midfield,"Mar 5, 2000 (24)",The Gambia,fc_hermannstadt_kalifa_kujabi.jpg
+fc_hermannstadt_ianis_gandila,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,20,Ianis Gandila,Central Midfield,"Jan 16, 2006 (19)",Romania,fc_hermannstadt_ianis_gandila.jpg
+fc_hermannstadt_cristian_negut,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,10,Cristian Negut,Left Midfield,"Dec 9, 1995 (29)",Romania,fc_hermannstadt_cristian_negut.png
+fc_hermannstadt_alexandru_luca,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,33,Alexandru Luca,Attacking Midfield,"Apr 26, 2004 (20)",Romania,fc_hermannstadt_alexandru_luca.png
+fc_hermannstadt_ianis_stoica,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,7,Ianis Stoica,Left Winger,"Dec 8, 2002 (22)",Romania,fc_hermannstadt_ianis_stoica.png
+fc_hermannstadt_silviu_balaure,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,96,Silviu Balaure,Left Winger,"Feb 6, 1996 (28)",Romania,fc_hermannstadt_silviu_balaure.png
+fc_hermannstadt_robert_popescu,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,45,Robert Popescu,Left Winger,"Mar 9, 2003 (21)",Romania,fc_hermannstadt_robert_popescu.png
+fc_hermannstadt_ianis_mihart,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,23,Ianis Mihart,Left Winger,"Sep 23, 2004 (20)",Romania,fc_hermannstadt_ianis_mihart.jpg
+fc_hermannstadt_jovan_markovic,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,16,Jovan Markovic,Centre-Forward,"Mar 23, 2001 (23)",Romania,fc_hermannstadt_jovan_markovic.png
+fc_hermannstadt_aurelian_chitu,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,9,Aurelian Chitu,Centre-Forward,"Mar 25, 1991 (33)",Romania,fc_hermannstadt_aurelian_chitu.png
+fc_hermannstadt_sergiu_bus,fc_hermannstadt,FC Hermannstadt,fc_hermannstadt.png,11,Sergiu Bus,Centre-Forward,"Nov 2, 1992 (32)",Romania,fc_hermannstadt_sergiu_bus.jpg
+sc_otelul_galati_iustin_popescu,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,32,Iustin Popescu,Goalkeeper,"Sep 1, 1993 (31)",Romania,sc_otelul_galati_iustin_popescu.png
+sc_otelul_galati_cosmin_dur-bozoanca,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,1,Cosmin Dur-Bozoanca,Goalkeeper,"Feb 15, 1998 (26)",Romania,sc_otelul_galati_cosmin_dur-bozoanca.png
+sc_otelul_galati_nikola_stevanovic,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,5,Nikola Stevanovic,Centre-Back,"Sep 13, 1998 (26)",Serbia,sc_otelul_galati_nikola_stevanovic.jpg
+sc_otelul_galati_jonathan_cisse,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,6,Jonathan Cisse,Centre-Back,"May 18, 1997 (27)",Cote d'Ivoire,sc_otelul_galati_jonathan_cisse.png
+sc_otelul_galati_martin_angha,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,4,Martin Angha,Centre-Back,"Jan 22, 1994 (31)",Switzerland,sc_otelul_galati_martin_angha.jpg
+sc_otelul_galati_julian_bonilla,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,3,Julian Bonilla,Centre-Back,"Nov 21, 1996 (28)",Colombia,sc_otelul_galati_julian_bonilla.jpg
+sc_otelul_galati_francois_yabre,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,15,Francois Yabre,Centre-Back,"May 10, 1991 (33)",Burkina Faso,sc_otelul_galati_francois_yabre.png
+sc_otelul_galati_miguel_silva,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,28,Miguel Silva,Left-Back,"Dec 20, 1995 (29)",Portugal,sc_otelul_galati_miguel_silva.png
+sc_otelul_galati_david_maftei,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,27,David Maftei,Right-Back,"Jul 12, 2004 (20)",Romania,sc_otelul_galati_david_maftei.png
+sc_otelul_galati_milen_zhelev,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,2,Milen Zhelev,Right-Back,"Jul 17, 1993 (31)",Bulgaria,sc_otelul_galati_milen_zhelev.png
+sc_otelul_galati_andrei_rus,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,14,Andrei Rus,Right-Back,"May 14, 2002 (22)",Romania,sc_otelul_galati_andrei_rus.png
+sc_otelul_galati_valerio_gallo,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,-,Valerio Gallo,Right-Back,"Dec 7, 2004 (20)",Romania,sc_otelul_galati_valerio_gallo.jpg
+sc_otelul_galati_joao_lameira,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,66,Joao Lameira,Defensive Midfield,"Apr 19, 1999 (25)",Portugal,sc_otelul_galati_joao_lameira.png
+sc_otelul_galati_ionut_neagu,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,8,Ionut Neagu,Defensive Midfield,"Oct 26, 1989 (35)",Romania,sc_otelul_galati_ionut_neagu.png
+sc_otelul_galati_samuel_teles,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,21,Samuel Teles,Central Midfield,"Feb 28, 1997 (27)",Portugal,sc_otelul_galati_samuel_teles.png
+sc_otelul_galati_jakob_novak,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,34,Jakob Novak,Central Midfield,"Mar 4, 1998 (26)",Slovenia,sc_otelul_galati_jakob_novak.png
+sc_otelul_galati_victor_bogaciuc,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,71,Victor Bogaciuc,Central Midfield,"Oct 17, 1999 (25)",Moldova,sc_otelul_galati_victor_bogaciuc.png
+sc_otelul_galati_nelut_rosu,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,20,Nelut Rosu,Central Midfield,"Jul 5, 1993 (31)",Romania,sc_otelul_galati_nelut_rosu.png
+sc_otelul_galati_cristian_chira,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,23,Cristian Chira,Central Midfield,"Nov 8, 2001 (23)",Romania,sc_otelul_galati_cristian_chira.jpg
+sc_otelul_galati_samy_bourard,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,10,Samy Bourard,Attacking Midfield,"Mar 29, 1996 (28)",Belgium,sc_otelul_galati_samy_bourard.jpg
+sc_otelul_galati_razvan_tanasa,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,17,Razvan Tanasa,Left Winger,"Apr 28, 2003 (21)",Romania,sc_otelul_galati_razvan_tanasa.png
+sc_otelul_galati_alexandru_burcea,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,11,Alexandru Burcea,Left Winger,"Jan 27, 2005 (19)",Romania,sc_otelul_galati_alexandru_burcea.jpg
+sc_otelul_galati_frederic_maciel,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,7,Frederic Maciel,Right Winger,"Mar 15, 1994 (30)",Portugal,sc_otelul_galati_frederic_maciel.png
+sc_otelul_galati_andrei_bani,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,22,Andrei Bani,Right Winger,"Aug 22, 2002 (22)",Romania,sc_otelul_galati_andrei_bani.png
+sc_otelul_galati_maxim_cojocaru,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,19,Maxim Cojocaru,Right Winger,"Jan 13, 1998 (27)",Moldova,sc_otelul_galati_maxim_cojocaru.png
+sc_otelul_galati_alexandru_stan,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,9,Alexandru Stan,Centre-Forward,"Sep 25, 2005 (19)",Romania,sc_otelul_galati_alexandru_stan.png
+sc_otelul_galati_luca_andronache,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,77,Luca Andronache,Centre-Forward,"Jul 26, 2003 (21)",Romania,sc_otelul_galati_luca_andronache.png
+sc_otelul_galati_albert_hofman,sc_otelul_galati,SC Otelul Galati,sc_otelul_galati.png,97,Albert Hofman,Centre-Forward,"Apr 10, 2003 (21)",Romania,sc_otelul_galati_albert_hofman.png
+fc_botosani_eduard_pap,fc_botosani,FC Botosani,fc_botosani.png,94,Eduard Pap,Goalkeeper,"Jul 1, 1994 (30)",Romania,fc_botosani_eduard_pap.jpg
+fc_botosani_giannis_anestis,fc_botosani,FC Botosani,fc_botosani.png,99,Giannis Anestis,Goalkeeper,"Mar 9, 1991 (33)",Greece,fc_botosani_giannis_anestis.jpg
+fc_botosani_luka_kukic,fc_botosani,FC Botosani,fc_botosani.png,1,Luka Kukic,Goalkeeper,"May 16, 1996 (28)",Bosnia-Herzegovina,fc_botosani_luka_kukic.png
+fc_botosani_rijad_sadiku,fc_botosani,FC Botosani,fc_botosani.png,44,Rijad Sadiku,Centre-Back,"Jan 18, 2000 (25)",Bosnia-Herzegovina,fc_botosani_rijad_sadiku.png
+fc_botosani_andrei_miron,fc_botosani,FC Botosani,fc_botosani.png,4,Andrei Miron,Centre-Back,"May 28, 1994 (30)",Romania,fc_botosani_andrei_miron.png
+fc_botosani_patricio_matricardi,fc_botosani,FC Botosani,fc_botosani.png,5,Patricio Matricardi,Centre-Back,"Jan 7, 1994 (31)",Argentina,fc_botosani_patricio_matricardi.png
+fc_botosani_daniel_celea,fc_botosani,FC Botosani,fc_botosani.png,6,Daniel Celea,Centre-Back,"Jul 6, 1995 (29)",Romania,fc_botosani_daniel_celea.png
+fc_botosani_alin_seroni,fc_botosani,FC Botosani,fc_botosani.png,32,Alin Seroni,Centre-Back,"Mar 26, 1987 (37)",Romania,fc_botosani_alin_seroni.png
+fc_botosani_damian_cimpoesu,fc_botosani,FC Botosani,fc_botosani.png,15,Damian Cimpoesu,Centre-Back,"Sep 15, 2000 (24)",Romania,fc_botosani_damian_cimpoesu.jpg
+fc_botosani_michael_pavlovic,fc_botosani,FC Botosani,fc_botosani.png,3,Michael Pavlovic,Left-Back,"Jun 12, 2001 (23)",Slovenia,fc_botosani_michael_pavlovic.png
+fc_botosani_alexandru_tiganasu,fc_botosani,FC Botosani,fc_botosani.png,30,Alexandru Tiganasu,Left-Back,"Jun 12, 1990 (34)",Romania,fc_botosani_alexandru_tiganasu.png
+fc_botosani_ale_diez,fc_botosani,FC Botosani,fc_botosani.png,2,Ale Diez,Right-Back,"Feb 17, 1996 (28)",Spain,fc_botosani_ale_diez.png
+fc_botosani_romario_benzar,fc_botosani,FC Botosani,fc_botosani.png,20,Romario Benzar,Right-Back,"Mar 26, 1992 (32)",Romania,fc_botosani_romario_benzar.png
+fc_botosani_alexandru_albu,fc_botosani,FC Botosani,fc_botosani.png,-,Alexandru Albu,Defensive Midfield,"Aug 17, 1993 (31)",Romania,fc_botosani_alexandru_albu.png
+fc_botosani_charles_petro,fc_botosani,FC Botosani,fc_botosani.png,28,Charles Petro,Defensive Midfield,"Feb 8, 2001 (23)",Malawi,fc_botosani_charles_petro.png
+fc_botosani_gabriel_david,fc_botosani,FC Botosani,fc_botosani.png,33,Gabriel David,Central Midfield,"Feb 11, 2003 (21)",Romania,fc_botosani_gabriel_david.png
+fc_botosani_enriko_papa,fc_botosani,FC Botosani,fc_botosani.png,67,Enriko Papa,Central Midfield,"Mar 12, 1993 (31)",Albania,fc_botosani_enriko_papa.jpg
+fc_botosani_francisco_junior,fc_botosani,FC Botosani,fc_botosani.png,22,Francisco Junior,Central Midfield,"Jan 18, 1992 (33)",Guinea-Bissau,fc_botosani_francisco_junior.png
+fc_botosani_adams_friday,fc_botosani,FC Botosani,fc_botosani.png,12,Adams Friday,Right Midfield,"Nov 23, 2002 (22)",Nigeria,fc_botosani_adams_friday.png
+fc_botosani_eduard_florescu,fc_botosani,FC Botosani,fc_botosani.png,8,Eduard Florescu,Attacking Midfield,"Jun 27, 1997 (27)",Romania,fc_botosani_eduard_florescu.png
+fc_botosani_stefan_bodisteanu,fc_botosani,FC Botosani,fc_botosani.png,7,Stefan Bodisteanu,Attacking Midfield,"Feb 1, 2003 (21)",Romania,fc_botosani_stefan_bodisteanu.png
+fc_botosani_aldair_ferreira,fc_botosani,FC Botosani,fc_botosani.png,83,Aldair Ferreira,Attacking Midfield,"Mar 26, 1998 (26)",Angola,fc_botosani_aldair_ferreira.png
+fc_botosani_hervin_ongenda,fc_botosani,FC Botosani,fc_botosani.png,26,Hervin Ongenda,Attacking Midfield,"Jun 24, 1995 (29)",France,fc_botosani_hervin_ongenda.png
+fc_botosani_alexandru_cimpanu,fc_botosani,FC Botosani,fc_botosani.png,10,Alexandru Cimpanu,Right Winger,"Oct 8, 2000 (24)",Romania,fc_botosani_alexandru_cimpanu.png
+fc_botosani_stefan_panoiu,fc_botosani,FC Botosani,fc_botosani.png,17,Stefan Panoiu,Right Winger,"Sep 23, 2002 (22)",Romania,fc_botosani_stefan_panoiu.png
+fc_botosani_jaly_mouaddib,fc_botosani,FC Botosani,fc_botosani.png,64,Jaly Mouaddib,Right Winger,"Nov 18, 2000 (24)",France,fc_botosani_jaly_mouaddib.png
+fc_botosani_george_gligor,fc_botosani,FC Botosani,fc_botosani.png,70,George Gligor,Right Winger,"Dec 13, 2004 (20)",Romania,fc_botosani_george_gligor.jpg
+fc_botosani_zoran_mitrov,fc_botosani,FC Botosani,fc_botosani.png,11,Zoran Mitrov,Second Striker,"Jan 29, 2002 (22)",Romania,fc_botosani_zoran_mitrov.png
+fc_botosani_enzo_lopez,fc_botosani,FC Botosani,fc_botosani.png,9,Enzo Lopez,Centre-Forward,"Mar 10, 1998 (26)",Argentina,fc_botosani_enzo_lopez.png
+fc_botosani_adi_chica-rosa,fc_botosani,FC Botosani,fc_botosani.png,29,Adi Chica-Rosa,Centre-Forward,"Sep 8, 1998 (26)",Romania,fc_botosani_adi_chica-rosa.png
+acsm_politehnica_iasi_ionut_ailenei,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,1,Ionut Ailenei,Goalkeeper,"Jan 30, 2001 (23)",Romania,acsm_politehnica_iasi_ionut_ailenei.jpg
+acsm_politehnica_iasi_jesus_fernandez,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,88,Jesus Fernandez,Goalkeeper,"Jun 11, 1988 (36)",Spain,acsm_politehnica_iasi_jesus_fernandez.png
+acsm_politehnica_iasi_toma_niga,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,12,Toma Niga,Goalkeeper,"Aug 15, 1997 (27)",Romania,acsm_politehnica_iasi_toma_niga.png
+acsm_politehnica_iasi_guilherme,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,42,Guilherme,Centre-Back,"Feb 8, 2001 (23)",Portugal,acsm_politehnica_iasi_guilherme.png
+acsm_politehnica_iasi_nicolas_samayoa,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,3,Nicolas Samayoa,Centre-Back,"Aug 2, 1995 (29)",Guatemala,acsm_politehnica_iasi_nicolas_samayoa.png
+acsm_politehnica_iasi_claudio_silva,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,4,Claudio Silva,Centre-Back,"Jun 29, 2000 (24)",Portugal,acsm_politehnica_iasi_claudio_silva.jpg
+acsm_politehnica_iasi_florin_ilie,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,18,Florin Ilie,Centre-Back,"Jun 18, 1992 (32)",Romania,acsm_politehnica_iasi_florin_ilie.png
+acsm_politehnica_iasi_alexandru_core,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,-,Alexandru Core,Centre-Back,"Dec 12, 2000 (24)",Romania,acsm_politehnica_iasi_alexandru_core.jpg
+acsm_politehnica_iasi_mohammed_umar,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,2,Mohammed Umar,Centre-Back,"Dec 11, 2002 (22)",Ghana,acsm_politehnica_iasi_mohammed_umar.jpg
+acsm_politehnica_iasi_stefan_stefanovici,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,20,Stefan Stefanovici,Left-Back,"Feb 20, 2002 (22)",Romania,acsm_politehnica_iasi_stefan_stefanovici.png
+acsm_politehnica_iasi_rares_ispas,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,27,Rares Ispas,Left-Back,"Aug 26, 2000 (24)",Romania,acsm_politehnica_iasi_rares_ispas.jpg
+acsm_politehnica_iasi_david_atanaskoski,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,33,David Atanaskoski,Left-Back,"Oct 21, 1996 (28)",North Macedonia,acsm_politehnica_iasi_david_atanaskoski.jpg
+acsm_politehnica_iasi_catalin_cret,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,-,Catalin Cret,Left-Back,"Jul 1, 1999 (25)",Romania,acsm_politehnica_iasi_catalin_cret.jpg
+acsm_politehnica_iasi_mihai_adascalitei,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,-,Mihai Adascalitei,Right-Back,"Nov 1, 1994 (30)",Romania,acsm_politehnica_iasi_mihai_adascalitei.png
+acsm_politehnica_iasi_samuel_oum_gouet,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,5,Samuel Oum Gouet,Defensive Midfield,"Dec 14, 1997 (27)",Cameroon,acsm_politehnica_iasi_samuel_oum_gouet.jpg
+acsm_politehnica_iasi_mihai_bordeianu,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,37,Mihai Bordeianu,Central Midfield,"Nov 18, 1991 (33)",Romania,acsm_politehnica_iasi_mihai_bordeianu.png
+acsm_politehnica_iasi_catalin_itu,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,19,Catalin Itu,Central Midfield,"Oct 26, 1999 (25)",Romania,acsm_politehnica_iasi_catalin_itu.png
+acsm_politehnica_iasi_julian_marchioni,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,24,Julian Marchioni,Central Midfield,"Mar 11, 1993 (31)",Argentina,acsm_politehnica_iasi_julian_marchioni.png
+acsm_politehnica_iasi_diego_farcas,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,-,Diego Farcas,Central Midfield,"Nov 20, 2005 (19)",Romania,acsm_politehnica_iasi_diego_farcas.png
+acsm_politehnica_iasi_denis_ciobanu,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,77,Denis Ciobanu,Central Midfield,"May 24, 2004 (20)",Romania,acsm_politehnica_iasi_denis_ciobanu.jpg
+acsm_politehnica_iasi_vlad_ilie,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,98,Vlad Ilie,Central Midfield,"Apr 17, 2008 (16)",Romania,acsm_politehnica_iasi_vlad_ilie.png
+acsm_politehnica_iasi_andrei_gheorghita,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,80,Andrei Gheorghita,Left Midfield,"Jul 16, 2002 (22)",Romania,acsm_politehnica_iasi_andrei_gheorghita.png
+acsm_politehnica_iasi_alin_roman,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,10,Alin Roman,Attacking Midfield,"Jan 27, 1994 (30)",Romania,acsm_politehnica_iasi_alin_roman.png
+acsm_politehnica_iasi_valentin_gheorghe,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,11,Valentin Gheorghe,Left Winger,"Feb 14, 1997 (27)",Romania,acsm_politehnica_iasi_valentin_gheorghe.png
+acsm_politehnica_iasi_goncalo_teixeira,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,7,Goncalo Teixeira,Left Winger,"Nov 24, 1999 (25)",Portugal,acsm_politehnica_iasi_goncalo_teixeira.jpeg
+acsm_politehnica_iasi_joao_paulino,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,-,Joao Paulino,Left Winger,"May 26, 1998 (26)",Cape Verde,acsm_politehnica_iasi_joao_paulino.png
+acsm_politehnica_iasi_matei_tanasa,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,21,Matei Tanasa,Left Winger,"Oct 8, 2005 (19)",Romania,acsm_politehnica_iasi_matei_tanasa.png
+acsm_politehnica_iasi_tailson,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,99,Tailson,Right Winger,"Mar 5, 1999 (25)",Brazil,acsm_politehnica_iasi_tailson.jpg
+acsm_politehnica_iasi_david_popa,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,70,David Popa,Right Winger,"Mar 13, 2007 (17)",Romania,acsm_politehnica_iasi_david_popa.png
+acsm_politehnica_iasi_sekou_camara,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,-,Sekou Camara,Centre-Forward,"Jul 20, 1997 (27)",Guinea,acsm_politehnica_iasi_sekou_camara.png
+fc_buzau_alexandru_greab,fc_buzau,FC Buzău,fc_buzau.png,12,Alexandru Greab,Goalkeeper,"May 26, 1992 (32)",Romania,fc_buzau_alexandru_greab.JPG
+fc_buzau_dorian_railean,fc_buzau,FC Buzău,fc_buzau.png,39,Dorian Railean,Goalkeeper,"Oct 13, 1993 (31)",Moldova,fc_buzau_dorian_railean.png
+fc_buzau_david_lazar,fc_buzau,FC Buzău,fc_buzau.png,1,David Lazar,Goalkeeper,"Aug 8, 1991 (33)",Romania,fc_buzau_david_lazar.png
+fc_buzau_dragos_horeboiu,fc_buzau,FC Buzău,fc_buzau.png,29,Dragos Horeboiu,Goalkeeper,"Sep 5, 2002 (22)",Romania,fc_buzau_dragos_horeboiu.jpg
+fc_buzau_grigore_turda,fc_buzau,FC Buzău,fc_buzau.png,5,Grigore Turda,Centre-Back,"Jul 24, 1997 (27)",Romania,fc_buzau_grigore_turda.JPG
+fc_buzau_alin_dobrosavlevici,fc_buzau,FC Buzău,fc_buzau.png,21,Alin Dobrosavlevici,Centre-Back,"Oct 24, 1994 (30)",Romania,fc_buzau_alin_dobrosavlevici.JPG
+fc_buzau_dragan_lovric,fc_buzau,FC Buzău,fc_buzau.png,25,Dragan Lovric,Centre-Back,"Jan 3, 1996 (29)",Croatia,fc_buzau_dragan_lovric.png
+fc_buzau_israel_puerto,fc_buzau,FC Buzău,fc_buzau.png,3,Israel Puerto,Centre-Back,"Jun 15, 1993 (31)",Spain,fc_buzau_israel_puerto.png
+fc_buzau_mike_cestor,fc_buzau,FC Buzău,fc_buzau.png,92,Mike Cestor,Centre-Back,"Apr 30, 1992 (32)",DR Congo,fc_buzau_mike_cestor.JPG
+fc_buzau_robert_salceanu,fc_buzau,FC Buzău,fc_buzau.png,18,Robert Salceanu,Left-Back,"Jan 13, 2004 (21)",Romania,fc_buzau_robert_salceanu.jpg
+fc_buzau_denis_dumitrascu,fc_buzau,FC Buzău,fc_buzau.png,80,Denis Dumitrascu,Left-Back,"Apr 27, 1995 (29)",Romania,fc_buzau_denis_dumitrascu.png
+fc_buzau_alessandro_ciranni,fc_buzau,FC Buzău,fc_buzau.png,14,Alessandro Ciranni,Right-Back,"Jun 28, 1996 (28)",Belgium,fc_buzau_alessandro_ciranni.jpg
+fc_buzau_sergiu_pirvulescu,fc_buzau,FC Buzău,fc_buzau.png,22,Sergiu Pirvulescu,Right-Back,"Jul 21, 2003 (21)",Romania,fc_buzau_sergiu_pirvulescu.png
+fc_buzau_diego_ferraresso,fc_buzau,FC Buzău,fc_buzau.png,87,Diego Ferraresso,Right-Back,"May 21, 1992 (32)",Bulgaria,fc_buzau_diego_ferraresso.png
+fc_buzau_rassambek_akhmatov,fc_buzau,FC Buzău,fc_buzau.png,66,Rassambek Akhmatov,Defensive Midfield,"May 31, 1996 (28)",Russia,fc_buzau_rassambek_akhmatov.png
+fc_buzau_dragos_albu,fc_buzau,FC Buzău,fc_buzau.png,8,Dragos Albu,Central Midfield,"Mar 15, 2001 (23)",Romania,fc_buzau_dragos_albu.JPG
+fc_buzau_aleksejs_saveljevs,fc_buzau,FC Buzău,fc_buzau.png,-,Aleksejs Saveljevs,Central Midfield,"Jan 30, 1999 (25)",Latvia,fc_buzau_aleksejs_saveljevs.png
+fc_buzau_david_tavares,fc_buzau,FC Buzău,fc_buzau.png,20,David Tavares,Central Midfield,"Mar 19, 1999 (25)",Cape Verde,fc_buzau_david_tavares.jpg
+fc_buzau_tudor_calin,fc_buzau,FC Buzău,fc_buzau.png,6,Tudor Calin,Central Midfield,"Oct 8, 2000 (24)",Romania,fc_buzau_tudor_calin.jpg
+fc_buzau_luca_mihai,fc_buzau,FC Buzău,fc_buzau.png,4,Luca Mihai,Central Midfield,"Oct 11, 2003 (21)",Romania,fc_buzau_luca_mihai.png
+fc_buzau_vito,fc_buzau,FC Buzău,fc_buzau.png,28,Vito,Central Midfield,"Sep 18, 1997 (27)",Portugal,fc_buzau_vito.png
+fc_buzau_alexandru_jipa,fc_buzau,FC Buzău,fc_buzau.png,98,Alexandru Jipa,Right Midfield,"Aug 14, 2002 (22)",Romania,fc_buzau_alexandru_jipa.png
+fc_buzau_ion_gheorghe,fc_buzau,FC Buzău,fc_buzau.png,88,Ion Gheorghe,Attacking Midfield,"Oct 8, 1999 (25)",Romania,fc_buzau_ion_gheorghe.png
+fc_buzau_constantin_budescu,fc_buzau,FC Buzău,fc_buzau.png,10,Constantin Budescu,Attacking Midfield,"Feb 19, 1989 (35)",Romania,fc_buzau_constantin_budescu.png
+fc_buzau_cristian_dumitru,fc_buzau,FC Buzău,fc_buzau.png,7,Cristian Dumitru,Left Winger,"Dec 13, 2001 (23)",Romania,fc_buzau_cristian_dumitru.png
+fc_buzau_alexandru_isfan,fc_buzau,FC Buzău,fc_buzau.png,30,Alexandru Isfan,Right Winger,"Jan 31, 2000 (24)",Romania,fc_buzau_alexandru_isfan.png
+fc_buzau_moha_keita,fc_buzau,FC Buzău,fc_buzau.png,17,Moha Keita,Right Winger,"Sep 18, 1999 (25)",Senegal,fc_buzau_moha_keita.png
+fc_buzau_ricardo_matos,fc_buzau,FC Buzău,fc_buzau.png,9,Ricardo Matos,Centre-Forward,"Mar 25, 2000 (24)",Portugal,fc_buzau_ricardo_matos.png
+fc_buzau_dragos_tescan,fc_buzau,FC Buzău,fc_buzau.png,11,Dragos Tescan,Centre-Forward,"Sep 15, 1999 (25)",Romania,fc_buzau_dragos_tescan.png
+uta_arad_andrei_gorcea,uta_arad,UTA Arad,uta_arad.png,-,Andrei Gorcea,Goalkeeper,"Aug 2, 2001 (23)",Romania,uta_arad_andrei_gorcea.png
+uta_arad_dejan_iliev,uta_arad,UTA Arad,uta_arad.png,22,Dejan Iliev,Goalkeeper,"Feb 25, 1995 (29)",North Macedonia,uta_arad_dejan_iliev.png
+uta_arad_mario_popescu,uta_arad,UTA Arad,uta_arad.png,33,Mario Popescu,Goalkeeper,"Apr 19, 2004 (20)",Romania,uta_arad_mario_popescu.jpg
+uta_arad_ibrahima_conte,uta_arad,UTA Arad,uta_arad.png,15,Ibrahima Conte,Centre-Back,"Apr 3, 1996 (28)",Guinea,uta_arad_ibrahima_conte.png
+uta_arad_florent_poulolo,uta_arad,UTA Arad,uta_arad.png,6,Florent Poulolo,Centre-Back,"Jan 2, 1997 (28)",Martinique,uta_arad_florent_poulolo.png
+uta_arad_alexandru_benga,uta_arad,UTA Arad,uta_arad.png,4,Alexandru Benga,Centre-Back,"Jun 15, 1989 (35)",Romania,uta_arad_alexandru_benga.png
+uta_arad_razvan_pascalau,uta_arad,UTA Arad,uta_arad.png,-,Razvan Pascalau,Centre-Back,"May 5, 2004 (20)",Romania,uta_arad_razvan_pascalau.png
+uta_arad_kouya_mabea,uta_arad,UTA Arad,uta_arad.png,3,Kouya Mabea,Left-Back,"Oct 23, 1998 (26)",Cote d'Ivoire,uta_arad_kouya_mabea.png
+uta_arad_damien_dussaut,uta_arad,UTA Arad,uta_arad.png,-,Damien Dussaut,Right-Back,"Nov 8, 1994 (30)",Martinique,uta_arad_damien_dussaut.png
+uta_arad_ravy_tsouka,uta_arad,UTA Arad,uta_arad.png,25,Ravy Tsouka,Right-Back,"Dec 23, 1994 (30)",Congo,uta_arad_ravy_tsouka.jpg
+uta_arad_cristian_mihai,uta_arad,UTA Arad,uta_arad.png,21,Cristian Mihai,Defensive Midfield,"Sep 23, 2004 (20)",Romania,uta_arad_cristian_mihai.png
+uta_arad_denis_hrezdac,uta_arad,UTA Arad,uta_arad.png,97,Denis Hrezdac,Defensive Midfield,"Nov 3, 2001 (23)",Romania,uta_arad_denis_hrezdac.jpg
+uta_arad_tony_francisco,uta_arad,UTA Arad,uta_arad.png,-,Tony Francisco,Defensive Midfield,"Aug 9, 2000 (24)",France,uta_arad_tony_francisco.jpg
+uta_arad_cornel_rapa,uta_arad,UTA Arad,uta_arad.png,31,Cornel Rapa,Right Midfield,"Jan 16, 1990 (35)",Romania,uta_arad_cornel_rapa.png
+uta_arad_benjamin_van_durmen,uta_arad,UTA Arad,uta_arad.png,30,Benjamin Van Durmen,Left Midfield,"Mar 20, 1997 (27)",Belgium,uta_arad_benjamin_van_durmen.png
+uta_arad_razvan_trif,uta_arad,UTA Arad,uta_arad.png,29,Razvan Trif,Left Midfield,"Oct 9, 1997 (27)",Romania,uta_arad_razvan_trif.png
+uta_arad_ovidiu_bulza,uta_arad,UTA Arad,uta_arad.png,-,Ovidiu Bulza,Left Midfield,"Jan 1, 2004 (21)",Romania,uta_arad_ovidiu_bulza.jpg
+uta_arad_andrej_fabry,uta_arad,UTA Arad,uta_arad.png,10,Andrej Fabry,Attacking Midfield,"Mar 1, 1997 (27)",Slovakia,uta_arad_andrej_fabry.png
+uta_arad_valentin_borcea,uta_arad,UTA Arad,uta_arad.png,18,Valentin Borcea,Attacking Midfield,"Jul 6, 2002 (22)",Romania,uta_arad_valentin_borcea.png
+uta_arad_valentin_costache,uta_arad,UTA Arad,uta_arad.png,19,Valentin Costache,Left Winger,"Aug 2, 1998 (26)",Romania,uta_arad_valentin_costache.png
+uta_arad_eric_omondi,uta_arad,UTA Arad,uta_arad.png,24,Eric Omondi,Left Winger,"Aug 18, 1994 (30)",Kenya,uta_arad_eric_omondi.png
+uta_arad_lamine_ghezali,uta_arad,UTA Arad,uta_arad.png,14,Lamine Ghezali,Right Winger,"Jul 6, 1999 (25)",France,uta_arad_lamine_ghezali.png
+uta_arad_marian_danciu,uta_arad,UTA Arad,uta_arad.png,-,Marian Danciu,Right Winger,"Apr 24, 2002 (22)",Romania,uta_arad_marian_danciu.png
+uta_arad_ahmet_ekmekci,uta_arad,UTA Arad,uta_arad.png,-,Ahmet Ekmekci,Second Striker,"Mar 27, 2004 (20)",Romania,uta_arad_ahmet_ekmekci.jpg
+uta_arad_shayon_harrison,uta_arad,UTA Arad,uta_arad.png,-,Shayon Harrison,Centre-Forward,"Jul 13, 1997 (27)",England,uta_arad_shayon_harrison.png
+uta_arad_andrei_dumiter,uta_arad,UTA Arad,uta_arad.png,7,Andrei Dumiter,Centre-Forward,"Apr 10, 1999 (25)",Romania,uta_arad_andrei_dumiter.png
+uta_arad_agustin_vuletich,uta_arad,UTA Arad,uta_arad.png,9,Agustin Vuletich,Centre-Forward,"Nov 3, 1991 (33)",Argentina,uta_arad_agustin_vuletich.JPG
+uta_arad_daniel_zsori,uta_arad,UTA Arad,uta_arad.png,17,Daniel Zsori,Centre-Forward,"Oct 14, 2000 (24)",Hungary,uta_arad_daniel_zsori.jpg
+uta_arad_raoul_cristea,uta_arad,UTA Arad,uta_arad.png,27,Raoul Cristea,Centre-Forward,"Sep 4, 2002 (22)",Romania,uta_arad_raoul_cristea.png
+afc_unirea_04_slobozia_denis_rusu,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,12,Denis Rusu,Goalkeeper,"Aug 2, 1990 (34)",Moldova,afc_unirea_04_slobozia_denis_rusu.png
+afc_unirea_04_slobozia_stefan_krell,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,1,Stefan Krell,Goalkeeper,"Jun 12, 1992 (32)",Austria,afc_unirea_04_slobozia_stefan_krell.png
+afc_unirea_04_slobozia_stefan_georgescu,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,86,Stefan Georgescu,Goalkeeper,"Sep 30, 2001 (23)",Romania,afc_unirea_04_slobozia_stefan_georgescu.jpg
+afc_unirea_04_slobozia_filip_blazek,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,14,Filip Blazek,Centre-Back,"Mar 11, 1998 (26)",Slovakia,afc_unirea_04_slobozia_filip_blazek.png
+afc_unirea_04_slobozia_ariel_lopez,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,5,Ariel Lopez,Centre-Back,"May 26, 1995 (29)",Uruguay,afc_unirea_04_slobozia_ariel_lopez.png
+afc_unirea_04_slobozia_dmytro_pospelov,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,60,Dmytro Pospelov,Centre-Back,"Oct 19, 1991 (33)",Ukraine,afc_unirea_04_slobozia_dmytro_pospelov.png
+afc_unirea_04_slobozia_marius_antoche,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,6,Marius Antoche,Centre-Back,"Jun 21, 1992 (32)",Romania,afc_unirea_04_slobozia_marius_antoche.png
+afc_unirea_04_slobozia_ionut_dinu,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,4,Ionut Dinu,Centre-Back,"Apr 8, 1998 (26)",Romania,afc_unirea_04_slobozia_ionut_dinu.png
+afc_unirea_04_slobozia_daniel_serbanica,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,29,Daniel Serbanica,Left-Back,"Jun 25, 1996 (28)",Romania,afc_unirea_04_slobozia_daniel_serbanica.png
+afc_unirea_04_slobozia_laurentiu_vlasceanu,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,7,Laurentiu Vlasceanu,Left-Back,"May 29, 2005 (19)",Romania,afc_unirea_04_slobozia_laurentiu_vlasceanu.jpg
+afc_unirea_04_slobozia_constantin_toma,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,10,Constantin Toma,Left-Back,"Mar 23, 1987 (37)",Romania,afc_unirea_04_slobozia_constantin_toma.png
+afc_unirea_04_slobozia_paolo_medina,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,15,Paolo Medina,Right-Back,"May 28, 1999 (25)",Mexico,afc_unirea_04_slobozia_paolo_medina.png
+afc_unirea_04_slobozia_andrei_dorobantu,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,2,Andrei Dorobantu,Right-Back,"Aug 29, 2004 (20)",Romania,afc_unirea_04_slobozia_andrei_dorobantu.png
+afc_unirea_04_slobozia_florinel_ibrian,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,21,Florinel Ibrian,Right-Back,"Sep 14, 1993 (31)",Romania,afc_unirea_04_slobozia_florinel_ibrian.png
+afc_unirea_04_slobozia_ovidiu_perianu,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,20,Ovidiu Perianu,Defensive Midfield,"Apr 16, 2002 (22)",Romania,afc_unirea_04_slobozia_ovidiu_perianu.png
+afc_unirea_04_slobozia_ionut_coada,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,8,Ionut Coada,Defensive Midfield,"Jan 1, 1998 (27)",Romania,afc_unirea_04_slobozia_ionut_coada.png
+afc_unirea_04_slobozia_stefan_pacionel,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,27,Stefan Pacionel,Central Midfield,"Feb 16, 1999 (25)",Romania,afc_unirea_04_slobozia_stefan_pacionel.png
+afc_unirea_04_slobozia_adnan_aganovic,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,77,Adnan Aganovic,Central Midfield,"Oct 3, 1987 (37)",Croatia,afc_unirea_04_slobozia_adnan_aganovic.png
+afc_unirea_04_slobozia_mihaita_lemnaru,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,22,Mihaita Lemnaru,Central Midfield,"Jul 14, 2000 (24)",Romania,afc_unirea_04_slobozia_mihaita_lemnaru.png
+afc_unirea_04_slobozia_denis_dragomir,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,-,Denis Dragomir,Central Midfield,"Jan 8, 2005 (20)",Romania,afc_unirea_04_slobozia_denis_dragomir.jpg
+afc_unirea_04_slobozia_cristian_chirita,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,-,Cristian Chirita,Central Midfield,"Jul 1, 2003 (21)",Romania,afc_unirea_04_slobozia_cristian_chirita.jpg
+afc_unirea_04_slobozia_mihnea_stefan,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,-,Mihnea Stefan,Central Midfield,"Apr 19, 2006 (18)",Romania,afc_unirea_04_slobozia_mihnea_stefan.jpg
+afc_unirea_04_slobozia_christ_afalna,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,98,Christ Afalna,Attacking Midfield,"Jun 15, 1998 (26)",Cameroon,afc_unirea_04_slobozia_christ_afalna.png
+afc_unirea_04_slobozia_florin_purece,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,30,Florin Purece,Attacking Midfield,"Nov 6, 1991 (33)",Romania,afc_unirea_04_slobozia_florin_purece.png
+afc_unirea_04_slobozia_marius_lupu,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,16,Marius Lupu,Right Winger,"Sep 1, 1999 (25)",Romania,afc_unirea_04_slobozia_marius_lupu.jpg
+afc_unirea_04_slobozia_cristian_barbut,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,23,Cristian Barbut,Right Winger,"Apr 22, 1995 (29)",Romania,afc_unirea_04_slobozia_cristian_barbut.png
+afc_unirea_04_slobozia_jordan_gele,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,11,Jordan Gele,Centre-Forward,"Sep 16, 1992 (32)",France,afc_unirea_04_slobozia_jordan_gele.png
+afc_unirea_04_slobozia_filip_ilie,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,9,Filip Ilie,Centre-Forward,"Jul 15, 2002 (22)",Romania,afc_unirea_04_slobozia_filip_ilie.jpg
+afc_unirea_04_slobozia_dmytro_yusov,afc_unirea_04_slobozia,AFC Unirea 04 Slobozia,afc_unirea_04_slobozia.png,18,Dmytro Yusov,Centre-Forward,"May 11, 1993 (31)",Ukraine,afc_unirea_04_slobozia_dmytro_yusov.png
