@@ -9,7 +9,8 @@
     "Position": "Goalkeeper",
     "Age": "May 9, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "fcsb_stefan_tarnovanu.png"
+    "Image": "fcsb_stefan_tarnovanu.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fcsb_lukas_zima",
@@ -21,19 +22,8 @@
     "Position": "Goalkeeper",
     "Age": "Jan 9, 1994 (31)",
     "Nationality": "Czech Republic",
-    "Image": "fcsb_lukas_zima.png"
-  },
-  {
-    "PlayerID": "fcsb_mihai_udrea",
-    "TeamID": "fcsb",
-    "Team": "FCSB",
-    "TeamLogo": "fcsb.png",
-    "Number": "1",
-    "Name": "Mihai Udrea",
-    "Position": "Goalkeeper",
-    "Age": "Jul 20, 2001 (23)",
-    "Nationality": "Romania",
-    "Image": "fcsb_mihai_udrea.png"
+    "Image": "fcsb_lukas_zima.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcsb_siyabonga_ngezana",
@@ -45,7 +35,8 @@
     "Position": "Centre-Back",
     "Age": "Jul 15, 1997 (27)",
     "Nationality": "South Africa",
-    "Image": "fcsb_siyabonga_ngezana.png"
+    "Image": "fcsb_siyabonga_ngezana.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fcsb_joyskim_dawa",
@@ -57,7 +48,8 @@
     "Position": "Centre-Back",
     "Age": "Apr 9, 1996 (28)",
     "Nationality": "Cameroon",
-    "Image": "fcsb_joyskim_dawa.png"
+    "Image": "fcsb_joyskim_dawa.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fcsb_mihai_popescu",
@@ -69,7 +61,8 @@
     "Position": "Centre-Back",
     "Age": "May 7, 1993 (31)",
     "Nationality": "Romania",
-    "Image": "fcsb_mihai_popescu.png"
+    "Image": "fcsb_mihai_popescu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcsb_vlad_chiriches",
@@ -81,7 +74,8 @@
     "Position": "Centre-Back",
     "Age": "Nov 14, 1989 (35)",
     "Nationality": "Romania",
-    "Image": "fcsb_vlad_chiriches.png"
+    "Image": "fcsb_vlad_chiriches.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fcsb_risto_radunovic",
@@ -93,7 +87,8 @@
     "Position": "Left-Back",
     "Age": "May 4, 1992 (32)",
     "Nationality": "Montenegro",
-    "Image": "fcsb_risto_radunovic.png"
+    "Image": "fcsb_risto_radunovic.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fcsb_david_kiki",
@@ -105,19 +100,8 @@
     "Position": "Left-Back",
     "Age": "Nov 25, 1993 (31)",
     "Nationality": "Benin",
-    "Image": "fcsb_david_kiki.png"
-  },
-  {
-    "PlayerID": "fcsb_ionut_pantiru",
-    "TeamID": "fcsb",
-    "Team": "FCSB",
-    "TeamLogo": "fcsb.png",
-    "Number": "3",
-    "Name": "Ionut Pantiru",
-    "Position": "Left-Back",
-    "Age": "Mar 22, 1996 (28)",
-    "Nationality": "Romania",
-    "Image": "fcsb_ionut_pantiru.png"
+    "Image": "fcsb_david_kiki.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fcsb_alexandru_pantea",
@@ -129,7 +113,8 @@
     "Position": "Right-Back",
     "Age": "Sep 11, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fcsb_alexandru_pantea.png"
+    "Image": "fcsb_alexandru_pantea.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fcsb_valentin_cretu",
@@ -141,7 +126,8 @@
     "Position": "Right-Back",
     "Age": "Jan 2, 1989 (36)",
     "Nationality": "Romania",
-    "Image": "fcsb_valentin_cretu.png"
+    "Image": "fcsb_valentin_cretu.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fcsb_adrian_sut",
@@ -153,7 +139,8 @@
     "Position": "Defensive Midfield",
     "Age": "Apr 30, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "fcsb_adrian_sut.png"
+    "Image": "fcsb_adrian_sut.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fcsb_mihai_lixandru",
@@ -165,7 +152,8 @@
     "Position": "Central Midfield",
     "Age": "Jun 5, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "fcsb_mihai_lixandru.png"
+    "Image": "fcsb_mihai_lixandru.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcsb_baba_alhassan",
@@ -177,7 +165,8 @@
     "Position": "Central Midfield",
     "Age": "Jan 3, 2000 (25)",
     "Nationality": "Ghana",
-    "Image": "fcsb_baba_alhassan.png"
+    "Image": "fcsb_baba_alhassan.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcsb_juri_cisotti",
@@ -189,7 +178,8 @@
     "Position": "Central Midfield",
     "Age": "May 5, 1993 (31)",
     "Nationality": "Italy",
-    "Image": "fcsb_juri_cisotti.png"
+    "Image": "fcsb_juri_cisotti.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcsb_malcom_edjouma",
@@ -201,7 +191,8 @@
     "Position": "Central Midfield",
     "Age": "Oct 8, 1996 (28)",
     "Nationality": "Morocco",
-    "Image": "fcsb_malcom_edjouma.png"
+    "Image": "fcsb_malcom_edjouma.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fcsb_darius_olaru",
@@ -213,7 +204,8 @@
     "Position": "Attacking Midfield",
     "Age": "Mar 3, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fcsb_darius_olaru.png"
+    "Image": "fcsb_darius_olaru.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fcsb_florin_tanase",
@@ -225,7 +217,8 @@
     "Position": "Attacking Midfield",
     "Age": "Dec 30, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "fcsb_florin_tanase.png"
+    "Image": "fcsb_florin_tanase.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fcsb_octavian_popescu",
@@ -237,7 +230,8 @@
     "Position": "Left Winger",
     "Age": "Dec 27, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fcsb_octavian_popescu.png"
+    "Image": "fcsb_octavian_popescu.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fcsb_alexandru_musi",
@@ -249,7 +243,8 @@
     "Position": "Left Winger",
     "Age": "Jul 17, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "fcsb_alexandru_musi.png"
+    "Image": "fcsb_alexandru_musi.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcsb_mihai_toma",
@@ -261,7 +256,8 @@
     "Position": "Left Winger",
     "Age": "Feb 17, 2007 (17)",
     "Nationality": "Romania",
-    "Image": "fcsb_mihai_toma.png"
+    "Image": "fcsb_mihai_toma.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fcsb_marius_stefanescu",
@@ -273,7 +269,8 @@
     "Position": "Right Winger",
     "Age": "Aug 14, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fcsb_marius_stefanescu.png"
+    "Image": "fcsb_marius_stefanescu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcsb_alexandru_baluta",
@@ -285,31 +282,8 @@
     "Position": "Right Winger",
     "Age": "Sep 13, 1993 (31)",
     "Nationality": "Romania",
-    "Image": "fcsb_alexandru_baluta.png"
-  },
-  {
-    "PlayerID": "fcsb_william_baeten",
-    "TeamID": "fcsb",
-    "Team": "FCSB",
-    "TeamLogo": "fcsb.png",
-    "Number": "24",
-    "Name": "William Baeten",
-    "Position": "Right Winger",
-    "Age": "Feb 7, 1997 (27)",
-    "Nationality": "Belgium",
-    "Image": "fcsb_william_baeten.png"
-  },
-  {
-    "PlayerID": "fcsb_robert_necsulescu",
-    "TeamID": "fcsb",
-    "Team": "FCSB",
-    "TeamLogo": "fcsb.png",
-    "Number": "98",
-    "Name": "Robert Necsulescu",
-    "Position": "Right Winger",
-    "Age": "May 17, 2007 (17)",
-    "Nationality": "Romania",
-    "Image": "fcsb_robert_necsulescu.jpg"
+    "Image": "fcsb_alexandru_baluta.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcsb_daniel_birligea",
@@ -321,7 +295,8 @@
     "Position": "Centre-Forward",
     "Age": "Apr 19, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "fcsb_daniel_birligea.png"
+    "Image": "fcsb_daniel_birligea.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fcsb_david_miculescu",
@@ -333,7 +308,8 @@
     "Position": "Centre-Forward",
     "Age": "May 2, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "fcsb_david_miculescu.png"
+    "Image": "fcsb_david_miculescu.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fcsb_daniel_popa",
@@ -345,7 +321,8 @@
     "Position": "Centre-Forward",
     "Age": "Jul 14, 1995 (29)",
     "Nationality": "Romania",
-    "Image": "fcsb_daniel_popa.png"
+    "Image": "fcsb_daniel_popa.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcsb_alexandru_stoian",
@@ -357,19 +334,8 @@
     "Position": "Centre-Forward",
     "Age": "Dec 15, 2007 (17)",
     "Nationality": "Romania",
-    "Image": "fcsb_alexandru_stoian.png"
-  },
-  {
-    "PlayerID": "fcsb_denis_colibasanu",
-    "TeamID": "fcsb",
-    "Team": "FCSB",
-    "TeamLogo": "fcsb.png",
-    "Number": "20",
-    "Name": "Denis Colibasanu",
-    "Position": "Centre-Forward",
-    "Age": "Mar 10, 2007 (17)",
-    "Nationality": "Romania",
-    "Image": "fcsb_denis_colibasanu.png"
+    "Image": "fcsb_alexandru_stoian.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_rapid_1923_marian_aioani",
@@ -381,19 +347,8 @@
     "Position": "Goalkeeper",
     "Age": "Nov 7, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_marian_aioani.png"
-  },
-  {
-    "PlayerID": "fc_rapid_1923_benjamin_siegrist",
-    "TeamID": "fc_rapid_1923",
-    "Team": "FC Rapid 1923",
-    "TeamLogo": "fc_rapid_1923.png",
-    "Number": "1",
-    "Name": "Benjamin Siegrist",
-    "Position": "Goalkeeper",
-    "Age": "Jan 31, 1992 (32)",
-    "Nationality": "Switzerland",
-    "Image": "fc_rapid_1923_benjamin_siegrist.jpg"
+    "Image": "fc_rapid_1923_marian_aioani.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_rapid_1923_alexandru_pascanu",
@@ -405,7 +360,8 @@
     "Position": "Centre-Back",
     "Age": "Sep 28, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_alexandru_pascanu.jpg"
+    "Image": "fc_rapid_1923_alexandru_pascanu.jpg",
+    "Scor": 5
   },
   {
     "PlayerID": "fc_rapid_1923_cristian_ignat",
@@ -417,7 +373,8 @@
     "Position": "Centre-Back",
     "Age": "Jan 29, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_cristian_ignat.png"
+    "Image": "fc_rapid_1923_cristian_ignat.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_rapid_1923_paul_iacob",
@@ -429,7 +386,8 @@
     "Position": "Centre-Back",
     "Age": "Jun 21, 1996 (28)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_paul_iacob.png"
+    "Image": "fc_rapid_1923_paul_iacob.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_rapid_1923_cristian_sapunaru",
@@ -441,7 +399,8 @@
     "Position": "Centre-Back",
     "Age": "Apr 5, 1984 (40)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_cristian_sapunaru.png"
+    "Image": "fc_rapid_1923_cristian_sapunaru.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fc_rapid_1923_andrei_borza",
@@ -453,7 +412,8 @@
     "Position": "Left-Back",
     "Age": "Nov 12, 2005 (19)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_andrei_borza.png"
+    "Image": "fc_rapid_1923_andrei_borza.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fc_rapid_1923_robert_badescu",
@@ -465,7 +425,8 @@
     "Position": "Left-Back",
     "Age": "Apr 2, 2005 (19)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_robert_badescu.jpg"
+    "Image": "fc_rapid_1923_robert_badescu.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_rapid_1923_cristian_manea",
@@ -477,7 +438,8 @@
     "Position": "Right-Back",
     "Age": "Aug 9, 1997 (27)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_cristian_manea.png"
+    "Image": "fc_rapid_1923_cristian_manea.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_rapid_1923_razvan_onea",
@@ -489,7 +451,8 @@
     "Position": "Right-Back",
     "Age": "May 19, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_razvan_onea.png"
+    "Image": "fc_rapid_1923_razvan_onea.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_rapid_1923_christopher_braun",
@@ -501,7 +464,8 @@
     "Position": "Right-Back",
     "Age": "Jul 15, 1991 (33)",
     "Nationality": "Germany",
-    "Image": "fc_rapid_1923_christopher_braun.png"
+    "Image": "fc_rapid_1923_christopher_braun.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_rapid_1923_tobias_christensen",
@@ -513,7 +477,8 @@
     "Position": "Defensive Midfield",
     "Age": "May 11, 2000 (24)",
     "Nationality": "Norway",
-    "Image": "fc_rapid_1923_tobias_christensen.jpg"
+    "Image": "fc_rapid_1923_tobias_christensen.jpg",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_rapid_1923_jakub_hromada",
@@ -525,7 +490,8 @@
     "Position": "Defensive Midfield",
     "Age": "May 25, 1996 (28)",
     "Nationality": "Slovakia",
-    "Image": "fc_rapid_1923_jakub_hromada.png"
+    "Image": "fc_rapid_1923_jakub_hromada.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_rapid_1923_diogo_mendes",
@@ -537,7 +503,8 @@
     "Position": "Defensive Midfield",
     "Age": "Jan 24, 1998 (26)",
     "Nationality": "Cape Verde",
-    "Image": "fc_rapid_1923_diogo_mendes.jpg"
+    "Image": "fc_rapid_1923_diogo_mendes.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_rapid_1923_catalin_vulturar",
@@ -549,7 +516,8 @@
     "Position": "Defensive Midfield",
     "Age": "Mar 9, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_catalin_vulturar.png"
+    "Image": "fc_rapid_1923_catalin_vulturar.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_rapid_1923_constantin_grameni",
@@ -561,7 +529,8 @@
     "Position": "Central Midfield",
     "Age": "Oct 23, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_constantin_grameni.png"
+    "Image": "fc_rapid_1923_constantin_grameni.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_rapid_1923_mattias_kait",
@@ -573,19 +542,8 @@
     "Position": "Central Midfield",
     "Age": "Jun 29, 1998 (26)",
     "Nationality": "Estonia",
-    "Image": "fc_rapid_1923_mattias_kait.png"
-  },
-  {
-    "PlayerID": "fc_rapid_1923_florent_hasani",
-    "TeamID": "fc_rapid_1923",
-    "Team": "FC Rapid 1923",
-    "TeamLogo": "fc_rapid_1923.png",
-    "Number": "8",
-    "Name": "Florent Hasani",
-    "Position": "Attacking Midfield",
-    "Age": "Mar 30, 1997 (27)",
-    "Nationality": "Kosovo",
-    "Image": "fc_rapid_1923_florent_hasani.png"
+    "Image": "fc_rapid_1923_mattias_kait.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_rapid_1923_luka_gojkovic",
@@ -597,7 +555,8 @@
     "Position": "Attacking Midfield",
     "Age": "Nov 28, 1999 (25)",
     "Nationality": "Serbia",
-    "Image": "fc_rapid_1923_luka_gojkovic.png"
+    "Image": "fc_rapid_1923_luka_gojkovic.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_rapid_1923_xian_emmers",
@@ -609,7 +568,8 @@
     "Position": "Attacking Midfield",
     "Age": "Jul 20, 1999 (25)",
     "Nationality": "Belgium",
-    "Image": "fc_rapid_1923_xian_emmers.png"
+    "Image": "fc_rapid_1923_xian_emmers.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_rapid_1923_andrei_sucu",
@@ -621,7 +581,8 @@
     "Position": "Attacking Midfield",
     "Age": "Dec 26, 2008 (16)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_andrei_sucu.png"
+    "Image": "fc_rapid_1923_andrei_sucu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_rapid_1923_claudiu_petrila",
@@ -633,7 +594,8 @@
     "Position": "Left Winger",
     "Age": "Nov 7, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_claudiu_petrila.png"
+    "Image": "fc_rapid_1923_claudiu_petrila.png",
+    "Scor": 5
   },
   {
     "PlayerID": "fc_rapid_1923_alexandru_dobre",
@@ -645,7 +607,8 @@
     "Position": "Left Winger",
     "Age": "Aug 30, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_alexandru_dobre.jpg"
+    "Image": "fc_rapid_1923_alexandru_dobre.jpg",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_rapid_1923_claudiu_micovschi",
@@ -657,7 +620,8 @@
     "Position": "Left Winger",
     "Age": "May 19, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_claudiu_micovschi.png"
+    "Image": "fc_rapid_1923_claudiu_micovschi.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_rapid_1923_clinton_n'jie",
@@ -669,7 +633,8 @@
     "Position": "Right Winger",
     "Age": "Aug 15, 1993 (31)",
     "Nationality": "Cameroon",
-    "Image": "fc_rapid_1923_clinton_n'jie.jpg"
+    "Image": "fc_rapid_1923_clinton_n'jie.jpg",
+    "Scor": 5
   },
   {
     "PlayerID": "fc_rapid_1923_rares_pop",
@@ -681,19 +646,8 @@
     "Position": "Right Winger",
     "Age": "Jun 14, 2005 (19)",
     "Nationality": "Romania",
-    "Image": "fc_rapid_1923_rares_pop.png"
-  },
-  {
-    "PlayerID": "fc_rapid_1923_aaron_boupendza",
-    "TeamID": "fc_rapid_1923",
-    "Team": "FC Rapid 1923",
-    "TeamLogo": "fc_rapid_1923.png",
-    "Number": "45",
-    "Name": "Aaron Boupendza",
-    "Position": "Centre-Forward",
-    "Age": "Aug 7, 1996 (28)",
-    "Nationality": "Gabon",
-    "Image": "fc_rapid_1923_aaron_boupendza.jpg"
+    "Image": "fc_rapid_1923_rares_pop.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_rapid_1923_david_ankeye",
@@ -705,7 +659,8 @@
     "Position": "Centre-Forward",
     "Age": "May 22, 2002 (22)",
     "Nationality": "Nigeria",
-    "Image": "fc_rapid_1923_david_ankeye.jpg"
+    "Image": "fc_rapid_1923_david_ankeye.jpg",
+    "Scor": 5
   },
   {
     "PlayerID": "fc_rapid_1923_borisav_burmaz",
@@ -717,7 +672,8 @@
     "Position": "Centre-Forward",
     "Age": "Apr 21, 2001 (23)",
     "Nationality": "Serbia",
-    "Image": "fc_rapid_1923_borisav_burmaz.png"
+    "Image": "fc_rapid_1923_borisav_burmaz.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_laurentiu_popescu",
@@ -729,19 +685,8 @@
     "Position": "Goalkeeper",
     "Age": "Jan 18, 1997 (28)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_laurentiu_popescu.png"
-  },
-  {
-    "PlayerID": "cs_universitatea_craiova_relu_stoian",
-    "TeamID": "cs_universitatea_craiova",
-    "Team": "CS Universitatea Craiova",
-    "TeamLogo": "cs_universitatea_craiova.png",
-    "Number": "32",
-    "Name": "Relu Stoian",
-    "Position": "Goalkeeper",
-    "Age": "Mar 1, 1996 (28)",
-    "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_relu_stoian.png"
+    "Image": "cs_universitatea_craiova_laurentiu_popescu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_silviu_lung_jr.",
@@ -753,7 +698,8 @@
     "Position": "Goalkeeper",
     "Age": "Jun 4, 1989 (35)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_silviu_lung_jr..png"
+    "Image": "cs_universitatea_craiova_silviu_lung_jr..png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_denil_maldonado",
@@ -765,7 +711,8 @@
     "Position": "Centre-Back",
     "Age": "May 26, 1998 (26)",
     "Nationality": "Honduras",
-    "Image": "cs_universitatea_craiova_denil_maldonado.png"
+    "Image": "cs_universitatea_craiova_denil_maldonado.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_gjoko_zajkov",
@@ -777,7 +724,8 @@
     "Position": "Centre-Back",
     "Age": "Feb 10, 1995 (29)",
     "Nationality": "North Macedonia",
-    "Image": "cs_universitatea_craiova_gjoko_zajkov.png"
+    "Image": "cs_universitatea_craiova_gjoko_zajkov.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_juraj_badelj",
@@ -789,7 +737,8 @@
     "Position": "Centre-Back",
     "Age": "Aug 24, 2003 (21)",
     "Nationality": "Croatia",
-    "Image": "cs_universitatea_craiova_juraj_badelj.png"
+    "Image": "cs_universitatea_craiova_juraj_badelj.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_marcus_pacurar",
@@ -801,7 +750,8 @@
     "Position": "Centre-Back",
     "Age": "May 2, 2005 (19)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_marcus_pacurar.png"
+    "Image": "cs_universitatea_craiova_marcus_pacurar.png",
+    "Scor": 1
   },
   {
     "PlayerID": "cs_universitatea_craiova_nicusor_bancu",
@@ -813,7 +763,8 @@
     "Position": "Left-Back",
     "Age": "Sep 18, 1992 (32)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_nicusor_bancu.png"
+    "Image": "cs_universitatea_craiova_nicusor_bancu.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cs_universitatea_craiova_basilio_ndong",
@@ -825,19 +776,8 @@
     "Position": "Left-Back",
     "Age": "Jan 17, 1999 (26)",
     "Nationality": "Equatorial Guinea",
-    "Image": "cs_universitatea_craiova_basilio_ndong.png"
-  },
-  {
-    "PlayerID": "cs_universitatea_craiova_stefan_vladoiu",
-    "TeamID": "cs_universitatea_craiova",
-    "Team": "CS Universitatea Craiova",
-    "TeamLogo": "cs_universitatea_craiova.png",
-    "Number": "2",
-    "Name": "Stefan Vladoiu",
-    "Position": "Right-Back",
-    "Age": "Dec 28, 1998 (26)",
-    "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_stefan_vladoiu.png"
+    "Image": "cs_universitatea_craiova_basilio_ndong.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cs_universitatea_craiova_iago_lopez",
@@ -849,19 +789,8 @@
     "Position": "Right-Back",
     "Age": "Apr 6, 1999 (25)",
     "Nationality": "Spain",
-    "Image": "cs_universitatea_craiova_iago_lopez.png"
-  },
-  {
-    "PlayerID": "cs_universitatea_craiova_florin_gaspar",
-    "TeamID": "cs_universitatea_craiova",
-    "Team": "CS Universitatea Craiova",
-    "TeamLogo": "cs_universitatea_craiova.png",
-    "Number": "36",
-    "Name": "Florin Gaspar",
-    "Position": "Right-Back",
-    "Age": "Sep 25, 2007 (17)",
-    "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_florin_gaspar.png"
+    "Image": "cs_universitatea_craiova_iago_lopez.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cs_universitatea_craiova_vladimir_screciu",
@@ -873,7 +802,8 @@
     "Position": "Defensive Midfield",
     "Age": "Jan 13, 2000 (25)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_vladimir_screciu.png"
+    "Image": "cs_universitatea_craiova_vladimir_screciu.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cs_universitatea_craiova_anzor_mekvabishvili",
@@ -885,7 +815,8 @@
     "Position": "Defensive Midfield",
     "Age": "Jun 5, 2001 (23)",
     "Nationality": "Georgia",
-    "Image": "cs_universitatea_craiova_anzor_mekvabishvili.png"
+    "Image": "cs_universitatea_craiova_anzor_mekvabishvili.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_takuto_oshima",
@@ -897,7 +828,8 @@
     "Position": "Defensive Midfield",
     "Age": "Jun 1, 1998 (26)",
     "Nationality": "Japan",
-    "Image": "cs_universitatea_craiova_takuto_oshima.png"
+    "Image": "cs_universitatea_craiova_takuto_oshima.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_robert_lapadatescu",
@@ -909,7 +841,8 @@
     "Position": "Defensive Midfield",
     "Age": "Nov 8, 2006 (18)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_robert_lapadatescu.png"
+    "Image": "cs_universitatea_craiova_robert_lapadatescu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cs_universitatea_craiova_mihai_capatina",
@@ -921,7 +854,8 @@
     "Position": "Central Midfield",
     "Age": "Dec 16, 1995 (29)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_mihai_capatina.png"
+    "Image": "cs_universitatea_craiova_mihai_capatina.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_alexandru_cicaldau",
@@ -933,7 +867,8 @@
     "Position": "Attacking Midfield",
     "Age": "Jul 8, 1997 (27)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_alexandru_cicaldau.png"
+    "Image": "cs_universitatea_craiova_alexandru_cicaldau.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cs_universitatea_craiova_lyes_houri",
@@ -945,7 +880,8 @@
     "Position": "Attacking Midfield",
     "Age": "Jan 19, 1996 (29)",
     "Nationality": "France",
-    "Image": "cs_universitatea_craiova_lyes_houri.png"
+    "Image": "cs_universitatea_craiova_lyes_houri.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_alexandru_mitrita",
@@ -957,7 +893,8 @@
     "Position": "Left Winger",
     "Age": "Feb 8, 1995 (29)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_alexandru_mitrita.png"
+    "Image": "cs_universitatea_craiova_alexandru_mitrita.png",
+    "Scor": 5
   },
   {
     "PlayerID": "cs_universitatea_craiova_stefan_baiaram",
@@ -969,7 +906,8 @@
     "Position": "Left Winger",
     "Age": "Dec 31, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_stefan_baiaram.png"
+    "Image": "cs_universitatea_craiova_stefan_baiaram.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cs_universitatea_craiova_luis_paradela",
@@ -981,7 +919,8 @@
     "Position": "Left Winger",
     "Age": "Jan 21, 1997 (28)",
     "Nationality": "Cuba",
-    "Image": "cs_universitatea_craiova_luis_paradela.png"
+    "Image": "cs_universitatea_craiova_luis_paradela.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_carlos_mora",
@@ -993,7 +932,8 @@
     "Position": "Right Winger",
     "Age": "Mar 18, 2001 (23)",
     "Nationality": "Costa Rica",
-    "Image": "cs_universitatea_craiova_carlos_mora.png"
+    "Image": "cs_universitatea_craiova_carlos_mora.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_stefan_bana",
@@ -1005,7 +945,8 @@
     "Position": "Right Winger",
     "Age": "Oct 29, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_stefan_bana.png"
+    "Image": "cs_universitatea_craiova_stefan_bana.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_elvir_koljic",
@@ -1017,7 +958,8 @@
     "Position": "Centre-Forward",
     "Age": "Jul 8, 1995 (29)",
     "Nationality": "Bosnia-Herzegovina",
-    "Image": "cs_universitatea_craiova_elvir_koljic.png"
+    "Image": "cs_universitatea_craiova_elvir_koljic.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_jovo_lukic",
@@ -1029,7 +971,8 @@
     "Position": "Centre-Forward",
     "Age": "Nov 28, 1998 (26)",
     "Nationality": "Bosnia-Herzegovina",
-    "Image": "cs_universitatea_craiova_jovo_lukic.jpg"
+    "Image": "cs_universitatea_craiova_jovo_lukic.jpg",
+    "Scor": 3
   },
   {
     "PlayerID": "cs_universitatea_craiova_david_barbu",
@@ -1041,7 +984,8 @@
     "Position": "Centre-Forward",
     "Age": "Jun 26, 2006 (18)",
     "Nationality": "Romania",
-    "Image": "cs_universitatea_craiova_david_barbu.png"
+    "Image": "cs_universitatea_craiova_david_barbu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_mihai_popa",
@@ -1053,7 +997,8 @@
     "Position": "Goalkeeper",
     "Age": "Oct 12, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_mihai_popa.png"
+    "Image": "cfr_cluj_mihai_popa.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_otto_hindrich",
@@ -1065,7 +1010,8 @@
     "Position": "Goalkeeper",
     "Age": "Aug 5, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_otto_hindrich.png"
+    "Image": "cfr_cluj_otto_hindrich.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_rares_gal",
@@ -1077,31 +1023,8 @@
     "Position": "Goalkeeper",
     "Age": "Jan 25, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_rares_gal.png"
-  },
-  {
-    "PlayerID": "cfr_cluj_mihai_pinzariu",
-    "TeamID": "cfr_cluj",
-    "Team": "CFR Cluj",
-    "TeamLogo": "cfr_cluj.png",
-    "Number": "12",
-    "Name": "Mihai Pinzariu",
-    "Position": "Goalkeeper",
-    "Age": "Sep 14, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "cfr_cluj_mihai_pinzariu.png"
-  },
-  {
-    "PlayerID": "cfr_cluj_mihai_racasan",
-    "TeamID": "cfr_cluj",
-    "Team": "CFR Cluj",
-    "TeamLogo": "cfr_cluj.png",
-    "Number": "83",
-    "Name": "Mihai Racasan",
-    "Position": "Goalkeeper",
-    "Age": "Jul 1, 2007 (17)",
-    "Nationality": "Romania",
-    "Image": "cfr_cluj_mihai_racasan.png"
+    "Image": "cfr_cluj_rares_gal.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cfr_cluj_matei_ilie",
@@ -1113,7 +1036,8 @@
     "Position": "Centre-Back",
     "Age": "Dec 11, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_matei_ilie.png"
+    "Image": "cfr_cluj_matei_ilie.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cfr_cluj_anton_kresic",
@@ -1125,7 +1049,8 @@
     "Position": "Centre-Back",
     "Age": "Jan 29, 1996 (28)",
     "Nationality": "Croatia",
-    "Image": "cfr_cluj_anton_kresic.png"
+    "Image": "cfr_cluj_anton_kresic.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_leo_bolgado",
@@ -1137,7 +1062,8 @@
     "Position": "Centre-Back",
     "Age": "Aug 20, 1998 (26)",
     "Nationality": "Brazil",
-    "Image": "cfr_cluj_leo_bolgado.png"
+    "Image": "cfr_cluj_leo_bolgado.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_matija_boben",
@@ -1149,7 +1075,8 @@
     "Position": "Centre-Back",
     "Age": "Feb 26, 1994 (30)",
     "Nationality": "Slovenia",
-    "Image": "cfr_cluj_matija_boben.png"
+    "Image": "cfr_cluj_matija_boben.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cfr_cluj_daniel_graovac",
@@ -1161,19 +1088,8 @@
     "Position": "Centre-Back",
     "Age": "Aug 8, 1993 (31)",
     "Nationality": "Bosnia-Herzegovina",
-    "Image": "cfr_cluj_daniel_graovac.png"
-  },
-  {
-    "PlayerID": "cfr_cluj_sheriff_sinyan",
-    "TeamID": "cfr_cluj",
-    "Team": "CFR Cluj",
-    "TeamLogo": "cfr_cluj.png",
-    "Number": "-",
-    "Name": "Sheriff Sinyan",
-    "Position": "Centre-Back",
-    "Age": "Jul 19, 1996 (28)",
-    "Nationality": "The Gambia",
-    "Image": "cfr_cluj_sheriff_sinyan.png"
+    "Image": "cfr_cluj_daniel_graovac.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_alan_aussi",
@@ -1185,19 +1101,8 @@
     "Position": "Centre-Back",
     "Age": "Jun 30, 2001 (23)",
     "Nationality": "Ukraine",
-    "Image": "cfr_cluj_alan_aussi.png"
-  },
-  {
-    "PlayerID": "cfr_cluj_costel_avram",
-    "TeamID": "cfr_cluj",
-    "Team": "CFR Cluj",
-    "TeamLogo": "cfr_cluj.png",
-    "Number": "78",
-    "Name": "Costel Avram",
-    "Position": "Centre-Back",
-    "Age": "Jun 11, 2002 (22)",
-    "Nationality": "Romania",
-    "Image": "cfr_cluj_costel_avram.png"
+    "Image": "cfr_cluj_alan_aussi.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cfr_cluj_simao_rocha",
@@ -1209,7 +1114,8 @@
     "Position": "Left-Back",
     "Age": "Dec 13, 2000 (24)",
     "Nationality": "Portugal",
-    "Image": "cfr_cluj_simao_rocha.png"
+    "Image": "cfr_cluj_simao_rocha.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cfr_cluj_aly_abeid",
@@ -1221,7 +1127,8 @@
     "Position": "Left-Back",
     "Age": "Dec 11, 1997 (27)",
     "Nationality": "Mauritania",
-    "Image": "cfr_cluj_aly_abeid.png"
+    "Image": "cfr_cluj_aly_abeid.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_mario_camora",
@@ -1233,19 +1140,8 @@
     "Position": "Left-Back",
     "Age": "Nov 10, 1986 (38)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_mario_camora.png"
-  },
-  {
-    "PlayerID": "cfr_cluj_vasile_mogos",
-    "TeamID": "cfr_cluj",
-    "Team": "CFR Cluj",
-    "TeamLogo": "cfr_cluj.png",
-    "Number": "19",
-    "Name": "Vasile Mogos",
-    "Position": "Right-Back",
-    "Age": "Oct 31, 1992 (32)",
-    "Nationality": "Romania",
-    "Image": "cfr_cluj_vasile_mogos.png"
+    "Image": "cfr_cluj_mario_camora.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cfr_cluj_flavius_iacob",
@@ -1257,7 +1153,8 @@
     "Position": "Right-Back",
     "Age": "Oct 30, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_flavius_iacob.png"
+    "Image": "cfr_cluj_flavius_iacob.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cfr_cluj_alexandru_tirlea",
@@ -1269,7 +1166,8 @@
     "Position": "Right-Back",
     "Age": "Mar 28, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_alexandru_tirlea.jpg"
+    "Image": "cfr_cluj_alexandru_tirlea.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "cfr_cluj_andrei_peteleu",
@@ -1281,7 +1179,8 @@
     "Position": "Right-Back",
     "Age": "Aug 20, 1992 (32)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_andrei_peteleu.png"
+    "Image": "cfr_cluj_andrei_peteleu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_kader_keita",
@@ -1293,7 +1192,8 @@
     "Position": "Defensive Midfield",
     "Age": "Nov 6, 2000 (24)",
     "Nationality": "Cote d'Ivoire",
-    "Image": "cfr_cluj_kader_keita.png"
+    "Image": "cfr_cluj_kader_keita.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cfr_cluj_panagiotis_tachtsidis",
@@ -1305,7 +1205,8 @@
     "Position": "Defensive Midfield",
     "Age": "Feb 15, 1991 (33)",
     "Nationality": "Greece",
-    "Image": "cfr_cluj_panagiotis_tachtsidis.png"
+    "Image": "cfr_cluj_panagiotis_tachtsidis.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cfr_cluj_alin_fica",
@@ -1317,7 +1218,8 @@
     "Position": "Central Midfield",
     "Age": "Jun 14, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_alin_fica.png"
+    "Image": "cfr_cluj_alin_fica.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cfr_cluj_damjan_djokovic",
@@ -1329,7 +1231,8 @@
     "Position": "Central Midfield",
     "Age": "Apr 18, 1990 (34)",
     "Nationality": "Croatia",
-    "Image": "cfr_cluj_damjan_djokovic.png"
+    "Image": "cfr_cluj_damjan_djokovic.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cfr_cluj_robert_filip",
@@ -1341,7 +1244,8 @@
     "Position": "Central Midfield",
     "Age": "Mar 2, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_robert_filip.png"
+    "Image": "cfr_cluj_robert_filip.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cfr_cluj_meriton_korenica",
@@ -1353,7 +1257,8 @@
     "Position": "Left Winger",
     "Age": "Dec 15, 1996 (28)",
     "Nationality": "Kosovo",
-    "Image": "cfr_cluj_meriton_korenica.png"
+    "Image": "cfr_cluj_meriton_korenica.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cfr_cluj_mohammed_kamara",
@@ -1365,7 +1270,8 @@
     "Position": "Left Winger",
     "Age": "Oct 31, 1997 (27)",
     "Nationality": "Liberia",
-    "Image": "cfr_cluj_mohammed_kamara.png"
+    "Image": "cfr_cluj_mohammed_kamara.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_adrian_paun",
@@ -1377,7 +1283,8 @@
     "Position": "Left Winger",
     "Age": "Apr 1, 1995 (29)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_adrian_paun.png"
+    "Image": "cfr_cluj_adrian_paun.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_andres_sfait",
@@ -1389,7 +1296,8 @@
     "Position": "Left Winger",
     "Age": "Dec 9, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_andres_sfait.png"
+    "Image": "cfr_cluj_andres_sfait.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cfr_cluj_beni_nkololo",
@@ -1401,7 +1309,8 @@
     "Position": "Right Winger",
     "Age": "Nov 6, 1996 (28)",
     "Nationality": "France",
-    "Image": "cfr_cluj_beni_nkololo.png"
+    "Image": "cfr_cluj_beni_nkololo.png",
+    "Scor": 3
   },
   {
     "PlayerID": "cfr_cluj_ciprian_deac",
@@ -1413,7 +1322,8 @@
     "Position": "Right Winger",
     "Age": "Feb 16, 1986 (38)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_ciprian_deac.png"
+    "Image": "cfr_cluj_ciprian_deac.png",
+    "Scor": 5
   },
   {
     "PlayerID": "cfr_cluj_louis_munteanu",
@@ -1425,7 +1335,8 @@
     "Position": "Centre-Forward",
     "Age": "Jun 16, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "cfr_cluj_louis_munteanu.png"
+    "Image": "cfr_cluj_louis_munteanu.png",
+    "Scor": 5
   },
   {
     "PlayerID": "cfr_cluj_virgiliu_postolachi",
@@ -1437,7 +1348,8 @@
     "Position": "Centre-Forward",
     "Age": "Mar 17, 2000 (24)",
     "Nationality": "Moldova",
-    "Image": "cfr_cluj_virgiliu_postolachi.png"
+    "Image": "cfr_cluj_virgiliu_postolachi.png",
+    "Scor": 4
   },
   {
     "PlayerID": "cfr_cluj_stipe_juric",
@@ -1449,7 +1361,8 @@
     "Position": "Centre-Forward",
     "Age": "Nov 19, 1998 (26)",
     "Nationality": "Bosnia-Herzegovina",
-    "Image": "cfr_cluj_stipe_juric.png"
+    "Image": "cfr_cluj_stipe_juric.png",
+    "Scor": 2
   },
   {
     "PlayerID": "cfr_cluj_luka_juricic",
@@ -1461,7 +1374,8 @@
     "Position": "Centre-Forward",
     "Age": "Nov 25, 1996 (28)",
     "Nationality": "Bosnia-Herzegovina",
-    "Image": "cfr_cluj_luka_juricic.png"
+    "Image": "cfr_cluj_luka_juricic.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_universitatea_cluj_edvinas_gertmonas",
@@ -1473,31 +1387,8 @@
     "Position": "Goalkeeper",
     "Age": "Jun 1, 1996 (28)",
     "Nationality": "Lithuania",
-    "Image": "fc_universitatea_cluj_edvinas_gertmonas.png"
-  },
-  {
-    "PlayerID": "fc_universitatea_cluj_stefan_lefter",
-    "TeamID": "fc_universitatea_cluj",
-    "Team": "FC Universitatea Cluj",
-    "TeamLogo": "fc_universitatea_cluj.png",
-    "Number": "1",
-    "Name": "Stefan Lefter",
-    "Position": "Goalkeeper",
-    "Age": "Nov 18, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_stefan_lefter.jpg"
-  },
-  {
-    "PlayerID": "fc_universitatea_cluj_denis_moldovan",
-    "TeamID": "fc_universitatea_cluj",
-    "Team": "FC Universitatea Cluj",
-    "TeamLogo": "fc_universitatea_cluj.png",
-    "Number": "12",
-    "Name": "Denis Moldovan",
-    "Position": "Goalkeeper",
-    "Age": "Oct 27, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_denis_moldovan.jpg"
+    "Image": "fc_universitatea_cluj_edvinas_gertmonas.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_universitatea_cluj_lucas_masoero",
@@ -1509,7 +1400,8 @@
     "Position": "Centre-Back",
     "Age": "Feb 1, 1995 (29)",
     "Nationality": "Argentina",
-    "Image": "fc_universitatea_cluj_lucas_masoero.png"
+    "Image": "fc_universitatea_cluj_lucas_masoero.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_iulian_cristea",
@@ -1521,7 +1413,8 @@
     "Position": "Centre-Back",
     "Age": "Jul 17, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_iulian_cristea.png"
+    "Image": "fc_universitatea_cluj_iulian_cristea.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_universitatea_cluj_jasper_van_der_werff",
@@ -1533,7 +1426,8 @@
     "Position": "Centre-Back",
     "Age": "Dec 9, 1998 (26)",
     "Nationality": "Switzerland",
-    "Image": "fc_universitatea_cluj_jasper_van_der_werff.png"
+    "Image": "fc_universitatea_cluj_jasper_van_der_werff.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_bogdan_mitrea",
@@ -1545,7 +1439,8 @@
     "Position": "Centre-Back",
     "Age": "Sep 29, 1987 (37)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_bogdan_mitrea.png"
+    "Image": "fc_universitatea_cluj_bogdan_mitrea.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_universitatea_cluj_andrei_stefan",
@@ -1557,7 +1452,8 @@
     "Position": "Centre-Back",
     "Age": "Jul 6, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_andrei_stefan.png"
+    "Image": "fc_universitatea_cluj_andrei_stefan.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_universitatea_cluj_alexandru_chipciu",
@@ -1569,19 +1465,8 @@
     "Position": "Left-Back",
     "Age": "May 18, 1989 (35)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_alexandru_chipciu.png"
-  },
-  {
-    "PlayerID": "fc_universitatea_cluj_daniel_lasure",
-    "TeamID": "fc_universitatea_cluj",
-    "Team": "FC Universitatea Cluj",
-    "TeamLogo": "fc_universitatea_cluj.png",
-    "Number": "17",
-    "Name": "Daniel Lasure",
-    "Position": "Left-Back",
-    "Age": "Feb 27, 1994 (30)",
-    "Nationality": "Spain",
-    "Image": "fc_universitatea_cluj_daniel_lasure.png"
+    "Image": "fc_universitatea_cluj_alexandru_chipciu.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_universitatea_cluj_radu_boboc",
@@ -1593,7 +1478,8 @@
     "Position": "Right-Back",
     "Age": "Apr 24, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_radu_boboc.png"
+    "Image": "fc_universitatea_cluj_radu_boboc.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_dorinel_oancea",
@@ -1605,7 +1491,8 @@
     "Position": "Right-Back",
     "Age": "Apr 2, 1997 (27)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_dorinel_oancea.png"
+    "Image": "fc_universitatea_cluj_dorinel_oancea.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_ovidiu_popescu",
@@ -1617,7 +1504,8 @@
     "Position": "Defensive Midfield",
     "Age": "Feb 27, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_ovidiu_popescu.png"
+    "Image": "fc_universitatea_cluj_ovidiu_popescu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_gabriel_simion",
@@ -1629,7 +1517,8 @@
     "Position": "Defensive Midfield",
     "Age": "May 22, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_gabriel_simion.png"
+    "Image": "fc_universitatea_cluj_gabriel_simion.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_razvan_oaida",
@@ -1641,7 +1530,8 @@
     "Position": "Defensive Midfield",
     "Age": "Mar 2, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_razvan_oaida.png"
+    "Image": "fc_universitatea_cluj_razvan_oaida.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_andrei_artean",
@@ -1653,7 +1543,8 @@
     "Position": "Defensive Midfield",
     "Age": "Aug 14, 1993 (31)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_andrei_artean.png"
+    "Image": "fc_universitatea_cluj_andrei_artean.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_ovidiu_bic",
@@ -1665,7 +1556,8 @@
     "Position": "Central Midfield",
     "Age": "Feb 23, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_ovidiu_bic.png"
+    "Image": "fc_universitatea_cluj_ovidiu_bic.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_vadim_rata",
@@ -1677,7 +1569,8 @@
     "Position": "Central Midfield",
     "Age": "May 5, 1993 (31)",
     "Nationality": "Moldova",
-    "Image": "fc_universitatea_cluj_vadim_rata.png"
+    "Image": "fc_universitatea_cluj_vadim_rata.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_universitatea_cluj_dorin_codrea",
@@ -1689,7 +1582,8 @@
     "Position": "Central Midfield",
     "Age": "Jun 13, 1997 (27)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_dorin_codrea.png"
+    "Image": "fc_universitatea_cluj_dorin_codrea.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_universitatea_cluj_dan_nistor",
@@ -1701,7 +1595,8 @@
     "Position": "Central Midfield",
     "Age": "May 6, 1988 (36)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_dan_nistor.png"
+    "Image": "fc_universitatea_cluj_dan_nistor.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_universitatea_cluj_alexandru_bota",
@@ -1713,7 +1608,8 @@
     "Position": "Central Midfield",
     "Age": "Mar 31, 2008 (16)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_alexandru_bota.png"
+    "Image": "fc_universitatea_cluj_alexandru_bota.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_universitatea_cluj_robert_silaghi",
@@ -1725,7 +1621,8 @@
     "Position": "Attacking Midfield",
     "Age": "Apr 2, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_robert_silaghi.png"
+    "Image": "fc_universitatea_cluj_robert_silaghi.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_issouf_macalou",
@@ -1737,7 +1634,8 @@
     "Position": "Right Winger",
     "Age": "Dec 27, 1998 (26)",
     "Nationality": "Cote d'Ivoire",
-    "Image": "fc_universitatea_cluj_issouf_macalou.jpg"
+    "Image": "fc_universitatea_cluj_issouf_macalou.jpg",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_mamadou_thiam",
@@ -1749,7 +1647,8 @@
     "Position": "Second Striker",
     "Age": "Mar 20, 1995 (29)",
     "Nationality": "Senegal",
-    "Image": "fc_universitatea_cluj_mamadou_thiam.png"
+    "Image": "fc_universitatea_cluj_mamadou_thiam.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_universitatea_cluj_vladislav_blanuta",
@@ -1761,7 +1660,8 @@
     "Position": "Centre-Forward",
     "Age": "Jan 12, 2002 (23)",
     "Nationality": "Romania",
-    "Image": "fc_universitatea_cluj_vladislav_blanuta.png"
+    "Image": "fc_universitatea_cluj_vladislav_blanuta.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_universitatea_cluj_artur_miranyan",
@@ -1773,7 +1673,8 @@
     "Position": "Centre-Forward",
     "Age": "Dec 27, 1995 (29)",
     "Nationality": "Armenia",
-    "Image": "fc_universitatea_cluj_artur_miranyan.png"
+    "Image": "fc_universitatea_cluj_artur_miranyan.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_universitatea_cluj_adel_bettaieb",
@@ -1785,7 +1686,8 @@
     "Position": "Centre-Forward",
     "Age": "Jan 28, 1997 (27)",
     "Nationality": "Tunisia",
-    "Image": "fc_universitatea_cluj_adel_bettaieb.png"
+    "Image": "fc_universitatea_cluj_adel_bettaieb.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_roland_niczuly",
@@ -1797,7 +1699,8 @@
     "Position": "Goalkeeper",
     "Age": "Sep 21, 1995 (29)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_roland_niczuly.png"
+    "Image": "sepsi_osk_sf._gheorghe_roland_niczuly.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_szilard_gyenge",
@@ -1809,43 +1712,21 @@
     "Position": "Goalkeeper",
     "Age": "Feb 11, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_szilard_gyenge.png"
-  },
-  {
-    "PlayerID": "sepsi_osk_sf._gheorghe_dinu_moldovan",
-    "TeamID": "sepsi_osk_sf._gheorghe",
-    "Team": "Sepsi OSK Sf. Gheorghe",
-    "TeamLogo": "sepsi_osk_sf._gheorghe.png",
-    "Number": "1",
-    "Name": "Dinu Moldovan",
-    "Position": "Goalkeeper",
-    "Age": "May 3, 1990 (34)",
-    "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_dinu_moldovan.png"
-  },
-  {
-    "PlayerID": "sepsi_osk_sf._gheorghe_hunor_gedo",
-    "TeamID": "sepsi_osk_sf._gheorghe",
-    "Team": "Sepsi OSK Sf. Gheorghe",
-    "TeamLogo": "sepsi_osk_sf._gheorghe.png",
-    "Number": "98",
-    "Name": "Hunor Gedo",
-    "Position": "Goalkeeper",
-    "Age": "Jan 16, 2004 (21)",
-    "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_hunor_gedo.png"
+    "Image": "sepsi_osk_sf._gheorghe_szilard_gyenge.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_denis_ciobotariu",
     "TeamID": "sepsi_osk_sf._gheorghe",
-    "Team": "Sepsi OSK Sf. Gheorghe",
+    "Team": "FC Rapid 1923",
     "TeamLogo": "sepsi_osk_sf._gheorghe.png",
     "Number": "13",
     "Name": "Denis Ciobotariu",
     "Position": "Centre-Back",
     "Age": "Jun 10, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_denis_ciobotariu.png"
+    "Image": "sepsi_osk_sf._gheorghe_denis_ciobotariu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_branislav_ninaj",
@@ -1857,7 +1738,8 @@
     "Position": "Centre-Back",
     "Age": "May 17, 1994 (30)",
     "Nationality": "Slovakia",
-    "Image": "sepsi_osk_sf._gheorghe_branislav_ninaj.png"
+    "Image": "sepsi_osk_sf._gheorghe_branislav_ninaj.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_denis_harut",
@@ -1869,7 +1751,8 @@
     "Position": "Centre-Back",
     "Age": "Feb 25, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_denis_harut.png"
+    "Image": "sepsi_osk_sf._gheorghe_denis_harut.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_matej_simic",
@@ -1881,19 +1764,8 @@
     "Position": "Centre-Back",
     "Age": "Nov 29, 1995 (29)",
     "Nationality": "Croatia",
-    "Image": "sepsi_osk_sf._gheorghe_matej_simic.png"
-  },
-  {
-    "PlayerID": "sepsi_osk_sf._gheorghe_mark_tamas",
-    "TeamID": "sepsi_osk_sf._gheorghe",
-    "Team": "Sepsi OSK Sf. Gheorghe",
-    "TeamLogo": "sepsi_osk_sf._gheorghe.png",
-    "Number": "44",
-    "Name": "Mark Tamas",
-    "Position": "Centre-Back",
-    "Age": "Oct 28, 1993 (31)",
-    "Nationality": "Hungary",
-    "Image": "sepsi_osk_sf._gheorghe_mark_tamas.png"
+    "Image": "sepsi_osk_sf._gheorghe_matej_simic.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_andres_dumitrescu",
@@ -1905,7 +1777,8 @@
     "Position": "Left-Back",
     "Age": "Mar 11, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_andres_dumitrescu.png"
+    "Image": "sepsi_osk_sf._gheorghe_andres_dumitrescu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_florin_stefan",
@@ -1917,7 +1790,8 @@
     "Position": "Left-Back",
     "Age": "May 9, 1996 (28)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_florin_stefan.png"
+    "Image": "sepsi_osk_sf._gheorghe_florin_stefan.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_bogdan_otelita",
@@ -1929,7 +1803,8 @@
     "Position": "Right-Back",
     "Age": "Aug 12, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_bogdan_otelita.png"
+    "Image": "sepsi_osk_sf._gheorghe_bogdan_otelita.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_darius_oroian",
@@ -1941,19 +1816,8 @@
     "Position": "Right-Back",
     "Age": "Aug 1, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_darius_oroian.png"
-  },
-  {
-    "PlayerID": "sepsi_osk_sf._gheorghe_davide_popsa",
-    "TeamID": "sepsi_osk_sf._gheorghe",
-    "Team": "Sepsi OSK Sf. Gheorghe",
-    "TeamLogo": "sepsi_osk_sf._gheorghe.png",
-    "Number": "27",
-    "Name": "Davide Popsa",
-    "Position": "Right-Back",
-    "Age": "Jul 4, 2002 (22)",
-    "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_davide_popsa.png"
+    "Image": "sepsi_osk_sf._gheorghe_darius_oroian.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_nicolae_paun",
@@ -1965,7 +1829,8 @@
     "Position": "Defensive Midfield",
     "Age": "Jan 19, 1999 (26)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_nicolae_paun.png"
+    "Image": "sepsi_osk_sf._gheorghe_nicolae_paun.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_sota_mino",
@@ -1977,19 +1842,8 @@
     "Position": "Central Midfield",
     "Age": "Oct 20, 1994 (30)",
     "Nationality": "Japan",
-    "Image": "sepsi_osk_sf._gheorghe_sota_mino.png"
-  },
-  {
-    "PlayerID": "sepsi_osk_sf._gheorghe_david_siger",
-    "TeamID": "sepsi_osk_sf._gheorghe",
-    "Team": "Sepsi OSK Sf. Gheorghe",
-    "TeamLogo": "sepsi_osk_sf._gheorghe.png",
-    "Number": "18",
-    "Name": "David Siger",
-    "Position": "Central Midfield",
-    "Age": "Nov 30, 1990 (34)",
-    "Nationality": "Hungary",
-    "Image": "sepsi_osk_sf._gheorghe_david_siger.png"
+    "Image": "sepsi_osk_sf._gheorghe_sota_mino.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_sherif_kallaku",
@@ -2001,7 +1855,8 @@
     "Position": "Attacking Midfield",
     "Age": "Mar 1, 1998 (26)",
     "Nationality": "Albania",
-    "Image": "sepsi_osk_sf._gheorghe_sherif_kallaku.png"
+    "Image": "sepsi_osk_sf._gheorghe_sherif_kallaku.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_cosmin_matei",
@@ -2013,7 +1868,8 @@
     "Position": "Attacking Midfield",
     "Age": "Sep 30, 1991 (33)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_cosmin_matei.png"
+    "Image": "sepsi_osk_sf._gheorghe_cosmin_matei.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_omar_el_sawy",
@@ -2025,19 +1881,8 @@
     "Position": "Attacking Midfield",
     "Age": "Mar 16, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_omar_el_sawy.png"
-  },
-  {
-    "PlayerID": "sepsi_osk_sf._gheorghe_giovani_ghimfus",
-    "TeamID": "sepsi_osk_sf._gheorghe",
-    "Team": "Sepsi OSK Sf. Gheorghe",
-    "TeamLogo": "sepsi_osk_sf._gheorghe.png",
-    "Number": "19",
-    "Name": "Giovani Ghimfus",
-    "Position": "Attacking Midfield",
-    "Age": "Jul 12, 2005 (19)",
-    "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_giovani_ghimfus.jpg"
+    "Image": "sepsi_osk_sf._gheorghe_omar_el_sawy.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_marian_draghiceanu",
@@ -2049,7 +1894,8 @@
     "Position": "Attacking Midfield",
     "Age": "Jul 7, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_marian_draghiceanu.png"
+    "Image": "sepsi_osk_sf._gheorghe_marian_draghiceanu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_mihajlo_neskovic",
@@ -2061,7 +1907,8 @@
     "Position": "Left Winger",
     "Age": "Feb 9, 2000 (24)",
     "Nationality": "Serbia",
-    "Image": "sepsi_osk_sf._gheorghe_mihajlo_neskovic.png"
+    "Image": "sepsi_osk_sf._gheorghe_mihajlo_neskovic.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_sebastian_mailat",
@@ -2073,7 +1920,8 @@
     "Position": "Left Winger",
     "Age": "Dec 12, 1997 (27)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_sebastian_mailat.png"
+    "Image": "sepsi_osk_sf._gheorghe_sebastian_mailat.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_raul_cimpean",
@@ -2085,7 +1933,8 @@
     "Position": "Right Winger",
     "Age": "Oct 9, 2005 (19)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_raul_cimpean.jpg"
+    "Image": "sepsi_osk_sf._gheorghe_raul_cimpean.jpg",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_gabriel_debeljuh",
@@ -2097,7 +1946,8 @@
     "Position": "Centre-Forward",
     "Age": "Sep 28, 1996 (28)",
     "Nationality": "Croatia",
-    "Image": "sepsi_osk_sf._gheorghe_gabriel_debeljuh.png"
+    "Image": "sepsi_osk_sf._gheorghe_gabriel_debeljuh.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_marius_coman",
@@ -2109,7 +1959,8 @@
     "Position": "Centre-Forward",
     "Age": "Jul 31, 1996 (28)",
     "Nationality": "Romania",
-    "Image": "sepsi_osk_sf._gheorghe_marius_coman.png"
+    "Image": "sepsi_osk_sf._gheorghe_marius_coman.png",
+    "Scor": 3
   },
   {
     "PlayerID": "sepsi_osk_sf._gheorghe_dimitri_oberlin",
@@ -2121,19 +1972,8 @@
     "Position": "Centre-Forward",
     "Age": "Sep 27, 1997 (27)",
     "Nationality": "Switzerland",
-    "Image": "sepsi_osk_sf._gheorghe_dimitri_oberlin.png"
-  },
-  {
-    "PlayerID": "sepsi_osk_sf._gheorghe_dorian_babunski",
-    "TeamID": "sepsi_osk_sf._gheorghe",
-    "Team": "Sepsi OSK Sf. Gheorghe",
-    "TeamLogo": "sepsi_osk_sf._gheorghe.png",
-    "Number": "12",
-    "Name": "Dorian Babunski",
-    "Position": "Centre-Forward",
-    "Age": "Aug 29, 1996 (28)",
-    "Nationality": "North Macedonia",
-    "Image": "sepsi_osk_sf._gheorghe_dorian_babunski.png"
+    "Image": "sepsi_osk_sf._gheorghe_dimitri_oberlin.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_adnan_golubovic",
@@ -2145,7 +1985,8 @@
     "Position": "Goalkeeper",
     "Age": "Jul 22, 1995 (29)",
     "Nationality": "Slovenia",
-    "Image": "fc_dinamo_1948_adnan_golubovic.png"
+    "Image": "fc_dinamo_1948_adnan_golubovic.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_alexandru_rosca",
@@ -2157,19 +1998,8 @@
     "Position": "Goalkeeper",
     "Age": "Nov 12, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_alexandru_rosca.png"
-  },
-  {
-    "PlayerID": "fc_dinamo_1948_alexandru_stoian",
-    "TeamID": "fc_dinamo_1948",
-    "Team": "FC Dinamo 1948",
-    "TeamLogo": "fc_dinamo_1948.png",
-    "Number": "16",
-    "Name": "Alexandru Stoian",
-    "Position": "Goalkeeper",
-    "Age": "Mar 12, 2005 (19)",
-    "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_alexandru_stoian.png"
+    "Image": "fc_dinamo_1948_alexandru_rosca.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_dinamo_1948_kennedy_boateng",
@@ -2181,7 +2011,8 @@
     "Position": "Centre-Back",
     "Age": "Nov 29, 1996 (28)",
     "Nationality": "Togo",
-    "Image": "fc_dinamo_1948_kennedy_boateng.png"
+    "Image": "fc_dinamo_1948_kennedy_boateng.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_josue_homawoo",
@@ -2193,7 +2024,8 @@
     "Position": "Centre-Back",
     "Age": "Nov 12, 1997 (27)",
     "Nationality": "Togo",
-    "Image": "fc_dinamo_1948_josue_homawoo.png"
+    "Image": "fc_dinamo_1948_josue_homawoo.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_cristian_licsandru",
@@ -2205,7 +2037,8 @@
     "Position": "Centre-Back",
     "Age": "Mar 27, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_cristian_licsandru.png"
+    "Image": "fc_dinamo_1948_cristian_licsandru.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_dinamo_1948_razvan_patriche",
@@ -2217,7 +2050,8 @@
     "Position": "Centre-Back",
     "Age": "Apr 29, 1986 (38)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_razvan_patriche.png"
+    "Image": "fc_dinamo_1948_razvan_patriche.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_dinamo_1948_raul_oprut",
@@ -2229,7 +2063,8 @@
     "Position": "Left-Back",
     "Age": "Jan 4, 1998 (27)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_raul_oprut.png"
+    "Image": "fc_dinamo_1948_raul_oprut.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_antonio_luna",
@@ -2241,7 +2076,8 @@
     "Position": "Left-Back",
     "Age": "Mar 17, 1991 (33)",
     "Nationality": "Spain",
-    "Image": "fc_dinamo_1948_antonio_luna.jpg"
+    "Image": "fc_dinamo_1948_antonio_luna.jpg",
+    "Scor": 1
   },
   {
     "PlayerID": "fc_dinamo_1948_maxime_sivis",
@@ -2253,7 +2089,8 @@
     "Position": "Right-Back",
     "Age": "Apr 1, 1998 (26)",
     "Nationality": "France",
-    "Image": "fc_dinamo_1948_maxime_sivis.png"
+    "Image": "fc_dinamo_1948_maxime_sivis.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_dinamo_1948_cristian_costin",
@@ -2265,7 +2102,8 @@
     "Position": "Right-Back",
     "Age": "Jun 17, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_cristian_costin.png"
+    "Image": "fc_dinamo_1948_cristian_costin.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_eddy_gnahore",
@@ -2277,7 +2115,8 @@
     "Position": "Defensive Midfield",
     "Age": "Nov 14, 1993 (31)",
     "Nationality": "France",
-    "Image": "fc_dinamo_1948_eddy_gnahore.png"
+    "Image": "fc_dinamo_1948_eddy_gnahore.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_andrei_marginean",
@@ -2289,7 +2128,8 @@
     "Position": "Defensive Midfield",
     "Age": "Jul 3, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_andrei_marginean.png"
+    "Image": "fc_dinamo_1948_andrei_marginean.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_catalin_cirjan",
@@ -2301,7 +2141,8 @@
     "Position": "Central Midfield",
     "Age": "Dec 1, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_catalin_cirjan.png"
+    "Image": "fc_dinamo_1948_catalin_cirjan.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_dinamo_1948_georgi_milanov",
@@ -2313,19 +2154,8 @@
     "Position": "Central Midfield",
     "Age": "Feb 19, 1992 (32)",
     "Nationality": "Bulgaria",
-    "Image": "fc_dinamo_1948_georgi_milanov.png"
-  },
-  {
-    "PlayerID": "fc_dinamo_1948_casian_soare",
-    "TeamID": "fc_dinamo_1948",
-    "Team": "FC Dinamo 1948",
-    "TeamLogo": "fc_dinamo_1948.png",
-    "Number": "-",
-    "Name": "Casian Soare",
-    "Position": "Central Midfield",
-    "Age": "Nov 24, 2006 (18)",
-    "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_casian_soare.jpg"
+    "Image": "fc_dinamo_1948_georgi_milanov.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_patrick_olsen",
@@ -2337,7 +2167,8 @@
     "Position": "Attacking Midfield",
     "Age": "Apr 23, 1994 (30)",
     "Nationality": "Denmark",
-    "Image": "fc_dinamo_1948_patrick_olsen.png"
+    "Image": "fc_dinamo_1948_patrick_olsen.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_dennis_politic",
@@ -2349,7 +2180,8 @@
     "Position": "Left Winger",
     "Age": "Mar 5, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_dennis_politic.png"
+    "Image": "fc_dinamo_1948_dennis_politic.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_dinamo_1948_petru_neagu",
@@ -2361,7 +2193,8 @@
     "Position": "Left Winger",
     "Age": "Aug 13, 1999 (25)",
     "Nationality": "Moldova",
-    "Image": "fc_dinamo_1948_petru_neagu.png"
+    "Image": "fc_dinamo_1948_petru_neagu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_dinamo_1948_adrian_caragea",
@@ -2373,7 +2206,8 @@
     "Position": "Left Winger",
     "Age": "Sep 7, 2005 (19)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_adrian_caragea.png"
+    "Image": "fc_dinamo_1948_adrian_caragea.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_dinamo_1948_hakim_abdallah",
@@ -2385,7 +2219,8 @@
     "Position": "Right Winger",
     "Age": "Jan 9, 1998 (27)",
     "Nationality": "Madagascar",
-    "Image": "fc_dinamo_1948_hakim_abdallah.png"
+    "Image": "fc_dinamo_1948_hakim_abdallah.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_dinamo_1948_antonio_bordusanu",
@@ -2397,7 +2232,8 @@
     "Position": "Right Winger",
     "Age": "Aug 10, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_antonio_bordusanu.png"
+    "Image": "fc_dinamo_1948_antonio_bordusanu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_dinamo_1948_astrit_selmani",
@@ -2409,7 +2245,8 @@
     "Position": "Centre-Forward",
     "Age": "May 13, 1997 (27)",
     "Nationality": "Kosovo",
-    "Image": "fc_dinamo_1948_astrit_selmani.png"
+    "Image": "fc_dinamo_1948_astrit_selmani.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_dinamo_1948_alexandru_pop",
@@ -2421,19 +2258,8 @@
     "Position": "Centre-Forward",
     "Age": "Feb 1, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_alexandru_pop.png"
-  },
-  {
-    "PlayerID": "fc_dinamo_1948_raul_rotund",
-    "TeamID": "fc_dinamo_1948",
-    "Team": "FC Dinamo 1948",
-    "TeamLogo": "fc_dinamo_1948.png",
-    "Number": "30",
-    "Name": "Raul Rotund",
-    "Position": "Centre-Forward",
-    "Age": "Nov 17, 2005 (19)",
-    "Nationality": "Romania",
-    "Image": "fc_dinamo_1948_raul_rotund.png"
+    "Image": "fc_dinamo_1948_alexandru_pop.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_alexandru_buzbuchi",
@@ -2445,19 +2271,8 @@
     "Position": "Goalkeeper",
     "Age": "Oct 31, 1993 (31)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_alexandru_buzbuchi.png"
-  },
-  {
-    "PlayerID": "fcv_farul_constanta_razvan_ducan",
-    "TeamID": "fcv_farul_constanta",
-    "Team": "FCV Farul Constanta",
-    "TeamLogo": "fcv_farul_constanta.png",
-    "Number": "68",
-    "Name": "Razvan Ducan",
-    "Position": "Goalkeeper",
-    "Age": "Feb 9, 2001 (23)",
-    "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_razvan_ducan.png"
+    "Image": "fcv_farul_constanta_alexandru_buzbuchi.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_gustavo_marins",
@@ -2469,7 +2284,8 @@
     "Position": "Centre-Back",
     "Age": "Feb 11, 2002 (22)",
     "Nationality": "Brazil",
-    "Image": "fcv_farul_constanta_gustavo_marins.png"
+    "Image": "fcv_farul_constanta_gustavo_marins.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_mihai_balasa",
@@ -2481,7 +2297,8 @@
     "Position": "Centre-Back",
     "Age": "Jan 14, 1995 (30)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_mihai_balasa.png"
+    "Image": "fcv_farul_constanta_mihai_balasa.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_bogdan_tiru",
@@ -2493,7 +2310,8 @@
     "Position": "Centre-Back",
     "Age": "Mar 15, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_bogdan_tiru.jpg"
+    "Image": "fcv_farul_constanta_bogdan_tiru.jpg",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_gabriel_danuleasa",
@@ -2505,19 +2323,8 @@
     "Position": "Centre-Back",
     "Age": "May 8, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_gabriel_danuleasa.png"
-  },
-  {
-    "PlayerID": "fcv_farul_constanta_gabriel_buta",
-    "TeamID": "fcv_farul_constanta",
-    "Team": "FCV Farul Constanta",
-    "TeamLogo": "fcv_farul_constanta.png",
-    "Number": "16",
-    "Name": "Gabriel Buta",
-    "Position": "Centre-Back",
-    "Age": "Jan 29, 2002 (22)",
-    "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_gabriel_buta.png"
+    "Image": "fcv_farul_constanta_gabriel_danuleasa.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_ionut_larie",
@@ -2529,19 +2336,8 @@
     "Position": "Centre-Back",
     "Age": "Jan 16, 1987 (38)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_ionut_larie.png"
-  },
-  {
-    "PlayerID": "fcv_farul_constanta_horia_marin",
-    "TeamID": "fcv_farul_constanta",
-    "Team": "FCV Farul Constanta",
-    "TeamLogo": "fcv_farul_constanta.png",
-    "Number": "-",
-    "Name": "Horia Marin",
-    "Position": "Centre-Back",
-    "Age": "Jan 16, 2004 (21)",
-    "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_horia_marin.jpg"
+    "Image": "fcv_farul_constanta_ionut_larie.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_cristian_ganea",
@@ -2553,19 +2349,8 @@
     "Position": "Left-Back",
     "Age": "May 24, 1992 (32)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_cristian_ganea.png"
-  },
-  {
-    "PlayerID": "fcv_farul_constanta_reginaldo",
-    "TeamID": "fcv_farul_constanta",
-    "Team": "FCV Farul Constanta",
-    "TeamLogo": "fcv_farul_constanta.png",
-    "Number": "-",
-    "Name": "Reginaldo",
-    "Position": "Left-Back",
-    "Age": "Aug 17, 2001 (23)",
-    "Nationality": "Brazil",
-    "Image": "fcv_farul_constanta_reginaldo.jpg"
+    "Image": "fcv_farul_constanta_cristian_ganea.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_dan_sirbu",
@@ -2577,7 +2362,8 @@
     "Position": "Right-Back",
     "Age": "Apr 22, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_dan_sirbu.png"
+    "Image": "fcv_farul_constanta_dan_sirbu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_ionut_cercel",
@@ -2589,7 +2375,8 @@
     "Position": "Right-Back",
     "Age": "Nov 14, 2006 (18)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_ionut_cercel.png"
+    "Image": "fcv_farul_constanta_ionut_cercel.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_mario_aioanei",
@@ -2601,7 +2388,8 @@
     "Position": "Right-Back",
     "Age": "May 25, 2005 (19)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_mario_aioanei.jpg"
+    "Image": "fcv_farul_constanta_mario_aioanei.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fcv_farul_constanta_victor_dican",
@@ -2613,7 +2401,8 @@
     "Position": "Defensive Midfield",
     "Age": "Oct 11, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_victor_dican.png"
+    "Image": "fcv_farul_constanta_victor_dican.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fcv_farul_constanta_dragos_nedelcu",
@@ -2625,7 +2414,8 @@
     "Position": "Defensive Midfield",
     "Age": "Feb 16, 1997 (27)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_dragos_nedelcu.png"
+    "Image": "fcv_farul_constanta_dragos_nedelcu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_nicolas_popescu",
@@ -2637,19 +2427,8 @@
     "Position": "Defensive Midfield",
     "Age": "Jan 2, 2003 (22)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_nicolas_popescu.png"
-  },
-  {
-    "PlayerID": "fcv_farul_constanta_luca_banu",
-    "TeamID": "fcv_farul_constanta",
-    "Team": "FCV Farul Constanta",
-    "TeamLogo": "fcv_farul_constanta.png",
-    "Number": "18",
-    "Name": "Luca Banu",
-    "Position": "Defensive Midfield",
-    "Age": "Jan 31, 2005 (19)",
-    "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_luca_banu.png"
+    "Image": "fcv_farul_constanta_nicolas_popescu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_ionut_vina",
@@ -2661,7 +2440,8 @@
     "Position": "Central Midfield",
     "Age": "Feb 20, 1995 (29)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_ionut_vina.png"
+    "Image": "fcv_farul_constanta_ionut_vina.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fcv_farul_constanta_carlo_casap",
@@ -2673,7 +2453,8 @@
     "Position": "Central Midfield",
     "Age": "Dec 29, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_carlo_casap.png"
+    "Image": "fcv_farul_constanta_carlo_casap.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fcv_farul_constanta_andrei_ciobanu",
@@ -2685,7 +2466,8 @@
     "Position": "Central Midfield",
     "Age": "Jan 18, 1998 (27)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_andrei_ciobanu.png"
+    "Image": "fcv_farul_constanta_andrei_ciobanu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_eduard_radaslavescu",
@@ -2697,7 +2479,8 @@
     "Position": "Attacking Midfield",
     "Age": "Jul 30, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_eduard_radaslavescu.png"
+    "Image": "fcv_farul_constanta_eduard_radaslavescu.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fcv_farul_constanta_ionut_cojocaru",
@@ -2709,7 +2492,8 @@
     "Position": "Left Winger",
     "Age": "Jul 28, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_ionut_cojocaru.png"
+    "Image": "fcv_farul_constanta_ionut_cojocaru.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fcv_farul_constanta_narek_grigoryan",
@@ -2721,19 +2505,8 @@
     "Position": "Right Winger",
     "Age": "Jun 17, 2001 (23)",
     "Nationality": "Armenia",
-    "Image": "fcv_farul_constanta_narek_grigoryan.png"
-  },
-  {
-    "PlayerID": "fcv_farul_constanta_iustin_doicaru",
-    "TeamID": "fcv_farul_constanta",
-    "Team": "FCV Farul Constanta",
-    "TeamLogo": "fcv_farul_constanta.png",
-    "Number": "99",
-    "Name": "Iustin Doicaru",
-    "Position": "Right Winger",
-    "Age": "Feb 7, 2007 (17)",
-    "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_iustin_doicaru.png"
+    "Image": "fcv_farul_constanta_narek_grigoryan.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_robert_mustaca",
@@ -2745,7 +2518,8 @@
     "Position": "Right Winger",
     "Age": "Oct 5, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_robert_mustaca.jpg"
+    "Image": "fcv_farul_constanta_robert_mustaca.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fcv_farul_constanta_rivaldinho",
@@ -2757,7 +2531,8 @@
     "Position": "Centre-Forward",
     "Age": "Apr 29, 1995 (29)",
     "Nationality": "Brazil",
-    "Image": "fcv_farul_constanta_rivaldinho.png"
+    "Image": "fcv_farul_constanta_rivaldinho.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fcv_farul_constanta_denis_alibec",
@@ -2769,7 +2544,8 @@
     "Position": "Centre-Forward",
     "Age": "Jan 5, 1991 (34)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_denis_alibec.png"
+    "Image": "fcv_farul_constanta_denis_alibec.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fcv_farul_constanta_gabriel_iancu",
@@ -2781,19 +2557,8 @@
     "Position": "Centre-Forward",
     "Age": "Apr 15, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "fcv_farul_constanta_gabriel_iancu.png"
-  },
-  {
-    "PlayerID": "petrolul_ploiesti_mihai_esanu",
-    "TeamID": "petrolul_ploiesti",
-    "Team": "Petrolul Ploiesti",
-    "TeamLogo": "petrolul_ploiesti.png",
-    "Number": "12",
-    "Name": "Mihai Esanu",
-    "Position": "Goalkeeper",
-    "Age": "Jul 25, 1998 (26)",
-    "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_mihai_esanu.png"
+    "Image": "fcv_farul_constanta_gabriel_iancu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "petrolul_ploiesti_oscar_linner",
@@ -2805,7 +2570,8 @@
     "Position": "Goalkeeper",
     "Age": "Feb 23, 1997 (27)",
     "Nationality": "Sweden",
-    "Image": "petrolul_ploiesti_oscar_linner.jpg"
+    "Image": "petrolul_ploiesti_oscar_linner.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_raul_balbarau",
@@ -2817,7 +2583,8 @@
     "Position": "Goalkeeper",
     "Age": "Apr 7, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_raul_balbarau.png"
+    "Image": "petrolul_ploiesti_raul_balbarau.png",
+    "Scor": 1
   },
   {
     "PlayerID": "petrolul_ploiesti_marian_huja",
@@ -2829,7 +2596,8 @@
     "Position": "Centre-Back",
     "Age": "Aug 5, 1999 (25)",
     "Nationality": "Portugal",
-    "Image": "petrolul_ploiesti_marian_huja.png"
+    "Image": "petrolul_ploiesti_marian_huja.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_paul_papp",
@@ -2841,7 +2609,8 @@
     "Position": "Centre-Back",
     "Age": "Nov 11, 1989 (35)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_paul_papp.png"
+    "Image": "petrolul_ploiesti_paul_papp.png",
+    "Scor": 3
   },
   {
     "PlayerID": "petrolul_ploiesti_yohan_roche",
@@ -2853,31 +2622,8 @@
     "Position": "Centre-Back",
     "Age": "Jul 7, 1997 (27)",
     "Nationality": "Benin",
-    "Image": "petrolul_ploiesti_yohan_roche.png"
-  },
-  {
-    "PlayerID": "petrolul_ploiesti_alexandru_stanica",
-    "TeamID": "petrolul_ploiesti",
-    "Team": "Petrolul Ploiesti",
-    "TeamLogo": "petrolul_ploiesti.png",
-    "Number": "3",
-    "Name": "Alexandru Stanica",
-    "Position": "Centre-Back",
-    "Age": "Sep 6, 2000 (24)",
-    "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_alexandru_stanica.png"
-  },
-  {
-    "PlayerID": "petrolul_ploiesti_hasan_jahic",
-    "TeamID": "petrolul_ploiesti",
-    "Team": "Petrolul Ploiesti",
-    "TeamLogo": "petrolul_ploiesti.png",
-    "Number": "15",
-    "Name": "Hasan Jahic",
-    "Position": "Centre-Back",
-    "Age": "Jul 30, 2001 (23)",
-    "Nationality": "Norway",
-    "Image": "petrolul_ploiesti_hasan_jahic.png"
+    "Image": "petrolul_ploiesti_yohan_roche.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_valentin_ticu",
@@ -2889,7 +2635,8 @@
     "Position": "Left-Back",
     "Age": "Sep 19, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_valentin_ticu.png"
+    "Image": "petrolul_ploiesti_valentin_ticu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_bogdan_marian",
@@ -2901,7 +2648,8 @@
     "Position": "Left-Back",
     "Age": "Dec 4, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_bogdan_marian.jpg"
+    "Image": "petrolul_ploiesti_bogdan_marian.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_ricardinho",
@@ -2913,7 +2661,8 @@
     "Position": "Right-Back",
     "Age": "Mar 24, 1994 (30)",
     "Nationality": "Portugal",
-    "Image": "petrolul_ploiesti_ricardinho.png"
+    "Image": "petrolul_ploiesti_ricardinho.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_denis_radu",
@@ -2925,19 +2674,8 @@
     "Position": "Right-Back",
     "Age": "Mar 25, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_denis_radu.png"
-  },
-  {
-    "PlayerID": "petrolul_ploiesti_fabricio_baiano",
-    "TeamID": "petrolul_ploiesti",
-    "Team": "Petrolul Ploiesti",
-    "TeamLogo": "petrolul_ploiesti.png",
-    "Number": "27",
-    "Name": "Fabricio Baiano",
-    "Position": "Defensive Midfield",
-    "Age": "Jun 13, 1992 (32)",
-    "Nationality": "Brazil",
-    "Image": "petrolul_ploiesti_fabricio_baiano.png"
+    "Image": "petrolul_ploiesti_denis_radu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_tommi_jyry",
@@ -2949,7 +2687,8 @@
     "Position": "Central Midfield",
     "Age": "Aug 16, 1999 (25)",
     "Nationality": "Finland",
-    "Image": "petrolul_ploiesti_tommi_jyry.png"
+    "Image": "petrolul_ploiesti_tommi_jyry.png",
+    "Scor": 3
   },
   {
     "PlayerID": "petrolul_ploiesti_tidiane_keita",
@@ -2961,7 +2700,8 @@
     "Position": "Central Midfield",
     "Age": "Sep 18, 1996 (28)",
     "Nationality": "France",
-    "Image": "petrolul_ploiesti_tidiane_keita.png"
+    "Image": "petrolul_ploiesti_tidiane_keita.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_lucian_dumitriu",
@@ -2973,7 +2713,8 @@
     "Position": "Central Midfield",
     "Age": "Sep 21, 1992 (32)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_lucian_dumitriu.png"
+    "Image": "petrolul_ploiesti_lucian_dumitriu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_alexandru_mateiu",
@@ -2985,7 +2726,8 @@
     "Position": "Central Midfield",
     "Age": "Dec 10, 1989 (35)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_alexandru_mateiu.png"
+    "Image": "petrolul_ploiesti_alexandru_mateiu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "petrolul_ploiesti_ioan_tolea",
@@ -2997,19 +2739,8 @@
     "Position": "Central Midfield",
     "Age": "May 11, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_ioan_tolea.png"
-  },
-  {
-    "PlayerID": "petrolul_ploiesti_victor_stancovici",
-    "TeamID": "petrolul_ploiesti",
-    "Team": "Petrolul Ploiesti",
-    "TeamLogo": "petrolul_ploiesti.png",
-    "Number": "33",
-    "Name": "Victor Stancovici",
-    "Position": "Central Midfield",
-    "Age": "Oct 26, 2005 (19)",
-    "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_victor_stancovici.png"
+    "Image": "petrolul_ploiesti_ioan_tolea.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_david_paraschiv",
@@ -3021,7 +2752,8 @@
     "Position": "Central Midfield",
     "Age": "Sep 28, 2006 (18)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_david_paraschiv.png"
+    "Image": "petrolul_ploiesti_david_paraschiv.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_sergiu_hanca",
@@ -3033,7 +2765,8 @@
     "Position": "Right Midfield",
     "Age": "Apr 4, 1992 (32)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_sergiu_hanca.png"
+    "Image": "petrolul_ploiesti_sergiu_hanca.png",
+    "Scor": 3
   },
   {
     "PlayerID": "petrolul_ploiesti_mario_bratu",
@@ -3045,7 +2778,8 @@
     "Position": "Right Midfield",
     "Age": "Jun 7, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_mario_bratu.png"
+    "Image": "petrolul_ploiesti_mario_bratu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_gheorghe_grozav",
@@ -3057,19 +2791,8 @@
     "Position": "Left Winger",
     "Age": "Sep 29, 1990 (34)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_gheorghe_grozav.png"
-  },
-  {
-    "PlayerID": "petrolul_ploiesti_alin_botogan",
-    "TeamID": "petrolul_ploiesti",
-    "Team": "Petrolul Ploiesti",
-    "TeamLogo": "petrolul_ploiesti.png",
-    "Number": "36",
-    "Name": "Alin Botogan",
-    "Position": "Left Winger",
-    "Age": "Feb 21, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_alin_botogan.png"
+    "Image": "petrolul_ploiesti_gheorghe_grozav.png",
+    "Scor": 4
   },
   {
     "PlayerID": "petrolul_ploiesti_mihnea_radulescu",
@@ -3081,7 +2804,8 @@
     "Position": "Right Winger",
     "Age": "Sep 17, 2005 (19)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_mihnea_radulescu.png"
+    "Image": "petrolul_ploiesti_mihnea_radulescu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "petrolul_ploiesti_alexandru_tudorie",
@@ -3093,7 +2817,8 @@
     "Position": "Centre-Forward",
     "Age": "Mar 19, 1996 (28)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_alexandru_tudorie.png"
+    "Image": "petrolul_ploiesti_alexandru_tudorie.png",
+    "Scor": 3
   },
   {
     "PlayerID": "petrolul_ploiesti_nana_akosah-bempah",
@@ -3105,7 +2830,8 @@
     "Position": "Centre-Forward",
     "Age": "Aug 29, 1997 (27)",
     "Nationality": "United States",
-    "Image": "petrolul_ploiesti_nana_akosah-bempah.png"
+    "Image": "petrolul_ploiesti_nana_akosah-bempah.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_christian_irobiso",
@@ -3117,7 +2843,8 @@
     "Position": "Centre-Forward",
     "Age": "May 28, 1993 (31)",
     "Nationality": "Nigeria",
-    "Image": "petrolul_ploiesti_christian_irobiso.png"
+    "Image": "petrolul_ploiesti_christian_irobiso.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_herman_moussaki",
@@ -3129,19 +2856,8 @@
     "Position": "Centre-Forward",
     "Age": "Feb 10, 1999 (25)",
     "Nationality": "Congo",
-    "Image": "petrolul_ploiesti_herman_moussaki.png"
-  },
-  {
-    "PlayerID": "petrolul_ploiesti_david_ilie",
-    "TeamID": "petrolul_ploiesti",
-    "Team": "Petrolul Ploiesti",
-    "TeamLogo": "petrolul_ploiesti.png",
-    "Number": "71",
-    "Name": "David Ilie",
-    "Position": "Centre-Forward",
-    "Age": "Aug 17, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_david_ilie.png"
+    "Image": "petrolul_ploiesti_herman_moussaki.png",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_ali_demirel",
@@ -3153,7 +2869,8 @@
     "Position": "Centre-Forward",
     "Age": "Jan 2, 2003 (22)",
     "Nationality": "Türkiye",
-    "Image": "petrolul_ploiesti_ali_demirel.jpg"
+    "Image": "petrolul_ploiesti_ali_demirel.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "petrolul_ploiesti_iustin_raducan",
@@ -3165,19 +2882,8 @@
     "Position": "Centre-Forward",
     "Age": "Jul 20, 2005 (19)",
     "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_iustin_raducan.png"
-  },
-  {
-    "PlayerID": "petrolul_ploiesti_raul_bucur",
-    "TeamID": "petrolul_ploiesti",
-    "Team": "Petrolul Ploiesti",
-    "TeamLogo": "petrolul_ploiesti.png",
-    "Number": "99",
-    "Name": "Raul Bucur",
-    "Position": "Centre-Forward",
-    "Age": "Dec 24, 2002 (22)",
-    "Nationality": "Romania",
-    "Image": "petrolul_ploiesti_raul_bucur.png"
+    "Image": "petrolul_ploiesti_iustin_raducan.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_catalin_cabuz",
@@ -3189,31 +2895,8 @@
     "Position": "Goalkeeper",
     "Age": "Jun 18, 1996 (28)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_catalin_cabuz.png"
-  },
-  {
-    "PlayerID": "fc_hermannstadt_vlad_mutiu",
-    "TeamID": "fc_hermannstadt",
-    "Team": "FC Hermannstadt",
-    "TeamLogo": "fc_hermannstadt.png",
-    "Number": "31",
-    "Name": "Vlad Mutiu",
-    "Position": "Goalkeeper",
-    "Age": "Feb 2, 1995 (29)",
-    "Nationality": "Romania",
-    "Image": "fc_hermannstadt_vlad_mutiu.png"
-  },
-  {
-    "PlayerID": "fc_hermannstadt_ionut_pop",
-    "TeamID": "fc_hermannstadt",
-    "Team": "FC Hermannstadt",
-    "TeamLogo": "fc_hermannstadt.png",
-    "Number": "22",
-    "Name": "Ionut Pop",
-    "Position": "Goalkeeper",
-    "Age": "Aug 1, 1997 (27)",
-    "Nationality": "Romania",
-    "Image": "fc_hermannstadt_ionut_pop.jpg"
+    "Image": "fc_hermannstadt_catalin_cabuz.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_florin_bejan",
@@ -3225,7 +2908,8 @@
     "Position": "Centre-Back",
     "Age": "Mar 28, 1991 (33)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_florin_bejan.png"
+    "Image": "fc_hermannstadt_florin_bejan.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_vahid_selimovic",
@@ -3237,7 +2921,8 @@
     "Position": "Centre-Back",
     "Age": "Apr 3, 1997 (27)",
     "Nationality": "Luxembourg",
-    "Image": "fc_hermannstadt_vahid_selimovic.jpg"
+    "Image": "fc_hermannstadt_vahid_selimovic.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_ionut_stoica",
@@ -3249,7 +2934,8 @@
     "Position": "Centre-Back",
     "Age": "Jan 6, 1988 (37)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_ionut_stoica.png"
+    "Image": "fc_hermannstadt_ionut_stoica.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_valerica_gaman",
@@ -3261,7 +2947,8 @@
     "Position": "Centre-Back",
     "Age": "Feb 25, 1989 (35)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_valerica_gaman.png"
+    "Image": "fc_hermannstadt_valerica_gaman.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_tiago_goncalves",
@@ -3273,7 +2960,8 @@
     "Position": "Left-Back",
     "Age": "Aug 18, 2000 (24)",
     "Nationality": "Portugal",
-    "Image": "fc_hermannstadt_tiago_goncalves.png"
+    "Image": "fc_hermannstadt_tiago_goncalves.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_tiberiu_capusa",
@@ -3285,7 +2973,8 @@
     "Position": "Right-Back",
     "Age": "Apr 6, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_tiberiu_capusa.png"
+    "Image": "fc_hermannstadt_tiberiu_capusa.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_alexandru_oroian",
@@ -3297,7 +2986,8 @@
     "Position": "Right-Back",
     "Age": "Jan 27, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_alexandru_oroian.png"
+    "Image": "fc_hermannstadt_alexandru_oroian.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_nana_antwi",
@@ -3309,7 +2999,8 @@
     "Position": "Right-Back",
     "Age": "Aug 10, 2000 (24)",
     "Nationality": "Ghana",
-    "Image": "fc_hermannstadt_nana_antwi.png"
+    "Image": "fc_hermannstadt_nana_antwi.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_hermannstadt_alessandro_murgia",
@@ -3321,7 +3012,8 @@
     "Position": "Central Midfield",
     "Age": "Aug 9, 1996 (28)",
     "Nationality": "Italy",
-    "Image": "fc_hermannstadt_alessandro_murgia.png"
+    "Image": "fc_hermannstadt_alessandro_murgia.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_antoni_ivanov",
@@ -3333,7 +3025,8 @@
     "Position": "Central Midfield",
     "Age": "Sep 11, 1995 (29)",
     "Nationality": "Bulgaria",
-    "Image": "fc_hermannstadt_antoni_ivanov.png"
+    "Image": "fc_hermannstadt_antoni_ivanov.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_dragos_iancu",
@@ -3345,7 +3038,8 @@
     "Position": "Central Midfield",
     "Age": "Sep 29, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_dragos_iancu.png"
+    "Image": "fc_hermannstadt_dragos_iancu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_ciprian_biceanu",
@@ -3357,7 +3051,8 @@
     "Position": "Central Midfield",
     "Age": "Feb 26, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_ciprian_biceanu.png"
+    "Image": "fc_hermannstadt_ciprian_biceanu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_kalifa_kujabi",
@@ -3369,19 +3064,8 @@
     "Position": "Central Midfield",
     "Age": "Mar 5, 2000 (24)",
     "Nationality": "The Gambia",
-    "Image": "fc_hermannstadt_kalifa_kujabi.jpg"
-  },
-  {
-    "PlayerID": "fc_hermannstadt_ianis_gandila",
-    "TeamID": "fc_hermannstadt",
-    "Team": "FC Hermannstadt",
-    "TeamLogo": "fc_hermannstadt.png",
-    "Number": "20",
-    "Name": "Ianis Gandila",
-    "Position": "Central Midfield",
-    "Age": "Jan 16, 2006 (19)",
-    "Nationality": "Romania",
-    "Image": "fc_hermannstadt_ianis_gandila.jpg"
+    "Image": "fc_hermannstadt_kalifa_kujabi.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_cristian_negut",
@@ -3393,19 +3077,8 @@
     "Position": "Left Midfield",
     "Age": "Dec 9, 1995 (29)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_cristian_negut.png"
-  },
-  {
-    "PlayerID": "fc_hermannstadt_alexandru_luca",
-    "TeamID": "fc_hermannstadt",
-    "Team": "FC Hermannstadt",
-    "TeamLogo": "fc_hermannstadt.png",
-    "Number": "33",
-    "Name": "Alexandru Luca",
-    "Position": "Attacking Midfield",
-    "Age": "Apr 26, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "fc_hermannstadt_alexandru_luca.png"
+    "Image": "fc_hermannstadt_cristian_negut.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_ianis_stoica",
@@ -3417,7 +3090,8 @@
     "Position": "Left Winger",
     "Age": "Dec 8, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_ianis_stoica.png"
+    "Image": "fc_hermannstadt_ianis_stoica.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_hermannstadt_silviu_balaure",
@@ -3429,7 +3103,8 @@
     "Position": "Left Winger",
     "Age": "Feb 6, 1996 (28)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_silviu_balaure.png"
+    "Image": "fc_hermannstadt_silviu_balaure.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_hermannstadt_robert_popescu",
@@ -3441,19 +3116,8 @@
     "Position": "Left Winger",
     "Age": "Mar 9, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_robert_popescu.png"
-  },
-  {
-    "PlayerID": "fc_hermannstadt_ianis_mihart",
-    "TeamID": "fc_hermannstadt",
-    "Team": "FC Hermannstadt",
-    "TeamLogo": "fc_hermannstadt.png",
-    "Number": "23",
-    "Name": "Ianis Mihart",
-    "Position": "Left Winger",
-    "Age": "Sep 23, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "fc_hermannstadt_ianis_mihart.jpg"
+    "Image": "fc_hermannstadt_robert_popescu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_jovan_markovic",
@@ -3465,7 +3129,8 @@
     "Position": "Centre-Forward",
     "Age": "Mar 23, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_jovan_markovic.png"
+    "Image": "fc_hermannstadt_jovan_markovic.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_hermannstadt_aurelian_chitu",
@@ -3477,7 +3142,8 @@
     "Position": "Centre-Forward",
     "Age": "Mar 25, 1991 (33)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_aurelian_chitu.png"
+    "Image": "fc_hermannstadt_aurelian_chitu.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_hermannstadt_sergiu_bus",
@@ -3489,7 +3155,8 @@
     "Position": "Centre-Forward",
     "Age": "Nov 2, 1992 (32)",
     "Nationality": "Romania",
-    "Image": "fc_hermannstadt_sergiu_bus.jpg"
+    "Image": "fc_hermannstadt_sergiu_bus.jpg",
+    "Scor": 3
   },
   {
     "PlayerID": "sc_otelul_galati_iustin_popescu",
@@ -3501,7 +3168,8 @@
     "Position": "Goalkeeper",
     "Age": "Sep 1, 1993 (31)",
     "Nationality": "Romania",
-    "Image": "sc_otelul_galati_iustin_popescu.png"
+    "Image": "sc_otelul_galati_iustin_popescu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_cosmin_dur-bozoanca",
@@ -3513,7 +3181,8 @@
     "Position": "Goalkeeper",
     "Age": "Feb 15, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "sc_otelul_galati_cosmin_dur-bozoanca.png"
+    "Image": "sc_otelul_galati_cosmin_dur-bozoanca.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_nikola_stevanovic",
@@ -3525,7 +3194,8 @@
     "Position": "Centre-Back",
     "Age": "Sep 13, 1998 (26)",
     "Nationality": "Serbia",
-    "Image": "sc_otelul_galati_nikola_stevanovic.jpg"
+    "Image": "sc_otelul_galati_nikola_stevanovic.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_jonathan_cisse",
@@ -3537,7 +3207,8 @@
     "Position": "Centre-Back",
     "Age": "May 18, 1997 (27)",
     "Nationality": "Cote d'Ivoire",
-    "Image": "sc_otelul_galati_jonathan_cisse.png"
+    "Image": "sc_otelul_galati_jonathan_cisse.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_martin_angha",
@@ -3549,7 +3220,8 @@
     "Position": "Centre-Back",
     "Age": "Jan 22, 1994 (31)",
     "Nationality": "Switzerland",
-    "Image": "sc_otelul_galati_martin_angha.jpg"
+    "Image": "sc_otelul_galati_martin_angha.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_julian_bonilla",
@@ -3561,7 +3233,8 @@
     "Position": "Centre-Back",
     "Age": "Nov 21, 1996 (28)",
     "Nationality": "Colombia",
-    "Image": "sc_otelul_galati_julian_bonilla.jpg"
+    "Image": "sc_otelul_galati_julian_bonilla.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_francois_yabre",
@@ -3573,7 +3246,8 @@
     "Position": "Centre-Back",
     "Age": "May 10, 1991 (33)",
     "Nationality": "Burkina Faso",
-    "Image": "sc_otelul_galati_francois_yabre.png"
+    "Image": "sc_otelul_galati_francois_yabre.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_miguel_silva",
@@ -3585,7 +3259,8 @@
     "Position": "Left-Back",
     "Age": "Dec 20, 1995 (29)",
     "Nationality": "Portugal",
-    "Image": "sc_otelul_galati_miguel_silva.png"
+    "Image": "sc_otelul_galati_miguel_silva.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_david_maftei",
@@ -3597,7 +3272,8 @@
     "Position": "Right-Back",
     "Age": "Jul 12, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "sc_otelul_galati_david_maftei.png"
+    "Image": "sc_otelul_galati_david_maftei.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_milen_zhelev",
@@ -3609,31 +3285,8 @@
     "Position": "Right-Back",
     "Age": "Jul 17, 1993 (31)",
     "Nationality": "Bulgaria",
-    "Image": "sc_otelul_galati_milen_zhelev.png"
-  },
-  {
-    "PlayerID": "sc_otelul_galati_andrei_rus",
-    "TeamID": "sc_otelul_galati",
-    "Team": "SC Otelul Galati",
-    "TeamLogo": "sc_otelul_galati.png",
-    "Number": "14",
-    "Name": "Andrei Rus",
-    "Position": "Right-Back",
-    "Age": "May 14, 2002 (22)",
-    "Nationality": "Romania",
-    "Image": "sc_otelul_galati_andrei_rus.png"
-  },
-  {
-    "PlayerID": "sc_otelul_galati_valerio_gallo",
-    "TeamID": "sc_otelul_galati",
-    "Team": "SC Otelul Galati",
-    "TeamLogo": "sc_otelul_galati.png",
-    "Number": "-",
-    "Name": "Valerio Gallo",
-    "Position": "Right-Back",
-    "Age": "Dec 7, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "sc_otelul_galati_valerio_gallo.jpg"
+    "Image": "sc_otelul_galati_milen_zhelev.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_joao_lameira",
@@ -3645,7 +3298,8 @@
     "Position": "Defensive Midfield",
     "Age": "Apr 19, 1999 (25)",
     "Nationality": "Portugal",
-    "Image": "sc_otelul_galati_joao_lameira.png"
+    "Image": "sc_otelul_galati_joao_lameira.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_ionut_neagu",
@@ -3657,7 +3311,8 @@
     "Position": "Defensive Midfield",
     "Age": "Oct 26, 1989 (35)",
     "Nationality": "Romania",
-    "Image": "sc_otelul_galati_ionut_neagu.png"
+    "Image": "sc_otelul_galati_ionut_neagu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_samuel_teles",
@@ -3669,7 +3324,8 @@
     "Position": "Central Midfield",
     "Age": "Feb 28, 1997 (27)",
     "Nationality": "Portugal",
-    "Image": "sc_otelul_galati_samuel_teles.png"
+    "Image": "sc_otelul_galati_samuel_teles.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_jakob_novak",
@@ -3681,7 +3337,8 @@
     "Position": "Central Midfield",
     "Age": "Mar 4, 1998 (26)",
     "Nationality": "Slovenia",
-    "Image": "sc_otelul_galati_jakob_novak.png"
+    "Image": "sc_otelul_galati_jakob_novak.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_victor_bogaciuc",
@@ -3693,7 +3350,8 @@
     "Position": "Central Midfield",
     "Age": "Oct 17, 1999 (25)",
     "Nationality": "Moldova",
-    "Image": "sc_otelul_galati_victor_bogaciuc.png"
+    "Image": "sc_otelul_galati_victor_bogaciuc.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_nelut_rosu",
@@ -3705,19 +3363,8 @@
     "Position": "Central Midfield",
     "Age": "Jul 5, 1993 (31)",
     "Nationality": "Romania",
-    "Image": "sc_otelul_galati_nelut_rosu.png"
-  },
-  {
-    "PlayerID": "sc_otelul_galati_cristian_chira",
-    "TeamID": "sc_otelul_galati",
-    "Team": "SC Otelul Galati",
-    "TeamLogo": "sc_otelul_galati.png",
-    "Number": "23",
-    "Name": "Cristian Chira",
-    "Position": "Central Midfield",
-    "Age": "Nov 8, 2001 (23)",
-    "Nationality": "Romania",
-    "Image": "sc_otelul_galati_cristian_chira.jpg"
+    "Image": "sc_otelul_galati_nelut_rosu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_samy_bourard",
@@ -3729,7 +3376,8 @@
     "Position": "Attacking Midfield",
     "Age": "Mar 29, 1996 (28)",
     "Nationality": "Belgium",
-    "Image": "sc_otelul_galati_samy_bourard.jpg"
+    "Image": "sc_otelul_galati_samy_bourard.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_razvan_tanasa",
@@ -3741,19 +3389,8 @@
     "Position": "Left Winger",
     "Age": "Apr 28, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "sc_otelul_galati_razvan_tanasa.png"
-  },
-  {
-    "PlayerID": "sc_otelul_galati_alexandru_burcea",
-    "TeamID": "sc_otelul_galati",
-    "Team": "SC Otelul Galati",
-    "TeamLogo": "sc_otelul_galati.png",
-    "Number": "11",
-    "Name": "Alexandru Burcea",
-    "Position": "Left Winger",
-    "Age": "Jan 27, 2005 (19)",
-    "Nationality": "Romania",
-    "Image": "sc_otelul_galati_alexandru_burcea.jpg"
+    "Image": "sc_otelul_galati_razvan_tanasa.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_frederic_maciel",
@@ -3765,7 +3402,8 @@
     "Position": "Right Winger",
     "Age": "Mar 15, 1994 (30)",
     "Nationality": "Portugal",
-    "Image": "sc_otelul_galati_frederic_maciel.png"
+    "Image": "sc_otelul_galati_frederic_maciel.png",
+    "Scor": 2
   },
   {
     "PlayerID": "sc_otelul_galati_andrei_bani",
@@ -3777,7 +3415,8 @@
     "Position": "Right Winger",
     "Age": "Aug 22, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "sc_otelul_galati_andrei_bani.png"
+    "Image": "sc_otelul_galati_andrei_bani.png",
+    "Scor": 4
   },
   {
     "PlayerID": "sc_otelul_galati_maxim_cojocaru",
@@ -3789,43 +3428,8 @@
     "Position": "Right Winger",
     "Age": "Jan 13, 1998 (27)",
     "Nationality": "Moldova",
-    "Image": "sc_otelul_galati_maxim_cojocaru.png"
-  },
-  {
-    "PlayerID": "sc_otelul_galati_alexandru_stan",
-    "TeamID": "sc_otelul_galati",
-    "Team": "SC Otelul Galati",
-    "TeamLogo": "sc_otelul_galati.png",
-    "Number": "9",
-    "Name": "Alexandru Stan",
-    "Position": "Centre-Forward",
-    "Age": "Sep 25, 2005 (19)",
-    "Nationality": "Romania",
-    "Image": "sc_otelul_galati_alexandru_stan.png"
-  },
-  {
-    "PlayerID": "sc_otelul_galati_luca_andronache",
-    "TeamID": "sc_otelul_galati",
-    "Team": "SC Otelul Galati",
-    "TeamLogo": "sc_otelul_galati.png",
-    "Number": "77",
-    "Name": "Luca Andronache",
-    "Position": "Centre-Forward",
-    "Age": "Jul 26, 2003 (21)",
-    "Nationality": "Romania",
-    "Image": "sc_otelul_galati_luca_andronache.png"
-  },
-  {
-    "PlayerID": "sc_otelul_galati_albert_hofman",
-    "TeamID": "sc_otelul_galati",
-    "Team": "SC Otelul Galati",
-    "TeamLogo": "sc_otelul_galati.png",
-    "Number": "97",
-    "Name": "Albert Hofman",
-    "Position": "Centre-Forward",
-    "Age": "Apr 10, 2003 (21)",
-    "Nationality": "Romania",
-    "Image": "sc_otelul_galati_albert_hofman.png"
+    "Image": "sc_otelul_galati_maxim_cojocaru.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_eduard_pap",
@@ -3837,31 +3441,8 @@
     "Position": "Goalkeeper",
     "Age": "Jul 1, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_eduard_pap.jpg"
-  },
-  {
-    "PlayerID": "fc_botosani_giannis_anestis",
-    "TeamID": "fc_botosani",
-    "Team": "FC Botosani",
-    "TeamLogo": "fc_botosani.png",
-    "Number": "99",
-    "Name": "Giannis Anestis",
-    "Position": "Goalkeeper",
-    "Age": "Mar 9, 1991 (33)",
-    "Nationality": "Greece",
-    "Image": "fc_botosani_giannis_anestis.jpg"
-  },
-  {
-    "PlayerID": "fc_botosani_luka_kukic",
-    "TeamID": "fc_botosani",
-    "Team": "FC Botosani",
-    "TeamLogo": "fc_botosani.png",
-    "Number": "1",
-    "Name": "Luka Kukic",
-    "Position": "Goalkeeper",
-    "Age": "May 16, 1996 (28)",
-    "Nationality": "Bosnia-Herzegovina",
-    "Image": "fc_botosani_luka_kukic.png"
+    "Image": "fc_botosani_eduard_pap.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_rijad_sadiku",
@@ -3873,7 +3454,8 @@
     "Position": "Centre-Back",
     "Age": "Jan 18, 2000 (25)",
     "Nationality": "Bosnia-Herzegovina",
-    "Image": "fc_botosani_rijad_sadiku.png"
+    "Image": "fc_botosani_rijad_sadiku.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_andrei_miron",
@@ -3885,7 +3467,8 @@
     "Position": "Centre-Back",
     "Age": "May 28, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_andrei_miron.png"
+    "Image": "fc_botosani_andrei_miron.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_patricio_matricardi",
@@ -3897,7 +3480,8 @@
     "Position": "Centre-Back",
     "Age": "Jan 7, 1994 (31)",
     "Nationality": "Argentina",
-    "Image": "fc_botosani_patricio_matricardi.png"
+    "Image": "fc_botosani_patricio_matricardi.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_daniel_celea",
@@ -3909,7 +3493,8 @@
     "Position": "Centre-Back",
     "Age": "Jul 6, 1995 (29)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_daniel_celea.png"
+    "Image": "fc_botosani_daniel_celea.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_alin_seroni",
@@ -3921,19 +3506,8 @@
     "Position": "Centre-Back",
     "Age": "Mar 26, 1987 (37)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_alin_seroni.png"
-  },
-  {
-    "PlayerID": "fc_botosani_damian_cimpoesu",
-    "TeamID": "fc_botosani",
-    "Team": "FC Botosani",
-    "TeamLogo": "fc_botosani.png",
-    "Number": "15",
-    "Name": "Damian Cimpoesu",
-    "Position": "Centre-Back",
-    "Age": "Sep 15, 2000 (24)",
-    "Nationality": "Romania",
-    "Image": "fc_botosani_damian_cimpoesu.jpg"
+    "Image": "fc_botosani_alin_seroni.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_michael_pavlovic",
@@ -3945,7 +3519,8 @@
     "Position": "Left-Back",
     "Age": "Jun 12, 2001 (23)",
     "Nationality": "Slovenia",
-    "Image": "fc_botosani_michael_pavlovic.png"
+    "Image": "fc_botosani_michael_pavlovic.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_alexandru_tiganasu",
@@ -3957,19 +3532,8 @@
     "Position": "Left-Back",
     "Age": "Jun 12, 1990 (34)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_alexandru_tiganasu.png"
-  },
-  {
-    "PlayerID": "fc_botosani_ale_diez",
-    "TeamID": "fc_botosani",
-    "Team": "FC Botosani",
-    "TeamLogo": "fc_botosani.png",
-    "Number": "2",
-    "Name": "Ale Diez",
-    "Position": "Right-Back",
-    "Age": "Feb 17, 1996 (28)",
-    "Nationality": "Spain",
-    "Image": "fc_botosani_ale_diez.png"
+    "Image": "fc_botosani_alexandru_tiganasu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_romario_benzar",
@@ -3981,7 +3545,8 @@
     "Position": "Right-Back",
     "Age": "Mar 26, 1992 (32)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_romario_benzar.png"
+    "Image": "fc_botosani_romario_benzar.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_alexandru_albu",
@@ -3993,31 +3558,8 @@
     "Position": "Defensive Midfield",
     "Age": "Aug 17, 1993 (31)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_alexandru_albu.png"
-  },
-  {
-    "PlayerID": "fc_botosani_charles_petro",
-    "TeamID": "fc_botosani",
-    "Team": "FC Botosani",
-    "TeamLogo": "fc_botosani.png",
-    "Number": "28",
-    "Name": "Charles Petro",
-    "Position": "Defensive Midfield",
-    "Age": "Feb 8, 2001 (23)",
-    "Nationality": "Malawi",
-    "Image": "fc_botosani_charles_petro.png"
-  },
-  {
-    "PlayerID": "fc_botosani_gabriel_david",
-    "TeamID": "fc_botosani",
-    "Team": "FC Botosani",
-    "TeamLogo": "fc_botosani.png",
-    "Number": "33",
-    "Name": "Gabriel David",
-    "Position": "Central Midfield",
-    "Age": "Feb 11, 2003 (21)",
-    "Nationality": "Romania",
-    "Image": "fc_botosani_gabriel_david.png"
+    "Image": "fc_botosani_alexandru_albu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_enriko_papa",
@@ -4029,7 +3571,8 @@
     "Position": "Central Midfield",
     "Age": "Mar 12, 1993 (31)",
     "Nationality": "Albania",
-    "Image": "fc_botosani_enriko_papa.jpg"
+    "Image": "fc_botosani_enriko_papa.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_francisco_junior",
@@ -4041,7 +3584,8 @@
     "Position": "Central Midfield",
     "Age": "Jan 18, 1992 (33)",
     "Nationality": "Guinea-Bissau",
-    "Image": "fc_botosani_francisco_junior.png"
+    "Image": "fc_botosani_francisco_junior.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_adams_friday",
@@ -4053,7 +3597,8 @@
     "Position": "Right Midfield",
     "Age": "Nov 23, 2002 (22)",
     "Nationality": "Nigeria",
-    "Image": "fc_botosani_adams_friday.png"
+    "Image": "fc_botosani_adams_friday.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_eduard_florescu",
@@ -4065,7 +3610,8 @@
     "Position": "Attacking Midfield",
     "Age": "Jun 27, 1997 (27)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_eduard_florescu.png"
+    "Image": "fc_botosani_eduard_florescu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_stefan_bodisteanu",
@@ -4077,7 +3623,8 @@
     "Position": "Attacking Midfield",
     "Age": "Feb 1, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_stefan_bodisteanu.png"
+    "Image": "fc_botosani_stefan_bodisteanu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_aldair_ferreira",
@@ -4089,7 +3636,8 @@
     "Position": "Attacking Midfield",
     "Age": "Mar 26, 1998 (26)",
     "Nationality": "Angola",
-    "Image": "fc_botosani_aldair_ferreira.png"
+    "Image": "fc_botosani_aldair_ferreira.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_hervin_ongenda",
@@ -4101,7 +3649,8 @@
     "Position": "Attacking Midfield",
     "Age": "Jun 24, 1995 (29)",
     "Nationality": "France",
-    "Image": "fc_botosani_hervin_ongenda.png"
+    "Image": "fc_botosani_hervin_ongenda.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_alexandru_cimpanu",
@@ -4113,7 +3662,8 @@
     "Position": "Right Winger",
     "Age": "Oct 8, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_alexandru_cimpanu.png"
+    "Image": "fc_botosani_alexandru_cimpanu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_stefan_panoiu",
@@ -4125,7 +3675,8 @@
     "Position": "Right Winger",
     "Age": "Sep 23, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_stefan_panoiu.png"
+    "Image": "fc_botosani_stefan_panoiu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_jaly_mouaddib",
@@ -4137,7 +3688,8 @@
     "Position": "Right Winger",
     "Age": "Nov 18, 2000 (24)",
     "Nationality": "France",
-    "Image": "fc_botosani_jaly_mouaddib.png"
+    "Image": "fc_botosani_jaly_mouaddib.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_george_gligor",
@@ -4149,7 +3701,8 @@
     "Position": "Right Winger",
     "Age": "Dec 13, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_george_gligor.jpg"
+    "Image": "fc_botosani_george_gligor.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_zoran_mitrov",
@@ -4161,7 +3714,8 @@
     "Position": "Second Striker",
     "Age": "Jan 29, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_zoran_mitrov.png"
+    "Image": "fc_botosani_zoran_mitrov.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_enzo_lopez",
@@ -4173,7 +3727,8 @@
     "Position": "Centre-Forward",
     "Age": "Mar 10, 1998 (26)",
     "Nationality": "Argentina",
-    "Image": "fc_botosani_enzo_lopez.png"
+    "Image": "fc_botosani_enzo_lopez.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_botosani_adi_chica-rosa",
@@ -4185,19 +3740,8 @@
     "Position": "Centre-Forward",
     "Age": "Sep 8, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "fc_botosani_adi_chica-rosa.png"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_ionut_ailenei",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "1",
-    "Name": "Ionut Ailenei",
-    "Position": "Goalkeeper",
-    "Age": "Jan 30, 2001 (23)",
-    "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_ionut_ailenei.jpg"
+    "Image": "fc_botosani_adi_chica-rosa.png",
+    "Scor": 2
   },
   {
     "PlayerID": "acsm_politehnica_iasi_jesus_fernandez",
@@ -4209,31 +3753,8 @@
     "Position": "Goalkeeper",
     "Age": "Jun 11, 1988 (36)",
     "Nationality": "Spain",
-    "Image": "acsm_politehnica_iasi_jesus_fernandez.png"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_toma_niga",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "12",
-    "Name": "Toma Niga",
-    "Position": "Goalkeeper",
-    "Age": "Aug 15, 1997 (27)",
-    "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_toma_niga.png"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_guilherme",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "42",
-    "Name": "Guilherme",
-    "Position": "Centre-Back",
-    "Age": "Feb 8, 2001 (23)",
-    "Nationality": "Portugal",
-    "Image": "acsm_politehnica_iasi_guilherme.png"
+    "Image": "acsm_politehnica_iasi_jesus_fernandez.png",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_nicolas_samayoa",
@@ -4245,7 +3766,8 @@
     "Position": "Centre-Back",
     "Age": "Aug 2, 1995 (29)",
     "Nationality": "Guatemala",
-    "Image": "acsm_politehnica_iasi_nicolas_samayoa.png"
+    "Image": "acsm_politehnica_iasi_nicolas_samayoa.png",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_claudio_silva",
@@ -4257,7 +3779,8 @@
     "Position": "Centre-Back",
     "Age": "Jun 29, 2000 (24)",
     "Nationality": "Portugal",
-    "Image": "acsm_politehnica_iasi_claudio_silva.jpg"
+    "Image": "acsm_politehnica_iasi_claudio_silva.jpg",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_florin_ilie",
@@ -4269,31 +3792,8 @@
     "Position": "Centre-Back",
     "Age": "Jun 18, 1992 (32)",
     "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_florin_ilie.png"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_alexandru_core",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "-",
-    "Name": "Alexandru Core",
-    "Position": "Centre-Back",
-    "Age": "Dec 12, 2000 (24)",
-    "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_alexandru_core.jpg"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_mohammed_umar",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "2",
-    "Name": "Mohammed Umar",
-    "Position": "Centre-Back",
-    "Age": "Dec 11, 2002 (22)",
-    "Nationality": "Ghana",
-    "Image": "acsm_politehnica_iasi_mohammed_umar.jpg"
+    "Image": "acsm_politehnica_iasi_florin_ilie.png",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_stefan_stefanovici",
@@ -4305,7 +3805,8 @@
     "Position": "Left-Back",
     "Age": "Feb 20, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_stefan_stefanovici.png"
+    "Image": "acsm_politehnica_iasi_stefan_stefanovici.png",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_rares_ispas",
@@ -4317,19 +3818,8 @@
     "Position": "Left-Back",
     "Age": "Aug 26, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_rares_ispas.jpg"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_david_atanaskoski",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "33",
-    "Name": "David Atanaskoski",
-    "Position": "Left-Back",
-    "Age": "Oct 21, 1996 (28)",
-    "Nationality": "North Macedonia",
-    "Image": "acsm_politehnica_iasi_david_atanaskoski.jpg"
+    "Image": "acsm_politehnica_iasi_rares_ispas.jpg",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_catalin_cret",
@@ -4341,7 +3831,8 @@
     "Position": "Left-Back",
     "Age": "Jul 1, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_catalin_cret.jpg"
+    "Image": "acsm_politehnica_iasi_catalin_cret.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "acsm_politehnica_iasi_mihai_adascalitei",
@@ -4353,7 +3844,8 @@
     "Position": "Right-Back",
     "Age": "Nov 1, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_mihai_adascalitei.png"
+    "Image": "acsm_politehnica_iasi_mihai_adascalitei.png",
+    "Scor": 2
   },
   {
     "PlayerID": "acsm_politehnica_iasi_samuel_oum_gouet",
@@ -4365,7 +3857,8 @@
     "Position": "Defensive Midfield",
     "Age": "Dec 14, 1997 (27)",
     "Nationality": "Cameroon",
-    "Image": "acsm_politehnica_iasi_samuel_oum_gouet.jpg"
+    "Image": "acsm_politehnica_iasi_samuel_oum_gouet.jpg",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_mihai_bordeianu",
@@ -4377,19 +3870,8 @@
     "Position": "Central Midfield",
     "Age": "Nov 18, 1991 (33)",
     "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_mihai_bordeianu.png"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_catalin_itu",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "19",
-    "Name": "Catalin Itu",
-    "Position": "Central Midfield",
-    "Age": "Oct 26, 1999 (25)",
-    "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_catalin_itu.png"
+    "Image": "acsm_politehnica_iasi_mihai_bordeianu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_julian_marchioni",
@@ -4401,43 +3883,8 @@
     "Position": "Central Midfield",
     "Age": "Mar 11, 1993 (31)",
     "Nationality": "Argentina",
-    "Image": "acsm_politehnica_iasi_julian_marchioni.png"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_diego_farcas",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "-",
-    "Name": "Diego Farcas",
-    "Position": "Central Midfield",
-    "Age": "Nov 20, 2005 (19)",
-    "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_diego_farcas.png"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_denis_ciobanu",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "77",
-    "Name": "Denis Ciobanu",
-    "Position": "Central Midfield",
-    "Age": "May 24, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_denis_ciobanu.jpg"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_vlad_ilie",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "98",
-    "Name": "Vlad Ilie",
-    "Position": "Central Midfield",
-    "Age": "Apr 17, 2008 (16)",
-    "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_vlad_ilie.png"
+    "Image": "acsm_politehnica_iasi_julian_marchioni.png",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_andrei_gheorghita",
@@ -4449,7 +3896,8 @@
     "Position": "Left Midfield",
     "Age": "Jul 16, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_andrei_gheorghita.png"
+    "Image": "acsm_politehnica_iasi_andrei_gheorghita.png",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_alin_roman",
@@ -4461,7 +3909,8 @@
     "Position": "Attacking Midfield",
     "Age": "Jan 27, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_alin_roman.png"
+    "Image": "acsm_politehnica_iasi_alin_roman.png",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_valentin_gheorghe",
@@ -4473,7 +3922,8 @@
     "Position": "Left Winger",
     "Age": "Feb 14, 1997 (27)",
     "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_valentin_gheorghe.png"
+    "Image": "acsm_politehnica_iasi_valentin_gheorghe.png",
+    "Scor": 2
   },
   {
     "PlayerID": "acsm_politehnica_iasi_goncalo_teixeira",
@@ -4485,31 +3935,8 @@
     "Position": "Left Winger",
     "Age": "Nov 24, 1999 (25)",
     "Nationality": "Portugal",
-    "Image": "acsm_politehnica_iasi_goncalo_teixeira.jpeg"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_joao_paulino",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "-",
-    "Name": "Joao Paulino",
-    "Position": "Left Winger",
-    "Age": "May 26, 1998 (26)",
-    "Nationality": "Cape Verde",
-    "Image": "acsm_politehnica_iasi_joao_paulino.png"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_matei_tanasa",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "21",
-    "Name": "Matei Tanasa",
-    "Position": "Left Winger",
-    "Age": "Oct 8, 2005 (19)",
-    "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_matei_tanasa.png"
+    "Image": "acsm_politehnica_iasi_goncalo_teixeira.jpeg",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_tailson",
@@ -4521,19 +3948,8 @@
     "Position": "Right Winger",
     "Age": "Mar 5, 1999 (25)",
     "Nationality": "Brazil",
-    "Image": "acsm_politehnica_iasi_tailson.jpg"
-  },
-  {
-    "PlayerID": "acsm_politehnica_iasi_david_popa",
-    "TeamID": "acsm_politehnica_iasi",
-    "Team": "ACSM Politehnica Iasi",
-    "TeamLogo": "acsm_politehnica_iasi.png",
-    "Number": "70",
-    "Name": "David Popa",
-    "Position": "Right Winger",
-    "Age": "Mar 13, 2007 (17)",
-    "Nationality": "Romania",
-    "Image": "acsm_politehnica_iasi_david_popa.png"
+    "Image": "acsm_politehnica_iasi_tailson.jpg",
+    "Scor": 3
   },
   {
     "PlayerID": "acsm_politehnica_iasi_sekou_camara",
@@ -4545,7 +3961,8 @@
     "Position": "Centre-Forward",
     "Age": "Jul 20, 1997 (27)",
     "Nationality": "Guinea",
-    "Image": "acsm_politehnica_iasi_sekou_camara.png"
+    "Image": "acsm_politehnica_iasi_sekou_camara.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_buzau_alexandru_greab",
@@ -4557,7 +3974,8 @@
     "Position": "Goalkeeper",
     "Age": "May 26, 1992 (32)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_alexandru_greab.JPG"
+    "Image": "fc_buzau_alexandru_greab.JPG",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_dorian_railean",
@@ -4569,7 +3987,8 @@
     "Position": "Goalkeeper",
     "Age": "Oct 13, 1993 (31)",
     "Nationality": "Moldova",
-    "Image": "fc_buzau_dorian_railean.png"
+    "Image": "fc_buzau_dorian_railean.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_david_lazar",
@@ -4581,7 +4000,8 @@
     "Position": "Goalkeeper",
     "Age": "Aug 8, 1991 (33)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_david_lazar.png"
+    "Image": "fc_buzau_david_lazar.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_buzau_dragos_horeboiu",
@@ -4593,7 +4013,8 @@
     "Position": "Goalkeeper",
     "Age": "Sep 5, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_dragos_horeboiu.jpg"
+    "Image": "fc_buzau_dragos_horeboiu.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_grigore_turda",
@@ -4605,7 +4026,8 @@
     "Position": "Centre-Back",
     "Age": "Jul 24, 1997 (27)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_grigore_turda.JPG"
+    "Image": "fc_buzau_grigore_turda.JPG",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_alin_dobrosavlevici",
@@ -4617,7 +4039,8 @@
     "Position": "Centre-Back",
     "Age": "Oct 24, 1994 (30)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_alin_dobrosavlevici.JPG"
+    "Image": "fc_buzau_alin_dobrosavlevici.JPG",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_buzau_dragan_lovric",
@@ -4629,19 +4052,8 @@
     "Position": "Centre-Back",
     "Age": "Jan 3, 1996 (29)",
     "Nationality": "Croatia",
-    "Image": "fc_buzau_dragan_lovric.png"
-  },
-  {
-    "PlayerID": "fc_buzau_israel_puerto",
-    "TeamID": "fc_buzau",
-    "Team": "FC Buzău",
-    "TeamLogo": "fc_buzau.png",
-    "Number": "3",
-    "Name": "Israel Puerto",
-    "Position": "Centre-Back",
-    "Age": "Jun 15, 1993 (31)",
-    "Nationality": "Spain",
-    "Image": "fc_buzau_israel_puerto.png"
+    "Image": "fc_buzau_dragan_lovric.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_buzau_mike_cestor",
@@ -4653,7 +4065,8 @@
     "Position": "Centre-Back",
     "Age": "Apr 30, 1992 (32)",
     "Nationality": "DR Congo",
-    "Image": "fc_buzau_mike_cestor.JPG"
+    "Image": "fc_buzau_mike_cestor.JPG",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_buzau_robert_salceanu",
@@ -4665,7 +4078,8 @@
     "Position": "Left-Back",
     "Age": "Jan 13, 2004 (21)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_robert_salceanu.jpg"
+    "Image": "fc_buzau_robert_salceanu.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_denis_dumitrascu",
@@ -4677,7 +4091,8 @@
     "Position": "Left-Back",
     "Age": "Apr 27, 1995 (29)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_denis_dumitrascu.png"
+    "Image": "fc_buzau_denis_dumitrascu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_alessandro_ciranni",
@@ -4689,7 +4104,8 @@
     "Position": "Right-Back",
     "Age": "Jun 28, 1996 (28)",
     "Nationality": "Belgium",
-    "Image": "fc_buzau_alessandro_ciranni.jpg"
+    "Image": "fc_buzau_alessandro_ciranni.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_sergiu_pirvulescu",
@@ -4701,7 +4117,8 @@
     "Position": "Right-Back",
     "Age": "Jul 21, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_sergiu_pirvulescu.png"
+    "Image": "fc_buzau_sergiu_pirvulescu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_diego_ferraresso",
@@ -4713,7 +4130,8 @@
     "Position": "Right-Back",
     "Age": "May 21, 1992 (32)",
     "Nationality": "Bulgaria",
-    "Image": "fc_buzau_diego_ferraresso.png"
+    "Image": "fc_buzau_diego_ferraresso.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_rassambek_akhmatov",
@@ -4725,7 +4143,8 @@
     "Position": "Defensive Midfield",
     "Age": "May 31, 1996 (28)",
     "Nationality": "Russia",
-    "Image": "fc_buzau_rassambek_akhmatov.png"
+    "Image": "fc_buzau_rassambek_akhmatov.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_dragos_albu",
@@ -4737,19 +4156,8 @@
     "Position": "Central Midfield",
     "Age": "Mar 15, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_dragos_albu.JPG"
-  },
-  {
-    "PlayerID": "fc_buzau_aleksejs_saveljevs",
-    "TeamID": "fc_buzau",
-    "Team": "FC Buzău",
-    "TeamLogo": "fc_buzau.png",
-    "Number": "-",
-    "Name": "Aleksejs Saveljevs",
-    "Position": "Central Midfield",
-    "Age": "Jan 30, 1999 (25)",
-    "Nationality": "Latvia",
-    "Image": "fc_buzau_aleksejs_saveljevs.png"
+    "Image": "fc_buzau_dragos_albu.JPG",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_david_tavares",
@@ -4761,19 +4169,8 @@
     "Position": "Central Midfield",
     "Age": "Mar 19, 1999 (25)",
     "Nationality": "Cape Verde",
-    "Image": "fc_buzau_david_tavares.jpg"
-  },
-  {
-    "PlayerID": "fc_buzau_tudor_calin",
-    "TeamID": "fc_buzau",
-    "Team": "FC Buzău",
-    "TeamLogo": "fc_buzau.png",
-    "Number": "6",
-    "Name": "Tudor Calin",
-    "Position": "Central Midfield",
-    "Age": "Oct 8, 2000 (24)",
-    "Nationality": "Romania",
-    "Image": "fc_buzau_tudor_calin.jpg"
+    "Image": "fc_buzau_david_tavares.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_luca_mihai",
@@ -4785,7 +4182,8 @@
     "Position": "Central Midfield",
     "Age": "Oct 11, 2003 (21)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_luca_mihai.png"
+    "Image": "fc_buzau_luca_mihai.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_buzau_vito",
@@ -4797,19 +4195,8 @@
     "Position": "Central Midfield",
     "Age": "Sep 18, 1997 (27)",
     "Nationality": "Portugal",
-    "Image": "fc_buzau_vito.png"
-  },
-  {
-    "PlayerID": "fc_buzau_alexandru_jipa",
-    "TeamID": "fc_buzau",
-    "Team": "FC Buzău",
-    "TeamLogo": "fc_buzau.png",
-    "Number": "98",
-    "Name": "Alexandru Jipa",
-    "Position": "Right Midfield",
-    "Age": "Aug 14, 2002 (22)",
-    "Nationality": "Romania",
-    "Image": "fc_buzau_alexandru_jipa.png"
+    "Image": "fc_buzau_vito.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_ion_gheorghe",
@@ -4821,7 +4208,8 @@
     "Position": "Attacking Midfield",
     "Age": "Oct 8, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_ion_gheorghe.png"
+    "Image": "fc_buzau_ion_gheorghe.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_buzau_constantin_budescu",
@@ -4833,7 +4221,8 @@
     "Position": "Attacking Midfield",
     "Age": "Feb 19, 1989 (35)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_constantin_budescu.png"
+    "Image": "fc_buzau_constantin_budescu.png",
+    "Scor": 4
   },
   {
     "PlayerID": "fc_buzau_cristian_dumitru",
@@ -4845,7 +4234,8 @@
     "Position": "Left Winger",
     "Age": "Dec 13, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_cristian_dumitru.png"
+    "Image": "fc_buzau_cristian_dumitru.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_alexandru_isfan",
@@ -4857,7 +4247,8 @@
     "Position": "Right Winger",
     "Age": "Jan 31, 2000 (24)",
     "Nationality": "Romania",
-    "Image": "fc_buzau_alexandru_isfan.png"
+    "Image": "fc_buzau_alexandru_isfan.png",
+    "Scor": 3
   },
   {
     "PlayerID": "fc_buzau_moha_keita",
@@ -4869,7 +4260,8 @@
     "Position": "Right Winger",
     "Age": "Sep 18, 1999 (25)",
     "Nationality": "Senegal",
-    "Image": "fc_buzau_moha_keita.png"
+    "Image": "fc_buzau_moha_keita.png",
+    "Scor": 2
   },
   {
     "PlayerID": "fc_buzau_ricardo_matos",
@@ -4881,19 +4273,8 @@
     "Position": "Centre-Forward",
     "Age": "Mar 25, 2000 (24)",
     "Nationality": "Portugal",
-    "Image": "fc_buzau_ricardo_matos.png"
-  },
-  {
-    "PlayerID": "fc_buzau_dragos_tescan",
-    "TeamID": "fc_buzau",
-    "Team": "FC Buzău",
-    "TeamLogo": "fc_buzau.png",
-    "Number": "11",
-    "Name": "Dragos Tescan",
-    "Position": "Centre-Forward",
-    "Age": "Sep 15, 1999 (25)",
-    "Nationality": "Romania",
-    "Image": "fc_buzau_dragos_tescan.png"
+    "Image": "fc_buzau_ricardo_matos.png",
+    "Scor": 3
   },
   {
     "PlayerID": "uta_arad_andrei_gorcea",
@@ -4905,7 +4286,8 @@
     "Position": "Goalkeeper",
     "Age": "Aug 2, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "uta_arad_andrei_gorcea.png"
+    "Image": "uta_arad_andrei_gorcea.png",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_dejan_iliev",
@@ -4917,19 +4299,8 @@
     "Position": "Goalkeeper",
     "Age": "Feb 25, 1995 (29)",
     "Nationality": "North Macedonia",
-    "Image": "uta_arad_dejan_iliev.png"
-  },
-  {
-    "PlayerID": "uta_arad_mario_popescu",
-    "TeamID": "uta_arad",
-    "Team": "UTA Arad",
-    "TeamLogo": "uta_arad.png",
-    "Number": "33",
-    "Name": "Mario Popescu",
-    "Position": "Goalkeeper",
-    "Age": "Apr 19, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "uta_arad_mario_popescu.jpg"
+    "Image": "uta_arad_dejan_iliev.png",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_ibrahima_conte",
@@ -4941,7 +4312,8 @@
     "Position": "Centre-Back",
     "Age": "Apr 3, 1996 (28)",
     "Nationality": "Guinea",
-    "Image": "uta_arad_ibrahima_conte.png"
+    "Image": "uta_arad_ibrahima_conte.png",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_florent_poulolo",
@@ -4953,7 +4325,8 @@
     "Position": "Centre-Back",
     "Age": "Jan 2, 1997 (28)",
     "Nationality": "Martinique",
-    "Image": "uta_arad_florent_poulolo.png"
+    "Image": "uta_arad_florent_poulolo.png",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_alexandru_benga",
@@ -4965,7 +4338,8 @@
     "Position": "Centre-Back",
     "Age": "Jun 15, 1989 (35)",
     "Nationality": "Romania",
-    "Image": "uta_arad_alexandru_benga.png"
+    "Image": "uta_arad_alexandru_benga.png",
+    "Scor": 3
   },
   {
     "PlayerID": "uta_arad_razvan_pascalau",
@@ -4977,19 +4351,8 @@
     "Position": "Centre-Back",
     "Age": "May 5, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "uta_arad_razvan_pascalau.png"
-  },
-  {
-    "PlayerID": "uta_arad_kouya_mabea",
-    "TeamID": "uta_arad",
-    "Team": "UTA Arad",
-    "TeamLogo": "uta_arad.png",
-    "Number": "3",
-    "Name": "Kouya Mabea",
-    "Position": "Left-Back",
-    "Age": "Oct 23, 1998 (26)",
-    "Nationality": "Cote d'Ivoire",
-    "Image": "uta_arad_kouya_mabea.png"
+    "Image": "uta_arad_razvan_pascalau.png",
+    "Scor": 3
   },
   {
     "PlayerID": "uta_arad_damien_dussaut",
@@ -5001,7 +4364,8 @@
     "Position": "Right-Back",
     "Age": "Nov 8, 1994 (30)",
     "Nationality": "Martinique",
-    "Image": "uta_arad_damien_dussaut.png"
+    "Image": "uta_arad_damien_dussaut.png",
+    "Scor": 3
   },
   {
     "PlayerID": "uta_arad_ravy_tsouka",
@@ -5013,7 +4377,8 @@
     "Position": "Right-Back",
     "Age": "Dec 23, 1994 (30)",
     "Nationality": "Congo",
-    "Image": "uta_arad_ravy_tsouka.jpg"
+    "Image": "uta_arad_ravy_tsouka.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_cristian_mihai",
@@ -5025,7 +4390,8 @@
     "Position": "Defensive Midfield",
     "Age": "Sep 23, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "uta_arad_cristian_mihai.png"
+    "Image": "uta_arad_cristian_mihai.png",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_denis_hrezdac",
@@ -5037,19 +4403,8 @@
     "Position": "Defensive Midfield",
     "Age": "Nov 3, 2001 (23)",
     "Nationality": "Romania",
-    "Image": "uta_arad_denis_hrezdac.jpg"
-  },
-  {
-    "PlayerID": "uta_arad_tony_francisco",
-    "TeamID": "uta_arad",
-    "Team": "UTA Arad",
-    "TeamLogo": "uta_arad.png",
-    "Number": "-",
-    "Name": "Tony Francisco",
-    "Position": "Defensive Midfield",
-    "Age": "Aug 9, 2000 (24)",
-    "Nationality": "France",
-    "Image": "uta_arad_tony_francisco.jpg"
+    "Image": "uta_arad_denis_hrezdac.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_cornel_rapa",
@@ -5061,7 +4416,8 @@
     "Position": "Right Midfield",
     "Age": "Jan 16, 1990 (35)",
     "Nationality": "Romania",
-    "Image": "uta_arad_cornel_rapa.png"
+    "Image": "uta_arad_cornel_rapa.png",
+    "Scor": 3
   },
   {
     "PlayerID": "uta_arad_benjamin_van_durmen",
@@ -5073,7 +4429,8 @@
     "Position": "Left Midfield",
     "Age": "Mar 20, 1997 (27)",
     "Nationality": "Belgium",
-    "Image": "uta_arad_benjamin_van_durmen.png"
+    "Image": "uta_arad_benjamin_van_durmen.png",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_razvan_trif",
@@ -5085,19 +4442,8 @@
     "Position": "Left Midfield",
     "Age": "Oct 9, 1997 (27)",
     "Nationality": "Romania",
-    "Image": "uta_arad_razvan_trif.png"
-  },
-  {
-    "PlayerID": "uta_arad_ovidiu_bulza",
-    "TeamID": "uta_arad",
-    "Team": "UTA Arad",
-    "TeamLogo": "uta_arad.png",
-    "Number": "-",
-    "Name": "Ovidiu Bulza",
-    "Position": "Left Midfield",
-    "Age": "Jan 1, 2004 (21)",
-    "Nationality": "Romania",
-    "Image": "uta_arad_ovidiu_bulza.jpg"
+    "Image": "uta_arad_razvan_trif.png",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_andrej_fabry",
@@ -5109,19 +4455,8 @@
     "Position": "Attacking Midfield",
     "Age": "Mar 1, 1997 (27)",
     "Nationality": "Slovakia",
-    "Image": "uta_arad_andrej_fabry.png"
-  },
-  {
-    "PlayerID": "uta_arad_valentin_borcea",
-    "TeamID": "uta_arad",
-    "Team": "UTA Arad",
-    "TeamLogo": "uta_arad.png",
-    "Number": "18",
-    "Name": "Valentin Borcea",
-    "Position": "Attacking Midfield",
-    "Age": "Jul 6, 2002 (22)",
-    "Nationality": "Romania",
-    "Image": "uta_arad_valentin_borcea.png"
+    "Image": "uta_arad_andrej_fabry.png",
+    "Scor": 3
   },
   {
     "PlayerID": "uta_arad_valentin_costache",
@@ -5133,7 +4468,8 @@
     "Position": "Left Winger",
     "Age": "Aug 2, 1998 (26)",
     "Nationality": "Romania",
-    "Image": "uta_arad_valentin_costache.png"
+    "Image": "uta_arad_valentin_costache.png",
+    "Scor": 3
   },
   {
     "PlayerID": "uta_arad_eric_omondi",
@@ -5145,7 +4481,8 @@
     "Position": "Left Winger",
     "Age": "Aug 18, 1994 (30)",
     "Nationality": "Kenya",
-    "Image": "uta_arad_eric_omondi.png"
+    "Image": "uta_arad_eric_omondi.png",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_lamine_ghezali",
@@ -5157,7 +4494,8 @@
     "Position": "Right Winger",
     "Age": "Jul 6, 1999 (25)",
     "Nationality": "France",
-    "Image": "uta_arad_lamine_ghezali.png"
+    "Image": "uta_arad_lamine_ghezali.png",
+    "Scor": 3
   },
   {
     "PlayerID": "uta_arad_marian_danciu",
@@ -5169,19 +4507,8 @@
     "Position": "Right Winger",
     "Age": "Apr 24, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "uta_arad_marian_danciu.png"
-  },
-  {
-    "PlayerID": "uta_arad_ahmet_ekmekci",
-    "TeamID": "uta_arad",
-    "Team": "UTA Arad",
-    "TeamLogo": "uta_arad.png",
-    "Number": "-",
-    "Name": "Ahmet Ekmekci",
-    "Position": "Second Striker",
-    "Age": "Mar 27, 2004 (20)",
-    "Nationality": "Romania",
-    "Image": "uta_arad_ahmet_ekmekci.jpg"
+    "Image": "uta_arad_marian_danciu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "uta_arad_shayon_harrison",
@@ -5193,7 +4520,8 @@
     "Position": "Centre-Forward",
     "Age": "Jul 13, 1997 (27)",
     "Nationality": "England",
-    "Image": "uta_arad_shayon_harrison.png"
+    "Image": "uta_arad_shayon_harrison.png",
+    "Scor": 3
   },
   {
     "PlayerID": "uta_arad_andrei_dumiter",
@@ -5205,19 +4533,8 @@
     "Position": "Centre-Forward",
     "Age": "Apr 10, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "uta_arad_andrei_dumiter.png"
-  },
-  {
-    "PlayerID": "uta_arad_agustin_vuletich",
-    "TeamID": "uta_arad",
-    "Team": "UTA Arad",
-    "TeamLogo": "uta_arad.png",
-    "Number": "9",
-    "Name": "Agustin Vuletich",
-    "Position": "Centre-Forward",
-    "Age": "Nov 3, 1991 (33)",
-    "Nationality": "Argentina",
-    "Image": "uta_arad_agustin_vuletich.JPG"
+    "Image": "uta_arad_andrei_dumiter.png",
+    "Scor": 3
   },
   {
     "PlayerID": "uta_arad_daniel_zsori",
@@ -5229,19 +4546,8 @@
     "Position": "Centre-Forward",
     "Age": "Oct 14, 2000 (24)",
     "Nationality": "Hungary",
-    "Image": "uta_arad_daniel_zsori.jpg"
-  },
-  {
-    "PlayerID": "uta_arad_raoul_cristea",
-    "TeamID": "uta_arad",
-    "Team": "UTA Arad",
-    "TeamLogo": "uta_arad.png",
-    "Number": "27",
-    "Name": "Raoul Cristea",
-    "Position": "Centre-Forward",
-    "Age": "Sep 4, 2002 (22)",
-    "Nationality": "Romania",
-    "Image": "uta_arad_raoul_cristea.png"
+    "Image": "uta_arad_daniel_zsori.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_denis_rusu",
@@ -5253,31 +4559,8 @@
     "Position": "Goalkeeper",
     "Age": "Aug 2, 1990 (34)",
     "Nationality": "Moldova",
-    "Image": "afc_unirea_04_slobozia_denis_rusu.png"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_stefan_krell",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "1",
-    "Name": "Stefan Krell",
-    "Position": "Goalkeeper",
-    "Age": "Jun 12, 1992 (32)",
-    "Nationality": "Austria",
-    "Image": "afc_unirea_04_slobozia_stefan_krell.png"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_stefan_georgescu",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "86",
-    "Name": "Stefan Georgescu",
-    "Position": "Goalkeeper",
-    "Age": "Sep 30, 2001 (23)",
-    "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_stefan_georgescu.jpg"
+    "Image": "afc_unirea_04_slobozia_denis_rusu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_filip_blazek",
@@ -5289,7 +4572,8 @@
     "Position": "Centre-Back",
     "Age": "Mar 11, 1998 (26)",
     "Nationality": "Slovakia",
-    "Image": "afc_unirea_04_slobozia_filip_blazek.png"
+    "Image": "afc_unirea_04_slobozia_filip_blazek.png",
+    "Scor": 3
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_ariel_lopez",
@@ -5301,7 +4585,8 @@
     "Position": "Centre-Back",
     "Age": "May 26, 1995 (29)",
     "Nationality": "Uruguay",
-    "Image": "afc_unirea_04_slobozia_ariel_lopez.png"
+    "Image": "afc_unirea_04_slobozia_ariel_lopez.png",
+    "Scor": 2
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_dmytro_pospelov",
@@ -5313,31 +4598,8 @@
     "Position": "Centre-Back",
     "Age": "Oct 19, 1991 (33)",
     "Nationality": "Ukraine",
-    "Image": "afc_unirea_04_slobozia_dmytro_pospelov.png"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_marius_antoche",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "6",
-    "Name": "Marius Antoche",
-    "Position": "Centre-Back",
-    "Age": "Jun 21, 1992 (32)",
-    "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_marius_antoche.png"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_ionut_dinu",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "4",
-    "Name": "Ionut Dinu",
-    "Position": "Centre-Back",
-    "Age": "Apr 8, 1998 (26)",
-    "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_ionut_dinu.png"
+    "Image": "afc_unirea_04_slobozia_dmytro_pospelov.png",
+    "Scor": 4
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_daniel_serbanica",
@@ -5349,7 +4611,8 @@
     "Position": "Left-Back",
     "Age": "Jun 25, 1996 (28)",
     "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_daniel_serbanica.png"
+    "Image": "afc_unirea_04_slobozia_daniel_serbanica.png",
+    "Scor": 3
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_laurentiu_vlasceanu",
@@ -5361,7 +4624,8 @@
     "Position": "Left-Back",
     "Age": "May 29, 2005 (19)",
     "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_laurentiu_vlasceanu.jpg"
+    "Image": "afc_unirea_04_slobozia_laurentiu_vlasceanu.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_constantin_toma",
@@ -5373,7 +4637,8 @@
     "Position": "Left-Back",
     "Age": "Mar 23, 1987 (37)",
     "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_constantin_toma.png"
+    "Image": "afc_unirea_04_slobozia_constantin_toma.png",
+    "Scor": 2
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_paolo_medina",
@@ -5385,7 +4650,8 @@
     "Position": "Right-Back",
     "Age": "May 28, 1999 (25)",
     "Nationality": "Mexico",
-    "Image": "afc_unirea_04_slobozia_paolo_medina.png"
+    "Image": "afc_unirea_04_slobozia_paolo_medina.png",
+    "Scor": 2
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_andrei_dorobantu",
@@ -5397,19 +4663,8 @@
     "Position": "Right-Back",
     "Age": "Aug 29, 2004 (20)",
     "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_andrei_dorobantu.png"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_florinel_ibrian",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "21",
-    "Name": "Florinel Ibrian",
-    "Position": "Right-Back",
-    "Age": "Sep 14, 1993 (31)",
-    "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_florinel_ibrian.png"
+    "Image": "afc_unirea_04_slobozia_andrei_dorobantu.png",
+    "Scor": 2
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_ovidiu_perianu",
@@ -5421,19 +4676,8 @@
     "Position": "Defensive Midfield",
     "Age": "Apr 16, 2002 (22)",
     "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_ovidiu_perianu.png"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_ionut_coada",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "8",
-    "Name": "Ionut Coada",
-    "Position": "Defensive Midfield",
-    "Age": "Jan 1, 1998 (27)",
-    "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_ionut_coada.png"
+    "Image": "afc_unirea_04_slobozia_ovidiu_perianu.png",
+    "Scor": 3
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_stefan_pacionel",
@@ -5445,7 +4689,8 @@
     "Position": "Central Midfield",
     "Age": "Feb 16, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_stefan_pacionel.png"
+    "Image": "afc_unirea_04_slobozia_stefan_pacionel.png",
+    "Scor": 3
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_adnan_aganovic",
@@ -5457,55 +4702,8 @@
     "Position": "Central Midfield",
     "Age": "Oct 3, 1987 (37)",
     "Nationality": "Croatia",
-    "Image": "afc_unirea_04_slobozia_adnan_aganovic.png"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_mihaita_lemnaru",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "22",
-    "Name": "Mihaita Lemnaru",
-    "Position": "Central Midfield",
-    "Age": "Jul 14, 2000 (24)",
-    "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_mihaita_lemnaru.png"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_denis_dragomir",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "-",
-    "Name": "Denis Dragomir",
-    "Position": "Central Midfield",
-    "Age": "Jan 8, 2005 (20)",
-    "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_denis_dragomir.jpg"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_cristian_chirita",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "-",
-    "Name": "Cristian Chirita",
-    "Position": "Central Midfield",
-    "Age": "Jul 1, 2003 (21)",
-    "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_cristian_chirita.jpg"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_mihnea_stefan",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "-",
-    "Name": "Mihnea Stefan",
-    "Position": "Central Midfield",
-    "Age": "Apr 19, 2006 (18)",
-    "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_mihnea_stefan.jpg"
+    "Image": "afc_unirea_04_slobozia_adnan_aganovic.png",
+    "Scor": 3
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_christ_afalna",
@@ -5517,7 +4715,8 @@
     "Position": "Attacking Midfield",
     "Age": "Jun 15, 1998 (26)",
     "Nationality": "Cameroon",
-    "Image": "afc_unirea_04_slobozia_christ_afalna.png"
+    "Image": "afc_unirea_04_slobozia_christ_afalna.png",
+    "Scor": 2
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_florin_purece",
@@ -5529,7 +4728,8 @@
     "Position": "Attacking Midfield",
     "Age": "Nov 6, 1991 (33)",
     "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_florin_purece.png"
+    "Image": "afc_unirea_04_slobozia_florin_purece.png",
+    "Scor": 3
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_marius_lupu",
@@ -5541,7 +4741,8 @@
     "Position": "Right Winger",
     "Age": "Sep 1, 1999 (25)",
     "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_marius_lupu.jpg"
+    "Image": "afc_unirea_04_slobozia_marius_lupu.jpg",
+    "Scor": 2
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_cristian_barbut",
@@ -5553,7 +4754,8 @@
     "Position": "Right Winger",
     "Age": "Apr 22, 1995 (29)",
     "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_cristian_barbut.png"
+    "Image": "afc_unirea_04_slobozia_cristian_barbut.png",
+    "Scor": 3
   },
   {
     "PlayerID": "afc_unirea_04_slobozia_jordan_gele",
@@ -5565,30 +4767,7 @@
     "Position": "Centre-Forward",
     "Age": "Sep 16, 1992 (32)",
     "Nationality": "France",
-    "Image": "afc_unirea_04_slobozia_jordan_gele.png"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_filip_ilie",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "9",
-    "Name": "Filip Ilie",
-    "Position": "Centre-Forward",
-    "Age": "Jul 15, 2002 (22)",
-    "Nationality": "Romania",
-    "Image": "afc_unirea_04_slobozia_filip_ilie.jpg"
-  },
-  {
-    "PlayerID": "afc_unirea_04_slobozia_dmytro_yusov",
-    "TeamID": "afc_unirea_04_slobozia",
-    "Team": "AFC Unirea 04 Slobozia",
-    "TeamLogo": "afc_unirea_04_slobozia.png",
-    "Number": "18",
-    "Name": "Dmytro Yusov",
-    "Position": "Centre-Forward",
-    "Age": "May 11, 1993 (31)",
-    "Nationality": "Ukraine",
-    "Image": "afc_unirea_04_slobozia_dmytro_yusov.png"
+    "Image": "afc_unirea_04_slobozia_jordan_gele.png",
+    "Scor": 3
   }
  ]
