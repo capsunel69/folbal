@@ -330,8 +330,9 @@
                         inset 0 0 30px rgba(255, 255, 255, 0.1);
             border: 2px solid rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
-            z-index: 1000;
+            z-index: 9999;
             text-align: center;
+            min-width: 320px;
         }
 
         #game-over h2 {
@@ -854,9 +855,22 @@
         }
 
         function getAge(dateString) {
-            // Extract age directly from the parentheses
-            const matches = dateString.match(/\((\d+)\)/);
-            return matches ? parseInt(matches[1]) : 0;
+            // Extract the date part before the parentheses
+            const matches = dateString.match(/([A-Za-z]+ \d+, \d{4})/);
+            if (!matches) return 0;
+
+            const birthDate = new Date(matches[1]);
+            const today = new Date();
+            
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const monthDiff = today.getMonth() - birthDate.getMonth();
+            
+            // Adjust age if birthday hasn't occurred this year
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            
+            return age;
         }
 
         function mapPosition(position) {
@@ -899,6 +913,12 @@
                 target = mapPosition(target);
             }
             
+            // Convert string numbers to integers for proper comparison
+            if (type === 'number') {
+                actual = parseInt(actual);
+                target = parseInt(target);
+            }
+            
             if (actual === target) {
                 element.classList.add('correct');
             } else {
@@ -920,7 +940,7 @@
                     flagImg.className = 'flag';
                     const countryCode = getCountryCode(actual);
                     flagImg.src = `https://flagcdn.com/w40/${countryCode}.png`;
-                    flagImg.title = actual; // Show country name on hover
+                    flagImg.title = actual;
                     element.appendChild(flagImg);
                     break;
                 case 'number':
@@ -1205,10 +1225,22 @@
                         };
                     };
                     
+                    const playerInfo = document.createElement('div');
+                    playerInfo.style.display = 'flex';
+                    playerInfo.style.flexDirection = 'column';
+                    
                     const playerName = document.createElement('div');
                     playerName.style.fontWeight = 'bold';
                     playerName.style.marginRight = '10px';
                     playerName.textContent = player.Name;
+                    
+                    // const playerAge = document.createElement('div');
+                    // playerAge.style.fontSize = '0.8em';
+                    // playerAge.style.color = '#888';
+                    // playerAge.textContent = `${getAge(player.Age)} ani`;
+                    
+                    playerInfo.appendChild(playerName);
+                    // playerInfo.appendChild(playerAge);
                     
                     const teamLogo = document.createElement('img');
                     teamLogo.className = 'team-logo';
@@ -1222,7 +1254,7 @@
                     };
                     
                     div.appendChild(playerImg);
-                    div.appendChild(playerName);
+                    div.appendChild(playerInfo);
                     div.appendChild(teamLogo);
                     
                     div.addEventListener('click', () => {
