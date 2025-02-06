@@ -24,7 +24,7 @@
 
         .container {
             max-width: 750px;
-            margin: 0 auto;
+            margin-bottom: 4rem;
             padding: 20px;
             background: rgba(0, 0, 0, 0.85);
             border-radius: 0px 0px 20px 20px;
@@ -37,10 +37,10 @@
 
         #image-container {
             max-width: 750px;
-            margin: 0 auto;
             border-radius: 20px 20px 0px 0px;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.3),
                 inset 0 0 100px rgba(255, 255, 255, 0.1);
+            margin-top: 2rem;
         }
 
         #image-container img {
@@ -547,7 +547,12 @@
             #game-over h2 {
                 font-size: 1.5em;
             }
+
+            #image-container {
+                margin-top: 0;
+            }
         }
+
 
         #loading-screen {
             position: fixed;
@@ -660,11 +665,12 @@
 
         .rules-container {
             max-width: 1000px;
-            margin: 20px auto;
+            margin-top: 2rem;
             padding: 20px;
             background: rgba(0, 0, 0, 0.85);
             border-radius: 20px;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.3),
+
                 inset 0 0 100px rgba(255, 255, 255, 0.1);
             border: 2px solid rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -806,7 +812,7 @@
                         const img = new Image();
                         img.onload = () => {
                             loadedImages++;
-                            updateLoadingProgress(loaded, totalImages);
+                            updateLoadingProgress(loadedImages, totalImages);
                             resolve();
                         };
                         img.onerror = () => {
