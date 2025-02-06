@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,10 +23,9 @@
             background: rgba(0, 0, 0, 0.85);
             border-radius: 20px;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.3),
-                        inset 0 0 100px rgba(255, 255, 255, 0.1);
+                inset 0 0 100px rgba(255, 255, 255, 0.1);
             border: 2px solid rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
-            margin-top: -90px;
         }
 
         h1 {
@@ -302,7 +302,8 @@
         }
 
         #hint-text {
-            display: none; /* Hide by default */
+            display: none;
+            /* Hide by default */
             background: rgba(255, 255, 255, 0.1);
             padding: 15px;
             border-radius: 10px;
@@ -313,6 +314,7 @@
             from {
                 box-shadow: none;
             }
+
             to {
                 box-shadow: none;
             }
@@ -320,14 +322,14 @@
 
         #game-over {
             position: fixed;
-            top: 50%;
+            top: 20%;
             left: 50%;
             transform: translate(-50%, -50%);
             background: rgba(0, 0, 0, 0.95);
             padding: 30px 50px;
             border-radius: 20px;
             box-shadow: 0 0 50px rgba(0, 0, 0, 0.5),
-                        inset 0 0 30px rgba(255, 255, 255, 0.1);
+                inset 0 0 30px rgba(255, 255, 255, 0.1);
             border: 2px solid rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             z-index: 9999;
@@ -412,7 +414,7 @@
             .dropdown-item {
                 display: grid;
                 grid-template-columns: auto 1fr auto;
-                grid-template-areas: 
+                grid-template-areas:
                     "img name team"
                     "img stats stats";
                 gap: 10px;
@@ -425,7 +427,7 @@
                 height: 50px;
             }
 
-            .dropdown-item > div:nth-child(2) {
+            .dropdown-item>div:nth-child(2) {
                 grid-area: name;
                 font-size: 1em;
             }
@@ -504,7 +506,7 @@
                 border-radius: 15px;
                 z-index: 1001;
             }
-            
+
             /* Remove the previous fixed positioning styles */
             .dropdown {
                 position: absolute;
@@ -625,34 +627,81 @@
                 font-size: 0.9em;
             }
         }
+
+        .curved-text {
+            font-size: 2em;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            transform: perspective(500px) rotateX(30deg);
+            margin-bottom: 40px;
+            font-family: 'Russo One', sans-serif;
+        }
+
+        .rules-container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.85);
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3),
+                inset 0 0 100px rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            color: #fff;
+        }
+
+        .rules-container h2 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .rules-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .rules-container li {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .rules-container li:before {
+            content: "•";
+            color: #4CAF50;
+            font-size: 1.5em;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .rules-container {
+                padding: 15px;
+            }
+
+            .rules-container li {
+                font-size: 0.9em;
+            }
+
+            .curved-text {
+                font-size: 1.5em;
+                margin-bottom: 20px;
+            }
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
-
-        <div style="text-align: center; margin: 20px 0;">
-            <a href="https://fotbal-comedie.ro/" target="_blank">
-                <img src="https://fotbal-comedie.ro/wp-content/uploads/2024/09/cropped-fotbal-comedie-png.png" 
-                     alt="Fotbal Comedie" 
-                     style="max-width: 120px; height: auto; filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
-                            transition: all 0.3s ease;
-                            animation: glow 2s infinite alternate;">
-            </a>
-        </div>
-        <style>
-            @keyframes glow {
-                from {
-                    filter: drop-shadow(0 0 10px rgba(255, 187, 0, 0.934));
-                }
-                to {
-                    filter: drop-shadow(0 0 25px rgba(255, 187, 0, 0.934));
-                }
-            }
-        </style>
-
-        
+        <img src="https://fotbal-comedie.ro/wp-content/uploads/2024/09/cropped-fotbal-comedie-png.png"
+            alt="Fotbal Comedie Logo"
+            style="width: 100px; height: 100px; display: block; margin: 0 auto 20px; animation: glow 2s ease-in-out infinite; filter: drop-shadow(0 0 15px rgb(255, 187, 0));"
+            href="https://fotbal-comedie.ro" target="_blank">
         <h1>Ghiceste Fotbalistul</h1>
-        
+
         <div id="game-container">
             <div id="correct-guesses" class="correct-guesses hidden">
                 <h3>Ai ghicit corect:</h3>
@@ -663,7 +712,7 @@
                 <input type="text" id="player-search" placeholder="Introdu numele jucatorului...">
                 <div id="dropdown" class="dropdown"></div>
             </div>
-            
+
             <div id="remaining-guesses">Incercari ramase: 8</div>
             <button id="hint-button">Indiciu (costa 1 incercare)</button>
             <div id="hint-text"></div>
@@ -676,12 +725,26 @@
                 <div>AGE</div>
             </div>
             <div id="attempts-container"></div>
-            
+
             <div id="game-over" class="hidden">
                 <h2 id="game-over-message"></h2>
                 <button id="play-again">Play Again</button>
             </div>
             <div class="overlay"></div>
+        </div>
+
+        <div class="rules-container">
+            <h2>Reguli Jocului</h2>
+            <ul>
+                <li>doar jucatori din Superliga (momentan)</li>
+                <li>ai 8 incercari pentru a ghici fotbalistul</li>
+                <li>poti folosi 3 indicii, dar fiecare va costa o incercare</li>
+                <li>pozitia jucatorului poate fi GK (portar), DEF (fundas), MID (mijlocas), W (winger) sau CF (atacant
+                    central)</li>
+                <li>sagetile din dreptul caracteristicelor iti pot oferi indicii legate de jucator. De exemplu, in
+                    dreptul varstei daca avem 25 cu o sageata in sus, inseamna ca varsta jucatorului este mai mare de 25
+                    de ani.</li>
+            </ul>
         </div>
     </div>
 
@@ -716,7 +779,7 @@
                 // Preload all images
                 const totalImages = players.length;
                 let loadedImages = 0;
-                
+
                 const preloadPromises = players.map(player => {
                     return new Promise((resolve) => {
                         const img = new Image();
@@ -753,7 +816,7 @@
             const percentage = Math.round((loaded / total) * 100);
             const progressBar = document.querySelector('.progress-bar');
             const loadingText = document.querySelector('.loading-text');
-            
+
             progressBar.style.width = `${percentage}%`;
             loadingText.textContent = `Aducem jucatorii pe teren (${percentage}%)`;
         }
@@ -786,16 +849,16 @@
                 2: 0.07, // 7% chance for score 2
                 1: 0.03  // 3% chance for score 1
             };
-            
+
             // Generate a random number between 0 and 1
             const random = Math.random();
-            
+
             // Create score groups
             const playersByScore = {};
             for (let i = 1; i <= 5; i++) {
                 playersByScore[i] = players.filter(p => p.Scor === i);
             }
-            
+
             // Determine which score group to pick from based on the random number
             let cumulativeWeight = 0;
             for (let score = 5; score >= 1; score--) {
@@ -820,7 +883,7 @@
                     }
                 }
             }
-            
+
             // Fallback to completely random selection if something goes wrong
             return players[Math.floor(Math.random() * players.length)];
         }
@@ -861,71 +924,71 @@
 
             const birthDate = new Date(matches[1]);
             const today = new Date();
-            
+
             let age = today.getFullYear() - birthDate.getFullYear();
             const monthDiff = today.getMonth() - birthDate.getMonth();
-            
+
             // Adjust age if birthday hasn't occurred this year
             if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
                 age--;
             }
-            
+
             return age;
         }
 
         function mapPosition(position) {
             // Standardize position formatting
             position = position.toLowerCase().trim();
-            
+
             // Goalkeeper
             if (position.includes('goalkeeper')) {
                 return 'GK';
             }
-            
+
             // Defenders
             if (position.includes('back')) {
                 return 'DF';
             }
-            
+
             // Midfielders
             if (position.includes('midfield')) {
                 return 'CM';
             }
-            
+
             // Wingers
             if (position.includes('winger')) {
                 return 'W';
             }
-            
+
             // Forwards/Strikers
             if (position.includes('forward') || position.includes('striker')) {
                 return 'CF';
             }
-            
+
             return position; // Return original if no match
         }
 
         function compareValue(actual, target, element, type, teamID) {
             element.className = 'attempt-info';
-            
+
             if (type === 'position') {
                 actual = mapPosition(actual);
                 target = mapPosition(target);
             }
-            
+
             // Convert string numbers to integers for proper comparison
             if (type === 'number') {
                 actual = parseInt(actual);
                 target = parseInt(target);
             }
-            
+
             if (actual === target) {
                 element.classList.add('correct');
             } else {
                 element.classList.add('incorrect');
             }
 
-            switch(type) {
+            switch (type) {
                 case 'team':
                     const teamLogo = document.createElement('img');
                     teamLogo.className = 'team-logo';
@@ -956,7 +1019,7 @@
                 default:
                     element.textContent = actual;
             }
-            
+
             return element;
         }
 
@@ -1042,7 +1105,7 @@
 
         function displayAttempt(guessedPlayer) {
             const attemptCount = document.querySelectorAll('.attempt').length + 1;
-            
+
             const labelDiv = document.createElement('div');
             labelDiv.className = 'attempt-label';
             labelDiv.innerHTML = `
@@ -1099,7 +1162,7 @@
                         hasCorrectGuesses = true;
                         const keys = ['team', 'position', 'nationality', 'number', 'age'];
                         const key = keys[index];
-                        
+
                         if (!correctAttributes[key].value) {
                             if (key === 'team') {
                                 correctAttributes[key].value = stat.querySelector('img').cloneNode(true);
@@ -1119,7 +1182,7 @@
                     if (attr.value) {
                         const div = document.createElement('div');
                         div.className = 'guessed-attribute';
-                        
+
                         const iconSpan = document.createElement('span');
                         iconSpan.textContent = attr.icon;
                         div.appendChild(iconSpan);
@@ -1164,10 +1227,10 @@
             const gameOverDiv = document.getElementById('game-over');
             const messageDiv = document.getElementById('game-over-message');
             const overlay = document.querySelector('.overlay');
-            
+
             const attemptsUsed = 8 - remainingGuesses;
             const hintsUsed = 3 - hintsRemaining;
-            
+
             if (won) {
                 messageDiv.innerHTML = `
                     <h2>🎉 Felicitari! Ai castigat! 🎉</h2>
@@ -1188,7 +1251,7 @@
                     </div>
                 `;
             }
-            
+
             gameOverDiv.classList.remove('hidden');
             overlay.classList.add('active');
         }
@@ -1199,13 +1262,13 @@
 
             searchInput.addEventListener('input', (e) => {
                 const searchTerm = e.target.value.toLowerCase();
-                
+
                 if (searchTerm.length < 2) {
                     dropdown.style.display = 'none';
                     return;
                 }
 
-                const matches = players.filter(player => 
+                const matches = players.filter(player =>
                     player.Name.toLowerCase().includes(searchTerm)
                 );
 
@@ -1213,7 +1276,7 @@
                 matches.forEach(player => {
                     const div = document.createElement('div');
                     div.className = 'dropdown-item';
-                    
+
                     const playerImg = document.createElement('img');
                     playerImg.className = 'player-img';
                     playerImg.src = `https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/player_images/${player.PlayerID}.png`;
@@ -1224,24 +1287,24 @@
                             playerImg.style.opacity = '0.5';
                         };
                     };
-                    
+
                     const playerInfo = document.createElement('div');
                     playerInfo.style.display = 'flex';
                     playerInfo.style.flexDirection = 'column';
-                    
+
                     const playerName = document.createElement('div');
                     playerName.style.fontWeight = 'bold';
                     playerName.style.marginRight = '10px';
                     playerName.textContent = player.Name;
-                    
+
                     // const playerAge = document.createElement('div');
                     // playerAge.style.fontSize = '0.8em';
                     // playerAge.style.color = '#888';
                     // playerAge.textContent = `${getAge(player.Age)} ani`;
-                    
+
                     playerInfo.appendChild(playerName);
                     // playerInfo.appendChild(playerAge);
-                    
+
                     const teamLogo = document.createElement('img');
                     teamLogo.className = 'team-logo';
                     teamLogo.src = `https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/team_logos/${player.TeamID}.png`;
@@ -1252,17 +1315,17 @@
                             teamLogo.style.opacity = '0.5';
                         };
                     };
-                    
+
                     div.appendChild(playerImg);
                     div.appendChild(playerInfo);
                     div.appendChild(teamLogo);
-                    
+
                     div.addEventListener('click', () => {
                         handleGuess(player);
                         searchInput.value = '';
                         dropdown.style.display = 'none';
                     });
-                    
+
                     dropdown.appendChild(div);
                 });
 
@@ -1278,14 +1341,14 @@
 
         function getHint() {
             if (gameOver || hintsRemaining <= 0) return;
-            
+
             if (remainingGuesses <= 1) {
                 const hintText = document.getElementById('hint-text');
                 hintText.style.display = 'block';
                 hintText.textContent = "Nu mai ai suficiente incercari pentru un indiciu!";
                 return;
             }
-            
+
             // Create an object to track which stats are already correct
             const correctStats = {
                 Team: false,
@@ -1301,7 +1364,7 @@
                 const stats = attempt.querySelectorAll('.attempt-info');
                 stats.forEach((stat, index) => {
                     if (stat.classList.contains('correct')) {
-                        switch(index) {
+                        switch (index) {
                             case 0: correctStats.Team = true; break;
                             case 1: correctStats.Position = true; break;
                             case 2: correctStats.Nationality = true; break;
@@ -1311,7 +1374,7 @@
                     }
                 });
             });
-            
+
             // Filter out hints for correctly guessed stats
             const availableHints = [];
             if (!correctStats.Team) availableHints.push(`Acest jucator joaca la ${targetPlayer.Team}`);
@@ -1319,27 +1382,27 @@
             if (!correctStats.Nationality) availableHints.push(`Nationalitatea acestui jucator este ${targetPlayer.Nationality}`);
             if (!correctStats.Age) availableHints.push(`Varsta acestui jucator este ${getAge(targetPlayer.Age)}`);
             if (!correctStats.Number) availableHints.push(`Numarul acestui jucator este ${targetPlayer.Number}`);
-            
+
             // Filter out previously used hints
             const unusedHints = availableHints.filter(hint => !usedHints.has(hint));
-            
+
             if (unusedHints.length === 0) {
                 document.getElementById('hint-text').textContent = "Nu mai sunt indicii disponibile!";
                 return;
             }
-            
+
             const randomHint = unusedHints[Math.floor(Math.random() * unusedHints.length)];
             usedHints.add(randomHint);
-            
+
             const hintText = document.getElementById('hint-text');
             hintText.style.display = 'block';
             hintText.textContent = randomHint;
-            
+
             hintsRemaining--;
             updateHintButtonText();
             remainingGuesses--;
             document.getElementById('remaining-guesses').textContent = `Incercari ramase: ${remainingGuesses}`;
-            
+
             if (remainingGuesses === 0) {
                 endGame(false);
             }
@@ -1356,4 +1419,5 @@
         window.addEventListener('resize', updateHintButtonText);
     </script>
 </body>
+
 </html>
