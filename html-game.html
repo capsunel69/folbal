@@ -520,9 +520,6 @@
 
             /* Mobile search improvements */
             .search-container {
-                position: sticky;
-                top: 20px;
-                z-index: 1001;
                 margin-bottom: 10px;
             }
 
@@ -610,7 +607,7 @@
             background: rgba(76, 175, 80, 0.1);
             border-radius: 10px;
             padding: 15px;
-            margin-bottom: 20px;
+            margin-top: 20px;
             border: 1px solid rgba(76, 175, 80, 0.3);
         }
 
@@ -648,7 +645,7 @@
         @media screen and (max-width: 768px) {
             .correct-guesses {
                 padding: 10px;
-                margin-bottom: 15px;
+                margin-top: 15px;
             }
 
             .guessed-attribute {
@@ -736,11 +733,6 @@
     <div class="container">
 
         <div id="game-container">
-            <div id="correct-guesses" class="correct-guesses hidden">
-                <h3>Ai ghicit corect:</h3>
-                <div class="guessed-attributes"></div>
-            </div>
-
             <div class="search-container">
                 <input type="text" id="player-search" placeholder="Introdu numele jucatorului...">
                 <div id="dropdown" class="dropdown"></div>
@@ -749,6 +741,11 @@
             <div id="remaining-guesses">Incercari ramase: 8</div>
             <button id="hint-button">Indiciu (costa 1 incercare)</button>
             <div id="hint-text"></div>
+
+            <div id="correct-guesses" class="correct-guesses hidden">
+                <h3>Ai ghicit corect:</h3>
+                <div class="guessed-attributes"></div>
+            </div>
 
             <div class="grid-headers hidden">
                 <div>TEAM</div>
