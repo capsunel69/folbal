@@ -17,15 +17,22 @@
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 850px;
             margin: 0 auto;
             padding: 20px;
             background: rgba(0, 0, 0, 0.85);
-            border-radius: 20px;
+            border-radius: 0px 0px 20px 20px;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.3),
                 inset 0 0 100px rgba(255, 255, 255, 0.1);
-            border: 2px solid rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
+        }
+
+        #image-container {
+            max-width: 850px;
+            margin: 0 auto;
+            border-radius: 20px 20px 0px 0px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3),
+                inset 0 0 100px rgba(255, 255, 255, 0.1);
         }
 
         h1 {
@@ -691,17 +698,17 @@
                 margin-bottom: 20px;
             }
         }
+
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <img src="https://fotbal-comedie.ro/wp-content/uploads/2024/09/cropped-fotbal-comedie-png.png"
-            alt="Fotbal Comedie Logo"
-            style="width: 100px; height: 100px; display: block; margin: 0 auto 20px; animation: glow 2s ease-in-out infinite; filter: drop-shadow(0 0 15px rgb(255, 187, 0));"
+    <div id="image-container">
+        <img src="https://fotbal-comedie.ro/wp-content/uploads/2025/02/banner-fotbal-comedie.jpg"
+            alt="Fotbal Comedie Logo" style="width: 100%; height: auto; display: block;"
             href="https://fotbal-comedie.ro" target="_blank">
-        <h1>Ghiceste Fotbalistul</h1>
-
+    </div>
+    <div class="container">
         <div id="game-container">
             <div id="correct-guesses" class="correct-guesses hidden">
                 <h3>Ai ghicit corect:</h3>
@@ -739,7 +746,7 @@
                 <li>doar jucatori din Superliga (momentan)</li>
                 <li>ai 8 incercari pentru a ghici fotbalistul</li>
                 <li>poti folosi 3 indicii, dar fiecare va costa o incercare</li>
-                <li>pozitia jucatorului poate fi GK (portar), DEF (fundas), MID (mijlocas), W (winger) sau CF (atacant
+                <li>pozitia jucatorului poate fi GK (portar), DF (fundas), MID (mijlocas), W (winger) sau CF (atacant
                     central)</li>
                 <li>sagetile din dreptul caracteristicelor iti pot oferi indicii legate de jucator. De exemplu, in
                     dreptul varstei daca avem 25 cu o sageata in sus, inseamna ca varsta jucatorului este mai mare de 25
