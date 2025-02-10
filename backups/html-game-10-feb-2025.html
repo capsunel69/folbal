@@ -737,60 +737,6 @@
             100% { transform: rotate(360deg); }
         }
 
-        /* Add these new styles */
-        .difficulty-modal {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgba(0, 0, 0, 0.95);
-            padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-            border: 2px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            z-index: 10000;
-            text-align: center;
-            width: 90%;
-            max-width: 400px;
-        }
-
-        .difficulty-buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .difficulty-button {
-            padding: 15px 30px;
-            border: none;
-            border-radius: 25px;
-            color: white;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .easy {
-            background: linear-gradient(135deg, #4CAF50, #45a049);
-        }
-
-        .medium {
-            background: linear-gradient(135deg, #ff9800, #f57c00);
-        }
-
-        .hard {
-            background: linear-gradient(135deg, #f44336, #d32f2f);
-        }
-
-        .difficulty-button:hover {
-            transform: translateY(-2px);
-            filter: brightness(1.1);
-        }
-
     </style>
 </head>
 
@@ -844,16 +790,6 @@
                     dreptul varstei daca avem 25 cu o sageata in sus, inseamna ca varsta jucatorului este mai mare de 25
                     de ani.</li>
             </ul>
-        </div>
-    </div>
-
-    <!-- Add this new div after the loading-screen div -->
-    <div id="difficulty-modal" class="difficulty-modal hidden">
-        <h2>Alege Dificultatea</h2>
-        <div class="difficulty-buttons">
-            <button class="difficulty-button easy" data-difficulty="easy">Usor</button>
-            <button class="difficulty-button medium" data-difficulty="medium">Mediu</button>
-            <button class="difficulty-button hard" data-difficulty="hard">Greu</button>
         </div>
     </div>
 
@@ -913,9 +849,9 @@
                 // Wait for all images to load
                 await Promise.all(preloadPromises);
 
-                // Remove loading screen and show difficulty selector instead of starting game
+                // Remove loading screen and start game
                 document.body.removeChild(loadingDiv);
-                showDifficultySelector();
+                startNewGame();
             } catch (error) {
                 console.error('Error fetching players:', error);
             }
@@ -930,71 +866,8 @@
             loadingText.textContent = `Aducem jucatorii pe teren (${percentage}%)`;
         }
 
-        function showDifficultySelector() {
-            const modal = document.getElementById('difficulty-modal');
-            const overlay = document.querySelector('.overlay');
-            modal.classList.remove('hidden');
-            overlay.classList.add('active');
-
-            const buttons = modal.querySelectorAll('.difficulty-button');
-            buttons.forEach(button => {
-                button.addEventListener('click', () => {
-                    const difficulty = button.dataset.difficulty;
-                    modal.classList.add('hidden');
-                    overlay.classList.remove('active');
-                    startNewGame(difficulty);
-                });
-            });
-        }
-
-        function getWeightedRandomPlayerByDifficulty(difficulty) {
-            const weights = {
-                easy: {
-                    5: 0.4,    // 40%
-                    4: 0.3,    // 30%
-                    3: 0.2,    // 20%
-                    2: 0.07,   // 7%
-                    1: 0.03    // 3%
-                },
-                medium: {
-                    5: 0.2,    // 20%
-                    4: 0.2,    // 20%
-                    3: 0.2,    // 20%
-                    2: 0.2,    // 20%
-                    1: 0.2     // 20%
-                },
-                hard: {
-                    5: 0.03,   // 3%
-                    4: 0.07,   // 7%
-                    3: 0.2,    // 20%
-                    2: 0.3,    // 30%
-                    1: 0.4     // 40%
-                }
-            };
-
-            const selectedWeights = weights[difficulty] || weights.medium;
-            const random = Math.random();
-            let cumulativeWeight = 0;
-
-            // Group players by score
-            const playersByScore = {};
-            for (let i = 1; i <= 5; i++) {
-                playersByScore[i] = players.filter(p => p.Scor === i);
-            }
-
-            for (let score = 1; score <= 5; score++) {
-                cumulativeWeight += selectedWeights[score];
-                if (random <= cumulativeWeight && playersByScore[score].length > 0) {
-                    return playersByScore[score][Math.floor(Math.random() * playersByScore[score].length)];
-                }
-            }
-
-            // Fallback to completely random selection
-            return players[Math.floor(Math.random() * players.length)];
-        }
-
-        function startNewGame(difficulty = 'medium') {
-            targetPlayer = getWeightedRandomPlayerByDifficulty(difficulty);
+        function startNewGame() {
+            targetPlayer = getWeightedRandomPlayer();
             remainingGuesses = 8;
             gameOver = false;
             usedHints = new Set();
@@ -1010,6 +883,54 @@
             document.querySelector('.grid-headers').classList.add('hidden');
             document.getElementById('correct-guesses').classList.add('hidden');
             document.querySelector('.guessed-attributes').innerHTML = '';
+        }
+
+        function getWeightedRandomPlayer() {
+            // Define weights for each score (total = 100%)
+            const weights = {
+                5: 0.50, // 50% chance for score 5
+                4: 0.25, // 25% chance for score 4
+                3: 0.15, // 15% chance for score 3
+                2: 0.07, // 7% chance for score 2
+                1: 0.03  // 3% chance for score 1
+            };
+
+            // Generate a random number between 0 and 1
+            const random = Math.random();
+
+            // Create score groups
+            const playersByScore = {};
+            for (let i = 1; i <= 5; i++) {
+                playersByScore[i] = players.filter(p => p.Scor === i);
+            }
+
+            // Determine which score group to pick from based on the random number
+            let cumulativeWeight = 0;
+            for (let score = 5; score >= 1; score--) {
+                cumulativeWeight += weights[score];
+                if (random <= cumulativeWeight) {
+                    // If this score group has no players, fall back to the next available group
+                    let currentScore = score;
+                    while (currentScore >= 1 && playersByScore[currentScore].length === 0) {
+                        currentScore--;
+                    }
+                    if (currentScore < 1) {
+                        // If no players found in lower scores, try higher scores
+                        currentScore = score + 1;
+                        while (currentScore <= 5 && playersByScore[currentScore].length === 0) {
+                            currentScore++;
+                        }
+                    }
+                    // If we found a group with players, select randomly from it
+                    if (currentScore >= 1 && currentScore <= 5 && playersByScore[currentScore].length > 0) {
+                        const groupPlayers = playersByScore[currentScore];
+                        return groupPlayers[Math.floor(Math.random() * groupPlayers.length)];
+                    }
+                }
+            }
+
+            // Fallback to completely random selection if something goes wrong
+            return players[Math.floor(Math.random() * players.length)];
         }
 
         function updateHintButtonText() {
@@ -1552,7 +1473,7 @@
             }
         }
 
-        document.getElementById('play-again').addEventListener('click', () => showDifficultySelector());
+        document.getElementById('play-again').addEventListener('click', startNewGame);
         document.getElementById('hint-button').addEventListener('click', getHint);
 
         // Initialize the game
