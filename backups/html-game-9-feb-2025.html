@@ -357,8 +357,7 @@
             backdrop-filter: blur(10px);
             z-index: 9999;
             text-align: center;
-            width: 80%;
-            max-width: 600px;
+            min-width: 320px;
         }
 
         #game-over h2 {
@@ -542,7 +541,6 @@
             /* Game over modal adjustments */
             #game-over {
                 width: 90%;
-                max-width: none;
                 padding: 20px;
             }
 
@@ -719,22 +717,6 @@
                 font-size: 1.5em;
                 margin-bottom: 20px;
             }
-        }
-
-        .loader {
-            border: 8px solid #f3f3f3;
-            border-top: 8px solid #4caf50;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 2s linear infinite;
-            margin: 20px auto;
-            display: none;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
         }
 
     </style>
@@ -1285,10 +1267,6 @@
                         <p>Indicii folosite: ${hintsUsed}/3</p>
                         ${attemptsUsed === 1 ? '<p>Joc perfect! Din prima incercare! 🏆</p>' : ''}
                     </div>
-                    <div id="loader" class="loader"></div>
-                    <p style="margin: 15px 0;">Nu uita ca avem un newsletter zilnic, aboneaza-te bagand mailul mai jos.</p>
-                    <iframe id="myIframe" src="https://embeds.beehiiv.com/4f46f0f5-c3e3-4a05-a85a-2c1a2eba5d8e?slim=true"
-                        data-test-id="beehiiv-embed" width="100%" height="55" frameborder="0" scrolling="no"></iframe>
                 `;
             } else {
                 messageDiv.innerHTML = `
@@ -1298,27 +1276,11 @@
                         <p>Incercari folosite: ${attemptsUsed}/8</p>
                         <p>Indicii folosite: ${hintsUsed}/3</p>
                     </div>
-                    <div id="loader" class="loader"></div>
-                    <p style="margin: 15px 0;">Nu uita ca avem un newsletter zilnic, aboneaza-te bagand mailul mai jos.</p>
-                    <iframe id="myIframe" src="https://embeds.beehiiv.com/4f46f0f5-c3e3-4a05-a85a-2c1a2eba5d8e?slim=true"
-                        data-test-id="beehiiv-embed" width="100%" height="55" frameborder="0" scrolling="no"></iframe>
                 `;
             }
 
             gameOverDiv.classList.remove('hidden');
             overlay.classList.add('active');
-
-            // Setup iframe loader
-            const iframe = document.getElementById('myIframe');
-            const loader = document.getElementById('loader');
-
-            // Show loader when iframe starts loading
-            loader.style.display = 'block';
-
-            // Hide loader when iframe has finished loading
-            iframe.onload = function () {
-                loader.style.display = 'none';
-            };
         }
 
         function setupSearch() {
