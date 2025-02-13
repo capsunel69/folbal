@@ -60,25 +60,40 @@
 .question-container {
     background-color: white;
     padding: 20px;
-    border-radius: 4px;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
 }
 
-.answers {
+.question-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.answers-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    margin-top: 15px;
 }
 
 .answer-btn {
-    padding: 10px;
+    padding: 15px;
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.2s;
 }
 
 .answer-btn:hover {
     background-color: #e0e0e0;
+}
+
+.game-status {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
 }
