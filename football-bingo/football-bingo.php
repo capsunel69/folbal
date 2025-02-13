@@ -21,7 +21,7 @@ class FootballBingo {
         return self::$instance;
     }
 
-    private function __construct() {
+    public function __construct() {
         // First check if composer autoload exists
         $composer_autoload = plugin_dir_path(__FILE__) . 'vendor/autoload.php';
         if (file_exists($composer_autoload)) {
@@ -40,6 +40,7 @@ class FootballBingo {
         add_action('wp_ajax_submit_answer', array($this, 'submit_answer'));
         add_action('wp_ajax_start_game', array($this, 'start_game'));
         add_action('wp_ajax_get_next_question', array($this, 'get_next_question'));
+        add_action('wp_ajax_restart_game', array($this, 'restart_game'));
         add_shortcode('football_bingo', array($this, 'game_shortcode'));
     }
 
@@ -84,6 +85,23 @@ class FootballBingo {
         ) $charset_collate;";
 
         dbDelta($sql);
+
+        // Check if last_answer_id column exists before adding it
+        $column_exists = $wpdb->get_results($wpdb->prepare(
+            "SELECT COLUMN_NAME 
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_SCHEMA = %s 
+            AND TABLE_NAME = %s 
+            AND COLUMN_NAME = 'last_answer_id'",
+            DB_NAME,
+            $wpdb->prefix . 'football_bingo_players'
+        ));
+
+        if (empty($column_exists)) {
+            $sql = "ALTER TABLE {$wpdb->prefix}football_bingo_players 
+                    ADD COLUMN last_answer_id INT NULL";
+            $wpdb->query($sql);
+        }
     }
 
     public function enqueue_scripts() {
@@ -445,6 +463,189 @@ class FootballBingo {
                 'question' => $question->question,
                 'options' => $options
             ));
+
+        } catch (Exception $e) {
+            wp_send_json_error(array(
+                'message' => $e->getMessage()
+            ));
+        }
+    }
+
+    public function submit_answer() {
+        try {
+            check_ajax_referer('football_bingo_nonce', 'nonce');
+            
+            if (!isset($_POST['room_code']) || !isset($_POST['question_id']) || !isset($_POST['answer'])) {
+                throw new Exception('Missing required data');
+            }
+
+            global $wpdb;
+            $user_id = get_current_user_id();
+            $room_code = sanitize_text_field($_POST['room_code']);
+            $question_id = intval($_POST['question_id']);
+            $answer = sanitize_text_field($_POST['answer']);
+
+            // Get the room and question
+            $room = $wpdb->get_row($wpdb->prepare(
+                "SELECT * FROM {$wpdb->prefix}football_bingo_rooms WHERE room_code = %s",
+                $room_code
+            ));
+
+            $question = $wpdb->get_row($wpdb->prepare(
+                "SELECT * FROM {$wpdb->prefix}football_bingo_questions WHERE id = %d",
+                $question_id
+            ));
+
+            // Calculate points
+            $points = ($question->correct_answer === $answer) ? $question->points : 0;
+
+            // Update player's score and last answered question
+            $wpdb->query($wpdb->prepare(
+                "UPDATE {$wpdb->prefix}football_bingo_players 
+                SET score = score + %d,
+                    last_answer_id = %d
+                WHERE room_id = %d AND user_id = %d",
+                $points,
+                $question_id,
+                $room->id,
+                $user_id
+            ));
+
+            // Get total players and players who answered
+            $total_players = $wpdb->get_var($wpdb->prepare(
+                "SELECT COUNT(*) FROM {$wpdb->prefix}football_bingo_players WHERE room_id = %d",
+                $room->id
+            ));
+
+            $players_answered = $wpdb->get_var($wpdb->prepare(
+                "SELECT COUNT(*) FROM {$wpdb->prefix}football_bingo_players 
+                WHERE room_id = %d AND last_answer_id = %d",
+                $room->id,
+                $question_id
+            ));
+
+            // Get current scores
+            $scores = $wpdb->get_results($wpdb->prepare(
+                "SELECT u.display_name, p.score 
+                FROM {$wpdb->prefix}football_bingo_players p
+                JOIN {$wpdb->users} u ON p.user_id = u.ID
+                WHERE p.room_id = %d
+                ORDER BY p.score DESC",
+                $room->id
+            ));
+
+            // Initialize Pusher
+            $pusher = new Pusher\Pusher(
+                $this->pusher_key,
+                $this->pusher_secret,
+                $this->pusher_app_id,
+                array('cluster' => $this->pusher_cluster)
+            );
+
+            // If all players have answered
+            if ($players_answered >= $total_players) {
+                // Get total questions and check if this was the last one
+                $total_questions = $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->prefix}football_bingo_questions");
+                $is_last_question = $question_id >= $total_questions;
+
+                $next_question = null;
+                if (!$is_last_question) {
+                    $next_question = $wpdb->get_row(
+                        "SELECT * FROM {$wpdb->prefix}football_bingo_questions 
+                        WHERE id > {$question_id}
+                        ORDER BY id ASC 
+                        LIMIT 1"
+                    );
+                }
+
+                $pusher->trigger('game-' . $room_code, 'all-players-answered', array(
+                    'correct_answer' => $question->correct_answer,
+                    'scores' => $scores,
+                    'next_question' => $next_question ? array(
+                        'id' => $next_question->id,
+                        'question' => $next_question->question,
+                        'options' => json_decode($next_question->options)
+                    ) : null,
+                    'is_game_over' => $is_last_question,
+                    'final_scores' => $is_last_question ? $scores : null
+                ));
+
+                if ($is_last_question) {
+                    // Update room status to completed
+                    $wpdb->update(
+                        $wpdb->prefix . 'football_bingo_rooms',
+                        array('status' => 'completed'),
+                        array('id' => $room->id)
+                    );
+                }
+            }
+
+            wp_send_json_success(array(
+                'correct' => $question->correct_answer === $answer,
+                'points' => $points,
+                'scores' => $scores
+            ));
+
+        } catch (Exception $e) {
+            wp_send_json_error(array(
+                'message' => $e->getMessage()
+            ));
+        }
+    }
+
+    public function restart_game() {
+        try {
+            check_ajax_referer('football_bingo_nonce', 'nonce');
+            
+            if (!isset($_POST['room_code'])) {
+                throw new Exception('Room code is required');
+            }
+
+            global $wpdb;
+            $room_code = sanitize_text_field($_POST['room_code']);
+            $user_id = get_current_user_id();
+
+            // Verify user is room creator
+            $room = $wpdb->get_row($wpdb->prepare(
+                "SELECT r.*, p.user_id as creator_id 
+                FROM {$wpdb->prefix}football_bingo_rooms r
+                JOIN {$wpdb->prefix}football_bingo_players p ON r.id = p.room_id
+                WHERE r.room_code = %s
+                ORDER BY p.id ASC
+                LIMIT 1",
+                $room_code
+            ));
+
+            if ($room->creator_id != $user_id) {
+                throw new Exception('Only the room creator can restart the game');
+            }
+
+            // Reset room status and player scores
+            $wpdb->update(
+                $wpdb->prefix . 'football_bingo_rooms',
+                array('status' => 'waiting'),
+                array('id' => $room->id)
+            );
+
+            $wpdb->query($wpdb->prepare(
+                "UPDATE {$wpdb->prefix}football_bingo_players 
+                SET score = 0, last_answer_id = NULL 
+                WHERE room_id = %d",
+                $room->id
+            ));
+
+            // Initialize Pusher
+            $pusher = new Pusher\Pusher(
+                $this->pusher_key,
+                $this->pusher_secret,
+                $this->pusher_app_id,
+                array('cluster' => $this->pusher_cluster)
+            );
+
+            // Broadcast restart event
+            $pusher->trigger('game-' . $room_code, 'game-restart', array());
+
+            wp_send_json_success();
 
         } catch (Exception $e) {
             wp_send_json_error(array(

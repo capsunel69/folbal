@@ -97,3 +97,51 @@
     background-color: #f5f5f5;
     border-radius: 4px;
 }
+
+.answer-btn.correct {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.answer-btn.incorrect {
+    background-color: #f44336;
+    color: white;
+}
+
+.game-results {
+    text-align: center;
+    padding: 20px;
+}
+
+.final-scoreboard {
+    margin: 20px 0;
+}
+
+.final-score-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.final-score-item.winner {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.play-again {
+    margin-top: 20px;
+}
+
+.waiting-message {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+.answer-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}

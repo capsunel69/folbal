@@ -17,8 +17,16 @@ jQuery(document).ready(function($) {
     });
 
     $(document).on('click', '.answer-btn', function() {
+        if ($(this).prop('disabled')) {
+            return; // Don't do anything if button is disabled
+        }
+        
         const answer = $(this).data('answer');
         const questionId = $('.question-container').data('question-id');
+        
+        // Disable all answer buttons immediately
+        $('.answer-btn').prop('disabled', true);
+        
         submitAnswer(questionId, answer);
     });
 
@@ -148,6 +156,46 @@ jQuery(document).ready(function($) {
         currentChannel.bind('answer-submitted', function(data) {
             updateScoreboard(data.scores);
         });
+
+        currentChannel.bind('scores-updated', function(data) {
+            updateScoreboard(data.scores);
+            highlightCorrectAnswer(data.correct_answer);
+        });
+
+        currentChannel.bind('next-question', function(data) {
+            setTimeout(function() {
+                displayQuestion(data);
+                // Re-enable answer buttons for next question
+                $('.answer-btn').prop('disabled', false);
+            }, 2000);
+        });
+
+        currentChannel.bind('game-over', function(data) {
+            console.log('Game over event received:', data);
+            showGameOver(data.final_scores);
+        });
+
+        currentChannel.bind('all-players-answered', function(data) {
+            console.log('All players answered:', data);
+            // Show correct answer to everyone
+            highlightCorrectAnswer(data.correct_answer);
+            updateScoreboard(data.scores);
+            
+            // Wait a moment before showing next question or game over
+            setTimeout(function() {
+                if (data.next_question) {
+                    displayQuestion(data.next_question);
+                    $('.answer-btn').prop('disabled', false);
+                } else if (data.is_game_over) {
+                    showGameOver(data.final_scores);
+                }
+            }, 2000);
+        });
+
+        currentChannel.bind('game-restart', function() {
+            console.log('Game restart received');
+            window.location.reload(); // Force reload for all players
+        });
     }
 
     function updatePlayersList(players, isCreator) {
@@ -176,7 +224,7 @@ jQuery(document).ready(function($) {
         
         scores.forEach(function(score) {
             scoreboard.append(`
-                <div class="score-entry">
+                <div class="score-item">
                     <span class="player-name">${score.display_name}</span>
                     <span class="player-score">${score.score}</span>
                 </div>
@@ -233,10 +281,11 @@ jQuery(document).ready(function($) {
         });
     }
 
-    // Handle answer submission
-    $(document).on('click', '.answer-btn', function() {
-        const answer = $(this).data('answer');
-        const questionId = $('.question-container').data('question-id');
+    function submitAnswer(questionId, answer) {
+        console.log('Submitting answer:', { questionId, answer });
+        
+        // Disable only this user's answer buttons
+        $('.answer-btn').prop('disabled', true);
         
         $.ajax({
             url: footballBingo.ajax_url,
@@ -249,16 +298,100 @@ jQuery(document).ready(function($) {
                 nonce: footballBingo.nonce
             },
             success: function(response) {
+                console.log('Submit answer response:', response);
+                
                 if (response.success) {
-                    // Wait for the next question
-                    $('.answers-grid').empty();
-                    $('.question-text').text('Waiting for next question...');
+                    // Show this user their correct/incorrect answer
+                    if (response.data.correct) {
+                        $('.answer-btn').each(function() {
+                            if ($(this).data('answer') === answer) {
+                                $(this).addClass('correct');
+                            }
+                        });
+                    } else {
+                        $('.answer-btn').each(function() {
+                            if ($(this).data('answer') === answer) {
+                                $(this).addClass('incorrect');
+                            }
+                        });
+                    }
+
+                    // Update scoreboard
+                    updateScoreboard(response.data.scores);
+                    
+                    // Show waiting message for this user
+                    $('.question-text').append('<div class="waiting-message">Waiting for other players...</div>');
                 } else {
                     alert('Error: ' + (response.data.message || 'Failed to submit answer'));
+                    $('.answer-btn').prop('disabled', false);
                 }
             },
             error: function(xhr, status, error) {
                 console.error('AJAX Error:', status, error);
+                alert('Failed to submit answer. Please try again.');
+                $('.answer-btn').prop('disabled', false);
+            }
+        });
+    }
+
+    function highlightCorrectAnswer(correctAnswer) {
+        $('.answer-btn').each(function() {
+            const $btn = $(this);
+            if ($btn.data('answer') === correctAnswer) {
+                $btn.addClass('correct');
+            } else {
+                $btn.addClass('incorrect');
+            }
+        });
+        $('.answer-btn').prop('disabled', true);
+    }
+
+    function showGameOver(finalScores) {
+        // Hide game section and show results
+        $('.game-section').hide();
+        $('.game-results').show();
+        
+        const $finalScoreboard = $('.final-scoreboard');
+        $finalScoreboard.empty();
+        
+        finalScores.forEach(function(score, index) {
+            $finalScoreboard.append(`
+                <div class="final-score-item ${index === 0 ? 'winner' : ''}">
+                    <span class="player-name">${score.display_name}</span>
+                    <span class="final-score">${score.score}</span>
+                </div>
+            `);
+        });
+
+        // Only show play again button to room creator
+        if (finalScores[0].display_name === footballBingo.current_user) {
+            $('.game-results').append(`
+                <button class="game-button play-again">Play Again</button>
+            `);
+        }
+    }
+
+    // Update play again click handler
+    $(document).on('click', '.play-again', function() {
+        console.log('Play again clicked');
+        $.ajax({
+            url: footballBingo.ajax_url,
+            type: 'POST',
+            data: {
+                action: 'restart_game',
+                room_code: currentRoom,
+                nonce: footballBingo.nonce
+            },
+            success: function(response) {
+                console.log('Restart game response:', response);
+                if (response.success) {
+                    // The game-restart event will handle the reload for all players
+                } else {
+                    alert('Failed to restart game: ' + response.data.message);
+                }
+            },
+            error: function() {
+                alert('Failed to restart game. Please try again.');
             }
         });
     });
