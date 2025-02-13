@@ -169,7 +169,7 @@ class FootballBingo {
 
             try {
                 // Update the Pusher initialization to use the correct namespace
-                $pusher = new \Pusher\Pusher(
+                $pusher = new Pusher\Pusher(
                     $this->pusher_key,
                     $this->pusher_secret,
                     $this->pusher_app_id,
@@ -246,7 +246,7 @@ class FootballBingo {
 
             try {
                 // Initialize Pusher
-                $pusher = new \Pusher\Pusher(
+                $pusher = new Pusher\Pusher(
                     $this->pusher_key,
                     $this->pusher_secret,
                     $this->pusher_app_id,
