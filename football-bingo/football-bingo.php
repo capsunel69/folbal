@@ -22,7 +22,16 @@ class FootballBingo {
     }
 
     private function __construct() {
-        require_once plugin_dir_path(__FILE__) . 'vendor/autoload.php';
+        // First check if composer autoload exists
+        $composer_autoload = plugin_dir_path(__FILE__) . 'vendor/autoload.php';
+        if (file_exists($composer_autoload)) {
+            require_once $composer_autoload;
+        } else {
+            // Manual class loading if composer autoload doesn't exist
+            require_once plugin_dir_path(__FILE__) . 'vendor/pusher/pusher-php-server/src/Pusher.php';
+            require_once plugin_dir_path(__FILE__) . 'vendor/pusher/pusher-php-server/src/PusherInterface.php';
+            require_once plugin_dir_path(__FILE__) . 'vendor/pusher/pusher-php-server/src/PusherException.php';
+        }
         
         add_action('init', array($this, 'init'));
         add_action('wp_enqueue_scripts', array($this, 'enqueue_scripts'));
@@ -128,13 +137,21 @@ class FootballBingo {
 
     public function create_room() {
         try {
+            error_log('Starting create_room function');
             check_ajax_referer('football_bingo_nonce', 'nonce');
+
+            if (!class_exists('Pusher\Pusher')) {
+                error_log('Pusher class not found');
+                throw new Exception('Required dependencies are missing.');
+            }
 
             global $wpdb;
             $user_id = get_current_user_id();
+            error_log('User ID: ' . $user_id);
 
             // Generate unique room code
             $room_code = $this->generate_room_code();
+            error_log('Generated room code: ' . $room_code);
 
             // Insert new room
             $result = $wpdb->insert(
@@ -147,10 +164,12 @@ class FootballBingo {
             );
 
             if ($result === false) {
+                error_log('Database error when creating room: ' . $wpdb->last_error);
                 throw new Exception('Failed to create room: ' . $wpdb->last_error);
             }
 
             $room_id = $wpdb->insert_id;
+            error_log('Created room with ID: ' . $room_id);
 
             // Add creator as first player
             $result = $wpdb->insert(
@@ -164,26 +183,39 @@ class FootballBingo {
             );
 
             if ($result === false) {
+                error_log('Database error when adding player: ' . $wpdb->last_error);
                 throw new Exception('Failed to add player: ' . $wpdb->last_error);
             }
 
             try {
-                // Update the Pusher initialization to use the correct namespace
-                $pusher = new Pusher\Pusher(
+                error_log('Initializing Pusher');
+                
+                // Create Pusher instance with explicit namespace
+                $pusher = new \Pusher\Pusher(
                     $this->pusher_key,
                     $this->pusher_secret,
                     $this->pusher_app_id,
-                    array('cluster' => $this->pusher_cluster)
+                    array(
+                        'cluster' => $this->pusher_cluster,
+                        'encrypted' => true
+                    )
                 );
 
+                error_log('Pusher instance created successfully');
+
                 // Trigger event for room creation
-                $pusher->trigger('game-' . $room_code, 'room-created', array(
+                $event_data = array(
                     'room_code' => $room_code,
                     'creator' => wp_get_current_user()->display_name
-                ));
+                );
+                
+                $pusher->trigger('game-' . $room_code, 'room-created', $event_data);
+                error_log('Pusher event triggered successfully');
+                
             } catch (Exception $e) {
-                // Log Pusher error but don't stop execution
                 error_log('Pusher error: ' . $e->getMessage());
+                error_log('Pusher error trace: ' . $e->getTraceAsString());
+                // Continue execution despite Pusher error
             }
 
             wp_send_json_success(array(
@@ -192,7 +224,8 @@ class FootballBingo {
             ));
 
         } catch (Exception $e) {
-            error_log('Football Bingo Error: ' . $e->getMessage());
+            error_log('Football Bingo Critical Error: ' . $e->getMessage());
+            error_log('Stack trace: ' . $e->getTraceAsString());
             wp_send_json_error(array(
                 'message' => 'Failed to create room: ' . $e->getMessage()
             ));
