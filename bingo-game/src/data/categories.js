@@ -1,0 +1,18 @@
+export const categories = [
+  { id: 'team_poliiasi', name: "Poli Iasi Player", description: "Players who played for Poli Iasi" },
+  { id: 'team_politimisoara', name: "Poli Timisoara Player", description: "Players who played for Poli Timisoara" },
+  { id: 'team_vaslui', name: "Vaslui Player", description: "Players who played for Vaslui" },
+  { id: 'team_steaua', name: "Steaua Player", description: "Players who played for Steaua" },
+  { id: 'team_astra', name: "Astra Player", description: "Players who played for Astra" },
+  { id: 'country_angola', name: "Angola Connection", description: "Players connected to Angola" },
+  { id: 'country_armenia', name: "Armenia Connection", description: "Players connected to Armenia" },
+  { id: 'country_australia', name: "Australia Connection", description: "Players connected to Australia" },
+  { id: 'country_moldova', name: "Moldova Connection", description: "Players connected to Moldova" },
+  { id: 'country_serbia', name: "Serbia Connection", description: "Players connected to Serbia" },
+  { id: 'league_won_romania', name: "Romania League Winner", description: "Players who won Romanian League" },
+  { id: 'league_won_scotland', name: "Scotland League Winner", description: "Players who won Scottish League" },
+  { id: 'league_play_gibraltar', name: "Gibraltar Experience", description: "Players who played in Gibraltar" },
+  { id: 'cup_won_champions_league', name: "Champions League Winner", description: "Players who won Champions League" },
+  { id: 'coached_by_mircea_lucescu', name: "Lucescu Player", description: "Players coached by Mircea Lucescu" },
+  { id: 'teamplayer_adrian_mutu', name: "Mutu Teammate", description: "Players who played with Adrian Mutu" },
+]
