@@ -4,30 +4,31 @@ const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
+        bg: 'linear-gradient(135deg, #0f172a 0%, #1e293b 100%)',
         color: 'rgba(255, 255, 255, 0.95)',
         minHeight: '100vh',
+        fontFamily: '"Russo One", sans-serif',
       }
     }
   },
   colors: {
     brand: {
       100: 'rgba(255, 255, 255, 0.15)',
-      500: '#4CAF50',
-      600: '#45a049',
+      500: '#3b82f6',
+      600: '#2563eb',
       700: 'rgba(0, 0, 0, 0.6)',
     },
     correct: {
-      500: 'linear-gradient(135deg, #00b894, #00a884)',
+      500: 'linear-gradient(135deg, #22c55e, #16a34a)',
     },
     incorrect: {
-      500: 'linear-gradient(135deg, #e17055, #d63031)',
+      500: 'linear-gradient(135deg, #ef4444, #dc2626)',
     }
   },
   components: {
     Button: {
       baseStyle: {
-        borderRadius: '25px',
+        borderRadius: 'xl',
         textTransform: 'uppercase',
         letterSpacing: '1px',
         fontWeight: 'bold',
@@ -38,11 +39,11 @@ const theme = extendTheme({
       },
       variants: {
         solid: {
-          bg: 'linear-gradient(135deg, #6c5ce7, #a55eea)',
+          bg: 'linear-gradient(135deg, #3b82f6, #2563eb)',
           color: 'white',
-          boxShadow: '0 5px 15px rgba(108, 92, 231, 0.3)',
+          boxShadow: '0 5px 15px rgba(59, 130, 246, 0.3)',
           _hover: {
-            boxShadow: '0 8px 20px rgba(108, 92, 231, 0.4)',
+            boxShadow: '0 8px 20px rgba(59, 130, 246, 0.4)',
           },
         },
         outline: {
@@ -57,13 +58,17 @@ const theme = extendTheme({
     Container: {
       baseStyle: {
         maxW: 'container.lg',
-        bg: 'rgba(22, 33, 62, 0.95)',
-        borderRadius: '20px',
-        boxShadow: '0 0 50px rgba(0, 0, 0, 0.5), inset 0 0 30px rgba(255, 255, 255, 0.05)',
-        backdropFilter: 'blur(10px)',
-        padding: '60px',
+        bg: 'rgba(15, 23, 42, 0.95)',
+        borderRadius: '2xl',
+        boxShadow: '0 0 50px rgba(0, 0, 0, 0.5), inset 0 0 30px rgba(255, 255, 255, 0.03)',
+        backdropFilter: 'blur(16px)',
+        padding: { base: '4', md: '8', lg: '12' },
       }
     }
+  },
+  fonts: {
+    body: '"Russo One", sans-serif',
+    heading: '"Russo One", sans-serif',
   },
 })
 

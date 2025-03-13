@@ -16,8 +16,18 @@ function App() {
   const [usedPlayers, setUsedPlayers] = useState([])
   const [hasWildcard, setHasWildcard] = useState(true)
   const [skipPenalty, setSkipPenalty] = useState(false)
-  const [score, setScore] = useState(0)
   const toast = useToast()
+
+  const showToast = (options) => {
+    toast.closeAll()
+    
+    toast({
+      position: "bottom",
+      duration: 2000,
+      isClosable: true,
+      ...options,
+    })
+  }
 
   const startGame = () => {
     setGameState('playing')
@@ -28,22 +38,18 @@ function App() {
     setUsedPlayers([])
     setHasWildcard(true)
     setSkipPenalty(false)
-    setScore(0)
   }
 
-  const handleCellSelect = (category) => {
+  const handleCellSelect = (categoryId) => {
     if (!currentPlayer) return
     
-    // Clear any previous invalid selection
     setCurrentInvalidSelection(null)
-
-    const isValidSelection = currentPlayer.categories.includes(category.id)
+    const isValidSelection = currentPlayer.categories.includes(categoryId)
 
     if (isValidSelection) {
-      const newSelectedCells = [...selectedCells, category.id]
+      const newSelectedCells = [...selectedCells, categoryId]
       setSelectedCells(newSelectedCells)
-      setValidSelections([...validSelections, category.id])
-      setScore(prev => prev + 1)
+      setValidSelections([...validSelections, categoryId])
       
       // Check for win (all 16 categories matched)
       if (validSelections.length >= 15) {
@@ -51,19 +57,14 @@ function App() {
         return
       }
 
-      // Move to next player
       moveToNextPlayer()
     } else {
-      // Wrong selection feedback
-      setCurrentInvalidSelection(category.id)
-      setScore(prev => Math.max(0, prev - 1))
-      toast({
+      setCurrentInvalidSelection(categoryId)
+      showToast({
         title: "Wrong selection!",
         description: "That category doesn't match this player.",
         status: "error",
-        duration: 2000,
       })
-      // Automatically move to next player
       moveToNextPlayer()
     }
   }
@@ -86,7 +87,6 @@ function App() {
   const handleWildcard = () => {
     if (!currentPlayer || !hasWildcard) return
     
-    // Add all possible categories for current player to validSelections
     const newValidSelections = [...validSelections]
     currentPlayer.categories.forEach(categoryId => {
       if (!validSelections.includes(categoryId)) {
@@ -97,28 +97,24 @@ function App() {
     setValidSelections(newValidSelections)
     setSelectedCells([...new Set([...selectedCells, ...currentPlayer.categories])])
     setHasWildcard(false)
-    setScore(prev => prev + currentPlayer.categories.length)
     
-    // Check for win after wildcard use
     if (newValidSelections.length >= 16) {
       endGame(true)
       return
     }
     
-    // Move to next player
     moveToNextPlayer()
   }
 
   const endGame = (isWin) => {
     setGameState('end')
-    toast({
+    showToast({
       title: isWin ? "Congratulations!" : "Game Over!",
       description: isWin 
-        ? `You've completed all categories! Final Score: ${score} points`
+        ? "You've completed all categories!"
         : `No more players available. You matched ${validSelections.length} of 16 categories.`,
       status: isWin ? "success" : "info",
-      duration: null,
-      isClosable: true,
+      duration: 4000,
     })
   }
 
@@ -160,6 +156,10 @@ function App() {
               height: 100%;
               margin: 0;
               padding: 0;
+              background-image: url('/images/background.jpg');
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
             }
           `}
         />
@@ -191,6 +191,10 @@ function App() {
               height: 100%;
               margin: 0;
               padding: 0;
+              background-image: url('/images/background.jpg');
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
             }
           `}
         />
@@ -198,7 +202,7 @@ function App() {
           <Container maxW="container.lg" py={8} mx="auto">
             <VStack spacing={8} align="center" w="full">
               <Heading as="h1" size="xl" textAlign="center">Game Over!</Heading>
-              <Text fontSize="2xl" fontWeight="bold">Final Score: {score} points</Text>
+              <Text fontSize="2xl" fontWeight="bold">Final Score: {validSelections.length} of 16</Text>
               <VStack spacing={4}>
                 <Text>Categories Matched: {validSelections.length} of 16</Text>
                 <Text>Wrong Attempts: {currentInvalidSelection ? 1 : 0}</Text>
@@ -229,6 +233,10 @@ function App() {
               height: 100%;
               margin: 0;
               padding: 0;
+              background-image: url('/images/background.jpg');
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
             }
           `}
         />
@@ -243,16 +251,29 @@ function App() {
                 align="center"
               >
                 <Heading as="h1" size={['lg', 'xl']}>Football Bingo</Heading>
-                <VStack align={['center', 'flex-end']} spacing={1}>
-                  <Text fontSize="xl" fontWeight="bold">Score: {score}</Text>
-                  <Text fontSize="sm" color="gray.500">
-                    Players used: {usedPlayers.length} / {players.length}
-                  </Text>
-                </VStack>
+                <Text fontSize="sm" color="gray.500">
+                  Players used: {usedPlayers.length} / {players.length}
+                </Text>
               </HStack>
               
-              <Box w="full" maxW="300px" mx="auto">
-                <PlayerCard player={currentPlayer} />
+              <Box 
+                w="full" 
+                maxW="300px" 
+                mx="auto" 
+                p={4} 
+                bg="rgba(0, 0, 0, 0.6)" 
+                borderRadius="xl"
+                boxShadow="0 4px 12px rgba(0, 0, 0, 0.3)"
+              >
+                <Text 
+                  fontSize="2xl" 
+                  fontWeight="bold" 
+                  textAlign="center"
+                  color="white"
+                  textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
+                >
+                  {currentPlayer?.name}
+                </Text>
               </Box>
 
               <Box w="full" maxW="800px" mx="auto">

@@ -11,12 +11,20 @@ export const players = bingoCardData.map(player => {
     id: player.player, // Using player name as ID
     name: player.player,
     categories: playerCategories,
-    image: `https://via.placeholder.com/300x200?text=${encodeURIComponent(player.player)}` // Placeholder image
+    image: `/images/players/${player.player}.webp` // Local image path
   }
 })
 
 export const getRandomPlayer = (usedPlayers = []) => {
   const availablePlayers = players.filter(p => !usedPlayers.includes(p.id))
   if (availablePlayers.length === 0) return null
-  return availablePlayers[Math.floor(Math.random() * availablePlayers.length)]
+  
+  const selectedPlayer = availablePlayers[Math.floor(Math.random() * availablePlayers.length)]
+  // Add fallback in case the player image doesn't exist
+  try {
+    new URL(selectedPlayer.image, window.location.origin)
+  } catch {
+    selectedPlayer.image = '/images/player/placeholder.png'
+  }
+  return selectedPlayer
 }
