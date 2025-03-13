@@ -1,7 +1,13 @@
-import { VStack, Button, Text, useColorModeValue } from '@chakra-ui/react';
+import { VStack, Button, Text } from '@chakra-ui/react';
 import { FaClock, FaInfinity } from 'react-icons/fa';
 
 const GameModeSelect = ({ onModeSelect }) => {
+  const handleModeSelect = (isTimed) => {
+    // Small delay to ensure state updates are processed
+    setTimeout(() => {
+      onModeSelect(isTimed);
+    }, 0);
+  };
 
   return (
     <VStack spacing={4} p={2} borderRadius="lg">
@@ -12,7 +18,7 @@ const GameModeSelect = ({ onModeSelect }) => {
         leftIcon={<FaInfinity />}
         colorScheme="teal"
         size="lg"
-        onClick={() => onModeSelect(false)}
+        onClick={() => handleModeSelect(false)}
         w="full"
       >
         Classic Mode
@@ -21,7 +27,7 @@ const GameModeSelect = ({ onModeSelect }) => {
         leftIcon={<FaClock />}
         colorScheme="purple"
         size="lg"
-        onClick={() => onModeSelect(true)}
+        onClick={() => handleModeSelect(true)}
         w="full"
       >
         Timed Mode (10s)

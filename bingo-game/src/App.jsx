@@ -8,6 +8,13 @@ import { formatCategories } from './data/categories'
 import { MdRefresh, MdShuffle } from 'react-icons/md'
 import GameModeSelect from './components/GameModeSelect'
 import Timer from './components/Timer'
+import { keyframes } from '@emotion/react'
+
+const shakeAnimation = keyframes`
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+`
 
 function App() {
   const [gameMode, setGameMode] = useState(null) // null, 'classic', or 'timed'
@@ -25,6 +32,7 @@ function App() {
   const [availableCards, setAvailableCards] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [wrongAttempts, setWrongAttempts] = useState(0)
+  const [maxAvailablePlayers, setMaxAvailablePlayers] = useState(null)
   const toast = useToast()
 
   // Add this useEffect to load cards dynamically
@@ -78,34 +86,40 @@ function App() {
       console.log('No players data available')
       return null
     }
-    const availablePlayers = players.filter(
-      player => !usedPlayerIds.includes(player.id)
-    )
-    if (availablePlayers.length === 0) return null
+    
+    // Only consider players within the maxAvailablePlayers limit
+    const availablePlayers = players
+      .slice(0, maxAvailablePlayers)
+      .filter(player => !usedPlayerIds.includes(player.id))
+
+    if (availablePlayers.length === 0 || usedPlayerIds.length >= maxAvailablePlayers) {
+      return null
+    }
+    
     const selectedPlayer = availablePlayers[Math.floor(Math.random() * availablePlayers.length)]
     console.log('Selected player:', selectedPlayer)
     return selectedPlayer
   }
 
-  const handleModeSelect = (isTimed) => {
-    setGameMode(isTimed ? 'timed' : 'classic')
-    // Reset timer when selecting game mode
-    setTimeRemaining(10)
-    startGame(true)
-  }
-
-  const startGame = (useCurrentCard = false) => {
-    // Reset timer for timed mode
-    if (gameMode === 'timed') {
-      setTimeRemaining(10)
+  const handleModeSelect = async (isTimed) => {
+    const mode = isTimed ? 'timed' : 'classic'
+    const initialTime = 10
+    
+    // Get and set the game card first
+    const gameCard = getRandomCard()
+    if (!gameCard) {
+      showToast({
+        title: "Error",
+        description: "No game card available",
+        status: "error",
+      })
+      return
     }
     
-    // If useCurrentCard is true and we have a currentCard, keep using it
-    // Otherwise, get a random new card
-    const gameCard = useCurrentCard && currentCard ? currentCard : getRandomCard()
-    setCurrentCard(gameCard)
-
-    const firstPlayer = getRandomPlayer([], gameCard.gameData.players)
+    // Initialize all game state at once
+    const totalPlayers = gameCard.gameData.players.length
+    const firstPlayer = gameCard.gameData.players[Math.floor(Math.random() * totalPlayers)]
+    
     if (!firstPlayer) {
       showToast({
         title: "Error",
@@ -114,6 +128,12 @@ function App() {
       })
       return
     }
+
+    // Set all state at once
+    setCurrentCard(gameCard)
+    setGameMode(mode)
+    setTimeRemaining(initialTime)
+    setMaxAvailablePlayers(totalPlayers)
     setGameState('playing')
     setCurrentPlayer(firstPlayer)
     setSelectedCells([])
@@ -157,7 +177,6 @@ function App() {
         return
       }
 
-      // Reset timer for timed mode on correct guess
       if (gameMode === 'timed') {
         setTimeRemaining(10)
       }
@@ -165,12 +184,15 @@ function App() {
     } else {
       setCurrentInvalidSelection(categoryId)
       setWrongAttempts(prev => prev + 1)
+      // Reduce max available players by 2
+      setMaxAvailablePlayers(prev => Math.max(prev - 2, usedPlayers.length + 1))
+      
       showToast({
         title: "Wrong selection!",
-        description: "That category doesn't match this player's achievements.",
+        description: `That category doesn't match this player's achievements. Maximum available players reduced to ${maxAvailablePlayers - 2}!`,
         status: "error",
       })
-      // Reset timer for timed mode on wrong guess
+
       if (gameMode === 'timed') {
         setTimeRemaining(10)
       }
@@ -183,6 +205,13 @@ function App() {
     
     const newUsedPlayers = [...usedPlayers, currentPlayer.id]
     setUsedPlayers(newUsedPlayers)
+
+    // Check if we've reached the maximum allowed players
+    if (newUsedPlayers.length >= maxAvailablePlayers) {
+      endGame(false)
+      return
+    }
+
     const nextPlayer = getRandomPlayer(newUsedPlayers)
     
     if (!nextPlayer) {
@@ -244,7 +273,7 @@ function App() {
       title: isWin ? "Congratulations!" : "Game Over!",
       description: isWin 
         ? "You've completed all categories!"
-        : `No more players available. You matched ${validSelections.length} of 16 categories.`,
+        : `No more players available. You matched ${validSelections.length} of 16 categories with ${usedPlayers.length} of ${maxAvailablePlayers} players.`,
       status: isWin ? "success" : "info",
       duration: 4000,
     })
@@ -256,13 +285,20 @@ function App() {
       return
     }
 
-    const newUsedPlayers = [...usedPlayers, currentPlayer.id]
-    setUsedPlayers(newUsedPlayers)
-    const nextPlayer = getRandomPlayer(newUsedPlayers)
+    // Reduce max available players by 1
+    setMaxAvailablePlayers(prev => Math.max(prev - 1, usedPlayers.length + 1))
+    
+    const nextPlayer = getRandomPlayer([...usedPlayers, currentPlayer.id])
     
     if (nextPlayer) {
+      showToast({
+        title: "Skip penalty",
+        description: `Maximum available players reduced to ${maxAvailablePlayers - 1}!`,
+        status: "warning",
+      })
       setCurrentPlayer(nextPlayer)
-      // Reset timer for timed mode when skipping
+      setUsedPlayers(prev => [...prev, currentPlayer.id])
+      
       if (gameMode === 'timed') {
         setTimeRemaining(10)
       }
@@ -273,6 +309,15 @@ function App() {
 
   const handleTimeUp = () => {
     if (gameMode === 'timed') {
+      // Reduce max available players by 1 for automatic skip
+      setMaxAvailablePlayers(prev => Math.max(prev - 1, usedPlayers.length + 1))
+      
+      showToast({
+        title: "Time's up!",
+        description: `Maximum available players reduced to ${maxAvailablePlayers - 1} due to automatic skip!`,
+        status: "warning",
+      })
+      
       moveToNextPlayer()
       setTimeRemaining(10) // Reset timer for next player
     }
@@ -372,10 +417,10 @@ function App() {
                 )}
               </VStack>
               <VStack spacing={4}>
-                <Button colorScheme="brand" size="lg" onClick={() => startGame(true)}>
+                <Button colorScheme="brand" size="lg" onClick={() => handleModeSelect(true)}>
                   Play Same Card
                 </Button>
-                <Button colorScheme="blue" size="lg" onClick={() => startGame(false)}>
+                <Button colorScheme="blue" size="lg" onClick={() => handleModeSelect(false)}>
                   Play Random Card
                 </Button>
               </VStack>
@@ -426,9 +471,22 @@ function App() {
                     ← Change Mode
                   </Button>
                 </VStack>
-                <Text fontSize="sm" color="gray.500">
-                  Players used: {usedPlayers.length} / {currentCard?.gameData.players.length}
-                </Text>
+                <Box
+                  p={3}
+                  bg="rgba(0, 0, 0, 0.4)"
+                  borderRadius="lg"
+                  animation={wrongAttempts > 0 ? `${shakeAnimation} 0.5s ease` : 'none'}
+                >
+                  <Text
+                    fontSize="lg"
+                    fontWeight="semibold"
+                    color="white"
+                    textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
+                  >
+                    Players Used: <Text as="span" color="brand.400">{usedPlayers.length}</Text>
+                    <Text as="span" color="gray.400"> / {maxAvailablePlayers}</Text>
+                  </Text>
+                </Box>
               </HStack>
               
               <Box 
@@ -486,7 +544,7 @@ function App() {
                   <Button
                     size="sm"
                     leftIcon={<MdRefresh />}
-                    onClick={() => startGame(true)}
+                    onClick={() => handleModeSelect(true)}
                     bg="rgba(255, 255, 255, 0.2)"
                     color="white"
                     _hover={{
@@ -500,7 +558,7 @@ function App() {
                   <Button
                     size="sm"
                     leftIcon={<MdShuffle />}
-                    onClick={() => startGame(false)}
+                    onClick={() => handleModeSelect(false)}
                     bg="rgba(255, 255, 255, 0.2)"
                     color="white"
                     _hover={{
