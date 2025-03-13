@@ -1,4 +1,4 @@
-import { Grid, GridItem, Text, HStack, Image, VStack, useColorModeValue } from '@chakra-ui/react'
+import { Grid, GridItem, Text, HStack, Image, VStack, useColorModeValue, Box } from '@chakra-ui/react'
 
 function BingoBoard({ selectedCells, onCellSelect, validSelections = [], currentInvalidSelection = null, categories = [], wildcardMatches = [] }) {
   const getCellBackground = (categoryId, index) => {
@@ -40,33 +40,87 @@ function BingoBoard({ selectedCells, onCellSelect, validSelections = [], current
     return validSelections.includes(categoryId)
   }
 
+  const formatCategoryText = (category) => {
+    if (!category?.originalData) return category?.name || '';
+    
+    // Handle multiple requirements (e.g., ARG + MCI)
+    if (category.originalData.length > 1) {
+      return category.originalData
+        .map(data => data.displayName || data.name)
+        .join(' + ');
+    }
+    
+    const data = category.originalData[0];
+    
+    switch (data.type) {
+      case 1: // Country
+        return data.displayName || data.name;
+      
+      case 2: // Team
+        return data.displayName || data.name;
+      
+      case 3: // League/Competition with date
+        return `${data.displayName || data.name}${data.dataFrom ? ` (${data.dataFrom})` : ''}`;
+      
+      case 4: // Manager
+        return `Managed by ${data.displayName || data.name}`;
+      
+      case 5: // Played with player
+        return `Played with ${data.displayName || data.name}`;
+      
+      case 6: // Competition winner
+        if (data.dataFrom) {
+          return `${data.displayName || data.name} winner since ${data.dataFrom}`;
+        }
+        return `${data.displayName || data.name} winner`;
+      
+      default:
+        return data.displayName || data.name;
+    }
+  }
+
   return (
     <Grid
       templateColumns="repeat(4, 1fr)"
-      gap={2}
+      gap={1}
       w="100%"
-      maxW="800px"
+      maxW="550px"
       mx="auto"
-      px={{ base: 2, md: 4 }}
     >
       {categories.map((category, index) => (
         <GridItem
           key={index}
           onClick={() => !isCellDisabled(index) && onCellSelect(index)}
           cursor={isCellDisabled(index) ? 'default' : 'pointer'}
-          p={{ base: 2, md: 4 }}
+          p={2}
           bg={getCellBackground(index, index)}
           transition="all 0.3s ease"
-          borderRadius="lg"
+          borderRadius="md"
           boxShadow={getCellBoxShadow(index)}
+          position="relative"
           _hover={{
             transform: !isCellDisabled(index) && 'translateY(-2px)',
             bg: isCellDisabled(index) 
               ? getCellBackground(index, index) 
               : 'rgba(255, 255, 255, 0.1)'
           }}
+          _before={{
+            content: '""',
+            display: 'block',
+            paddingTop: '100%'
+          }}
         >
-          <VStack spacing={2} justify="center" h="100%" align="center">
+          <VStack 
+            spacing={1}
+            justify="center" 
+            align="center"
+            position="absolute"
+            top="0"
+            left="0"
+            right="0"
+            bottom="0"
+            p={0.5}
+          >
             {Array.isArray(category?.image) ? (
               <HStack spacing={1} justify="center">
                 {category.image.map((imgPath, imgIndex) => (
@@ -74,8 +128,9 @@ function BingoBoard({ selectedCells, onCellSelect, validSelections = [], current
                     key={imgIndex}
                     src={imgPath}
                     alt={`Category ${index + 1} Image ${imgIndex + 1}`}
-                    boxSize={{ base: "30px", sm: "40px", md: "50px" }}
+                    boxSize={{ base: "35px", sm: "35px", md: "50px" }}
                     objectFit="contain"
+                    paddingTop={1}
                     filter="drop-shadow(0 2px 4px rgba(0,0,0,0.2))"
                   />
                 ))}
@@ -84,23 +139,33 @@ function BingoBoard({ selectedCells, onCellSelect, validSelections = [], current
               <Image
                 src={category.image}
                 alt={`Category ${index + 1}`}
-                boxSize={{ base: "40px", sm: "50px", md: "60px" }}
+                boxSize={{ base: "35px", sm: "40px", md: "50px" }}
                 objectFit="contain"
                 filter="drop-shadow(0 2px 4px rgba(0,0,0,0.2))"
               />
             )}
-            <Text 
-              fontWeight="600"
-              fontSize={{ base: "xs", sm: "sm", md: "md" }}
-              color="white"
-              textAlign="center"
-              lineHeight="1.2"
-              maxW="90%"
-              textTransform="uppercase"
-              textShadow="0 2px 4px rgba(0,0,0,0.2)"
+            <Box 
+              w="100%" 
+              px={1}
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              minH={{ base: "35px", sm: "40px", md: "45px" }}
             >
-              {category?.name || `Category ${index + 1}`}
-            </Text>
+              <Text 
+                fontWeight="600"
+                fontSize={{ base: "3xs", sm: "xs", md: "sm" }}
+                color="white"
+                textAlign="center"
+                lineHeight="1"
+                w="100%"
+                textTransform="uppercase"
+                textShadow="0 2px 4px rgba(0,0,0,0.2)"
+                noOfLines={4}
+              >
+                {formatCategoryText(category)}
+              </Text>
+            </Box>
           </VStack>
         </GridItem>
       ))}

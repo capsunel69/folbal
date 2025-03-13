@@ -1,13 +1,10 @@
-import { ChakraProvider, Container, VStack, Heading, useToast, Button, Text, HStack, Box } from '@chakra-ui/react'
+import { ChakraProvider, Container, VStack, Heading, useToast, Button, Text, HStack, Box, Stack } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 import { useState, useEffect } from 'react'
 import BingoBoard from './components/BingoBoard'
 import GameControls from './components/GameControls'
 import theme from './theme'
-import gameData from './data/548.json'
 import { formatCategories } from './data/categories'
-import card547 from './data/547.json'
-import card548 from './data/548.json'
 import { MdRefresh, MdShuffle } from 'react-icons/md'
 
 function App() {
@@ -21,19 +18,39 @@ function App() {
   const [skipPenalty, setSkipPenalty] = useState(false)
   const [wildcardMatches, setWildcardMatches] = useState([])
   const [currentCard, setCurrentCard] = useState(null)
+  const [availableCards, setAvailableCards] = useState([])
+  const [isLoading, setIsLoading] = useState(true)
   const toast = useToast()
 
-  // Create an array of available cards
-  const availableCards = [card547, card548]
+  // Add this useEffect to load cards dynamically
+  useEffect(() => {
+    const loadCards = async () => {
+      try {
+        // This will get all JSON files in the data directory
+        const cardModules = import.meta.glob('./data/*.json')
+        const loadedCards = await Promise.all(
+          Object.keys(cardModules).map(async (path) => {
+            const module = await cardModules[path]()
+            return module.default || module
+          })
+        )
+        setAvailableCards(loadedCards)
+        setIsLoading(false)
+      } catch (error) {
+        console.error('Error loading cards:', error)
+        setIsLoading(false)
+      }
+    }
 
-  // Modified function to get a random card that's different from the current one
+    loadCards()
+  }, [])
+
+  // Modify getRandomCard to handle the new structure
   const getRandomCard = () => {
-    // If we only have one card, return it
+    if (availableCards.length === 0) return null
     if (availableCards.length === 1) return availableCards[0]
 
-    // Filter out the current card
     const otherCards = availableCards.filter(card => card !== currentCard)
-    // Pick a random card from the remaining ones
     return otherCards[Math.floor(Math.random() * otherCards.length)]
   }
 
@@ -142,6 +159,9 @@ function App() {
     
     // Get all valid categories for the current player
     const validCategories = categories.reduce((acc, category, index) => {
+      // Skip categories that are already selected
+      if (selectedCells.includes(index)) return acc
+      
       const isValid = currentPlayer.v.some(achievementId => 
         category.originalData.some(requirement => requirement.id === achievementId)
       )
@@ -152,24 +172,23 @@ function App() {
     if (validCategories.length === 0) {
       showToast({
         title: "No valid categories",
-        description: "This player doesn't match any categories",
+        description: "This player doesn't match any remaining categories",
         status: "warning",
       })
       return
     }
 
-    // Update both states in a single batch
+    // Update states with only new matches
     const newValidSelections = [...validSelections, ...validCategories]
     const newWildcardMatches = [...wildcardMatches, ...validCategories]
+    const newSelectedCells = [...selectedCells, ...validCategories]
     
     setValidSelections(newValidSelections)
     setWildcardMatches(newWildcardMatches)
-    setSelectedCells(prev => [...new Set([...prev, ...validCategories])])
+    setSelectedCells(newSelectedCells)
     setHasWildcard(false)
     
-    console.log('Wildcard matches:', newWildcardMatches) // Debug log
-    
-    if (newValidSelections.length >= categories.length) {
+    if (newSelectedCells.length >= categories.length) {
       endGame(true)
       return
     }
@@ -215,6 +234,35 @@ function App() {
     w: "100%",
     maxW: "100%",
     margin: 0
+  }
+
+  // Add loading state handling to your render logic
+  if (isLoading) {
+    return (
+      <ChakraProvider theme={theme}>
+        <Global
+          styles={`
+            html, body, #root {
+              width: 100%;
+              height: 100%;
+              margin: 0;
+              padding: 0;
+              background-image: url('/images/background.jpg');
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+            }
+          `}
+        />
+        <Box {...containerStyles}>
+          <Container maxW="container.lg" py={8} mx="auto">
+            <VStack spacing={8} align="center" w="full">
+              <Heading as="h1" size="xl" textAlign="center">Loading...</Heading>
+            </VStack>
+          </Container>
+        </Box>
+      </ChakraProvider>
+    )
   }
 
   if (gameState === 'start') {
@@ -376,7 +424,10 @@ function App() {
                   Categories matched: {validSelections.length} of 16
                 </Text>
                 
-                <HStack spacing={4}>
+                <Stack 
+                  direction={['column', 'row']} 
+                  spacing={4}
+                >
                   <Button
                     size="sm"
                     leftIcon={<MdRefresh />}
@@ -389,7 +440,7 @@ function App() {
                     }}
                     boxShadow="none"
                   >
-                    Restart Card
+                    Restart This Card
                   </Button>
                   <Button
                     size="sm"
@@ -403,9 +454,9 @@ function App() {
                     }}
                     boxShadow="none"
                   >
-                    Random Card
+                    Play Random Card
                   </Button>
-                </HStack>
+                </Stack>
               </VStack>
             </VStack>
           </Container>
