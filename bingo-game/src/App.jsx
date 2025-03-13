@@ -3,6 +3,7 @@ import { ChakraProvider, Box } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 import HomePage from './pages/HomePage'
 import BingoGame from './pages/BingoGame'
+import GhicesteJucatorul from './pages/GhicesteJucatorul'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import theme from './theme'
@@ -26,6 +27,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/play" element={<BingoGame />} />
+            <Route path="/ghiceste-jucatorul" element={<GhicesteJucatorul />} />
           </Routes>
         </Box>
         <Footer />

@@ -357,12 +357,13 @@ function BingoGame() {
   const containerStyles = {
     minH: "100vh",
     display: "flex",
-    alignItems: "center",
+    alignItems: "flex-start",
     justifyContent: "center",
     p: 4,
     w: "100%",
     maxW: "100%",
-    margin: 0
+    margin: 0,
+    mt: 16
   }
 
   // Add loading state handling to your render logic

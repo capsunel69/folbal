@@ -5,7 +5,7 @@ function HomePage() {
   const navigate = useNavigate()
 
   return (
-    <Container maxW="container.lg" py={8} mx="auto">
+    <Container maxW="container.lg" py={8} mx="auto" mt={16}>
       <VStack spacing={8} align="center">
         <Heading as="h1" size="2xl">Football Bingo</Heading>
         <Text fontSize="xl" textAlign="center">
