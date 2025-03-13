@@ -2,11 +2,13 @@ import { ChakraProvider, Container, VStack, Heading, useToast, Button, Text, HSt
 import { Global } from '@emotion/react'
 import { useState, useEffect } from 'react'
 import BingoBoard from './components/BingoBoard'
-import PlayerCard from './components/PlayerCard'
 import GameControls from './components/GameControls'
 import theme from './theme'
 import gameData from './data/548.json'
 import { formatCategories } from './data/categories'
+import card547 from './data/547.json'
+import card548 from './data/548.json'
+import { MdRefresh, MdShuffle } from 'react-icons/md'
 
 function App() {
   const [gameState, setGameState] = useState('start')
@@ -18,17 +20,32 @@ function App() {
   const [hasWildcard, setHasWildcard] = useState(true)
   const [skipPenalty, setSkipPenalty] = useState(false)
   const [wildcardMatches, setWildcardMatches] = useState([])
+  const [currentCard, setCurrentCard] = useState(null)
   const toast = useToast()
 
-  // Initialize categories from the new format
-  const categories = formatCategories(gameData.gameData.remit)
+  // Create an array of available cards
+  const availableCards = [card547, card548]
 
-  const getRandomPlayer = (usedPlayerIds = []) => {
-    if (!gameData.gameData.players) {
-      console.log('No players data available:', gameData.gameData)
+  // Modified function to get a random card that's different from the current one
+  const getRandomCard = () => {
+    // If we only have one card, return it
+    if (availableCards.length === 1) return availableCards[0]
+
+    // Filter out the current card
+    const otherCards = availableCards.filter(card => card !== currentCard)
+    // Pick a random card from the remaining ones
+    return otherCards[Math.floor(Math.random() * otherCards.length)]
+  }
+
+  // Initialize categories from the new format
+  const categories = currentCard ? formatCategories(currentCard.gameData.remit) : []
+
+  const getRandomPlayer = (usedPlayerIds = [], players = currentCard?.gameData.players) => {
+    if (!players) {
+      console.log('No players data available')
       return null
     }
-    const availablePlayers = gameData.gameData.players.filter(
+    const availablePlayers = players.filter(
       player => !usedPlayerIds.includes(player.id)
     )
     if (availablePlayers.length === 0) return null
@@ -37,8 +54,13 @@ function App() {
     return selectedPlayer
   }
 
-  const startGame = () => {
-    const firstPlayer = getRandomPlayer()
+  const startGame = (useCurrentCard = false) => {
+    // If useCurrentCard is true and we have a currentCard, keep using it
+    // Otherwise, get a random new card
+    const gameCard = useCurrentCard && currentCard ? currentCard : getRandomCard()
+    setCurrentCard(gameCard)
+
+    const firstPlayer = getRandomPlayer([], gameCard.gameData.players)
     if (!firstPlayer) {
       showToast({
         title: "Error",
@@ -220,7 +242,7 @@ function App() {
                 Match players with their achievements and categories to score points!
                 Use your wildcard wisely to maximize your score.
               </Text>
-              <Button colorScheme="brand" size="lg" onClick={startGame}>
+              <Button colorScheme="brand" size="lg" onClick={() => startGame(true)}>
                 Start Game
               </Button>
             </VStack>
@@ -262,9 +284,14 @@ function App() {
                   </Text>
                 )}
               </VStack>
-              <Button colorScheme="brand" size="lg" onClick={startGame}>
-                Play Again
-              </Button>
+              <HStack spacing={4}>
+                <Button colorScheme="brand" size="lg" onClick={() => startGame(true)}>
+                  Play Same Card
+                </Button>
+                <Button colorScheme="blue" size="lg" onClick={() => startGame(false)}>
+                  Play Random Card
+                </Button>
+              </HStack>
             </VStack>
           </Container>
         </Box>
@@ -301,7 +328,7 @@ function App() {
               >
                 <Heading as="h1" size={['lg', 'xl']}>Football Bingo</Heading>
                 <Text fontSize="sm" color="gray.500">
-                  Players used: {usedPlayers.length} / {gameData.gameData.players.length}
+                  Players used: {usedPlayers.length} / {currentCard?.gameData.players.length}
                 </Text>
               </HStack>
               
@@ -321,7 +348,7 @@ function App() {
                   color="white"
                   textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
                 >
-                  {currentPlayer ? `${currentPlayer.f} ${currentPlayer.g}` : 'No player selected'}
+                  {currentPlayer ? `${currentPlayer.g} ${currentPlayer.f}` : 'No player selected'}
                 </Text>
                 {process.env.NODE_ENV === 'development' }
               </Box>
@@ -344,9 +371,42 @@ function App() {
                 isSkipPenalty={skipPenalty}
               />
               
-              <Text fontSize="md" color="gray.500">
-                Categories matched: {validSelections.length} of 16
-              </Text>
+              <VStack spacing={4} align="center">
+                <Text fontSize="md" color="gray.500">
+                  Categories matched: {validSelections.length} of 16
+                </Text>
+                
+                <HStack spacing={4}>
+                  <Button
+                    size="sm"
+                    leftIcon={<MdRefresh />}
+                    onClick={() => startGame(true)}
+                    bg="rgba(255, 255, 255, 0.2)"
+                    color="white"
+                    _hover={{
+                      bg: "rgba(255, 255, 255, 0.3)",
+                      transform: "translateY(-2px)"
+                    }}
+                    boxShadow="none"
+                  >
+                    Restart Card
+                  </Button>
+                  <Button
+                    size="sm"
+                    leftIcon={<MdShuffle />}
+                    onClick={() => startGame(false)}
+                    bg="rgba(255, 255, 255, 0.2)"
+                    color="white"
+                    _hover={{
+                      bg: "rgba(255, 255, 255, 0.3)",
+                      transform: "translateY(-2px)"
+                    }}
+                    boxShadow="none"
+                  >
+                    Random Card
+                  </Button>
+                </HStack>
+              </VStack>
             </VStack>
           </Container>
         </Box>
