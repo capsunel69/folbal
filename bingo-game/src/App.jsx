@@ -247,10 +247,6 @@ function App() {
               height: 100%;
               margin: 0;
               padding: 0;
-              background-image: url('/images/background.jpg');
-              background-size: cover;
-              background-position: center;
-              background-repeat: no-repeat;
             }
           `}
         />
@@ -275,10 +271,6 @@ function App() {
               height: 100%;
               margin: 0;
               padding: 0;
-              background-image: url('/images/background.jpg');
-              background-size: cover;
-              background-position: center;
-              background-repeat: no-repeat;
             }
           `}
         />
@@ -310,10 +302,6 @@ function App() {
               height: 100%;
               margin: 0;
               padding: 0;
-              background-image: url('/images/background.jpg');
-              background-size: cover;
-              background-position: center;
-              background-repeat: no-repeat;
             }
           `}
         />
@@ -332,14 +320,14 @@ function App() {
                   </Text>
                 )}
               </VStack>
-              <HStack spacing={4}>
+              <VStack spacing={4}>
                 <Button colorScheme="brand" size="lg" onClick={() => startGame(true)}>
                   Play Same Card
                 </Button>
                 <Button colorScheme="blue" size="lg" onClick={() => startGame(false)}>
                   Play Random Card
                 </Button>
-              </HStack>
+              </VStack>
             </VStack>
           </Container>
         </Box>
@@ -357,10 +345,6 @@ function App() {
               height: 100%;
               margin: 0;
               padding: 0;
-              background-image: url('/images/background.jpg');
-              background-size: cover;
-              background-position: center;
-              background-repeat: no-repeat;
             }
           `}
         />
