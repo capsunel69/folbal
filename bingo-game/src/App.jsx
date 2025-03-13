@@ -6,8 +6,12 @@ import GameControls from './components/GameControls'
 import theme from './theme'
 import { formatCategories } from './data/categories'
 import { MdRefresh, MdShuffle } from 'react-icons/md'
+import GameModeSelect from './components/GameModeSelect'
+import Timer from './components/Timer'
 
 function App() {
+  const [gameMode, setGameMode] = useState(null) // null, 'classic', or 'timed'
+  const [timeRemaining, setTimeRemaining] = useState(10)
   const [gameState, setGameState] = useState('start')
   const [currentPlayer, setCurrentPlayer] = useState(null)
   const [selectedCells, setSelectedCells] = useState([])
@@ -45,6 +49,17 @@ function App() {
     loadCards()
   }, [])
 
+  // Add this useEffect after your other useEffects
+  useEffect(() => {
+    let timerInterval
+    if (gameState === 'playing' && gameMode === 'timed' && timeRemaining > 0) {
+      timerInterval = setInterval(() => {
+        setTimeRemaining(prev => prev - 1)
+      }, 1000)
+    }
+    return () => clearInterval(timerInterval)
+  }, [gameState, gameMode, timeRemaining])
+
   // Modify getRandomCard to handle the new structure
   const getRandomCard = () => {
     if (availableCards.length === 0) return null
@@ -71,7 +86,19 @@ function App() {
     return selectedPlayer
   }
 
+  const handleModeSelect = (isTimed) => {
+    setGameMode(isTimed ? 'timed' : 'classic')
+    // Reset timer when selecting game mode
+    setTimeRemaining(10)
+    startGame(true)
+  }
+
   const startGame = (useCurrentCard = false) => {
+    // Reset timer for timed mode
+    if (gameMode === 'timed') {
+      setTimeRemaining(10)
+    }
+    
     // If useCurrentCard is true and we have a currentCard, keep using it
     // Otherwise, get a random new card
     const gameCard = useCurrentCard && currentCard ? currentCard : getRandomCard()
@@ -128,6 +155,10 @@ function App() {
         return
       }
 
+      // Reset timer for timed mode on correct guess
+      if (gameMode === 'timed') {
+        setTimeRemaining(10)
+      }
       moveToNextPlayer()
     } else {
       setCurrentInvalidSelection(categoryId)
@@ -136,6 +167,10 @@ function App() {
         description: "That category doesn't match this player's achievements.",
         status: "error",
       })
+      // Reset timer for timed mode on wrong guess
+      if (gameMode === 'timed') {
+        setTimeRemaining(10)
+      }
       moveToNextPlayer()
     }
   }
@@ -193,6 +228,10 @@ function App() {
       return
     }
     
+    // Reset timer for timed mode after wildcard use
+    if (gameMode === 'timed') {
+      setTimeRemaining(10)
+    }
     moveToNextPlayer()
   }
 
@@ -220,8 +259,19 @@ function App() {
     
     if (nextPlayer) {
       setCurrentPlayer(nextPlayer)
+      // Reset timer for timed mode when skipping
+      if (gameMode === 'timed') {
+        setTimeRemaining(10)
+      }
     } else {
       endGame(false)
+    }
+  }
+
+  const handleTimeUp = () => {
+    if (gameMode === 'timed') {
+      moveToNextPlayer()
+      setTimeRemaining(10) // Reset timer for next player
     }
   }
 
@@ -276,15 +326,13 @@ function App() {
         />
         <Box {...containerStyles}>
           <Container maxW="container.lg" py={8} mx="auto">
-            <VStack spacing={8} align="center" w="full">
+            <VStack spacing={5} align="center" w="full">
               <Heading as="h1" size="xl" textAlign="center">Football Bingo</Heading>
               <Text fontSize="lg" textAlign="center">
                 Match players with their achievements and categories to score points!
-                Use your wildcard wisely to maximize your score.
+                Use your wildcard wisely only when a palyer might match multiple categories.
               </Text>
-              <Button colorScheme="brand" size="lg" onClick={() => startGame(true)}>
-                Start Game
-              </Button>
+              <GameModeSelect onModeSelect={handleModeSelect} />
             </VStack>
           </Container>
         </Box>
@@ -350,7 +398,7 @@ function App() {
         />
         <Box {...containerStyles}>
           <Container maxW="container.lg" py={8} mx="auto">
-            <VStack spacing={8} w="full" align="center">
+            <VStack spacing={4} w="full" align="center">
               <HStack 
                 justify="space-between" 
                 w="full" 
@@ -358,7 +406,23 @@ function App() {
                 spacing={[4, 8]}
                 align="center"
               >
-                <Heading as="h1" size={['lg', 'xl']}>Football Bingo</Heading>
+                <VStack align={['center', 'flex-start']} spacing={0}>
+                  <Heading as="h1" size={['lg', 'xl']}>Football Bingo</Heading>
+                  <Button
+                    size="xs"
+                    variant="link"
+                    color="gray.400"
+                    p={1}
+                    borderRadius="md"
+                    _hover={{ color: "white" }}
+                    onClick={() => {
+                      setGameMode(null)
+                      setGameState('start')
+                    }}
+                  >
+                    ← Change Mode
+                  </Button>
+                </VStack>
                 <Text fontSize="sm" color="gray.500">
                   Players used: {usedPlayers.length} / {currentCard?.gameData.players.length}
                 </Text>
@@ -366,23 +430,27 @@ function App() {
               
               <Box 
                 w="full" 
-                maxW="300px" 
+                maxW="400px" 
                 mx="auto" 
                 p={4} 
                 bg="rgba(0, 0, 0, 0.6)" 
                 borderRadius="xl"
                 boxShadow="0 4px 12px rgba(0, 0, 0, 0.3)"
               >
-                <Text 
-                  fontSize="2xl" 
-                  fontWeight="bold" 
-                  textAlign="center"
-                  color="white"
-                  textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
-                >
-                  {currentPlayer ? `${currentPlayer.g} ${currentPlayer.f}` : 'No player selected'}
-                </Text>
-                {process.env.NODE_ENV === 'development' }
+                <HStack justify="center" spacing={3} align="center">
+                  <Text 
+                    fontSize="2xl" 
+                    fontWeight="bold" 
+                    textAlign="center"
+                    color="white"
+                    textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
+                  >
+                    {currentPlayer ? `${currentPlayer.g} ${currentPlayer.f}` : 'No player selected'}
+                  </Text>
+                  {gameMode === 'timed' && (
+                    <Timer seconds={timeRemaining} onTimeUp={handleTimeUp} />
+                  )}
+                </HStack>
               </Box>
 
               <Box w="full" maxW="800px" mx="auto">
