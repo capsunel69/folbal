@@ -1,6 +1,11 @@
 import { Grid, GridItem, Text, HStack, Image, VStack, useColorModeValue, Box } from '@chakra-ui/react'
+import { useEffect } from 'react'
 
 function BingoBoard({ selectedCells, onCellSelect, validSelections = [], currentInvalidSelection = null, categories = [], wildcardMatches = [] }) {
+  useEffect(() => {
+    console.log('Checking cell:', currentInvalidSelection, 'Wildcard matches:', wildcardMatches)
+  }, [currentInvalidSelection, wildcardMatches])
+
   const getCellBackground = (categoryId, index) => {
     console.log('Checking cell:', categoryId, 'Wildcard matches:', wildcardMatches) // Debug log
     
@@ -41,41 +46,22 @@ function BingoBoard({ selectedCells, onCellSelect, validSelections = [], current
   }
 
   const formatCategoryText = (category) => {
-    if (!category?.originalData) return category?.name || '';
+    if (!category || !category.title) return 'Loading...'
+    return category.title
+  }
+
+  const getCategoryImage = (category) => {
+    if (!category || !category.originalData) return null
     
-    // Handle multiple requirements (e.g., ARG + MCI)
-    if (category.originalData.length > 1) {
-      return category.originalData
-        .map(data => data.displayName || data.name)
-        .join(' + ');
-    }
+    // Get the first ID from the category group
+    const firstId = category.originalData[0].id
     
-    const data = category.originalData[0];
-    
-    switch (data.type) {
-      case 1: // Country
-        return data.displayName || data.name;
-      
-      case 2: // Team
-        return data.displayName || data.name;
-      
-      case 3: // League/Competition with date
-        return `${data.displayName || data.name}${data.dataFrom ? ` (${data.dataFrom})` : ''}`;
-      
-      case 4: // Manager
-        return `Managed by ${data.displayName || data.name}`;
-      
-      case 5: // Played with player
-        return `Played with ${data.displayName || data.name}`;
-      
-      case 6: // Competition winner
-        if (data.dataFrom) {
-          return `${data.displayName || data.name} winner since ${data.dataFrom}`;
-        }
-        return `${data.displayName || data.name} winner`;
-      
-      default:
-        return data.displayName || data.name;
+    // Return the path to the image using the ID
+    try {
+      return `/images/${firstId}.webp`
+    } catch (error) {
+      console.error(`Failed to load image for category ID ${firstId}:`, error)
+      return null
     }
   }
 
@@ -121,29 +107,14 @@ function BingoBoard({ selectedCells, onCellSelect, validSelections = [], current
             bottom="0"
             p={0.5}
           >
-            {Array.isArray(category?.image) ? (
-              <HStack spacing={1} justify="center">
-                {category.image.map((imgPath, imgIndex) => (
-                  <Image
-                    key={imgIndex}
-                    src={imgPath}
-                    alt={`Category ${index + 1} Image ${imgIndex + 1}`}
-                    boxSize={{ base: "35px", sm: "35px", md: "50px" }}
-                    objectFit="contain"
-                    paddingTop={1}
-                    filter="drop-shadow(0 2px 4px rgba(0,0,0,0.2))"
-                  />
-                ))}
-              </HStack>
-            ) : category?.image && (
-              <Image
-                src={category.image}
-                alt={`Category ${index + 1}`}
-                boxSize={{ base: "35px", sm: "40px", md: "50px" }}
-                objectFit="contain"
-                filter="drop-shadow(0 2px 4px rgba(0,0,0,0.2))"
-              />
-            )}
+            <Image
+              src={getCategoryImage(category)}
+              alt={`Category ${index + 1}`}
+              boxSize={{ base: "35px", sm: "40px", md: "50px" }}
+              objectFit="contain"
+              filter="drop-shadow(0 2px 4px rgba(0,0,0,0.2))"
+              fallback={null} // Don't show anything if image fails to load
+            />
             <Box 
               w="100%" 
               px={1}

@@ -1,13 +1,8 @@
-import { ChakraProvider, Container, VStack, Heading, useToast, Button, Text, HStack, Box, Stack } from '@chakra-ui/react'
-import { Global } from '@emotion/react'
+import { Container, VStack, Heading, useToast, Button, Text, HStack, Box, Stack } from '@chakra-ui/react'
 import { useState, useEffect } from 'react'
+import { MdRefresh, MdShuffle } from 'react-icons/md'
 import BingoBoard from '../components/BingoBoard'
 import GameControls from '../components/GameControls'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import theme from '../theme'
-import { formatCategories } from '../data/categories'
-import { MdRefresh, MdShuffle } from 'react-icons/md'
 import GameModeSelect from '../components/GameModeSelect'
 import Timer from '../components/Timer'
 import { keyframes } from '@emotion/react'
@@ -37,22 +32,41 @@ function BingoGame() {
   const [maxAvailablePlayers, setMaxAvailablePlayers] = useState(null)
   const toast = useToast()
 
-  // Add this useEffect to load cards dynamically
+  // Update this useEffect to use the correct path
   useEffect(() => {
     const loadCards = async () => {
       try {
-        // This will get all JSON files in the data directory
-        const cardModules = import.meta.glob('./data/*.json')
+        // Update the path to point to the correct location
+        const cardModules = import.meta.glob('../data/*.json')
         const loadedCards = await Promise.all(
           Object.keys(cardModules).map(async (path) => {
             const module = await cardModules[path]()
             return module.default || module
           })
         )
+        
+        // Add some debug logging
+        console.log('Loaded cards:', loadedCards)
+        
+        if (loadedCards.length === 0) {
+          console.error('No cards were loaded')
+          showToast({
+            title: "Error",
+            description: "No game cards found",
+            status: "error",
+          })
+          return
+        }
+        
         setAvailableCards(loadedCards)
         setIsLoading(false)
       } catch (error) {
         console.error('Error loading cards:', error)
+        showToast({
+          title: "Error",
+          description: "Failed to load game cards",
+          status: "error",
+        })
         setIsLoading(false)
       }
     }
@@ -78,6 +92,20 @@ function BingoGame() {
 
     const otherCards = availableCards.filter(card => card !== currentCard)
     return otherCards[Math.floor(Math.random() * otherCards.length)]
+  }
+
+  // Add this function before it's used
+  const formatCategories = (remitData) => {
+    if (!remitData || !Array.isArray(remitData)) {
+      console.error('Invalid remit data:', remitData)
+      return []
+    }
+
+    return remitData.map(categoryGroup => ({
+      title: categoryGroup.map(item => item.displayName).join(' / '),
+      description: categoryGroup.map(item => item.name).join(' / '),
+      originalData: categoryGroup
+    }))
   }
 
   // Initialize categories from the new format
@@ -340,252 +368,196 @@ function BingoGame() {
   // Add loading state handling to your render logic
   if (isLoading) {
     return (
-      <ChakraProvider theme={theme}>
-        <Global
-          styles={`
-            html, body, #root {
-              width: 100%;
-              height: 100%;
-              margin: 0;
-              padding: 0;
-            }
-          `}
-        />
-        <Header />
-        <Box {...containerStyles}>
-          <Container maxW="container.lg" py={8} mx="auto">
-            <VStack spacing={8} align="center" w="full">
-              <Heading as="h1" size="xl" textAlign="center">Loading...</Heading>
-            </VStack>
-          </Container>
-        </Box>
-        <Footer />
-      </ChakraProvider>
+      <Box {...containerStyles}>
+        <Container maxW="container.lg" py={8} mx="auto">
+          <VStack spacing={8} align="center" w="full">
+            <Heading as="h1" size="xl" textAlign="center">Loading...</Heading>
+          </VStack>
+        </Container>
+      </Box>
     )
   }
 
   if (gameState === 'start') {
     return (
-      <ChakraProvider theme={theme}>
-        <Global
-          styles={`
-            html, body, #root {
-              width: 100%;
-              height: 100%;
-              margin: 0;
-              padding: 0;
-            }
-          `}
-        />
-        <Header />
-        <Box {...containerStyles}>
-          <Container maxW="container.lg" py={8} mx="auto">
-            <VStack spacing={5} align="center" w="full">
-              <Heading as="h1" size="xl" textAlign="center">Football Bingo</Heading>
-              <Text fontSize="lg" textAlign="center">
-                Match players with their achievements and categories to score points!
-                Use your wildcard wisely only when a palyer might match multiple categories.
-              </Text>
-              <GameModeSelect onModeSelect={handleModeSelect} />
-            </VStack>
-          </Container>
-        </Box>
-        <Footer />
-      </ChakraProvider>
+      <Box {...containerStyles}>
+        <Container maxW="container.lg" py={8} mx="auto">
+          <VStack spacing={5} align="center" w="full">
+            <Heading as="h1" size="xl" textAlign="center">Football Bingo</Heading>
+            <Text fontSize="lg" textAlign="center">
+              Match players with their achievements and categories to score points!
+              Use your wildcard wisely only when a palyer might match multiple categories.
+            </Text>
+            <GameModeSelect onModeSelect={handleModeSelect} />
+          </VStack>
+        </Container>
+      </Box>
     )
   }
 
   if (gameState === 'end') {
     return (
-      <ChakraProvider theme={theme}>
-        <Global
-          styles={`
-            html, body, #root {
-              width: 100%;
-              height: 100%;
-              margin: 0;
-              padding: 0;
-            }
-          `}
-        />
-        <Header />
-        <Box {...containerStyles}>
-          <Container maxW="container.lg" py={8} mx="auto">
-            <VStack spacing={8} align="center" w="full">
-              <Heading as="h1" size="xl" textAlign="center">Game Over!</Heading>
-              <Text fontSize="2xl" fontWeight="bold">Final Score: {validSelections.length} of 16</Text>
-              <VStack spacing={4}>
-                <Text>Categories Matched: {validSelections.length} of 16</Text>
-                <Text>Wrong Attempts: {wrongAttempts}</Text>
-                <Text>Players Used: {usedPlayers.length}</Text>
-                {validSelections.length >= 16 && (
-                  <Text color="green.500" fontWeight="bold">
-                    Congratulations! You've completed all categories!
-                  </Text>
-                )}
-              </VStack>
-              <VStack spacing={4}>
-                <Button colorScheme="brand" size="lg" onClick={() => handleModeSelect(true)}>
-                  Play Same Card
-                </Button>
-                <Button colorScheme="blue" size="lg" onClick={() => handleModeSelect(false)}>
-                  Play Random Card
-                </Button>
-              </VStack>
+      <Box {...containerStyles}>
+        <Container maxW="container.lg" py={8} mx="auto">
+          <VStack spacing={8} align="center" w="full">
+            <Heading as="h1" size="xl" textAlign="center">Game Over!</Heading>
+            <Text fontSize="2xl" fontWeight="bold">Final Score: {validSelections.length} of 16</Text>
+            <VStack spacing={4}>
+              <Text>Categories Matched: {validSelections.length} of 16</Text>
+              <Text>Wrong Attempts: {wrongAttempts}</Text>
+              <Text>Players Used: {usedPlayers.length}</Text>
+              {validSelections.length >= 16 && (
+                <Text color="green.500" fontWeight="bold">
+                  Congratulations! You've completed all categories!
+                </Text>
+              )}
             </VStack>
-          </Container>
-        </Box>
-        <Footer />
-      </ChakraProvider>
+            <VStack spacing={4}>
+              <Button colorScheme="brand" size="lg" onClick={() => handleModeSelect(true)}>
+                Play Same Card
+              </Button>
+              <Button colorScheme="blue" size="lg" onClick={() => handleModeSelect(false)}>
+                Play Random Card
+              </Button>
+            </VStack>
+          </VStack>
+        </Container>
+      </Box>
     )
   }
 
   if (gameState === 'playing') {
     return (
-      <ChakraProvider theme={theme}>
-        <Global
-          styles={`
-            html, body, #root {
-              width: 100%;
-              height: 100%;
-              margin: 0;
-              padding: 0;
-            }
-          `}
-        />
-        <Header />
-        <Box {...containerStyles}>
-          <Container maxW="container.lg" py={8} mx="auto">
-            <VStack spacing={4} w="full" align="center">
-              <HStack 
-                justify="space-between" 
-                w="full" 
-                flexDir={['column', 'row']} 
-                spacing={[4, 8]}
-                align="center"
-              >
-                <VStack align={['center', 'flex-start']} spacing={0}>
-                  <Heading as="h1" size={['lg', 'xl']}>Football Bingo</Heading>
-                  <Button
-                    size="xs"
-                    variant="link"
-                    color="gray.400"
-                    p={1}
-                    borderRadius="md"
-                    _hover={{ color: "white" }}
-                    onClick={() => {
-                      setGameMode(null)
-                      setGameState('start')
-                    }}
-                  >
-                    ← Change Mode
-                  </Button>
-                </VStack>
-                <Box
-                  p={3}
-                  bg="rgba(0, 0, 0, 0.4)"
-                  borderRadius="lg"
-                  animation={wrongAttempts > 0 ? `${shakeAnimation} 0.5s ease` : 'none'}
+      <Box {...containerStyles}>
+        <Container maxW="container.lg" py={8} mx="auto">
+          <VStack spacing={4} w="full" align="center">
+            <HStack 
+              justify="space-between" 
+              w="full" 
+              flexDir={['column', 'row']} 
+              spacing={[4, 8]}
+              align="center"
+            >
+              <VStack align={['center', 'flex-start']} spacing={0}>
+                <Heading as="h1" size={['lg', 'xl']}>Football Bingo</Heading>
+                <Button
+                  size="xs"
+                  variant="link"
+                  color="gray.400"
+                  p={1}
+                  borderRadius="md"
+                  _hover={{ color: "white" }}
+                  onClick={() => {
+                    setGameMode(null)
+                    setGameState('start')
+                  }}
                 >
-                  <Text
-                    fontSize="lg"
-                    fontWeight="semibold"
-                    color="white"
-                    textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
-                  >
-                    Players Used: <Text as="span" color="brand.400">{usedPlayers.length}</Text>
-                    <Text as="span" color="gray.400"> / {maxAvailablePlayers}</Text>
-                  </Text>
-                </Box>
-              </HStack>
-              
-              <Box 
-                w="full" 
-                maxW="400px" 
-                mx="auto" 
-                p={4} 
-                bg="rgba(0, 0, 0, 0.6)" 
-                borderRadius="xl"
-                boxShadow="0 4px 12px rgba(0, 0, 0, 0.3)"
-              >
-                <HStack justify="center" spacing={3} align="center">
-                  <Text 
-                    fontSize="2xl" 
-                    fontWeight="bold" 
-                    textAlign="center"
-                    color="white"
-                    textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
-                  >
-                    {currentPlayer ? `${currentPlayer.g} ${currentPlayer.f}` : 'No player selected'}
-                  </Text>
-                  {gameMode === 'timed' && (
-                    <Timer seconds={timeRemaining} onTimeUp={handleTimeUp} />
-                  )}
-                </HStack>
-              </Box>
-
-              <Box w="full" maxW="800px" mx="auto">
-                <BingoBoard 
-                  selectedCells={selectedCells} 
-                  onCellSelect={handleCellSelect}
-                  validSelections={validSelections}
-                  currentInvalidSelection={currentInvalidSelection}
-                  categories={categories}
-                  wildcardMatches={wildcardMatches}
-                />
-              </Box>
-
-              <GameControls 
-                hasWildcard={hasWildcard}
-                onWildcardUse={handleWildcard}
-                onSkip={handleSkip}
-                isSkipPenalty={skipPenalty}
-              />
-              
-              <VStack spacing={4} align="center">
-                <Text fontSize="md" color="gray.500">
-                  Categories matched: {validSelections.length} of 16
-                </Text>
-                
-                <Stack 
-                  direction={['column', 'row']} 
-                  spacing={4}
-                >
-                  <Button
-                    size="sm"
-                    leftIcon={<MdRefresh />}
-                    onClick={() => handleModeSelect(true)}
-                    bg="rgba(255, 255, 255, 0.2)"
-                    color="white"
-                    _hover={{
-                      bg: "rgba(255, 255, 255, 0.3)",
-                      transform: "translateY(-2px)"
-                    }}
-                    boxShadow="none"
-                  >
-                    Restart This Card
-                  </Button>
-                  <Button
-                    size="sm"
-                    leftIcon={<MdShuffle />}
-                    onClick={() => handleModeSelect(false)}
-                    bg="rgba(255, 255, 255, 0.2)"
-                    color="white"
-                    _hover={{
-                      bg: "rgba(255, 255, 255, 0.3)",
-                      transform: "translateY(-2px)"
-                    }}
-                    boxShadow="none"
-                  >
-                    Play Random Card
-                  </Button>
-                </Stack>
+                  ← Change Mode
+                </Button>
               </VStack>
+              <Box
+                p={3}
+                bg="rgba(0, 0, 0, 0.4)"
+                borderRadius="lg"
+                animation={wrongAttempts > 0 ? `${shakeAnimation} 0.5s ease` : 'none'}
+              >
+                <Text
+                  fontSize="lg"
+                  fontWeight="semibold"
+                  color="white"
+                  textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
+                >
+                  Players Used: <Text as="span" color="brand.400">{usedPlayers.length}</Text>
+                  <Text as="span" color="gray.400"> / {maxAvailablePlayers}</Text>
+                </Text>
+              </Box>
+            </HStack>
+            
+            <Box 
+              w="full" 
+              maxW="400px" 
+              mx="auto" 
+              p={4} 
+              bg="rgba(0, 0, 0, 0.6)" 
+              borderRadius="xl"
+              boxShadow="0 4px 12px rgba(0, 0, 0, 0.3)"
+            >
+              <HStack justify="center" spacing={3} align="center">
+                <Text 
+                  fontSize="2xl" 
+                  fontWeight="bold" 
+                  textAlign="center"
+                  color="white"
+                  textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
+                >
+                  {currentPlayer ? `${currentPlayer.g} ${currentPlayer.f}` : 'No player selected'}
+                </Text>
+                {gameMode === 'timed' && (
+                  <Timer seconds={timeRemaining} onTimeUp={handleTimeUp} />
+                )}
+              </HStack>
+            </Box>
+
+            <Box w="full" maxW="800px" mx="auto">
+              <BingoBoard 
+                selectedCells={selectedCells} 
+                onCellSelect={handleCellSelect}
+                validSelections={validSelections}
+                currentInvalidSelection={currentInvalidSelection}
+                categories={categories}
+                wildcardMatches={wildcardMatches}
+              />
+            </Box>
+
+            <GameControls 
+              hasWildcard={hasWildcard}
+              onWildcardUse={handleWildcard}
+              onSkip={handleSkip}
+              isSkipPenalty={skipPenalty}
+            />
+            
+            <VStack spacing={4} align="center">
+              <Text fontSize="md" color="gray.500">
+                Categories matched: {validSelections.length} of 16
+              </Text>
+              
+              <Stack 
+                direction={['column', 'row']} 
+                spacing={4}
+              >
+                <Button
+                  size="sm"
+                  leftIcon={<MdRefresh />}
+                  onClick={() => handleModeSelect(true)}
+                  bg="rgba(255, 255, 255, 0.2)"
+                  color="white"
+                  _hover={{
+                    bg: "rgba(255, 255, 255, 0.3)",
+                    transform: "translateY(-2px)"
+                  }}
+                  boxShadow="none"
+                >
+                  Restart This Card
+                </Button>
+                <Button
+                  size="sm"
+                  leftIcon={<MdShuffle />}
+                  onClick={() => handleModeSelect(false)}
+                  bg="rgba(255, 255, 255, 0.2)"
+                  color="white"
+                  _hover={{
+                    bg: "rgba(255, 255, 255, 0.3)",
+                    transform: "translateY(-2px)"
+                  }}
+                  boxShadow="none"
+                >
+                  Play Random Card
+                </Button>
+              </Stack>
             </VStack>
-          </Container>
-        </Box>
-        <Footer />
-      </ChakraProvider>
+          </VStack>
+        </Container>
+      </Box>
     )
   }
 }
