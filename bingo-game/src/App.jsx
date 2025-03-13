@@ -24,6 +24,7 @@ function App() {
   const [currentCard, setCurrentCard] = useState(null)
   const [availableCards, setAvailableCards] = useState([])
   const [isLoading, setIsLoading] = useState(true)
+  const [wrongAttempts, setWrongAttempts] = useState(0)
   const toast = useToast()
 
   // Add this useEffect to load cards dynamically
@@ -122,6 +123,7 @@ function App() {
     setHasWildcard(true)
     setWildcardMatches([])
     setSkipPenalty(false)
+    setWrongAttempts(0)
   }
 
   const showToast = (options) => {
@@ -162,6 +164,7 @@ function App() {
       moveToNextPlayer()
     } else {
       setCurrentInvalidSelection(categoryId)
+      setWrongAttempts(prev => prev + 1)
       showToast({
         title: "Wrong selection!",
         description: "That category doesn't match this player's achievements.",
@@ -360,7 +363,7 @@ function App() {
               <Text fontSize="2xl" fontWeight="bold">Final Score: {validSelections.length} of 16</Text>
               <VStack spacing={4}>
                 <Text>Categories Matched: {validSelections.length} of 16</Text>
-                <Text>Wrong Attempts: {currentInvalidSelection ? 1 : 0}</Text>
+                <Text>Wrong Attempts: {wrongAttempts}</Text>
                 <Text>Players Used: {usedPlayers.length}</Text>
                 {validSelections.length >= 16 && (
                   <Text color="green.500" fontWeight="bold">
