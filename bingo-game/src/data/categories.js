@@ -1,18 +1,27 @@
-export const categories = [
-  { id: 'team_poliiasi', name: "A jucat la Poli Iasi", description: "Players who played for Poli Iasi", image: "teams/team_poliiasi.png" },
-  { id: 'team_politimisoara', name: "A jucat la Poli Timisoara", description: "Players who played for Poli Timisoara", image: "teams/team_politimisoara.png" },
-  { id: 'team_vaslui', name: "A jucat la Vaslui", description: "Players who played for Vaslui", image: "teams/team_vaslui.png" },
-  { id: 'team_steaua', name: "A jucat la FCSB", description: "Players who played for Steaua", image: "teams/team_steaua.png" },
-  { id: 'team_astra', name: "A jucat la Astra Giurgiu", description: "Players who played for Astra", image: "teams/team_astra.png" },
-  { id: 'country_angola', name: "Tara Angola", description: "Players connected to Angola", image: "countries/country_angola.svg" },
-  { id: 'country_armenia', name: "Tara Armenia", description: "Players connected to Armenia", image: "countries/country_armenia.svg" },
-  { id: 'country_australia', name: "Tara Australia", description: "Players connected to Australia", image: "countries/country_australia.svg" },
-  { id: 'country_moldova', name: "Tara Moldova", description: "Players connected to Moldova", image: "countries/country_moldova.svg" },
-  { id: 'country_serbia', name: "Tara Serbia", description: "Players connected to Serbia", image: "countries/country_serbia.svg" },
-  { id: 'league_won_romania', name: "A castigat Superliga", description: "Players who won Romanian League", image: "leagues won/league_won_romania.png" },
-  { id: 'league_won_scotland', name: "A castigat Scottish League", description: "Players who won Scottish League", image: "leagues won/league_won_scotland.png" },
-  { id: 'league_play_gibraltar', name: "A jucat in Liga din Gibraltar", description: "Players who played in Gibraltar", image: "leagues played/league_play_gibraltar.png" },
-  { id: 'cup_won_champions_league', name: "A castigat Liga Campioanilor", description: "Players who won Champions League", image: "cups won/cup_won_champions_league.png" },
-  { id: 'coached_by_mircea_lucescu', name: "A fost antrenat de Lucescu", description: "Players coached by Mircea Lucescu", image: "coaches/coached_by_mircea_lucescu.webp" },
-  { id: 'teamplayer_adrian_mutu', name: "A fost coleg cu Adrian Mutu", description: "Players who played with Adrian Mutu", image: "teamplayers/teamplayer_adrian_mutu.png" },
-]
+// Helper function to get image path for a category
+export const getCategoryImage = (category) => {
+  // Handle cases where a category has multiple items (needs multiple images)
+  if (Array.isArray(category)) {
+    return category.map(item => `/images/${item.id}.webp`)
+  }
+  return `/images/${category.id}.webp`
+}
+
+// Helper function to get display name for a category
+export const getCategoryDisplayName = (category) => {
+  if (Array.isArray(category)) {
+    return category.map(item => item.displayName).join(' + ')
+  }
+  return category.displayName
+}
+
+// Convert the remit array into a format compatible with the board
+export const formatCategories = (remit) => {
+  return remit.map((category, index) => ({
+    id: index,
+    name: getCategoryDisplayName(category),
+    description: getCategoryDisplayName(category),
+    image: getCategoryImage(category),
+    originalData: category
+  }))
+}

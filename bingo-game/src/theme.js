@@ -19,10 +19,10 @@ const theme = extendTheme({
       700: 'rgba(0, 0, 0, 0.6)',
     },
     correct: {
-      500: 'linear-gradient(135deg, #22c55e, #16a34a)',
+      500: '#22c55e',
     },
     incorrect: {
-      500: 'linear-gradient(135deg, #ef4444, #dc2626)',
+      500: '#ef4444',
     }
   },
   components: {

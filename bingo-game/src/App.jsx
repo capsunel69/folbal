@@ -5,10 +5,11 @@ import BingoBoard from './components/BingoBoard'
 import PlayerCard from './components/PlayerCard'
 import GameControls from './components/GameControls'
 import theme from './theme'
-import { getRandomPlayer, players } from './data/players'
+import gameData from './data/548.json'
+import { formatCategories } from './data/categories'
 
 function App() {
-  const [gameState, setGameState] = useState('start') // 'start', 'playing', 'end'
+  const [gameState, setGameState] = useState('start')
   const [currentPlayer, setCurrentPlayer] = useState(null)
   const [selectedCells, setSelectedCells] = useState([])
   const [validSelections, setValidSelections] = useState([])
@@ -16,7 +17,46 @@ function App() {
   const [usedPlayers, setUsedPlayers] = useState([])
   const [hasWildcard, setHasWildcard] = useState(true)
   const [skipPenalty, setSkipPenalty] = useState(false)
+  const [wildcardMatches, setWildcardMatches] = useState([])
   const toast = useToast()
+
+  // Initialize categories from the new format
+  const categories = formatCategories(gameData.gameData.remit)
+
+  const getRandomPlayer = (usedPlayerIds = []) => {
+    if (!gameData.gameData.players) {
+      console.log('No players data available:', gameData.gameData)
+      return null
+    }
+    const availablePlayers = gameData.gameData.players.filter(
+      player => !usedPlayerIds.includes(player.id)
+    )
+    if (availablePlayers.length === 0) return null
+    const selectedPlayer = availablePlayers[Math.floor(Math.random() * availablePlayers.length)]
+    console.log('Selected player:', selectedPlayer)
+    return selectedPlayer
+  }
+
+  const startGame = () => {
+    const firstPlayer = getRandomPlayer()
+    if (!firstPlayer) {
+      showToast({
+        title: "Error",
+        description: "No players available to start the game",
+        status: "error",
+      })
+      return
+    }
+    setGameState('playing')
+    setCurrentPlayer(firstPlayer)
+    setSelectedCells([])
+    setValidSelections([])
+    setCurrentInvalidSelection(null)
+    setUsedPlayers([])
+    setHasWildcard(true)
+    setWildcardMatches([])
+    setSkipPenalty(false)
+  }
 
   const showToast = (options) => {
     toast.closeAll()
@@ -29,30 +69,22 @@ function App() {
     })
   }
 
-  const startGame = () => {
-    setGameState('playing')
-    setCurrentPlayer(getRandomPlayer())
-    setSelectedCells([])
-    setValidSelections([])
-    setCurrentInvalidSelection(null)
-    setUsedPlayers([])
-    setHasWildcard(true)
-    setSkipPenalty(false)
-  }
-
   const handleCellSelect = (categoryId) => {
     if (!currentPlayer) return
     
     setCurrentInvalidSelection(null)
-    const isValidSelection = currentPlayer.categories.includes(categoryId)
+    const category = categories[categoryId].originalData
+    
+    const isValidSelection = currentPlayer.v.some(achievementId => 
+      category.some(requirement => requirement.id === achievementId)
+    )
 
     if (isValidSelection) {
       const newSelectedCells = [...selectedCells, categoryId]
       setSelectedCells(newSelectedCells)
       setValidSelections([...validSelections, categoryId])
       
-      // Check for win (all 16 categories matched)
-      if (validSelections.length >= 15) {
+      if (newSelectedCells.length >= categories.length) {
         endGame(true)
         return
       }
@@ -62,7 +94,7 @@ function App() {
       setCurrentInvalidSelection(categoryId)
       showToast({
         title: "Wrong selection!",
-        description: "That category doesn't match this player.",
+        description: "That category doesn't match this player's achievements.",
         status: "error",
       })
       moveToNextPlayer()
@@ -70,7 +102,6 @@ function App() {
   }
 
   const moveToNextPlayer = () => {
-    // Clear the invalid selection state
     setCurrentInvalidSelection(null)
     
     const newUsedPlayers = [...usedPlayers, currentPlayer.id]
@@ -87,18 +118,36 @@ function App() {
   const handleWildcard = () => {
     if (!currentPlayer || !hasWildcard) return
     
-    const newValidSelections = [...validSelections]
-    currentPlayer.categories.forEach(categoryId => {
-      if (!validSelections.includes(categoryId)) {
-        newValidSelections.push(categoryId)
-      }
-    })
+    // Get all valid categories for the current player
+    const validCategories = categories.reduce((acc, category, index) => {
+      const isValid = currentPlayer.v.some(achievementId => 
+        category.originalData.some(requirement => requirement.id === achievementId)
+      )
+      if (isValid) acc.push(index)
+      return acc
+    }, [])
+
+    if (validCategories.length === 0) {
+      showToast({
+        title: "No valid categories",
+        description: "This player doesn't match any categories",
+        status: "warning",
+      })
+      return
+    }
+
+    // Update both states in a single batch
+    const newValidSelections = [...validSelections, ...validCategories]
+    const newWildcardMatches = [...wildcardMatches, ...validCategories]
     
     setValidSelections(newValidSelections)
-    setSelectedCells([...new Set([...selectedCells, ...currentPlayer.categories])])
+    setWildcardMatches(newWildcardMatches)
+    setSelectedCells(prev => [...new Set([...prev, ...validCategories])])
     setHasWildcard(false)
     
-    if (newValidSelections.length >= 16) {
+    console.log('Wildcard matches:', newWildcardMatches) // Debug log
+    
+    if (newValidSelections.length >= categories.length) {
       endGame(true)
       return
     }
@@ -252,7 +301,7 @@ function App() {
               >
                 <Heading as="h1" size={['lg', 'xl']}>Football Bingo</Heading>
                 <Text fontSize="sm" color="gray.500">
-                  Players used: {usedPlayers.length} / {players.length}
+                  Players used: {usedPlayers.length} / {gameData.gameData.players.length}
                 </Text>
               </HStack>
               
@@ -272,8 +321,9 @@ function App() {
                   color="white"
                   textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
                 >
-                  {currentPlayer?.name}
+                  {currentPlayer ? `${currentPlayer.f} ${currentPlayer.g}` : 'No player selected'}
                 </Text>
+                {process.env.NODE_ENV === 'development' }
               </Box>
 
               <Box w="full" maxW="800px" mx="auto">
@@ -282,6 +332,8 @@ function App() {
                   onCellSelect={handleCellSelect}
                   validSelections={validSelections}
                   currentInvalidSelection={currentInvalidSelection}
+                  categories={categories}
+                  wildcardMatches={wildcardMatches}
                 />
               </Box>
 
@@ -289,6 +341,7 @@ function App() {
                 hasWildcard={hasWildcard}
                 onWildcardUse={handleWildcard}
                 onSkip={handleSkip}
+                isSkipPenalty={skipPenalty}
               />
               
               <Text fontSize="md" color="gray.500">
