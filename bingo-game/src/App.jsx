@@ -3,6 +3,8 @@ import { Global } from '@emotion/react'
 import { useState, useEffect } from 'react'
 import BingoBoard from './components/BingoBoard'
 import GameControls from './components/GameControls'
+import Header from './components/Header'
+import Footer from './components/Footer'
 import theme from './theme'
 import { formatCategories } from './data/categories'
 import { MdRefresh, MdShuffle } from 'react-icons/md'
@@ -139,7 +141,8 @@ function App() {
     setSelectedCells([])
     setValidSelections([])
     setCurrentInvalidSelection(null)
-    setUsedPlayers([])
+    // setUsedPlayers([firstPlayer.id]) this sets first player as used player <=> first player is 1 not 0
+    setUsedPlayers([]) // first player is  0
     setHasWildcard(true)
     setWildcardMatches([])
     setSkipPenalty(false)
@@ -348,6 +351,7 @@ function App() {
             }
           `}
         />
+        <Header />
         <Box {...containerStyles}>
           <Container maxW="container.lg" py={8} mx="auto">
             <VStack spacing={8} align="center" w="full">
@@ -355,6 +359,7 @@ function App() {
             </VStack>
           </Container>
         </Box>
+        <Footer />
       </ChakraProvider>
     )
   }
@@ -372,6 +377,7 @@ function App() {
             }
           `}
         />
+        <Header />
         <Box {...containerStyles}>
           <Container maxW="container.lg" py={8} mx="auto">
             <VStack spacing={5} align="center" w="full">
@@ -384,6 +390,7 @@ function App() {
             </VStack>
           </Container>
         </Box>
+        <Footer />
       </ChakraProvider>
     )
   }
@@ -401,6 +408,7 @@ function App() {
             }
           `}
         />
+        <Header />
         <Box {...containerStyles}>
           <Container maxW="container.lg" py={8} mx="auto">
             <VStack spacing={8} align="center" w="full">
@@ -427,6 +435,7 @@ function App() {
             </VStack>
           </Container>
         </Box>
+        <Footer />
       </ChakraProvider>
     )
   }
@@ -444,6 +453,7 @@ function App() {
             }
           `}
         />
+        <Header />
         <Box {...containerStyles}>
           <Container maxW="container.lg" py={8} mx="auto">
             <VStack spacing={4} w="full" align="center">
@@ -574,6 +584,7 @@ function App() {
             </VStack>
           </Container>
         </Box>
+        <Footer />
       </ChakraProvider>
     )
   }
