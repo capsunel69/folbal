@@ -22,6 +22,7 @@ import {
   UnorderedList,
 } from '@chakra-ui/react';
 import { FaRegSmile, FaMeh, FaSkull } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 const GhicesteJucatorul = () => {
   const [players, setPlayers] = useState([]);
@@ -210,8 +211,8 @@ const GhicesteJucatorul = () => {
   };
 
   return (
-    <Box minH="100vh" color="white">
-      <Container maxW="750px" py={8} mt={16}>
+    <Box minH="100vh" color="white" px={4}>
+      <Container maxW="750px" py={12} mt={8} mb={8}>
         <VStack spacing={6}>
           <Heading size="xl">Ghiceste Jucatorul</Heading>
 
@@ -359,25 +360,66 @@ const GhicesteJucatorul = () => {
 
           <VStack w="100%" spacing={4}>
             {attempts.map((attempt, index) => (
-              <VStack key={index} w="100%" spacing={2}>
-                <Text w="100%" fontSize="sm" color="gray.300">
-                  {attempt.player.Name}
-                </Text>
+              <VStack 
+                key={index} 
+                w="100%" 
+                spacing={2}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3 }}
+                as={motion.div}
+              >
+                <Flex 
+                  w="100%" 
+                  alignItems="center" 
+                  p={2}
+                  bg="whiteAlpha.50"
+                  borderRadius="md"
+                >
+                  <Image
+                    src={`https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/player_images/${attempt.player.PlayerID}.png`}
+                    fallbackSrc="https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/placeholder.png"
+                    boxSize="40px"
+                    borderRadius="full"
+                    mr={3}
+                    objectFit="cover"
+                  />
+                  <Text fontSize="sm" color="gray.300">
+                    {attempt.player.Name}
+                  </Text>
+                </Flex>
                 <Grid
                   templateColumns="repeat(5, 1fr)"
                   gap={4}
                   w="100%"
-                  bg="whiteAlpha.50"
+                  bg="whiteAlpha.100"
                   p={4}
                   borderRadius="md"
+                  boxShadow="0 4px 6px rgba(0, 0, 0, 0.1)"
+                  transition="all 0.2s"
+                  _hover={{ transform: "translateY(-2px)", boxShadow: "0 6px 8px rgba(0, 0, 0, 0.2)" }}
                 >
                   {attempt.comparisons.map((comparison, idx) => (
                     <Box
                       key={idx}
-                      bg={comparison.actual === comparison.target ? "green.500" : "red.500"}
+                      bg={comparison.actual === comparison.target 
+                        ? "rgba(72, 187, 120, 0.15)" 
+                        : "rgba(245, 101, 101, 0.15)"}
+                      border={`2px solid ${comparison.actual === comparison.target 
+                        ? "rgba(72, 187, 120, 0.5)" 
+                        : "rgba(245, 101, 101, 0.5)"}`}
                       p={2}
                       borderRadius="md"
-                      textAlign="center"
+                      display="flex"
+                      alignItems="center"
+                      justifyContent="center"
+                      minH="50px"
+                      transition="all 0.2s"
+                      _hover={{ transform: "scale(1.05)" }}
+                      as={motion.div}
+                      initial={{ scale: 0.9, opacity: 0 }}
+                      animate={{ scale: 1, opacity: 1 }}
+                      whileInView={{ scale: 1, opacity: 1, transition: { delay: idx * 0.1 } }}
                     >
                       {comparison.type === 'team' ? (
                         <Image
@@ -385,15 +427,18 @@ const GhicesteJucatorul = () => {
                           fallbackSrc="https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/placeholder.png"
                           h="30px"
                           w="30px"
-                          mx="auto"
                           objectFit="contain"
                         />
                       ) : (
-                        <Text>
+                        <Text fontWeight="bold" textAlign="center">
                           {comparison.actual}
                           {(comparison.type === 'age' || comparison.type === 'number') && 
                             comparison.actual !== comparison.target && (
-                              <Text as="span" ml={1}>
+                              <Text 
+                                as="span" 
+                                ml={1}
+                                color={Number(comparison.actual) < Number(comparison.target) ? "green.300" : "red.300"}
+                              >
                                 {Number(comparison.actual) < Number(comparison.target) ? '↑' : '↓'}
                               </Text>
                             )
@@ -438,7 +483,7 @@ const GhicesteJucatorul = () => {
 
         <Modal isOpen={isDifficultyOpen} onClose={onDifficultyClose} isCentered>
           <ModalOverlay />
-          <ModalContent bg="gray.800" color="white">
+          <ModalContent bg="gray.800" color="white" mx={2}>
             <ModalHeader>Alege Dificultatea</ModalHeader>
             <ModalBody pb={6}>
               <VStack spacing={4}>
@@ -476,16 +521,15 @@ const GhicesteJucatorul = () => {
             </ModalBody>
           </ModalContent>
         </Modal>
-
         <Modal isOpen={isGameOverOpen} onClose={onGameOverClose} isCentered>
           <ModalOverlay />
-          <ModalContent bg="gray.800" color="white">
-            <ModalHeader>
+          <ModalContent bg="gray.800" color="white" mx={2}>
+            <ModalHeader textAlign="center">
               {gameOver && targetPlayer?.Name === attempts[0]?.player.Name
                 ? "Felicitări! Ai câștigat! 🎉"
                 : "Joc Terminat!"}
             </ModalHeader>
-            <ModalBody pb={6}>
+            <ModalBody pb={6} px={8}>
               <VStack spacing={4}>
                 <Text>
                   {gameOver && targetPlayer?.Name === attempts[0]?.player.Name
