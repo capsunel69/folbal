@@ -1,4 +1,4 @@
-import { Container, VStack, Heading, useToast, Button, Text, HStack, Box, Stack } from '@chakra-ui/react'
+import { Container, VStack, Heading, useToast, Button, Text, HStack, Box, Stack, Grid } from '@chakra-ui/react'
 import { useState, useEffect } from 'react'
 import { MdRefresh, MdShuffle } from 'react-icons/md'
 import BingoBoard from '../components/BingoBoard'
@@ -386,10 +386,59 @@ function BingoGame() {
         <Container maxW="container.lg" py={8} mx="auto">
           <VStack spacing={5} align="center" w="full">
             <Heading as="h1" size="xl" textAlign="center">Football Bingo</Heading>
-            <Text fontSize="lg" textAlign="center">
-              Match players with their achievements and categories to score points!
-              Use your wildcard wisely only when a palyer might match multiple categories.
-            </Text>
+            <VStack 
+              spacing={2} 
+              align="start" 
+              w="full" 
+              maxW="800px"
+              p={4}
+              bg="whiteAlpha.100"
+              borderRadius="md"
+            >
+              <Text fontSize="md" fontWeight="bold">Cum se joaca:</Text>
+              
+              <Grid 
+                templateColumns={['1fr', '1fr', '1fr 1fr']} 
+                gap={6} 
+                w="full"
+                fontSize="sm"
+              >
+                {/* Left Column */}
+                <VStack align="start" spacing={4}>
+                  <Box>
+                    <Text fontWeight="semibold">1. Alege intre doua moduri de joc:</Text>
+                    <Text pl={4}>• Modul Clasic: Fara limita de timp pentru fiecare decizie</Text>
+                    <Text pl={4}>• Modul Contra-Timp: Ai 10 secunde sa faci o alegere, altfel pierzi jucatorul</Text>
+                  </Box>
+
+                  <Box>
+                    <Text fontWeight="semibold">2. Pentru fiecare jucator afisat:</Text>
+                    <Text pl={4}>• Trebuie sa alegi o categorie in care crezi ca se incadreaza</Text>
+                    <Text pl={4}>• Daca alegerea e corecta, patratelul ramane selectat si primesti alt jucator</Text>
+                    <Text pl={4}>• Daca gresesti, pierzi 2 jucatori din numarul maxim disponibil</Text>
+                  </Box>
+                </VStack>
+
+                {/* Right Column */}
+                <VStack align="start" spacing={4}>
+                  <Box>
+                    <Text fontWeight="semibold">3. Ai la dispozitie:</Text>
+                    <Text pl={4}>• Un wild card (steaua galbena) - foloseste-l cand crezi ca un jucator se potriveste in mai multe categorii</Text>
+                    <Text pl={4}>• Optiunea de skip - dar vei pierde un jucator din numarul maxim disponibil</Text>
+                  </Box>
+
+                  <Box>
+                    <Text fontWeight="semibold">4. Jocul se termina cand:</Text>
+                    <Text pl={4}>• Completezi toate cele 16 casute (victorie!)</Text>
+                    <Text pl={4}>• Nu mai ai jucatori disponibili (infrangere)</Text>
+                  </Box>
+
+                  <Text fontStyle="italic" color="yellow.200">
+                    Sfat: Foloseste wild card-ul strategic pentru jucatorii cu multe realizari!
+                  </Text>
+                </VStack>
+              </Grid>
+            </VStack>
             <GameModeSelect onModeSelect={handleModeSelect} />
           </VStack>
         </Container>
