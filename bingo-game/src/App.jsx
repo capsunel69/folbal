@@ -26,7 +26,7 @@ function App() {
         <Box flex="1">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/play" element={<BingoGame />} />
+            <Route path="/bingo" element={<BingoGame />} />
             <Route path="/ghiceste-jucatorul" element={<GhicesteJucatorul />} />
           </Routes>
         </Box>

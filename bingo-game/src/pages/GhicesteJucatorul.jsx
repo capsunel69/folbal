@@ -114,6 +114,7 @@ const GhicesteJucatorul = () => {
 
   const startNewGame = (difficulty = 'medium') => {
     const newTarget = getWeightedRandomPlayerByDifficulty(difficulty);
+    console.log('Selected player:', newTarget);
     setTargetPlayer(newTarget);
     setRemainingGuesses(8);
     setGameOver(false);
@@ -293,41 +294,22 @@ const GhicesteJucatorul = () => {
                         objectFit="contain"
                       />
                     ) : (
-                      <Text>{comparison.actual}</Text>
+                      <Text>
+                        {comparison.actual}
+                        {(comparison.type === 'age' || comparison.type === 'number') && 
+                          comparison.actual !== comparison.target && (
+                            <Text as="span" ml={1}>
+                              {Number(comparison.actual) < Number(comparison.target) ? '↑' : '↓'}
+                            </Text>
+                          )
+                        }
+                      </Text>
                     )}
                   </Flex>
                 ))}
               </Flex>
             </Box>
           )}
-
-          <Box
-            w="100%"
-            p={6}
-            bg="rgba(0, 0, 0, 0.85)"
-            borderRadius="lg"
-            border="2px solid rgba(255, 255, 255, 0.1)"
-            backdropFilter="blur(10px)"
-            boxShadow="lg"
-          >
-            <Heading size="md" color="green.400" mb={4}>
-              Regulile Jocului
-            </Heading>
-            <UnorderedList spacing={3}>
-              <ListItem>doar jucatori din Superliga (momentan)</ListItem>
-              <ListItem>ai 8 incercari pentru a ghici fotbalistul</ListItem>
-              <ListItem>poti folosi 3 indicii, dar fiecare va costa o incercare</ListItem>
-              <ListItem>
-                pozitia jucatorului poate fi GK (portar), DF (fundas), MID (mijlocas),
-                W (winger) sau CF (atacant central)
-              </ListItem>
-              <ListItem>
-                sagetile din dreptul caracteristicelor iti pot oferi indicii legate
-                de jucator. De exemplu, in dreptul varstei daca avem 25 cu o sageata
-                in sus, inseamna ca varsta jucatorului este mai mare de 25 de ani.
-              </ListItem>
-            </UnorderedList>
-          </Box>
 
           <Flex w="100%" justify="space-between">
             <Text fontSize="lg">Incercari ramase: {remainingGuesses}</Text>
@@ -392,13 +374,13 @@ const GhicesteJucatorul = () => {
                     ) : (
                       <Text>
                         {comparison.actual}
-                        {comparison.type === 'number' || comparison.type === 'age' ? (
+                        {(comparison.type === 'age' || comparison.type === 'number') && 
                           comparison.actual !== comparison.target && (
                             <Text as="span" ml={1}>
-                              {comparison.actual > comparison.target ? '↓' : '↑'}
+                              {Number(comparison.actual) < Number(comparison.target) ? '↑' : '↓'}
                             </Text>
                           )
-                        ) : null}
+                        }
                       </Text>
                     )}
                   </Box>
@@ -406,9 +388,37 @@ const GhicesteJucatorul = () => {
               </Grid>
             ))}
           </VStack>
+
+          <Box
+            w="100%"
+            p={6}
+            bg="rgba(0, 0, 0, 0.85)"
+            borderRadius="lg"
+            border="2px solid rgba(255, 255, 255, 0.1)"
+            backdropFilter="blur(10px)"
+            boxShadow="lg"
+          >
+            <Heading size="md" color="green.400" mb={4}>
+              Regulile Jocului
+            </Heading>
+            <UnorderedList spacing={3}>
+              <ListItem>doar jucatori din Superliga (momentan)</ListItem>
+              <ListItem>ai 8 incercari pentru a ghici fotbalistul</ListItem>
+              <ListItem>poti folosi 3 indicii, dar fiecare va costa o incercare</ListItem>
+              <ListItem>
+                pozitia jucatorului poate fi GK (portar), DF (fundas), MID (mijlocas),
+                W (winger) sau CF (atacant central)
+              </ListItem>
+              <ListItem>
+                sagetile din dreptul caracteristicelor iti pot oferi indicii legate
+                de jucator. De exemplu, in dreptul varstei daca avem 25 cu o sageata
+                in sus, inseamna ca varsta jucatorului este mai mare de 25 de ani.
+              </ListItem>
+            </UnorderedList>
+          </Box>
         </VStack>
 
-        <Modal isOpen={isDifficultyOpen} onClose={onDifficultyClose}>
+        <Modal isOpen={isDifficultyOpen} onClose={onDifficultyClose} isCentered>
           <ModalOverlay />
           <ModalContent bg="gray.800" color="white">
             <ModalHeader>Alege Dificultatea</ModalHeader>
@@ -428,7 +438,7 @@ const GhicesteJucatorul = () => {
           </ModalContent>
         </Modal>
 
-        <Modal isOpen={isGameOverOpen} onClose={onGameOverClose}>
+        <Modal isOpen={isGameOverOpen} onClose={onGameOverClose} isCentered>
           <ModalOverlay />
           <ModalContent bg="gray.800" color="white">
             <ModalHeader>

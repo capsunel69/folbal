@@ -12,9 +12,12 @@ const Header = () => {
                 </Box>
                 <Spacer />
                 <Flex gap={6}>
-                    {/* <Link color="white" href="#rules" _hover={{ color: 'yellow.400' }}>
-                        Rules
-                    </Link> */}
+                <Link color="white" href="/bingo" _hover={{ color: 'yellow.400' }}>
+                        Bingo
+                    </Link>
+                    <Link color="white" href="/ghiceste-jucatorul" _hover={{ color: 'yellow.400' }}>
+                        Ghiceste Jucatorul
+                    </Link>
                     <Link color="white" href="https://fotbal-comedie.ro" _hover={{ color: 'yellow.400' }}>
                         Back to main website
                     </Link>
