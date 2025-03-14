@@ -481,7 +481,7 @@ const GhicesteJucatorul = () => {
           </Box>
         </VStack>
 
-        <Modal isOpen={isDifficultyOpen} onClose={onDifficultyClose} isCentered>
+        <Modal isOpen={isDifficultyOpen} onClose={onDifficultyClose} isCentered closeOnOverlayClick={false}>
           <ModalOverlay />
           <ModalContent bg="gray.800" color="white" mx={2}>
             <ModalHeader>Alege Dificultatea</ModalHeader>
