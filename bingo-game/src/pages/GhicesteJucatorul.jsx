@@ -21,6 +21,7 @@ import {
   useToast,
   UnorderedList,
 } from '@chakra-ui/react';
+import { FaRegSmile, FaMeh, FaSkull } from 'react-icons/fa';
 
 const GhicesteJucatorul = () => {
   const [players, setPlayers] = useState([]);
@@ -242,6 +243,7 @@ const GhicesteJucatorul = () => {
                       key={player.PlayerID}
                       p={3}
                       alignItems="center"
+                      justifyContent="space-between"
                       _hover={{ bg: "whiteAlpha.200" }}
                       cursor="pointer"
                       onClick={() => {
@@ -250,14 +252,23 @@ const GhicesteJucatorul = () => {
                         setShowDropdown(false);
                       }}
                     >
+                      <Flex alignItems="center">
+                        <Image
+                          src={`https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/player_images/${player.PlayerID}.png`}
+                          fallbackSrc="https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/placeholder.png"
+                          boxSize="40px"
+                          borderRadius="full"
+                          mr={3}
+                          objectFit="cover"
+                        />
+                        <Text>{player.Name}</Text>
+                      </Flex>
                       <Image
-                        src={`https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/player_images/${player.PlayerID}.png`}
-                        fallbackSrc="https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/placeholder.png"
-                        boxSize="40px"
-                        borderRadius="full"
-                        mr={3}
+                        src={`https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/team_logos/${player.TeamID}.png`}
+                        h="30px"
+                        w="30px"
+                        objectFit="contain"
                       />
-                      <Text>{player.Name}</Text>
                     </Flex>
                   ))}
               </Box>
@@ -336,6 +347,7 @@ const GhicesteJucatorul = () => {
               bg="whiteAlpha.100"
               p={4}
               borderRadius="md"
+              textAlign="center"
             >
               <Text>TEAM</Text>
               <Text>POS</Text>
@@ -347,45 +359,51 @@ const GhicesteJucatorul = () => {
 
           <VStack w="100%" spacing={4}>
             {attempts.map((attempt, index) => (
-              <Grid
-                key={index}
-                templateColumns="repeat(5, 1fr)"
-                gap={4}
-                w="100%"
-                bg="whiteAlpha.50"
-                p={4}
-                borderRadius="md"
-              >
-                {attempt.comparisons.map((comparison, idx) => (
-                  <Box
-                    key={idx}
-                    bg={comparison.actual === comparison.target ? "green.500" : "red.500"}
-                    p={2}
-                    borderRadius="md"
-                    textAlign="center"
-                  >
-                    {comparison.type === 'team' ? (
-                      <Image
-                        src={`https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/team_logos/${comparison.teamId}.png`}
-                        fallbackSrc="https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/placeholder.png"
-                        h="30px"
-                        mx="auto"
-                      />
-                    ) : (
-                      <Text>
-                        {comparison.actual}
-                        {(comparison.type === 'age' || comparison.type === 'number') && 
-                          comparison.actual !== comparison.target && (
-                            <Text as="span" ml={1}>
-                              {Number(comparison.actual) < Number(comparison.target) ? '↑' : '↓'}
-                            </Text>
-                          )
-                        }
-                      </Text>
-                    )}
-                  </Box>
-                ))}
-              </Grid>
+              <VStack key={index} w="100%" spacing={2}>
+                <Text w="100%" fontSize="sm" color="gray.300">
+                  {attempt.player.Name}
+                </Text>
+                <Grid
+                  templateColumns="repeat(5, 1fr)"
+                  gap={4}
+                  w="100%"
+                  bg="whiteAlpha.50"
+                  p={4}
+                  borderRadius="md"
+                >
+                  {attempt.comparisons.map((comparison, idx) => (
+                    <Box
+                      key={idx}
+                      bg={comparison.actual === comparison.target ? "green.500" : "red.500"}
+                      p={2}
+                      borderRadius="md"
+                      textAlign="center"
+                    >
+                      {comparison.type === 'team' ? (
+                        <Image
+                          src={`https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/team_logos/${comparison.teamId}.png`}
+                          fallbackSrc="https://cryptobully.s3.eu-north-1.amazonaws.com/fotbal-comedie/placeholder.png"
+                          h="30px"
+                          w="30px"
+                          mx="auto"
+                          objectFit="contain"
+                        />
+                      ) : (
+                        <Text>
+                          {comparison.actual}
+                          {(comparison.type === 'age' || comparison.type === 'number') && 
+                            comparison.actual !== comparison.target && (
+                              <Text as="span" ml={1}>
+                                {Number(comparison.actual) < Number(comparison.target) ? '↑' : '↓'}
+                              </Text>
+                            )
+                          }
+                        </Text>
+                      )}
+                    </Box>
+                  ))}
+                </Grid>
+              </VStack>
             ))}
           </VStack>
 
@@ -424,13 +442,34 @@ const GhicesteJucatorul = () => {
             <ModalHeader>Alege Dificultatea</ModalHeader>
             <ModalBody pb={6}>
               <VStack spacing={4}>
-                <Button w="100%" colorScheme="green" onClick={() => startNewGame('easy')}>
+                <Button
+                  w="100%"
+                  colorScheme="green"
+                  onClick={() => startNewGame('easy')}
+                  bg="green.600"
+                  _hover={{ bg: 'green.500' }}
+                  leftIcon={<FaRegSmile size="20px" />}
+                >
                   Usor
                 </Button>
-                <Button w="100%" colorScheme="yellow" onClick={() => startNewGame('medium')}>
+                <Button
+                  w="100%"
+                  colorScheme="yellow"
+                  onClick={() => startNewGame('medium')}
+                  bg="yellow.600"
+                  _hover={{ bg: 'yellow.500' }}
+                  leftIcon={<FaMeh size="20px" />}
+                >
                   Mediu
                 </Button>
-                <Button w="100%" colorScheme="red" onClick={() => startNewGame('hard')}>
+                <Button
+                  w="100%"
+                  colorScheme="red"
+                  onClick={() => startNewGame('hard')}
+                  bg="red.600"
+                  _hover={{ bg: 'red.500' }}
+                  leftIcon={<FaSkull size="20px" />}
+                >
                   Greu
                 </Button>
               </VStack>
