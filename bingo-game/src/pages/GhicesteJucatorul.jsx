@@ -36,8 +36,9 @@ const GhicesteJucatorul = () => {
   const [attempts, setAttempts] = useState([]);
   const [hintText, setHintText] = useState('');
   const [correctGuesses, setCorrectGuesses] = useState({});
-  const { isOpen: isDifficultyOpen, onClose: onDifficultyClose } = useDisclosure({ defaultIsOpen: true });
+  const { isOpen: isDifficultyOpen, onClose: onDifficultyClose, onOpen: onDifficultyOpen } = useDisclosure({ defaultIsOpen: true });
   const { isOpen: isGameOverOpen, onOpen: onGameOverOpen, onClose: onGameOverClose } = useDisclosure();
+  const [iframeLoaded, setIframeLoaded] = useState(false);
   
   const toast = useToast();
   const dropdownRef = useRef(null);
@@ -521,7 +522,7 @@ const GhicesteJucatorul = () => {
             </ModalBody>
           </ModalContent>
         </Modal>
-        <Modal isOpen={isGameOverOpen} onClose={onGameOverClose} isCentered>
+        <Modal isOpen={isGameOverOpen} onClose={onGameOverClose} isCentered closeOnOverlayClick={false}>
           <ModalOverlay />
           <ModalContent bg="gray.800" color="white" mx={2}>
             <ModalHeader textAlign="center">
@@ -539,17 +540,40 @@ const GhicesteJucatorul = () => {
                 <Text>Încercări folosite: {8 - remainingGuesses}/8</Text>
                 <Text>Indicii folosite: {3 - hintsRemaining}/3</Text>
                 <Text textAlign="center">Nu uita ca avem un newsletter zilnic, aboneaza-te bagand mailul mai jos.</Text>
-                <iframe 
-                  id="myIframe" 
-                  src="https://embeds.beehiiv.com/4f46f0f5-c3e3-4a05-a85a-2c1a2eba5d8e?slim=true"
-                  data-test-id="beehiiv-embed" 
-                  width="100%" 
-                  height="72" 
-                  frameborder="0" 
-                  scrolling="no"
-                  style={{margin: '0 auto', display: 'block'}}
-                />
-                <Button colorScheme="green" onClick={() => startNewGame()}>
+                
+                {!iframeLoaded && (
+                  <Box 
+                    w="100%" 
+                    h="72px" 
+                    display="flex" 
+                    alignItems="center" 
+                    justifyContent="center"
+                    bg="whiteAlpha.100"
+                    borderRadius="md"
+                  >
+                    <Text>Se încarcă...</Text>
+                  </Box>
+                )}
+                <Box 
+                  w="100%" 
+                  style={{ display: iframeLoaded ? 'block' : 'none' }}
+                >
+                  <iframe 
+                    id="myIframe" 
+                    src="https://embeds.beehiiv.com/4f46f0f5-c3e3-4a05-a85a-2c1a2eba5d8e?slim=true"
+                    data-test-id="beehiiv-embed" 
+                    width="100%" 
+                    height="72" 
+                    frameBorder="0" 
+                    scrolling="no"
+                    style={{margin: '0 auto', display: 'block'}}
+                    onLoad={() => setIframeLoaded(true)}
+                  />
+                </Box>
+                <Button colorScheme="green" onClick={() => {
+                  onGameOverClose();
+                  onDifficultyOpen();
+                }}>
                   Joacă din nou
                 </Button>
               </VStack>

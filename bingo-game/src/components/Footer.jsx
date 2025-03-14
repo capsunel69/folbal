@@ -12,7 +12,7 @@ const Footer = () => {
         align="center"
         justify="space-between"
       >
-        <Text>&copy; {new Date().getFullYear()} Bingo Fotbal Comedie. All rights reserved.</Text>
+        <Text>&copy; {new Date().getFullYear()} Jocuri Fotbal Comedie. All rights reserved.</Text>
         
         <Flex gap={4} mt={{ base: 4, md: 0 }}>
           <Link href="https://www.youtube.com/channel/UCweuWrcNBSKT01d2p_RuLvA" target="_blank" _hover={{ color: 'yellow.400' }}>
