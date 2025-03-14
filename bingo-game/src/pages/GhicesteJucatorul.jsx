@@ -491,8 +491,8 @@ const GhicesteJucatorul = () => {
                   w="100%"
                   colorScheme="green"
                   onClick={() => startNewGame('easy')}
-                  bg="green.600"
-                  _hover={{ bg: 'green.500' }}
+                  bg="green.500"
+                  _hover={{ bg: 'green.700' }}
                   leftIcon={<FaRegSmile size="20px" />}
                 >
                   Usor
@@ -501,8 +501,8 @@ const GhicesteJucatorul = () => {
                   w="100%"
                   colorScheme="yellow"
                   onClick={() => startNewGame('medium')}
-                  bg="yellow.600"
-                  _hover={{ bg: 'yellow.500' }}
+                  bg="orange.500"
+                  _hover={{ bg: 'orange.700' }}
                   leftIcon={<FaMeh size="20px" />}
                 >
                   Mediu
@@ -511,8 +511,8 @@ const GhicesteJucatorul = () => {
                   w="100%"
                   colorScheme="red"
                   onClick={() => startNewGame('hard')}
-                  bg="red.600"
-                  _hover={{ bg: 'red.500' }}
+                  bg="red.500"
+                  _hover={{ bg: 'red.700' }}
                   leftIcon={<FaSkull size="20px" />}
                 >
                   Greu
@@ -538,6 +538,17 @@ const GhicesteJucatorul = () => {
                 </Text>
                 <Text>Încercări folosite: {8 - remainingGuesses}/8</Text>
                 <Text>Indicii folosite: {3 - hintsRemaining}/3</Text>
+                <Text textAlign="center">Nu uita ca avem un newsletter zilnic, aboneaza-te bagand mailul mai jos.</Text>
+                <iframe 
+                  id="myIframe" 
+                  src="https://embeds.beehiiv.com/4f46f0f5-c3e3-4a05-a85a-2c1a2eba5d8e?slim=true"
+                  data-test-id="beehiiv-embed" 
+                  width="100%" 
+                  height="72" 
+                  frameborder="0" 
+                  scrolling="no"
+                  style={{margin: '0 auto', display: 'block'}}
+                />
                 <Button colorScheme="green" onClick={() => startNewGame()}>
                   Joacă din nou
                 </Button>
