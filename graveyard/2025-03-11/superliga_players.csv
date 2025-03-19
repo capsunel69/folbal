@@ -14,7 +14,7 @@ fcsb_mihai_lixandru,fcsb,FCSB,fcsb.png,16,Mihai Lixandru,Central Midfield,"Jun 5
 fcsb_baba_alhassan,fcsb,FCSB,fcsb.png,42,Baba Alhassan,Central Midfield,"Jan 3, 2000 (25)",Ghana,€900k,fcsb_baba_alhassan.png,3
 fcsb_juri_cisotti,fcsb,FCSB,fcsb.png,31,Juri Cisotti,Central Midfield,"May 5, 1993 (31)",Italy,€750k,fcsb_juri_cisotti.png,3
 fcsb_malcom_edjouma,fcsb,FCSB,fcsb.png,18,Malcom Edjouma,Central Midfield,"Oct 8, 1996 (28)",Morocco,€700k,fcsb_malcom_edjouma.png,4
-fcsb_andrei_gheorghita,fcsb,FCSB,fcsb.png,77,Andrei Gheorghita,Left Midfield,"Jul 16, 2002 (22)",Romania,€500k,fcsb_andrei_gheorghita.png,3
+fcsb_andrei_gheorghita,fcsb,FCSB,fcsb.png,77,Andrei Gheorghita,Left Winger,"Jul 16, 2002 (22)",Romania,€500k,fcsb_andrei_gheorghita.png,3
 fcsb_darius_olaru,fcsb,FCSB,fcsb.png,27,Darius Olaru,Attacking Midfield,"Mar 3, 1998 (26)",Romania,€7.50m,fcsb_darius_olaru.png,5
 fcsb_florin_tanase,fcsb,FCSB,fcsb.png,7,Florin Tanase,Attacking Midfield,"Dec 30, 1994 (30)",Romania,€2.20m,fcsb_florin_tanase.png,4
 fcsb_octavian_popescu,fcsb,FCSB,fcsb.png,10,Octavian Popescu,Left Winger,"Dec 27, 2002 (22)",Romania,€1.40m,fcsb_octavian_popescu.png,5
@@ -300,6 +300,7 @@ acsm_politehnica_iasi_alin_roman,acsm_politehnica_iasi,ACSM Politehnica Iasi,acs
 acsm_politehnica_iasi_goncalo_teixeira,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,7,Goncalo Teixeira,Left Winger,"Nov 24, 1999 (25)",Portugal,€400k,acsm_politehnica_iasi_goncalo_teixeira.jpeg,3
 acsm_politehnica_iasi_tailson,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,99,Tailson,Right Winger,"Mar 5, 1999 (25)",Brazil,€400k,acsm_politehnica_iasi_tailson.jpg,3
 acsm_politehnica_iasi_sekou_camara,acsm_politehnica_iasi,ACSM Politehnica Iasi,acsm_politehnica_iasi.png,19,Sekou Camara,Centre-Forward,"Jul 20, 1997 (27)",Guinea,€200k,acsm_politehnica_iasi_sekou_camara.png,3
+fc_buzau_alexandru_jipa,fc_buzau,FC Buzău,fc_buzau.png,98,Alexandru Jipa,Right Winger,"Aug 14, 2002 (22)",Romania,€300k,fc_buzau_alexandru_jipa.JPG,2
 fc_buzau_alexandru_greab,fc_buzau,FC Buzău,fc_buzau.png,12,Alexandru Greab,Goalkeeper,"May 26, 1992 (32)",Romania,€300k,fc_buzau_alexandru_greab.JPG,2
 fc_buzau_dorian_railean,fc_buzau,FC Buzău,fc_buzau.png,39,Dorian Railean,Goalkeeper,"Oct 13, 1993 (31)",Moldova,€250k,fc_buzau_dorian_railean.png,2
 fc_buzau_david_lazar,fc_buzau,FC Buzău,fc_buzau.png,1,David Lazar,Goalkeeper,"Aug 8, 1991 (33)",Romania,€200k,fc_buzau_david_lazar.png,3
