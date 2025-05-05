@@ -9,7 +9,18 @@ def clean_text(text):
     cleaned = unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('utf-8')
     return cleaned
 
-def scrape_team_squad(url, team_name):
+def create_league_folders(league_name):
+    # Create main league directory
+    league_dir = clean_text(league_name).lower().replace(' ', '_')
+    os.makedirs(league_dir, exist_ok=True)
+    
+    # Create subdirectories for team logos and player images
+    os.makedirs(os.path.join(league_dir, 'team_logos'), exist_ok=True)
+    os.makedirs(os.path.join(league_dir, 'player_images'), exist_ok=True)
+    
+    return league_dir
+
+def scrape_team_squad(url, team_name, league_dir):
     # Headers to mimic browser request
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -27,9 +38,6 @@ def scrape_team_squad(url, team_name):
     if logo_container and logo_container.find('img'):
         logo_url = logo_container.find('img')['src']
         try:
-            # Create team_logos directory if it doesn't exist
-            os.makedirs('team_logos', exist_ok=True)
-            
             # Get image extension
             img_extension = os.path.splitext(logo_url.split('?')[0])[1]
             if not img_extension:
@@ -37,7 +45,7 @@ def scrape_team_squad(url, team_name):
                 
             # Define logo path
             team_logo_path = f"{team_id}{img_extension}"
-            full_logo_path = os.path.join('team_logos', team_logo_path)
+            full_logo_path = os.path.join(league_dir, 'team_logos', team_logo_path)
             
             # Download logo if it doesn't exist
             if not os.path.exists(full_logo_path):
@@ -55,12 +63,12 @@ def scrape_team_squad(url, team_name):
     
     # Find the main squad table
     table = soup.find('table', {'class': 'items'})
+    if not table:
+        print(f"No squad table found for {team_name}")
+        return []
     
     # Lists to store player data
     players_data = []
-    
-    # Create images directory if it doesn't exist
-    os.makedirs('player_images', exist_ok=True)
     
     # Iterate through each player row
     for row in table.find_all('tr', {'class': ['odd', 'even']}):
@@ -70,7 +78,7 @@ def scrape_team_squad(url, team_name):
             name_cell = row.find('td', {'class': 'hauptlink'})
             name = clean_text(name_cell.find('a').text.strip()) if name_cell else ''
             
-            # Generate unique player ID first
+            # Generate unique player ID
             player_id = f"{clean_text(team_name)}_{clean_text(name)}".lower().replace(' ', '_')
             
             # Find the image in the inline-table structure
@@ -84,24 +92,25 @@ def scrape_team_squad(url, team_name):
             # Only process if we have a valid URL and it's not a base64 image
             if player_img_url and not player_img_url.startswith('data:image'):
                 try:
-                    # Get image extension (default to .jpg if none found)
-                    img_extension = os.path.splitext(player_img_url.split('?')[0])[1]  # Split URL at ? to remove query params
+                    # Get image extension
+                    img_extension = os.path.splitext(player_img_url.split('?')[0])[1]
                     if not img_extension:
                         img_extension = '.jpg'
                     
                     # Define image path
                     img_path = f"{player_id}{img_extension}"
-                    full_img_path = os.path.join('player_images', img_path)
+                    full_img_path = os.path.join(league_dir, 'player_images', img_path)
                     
-                    # Download image
-                    img_response = requests.get(player_img_url, headers=headers)
-                    if img_response.status_code == 200:
-                        with open(full_img_path, 'wb') as img_file:
-                            img_file.write(img_response.content)
-                        print(f"Successfully downloaded image for {name}")
-                    else:
-                        print(f"Failed to download image for {name}: HTTP {img_response.status_code}")
-                        img_path = ''
+                    # Download image if it doesn't exist
+                    if not os.path.exists(full_img_path):
+                        img_response = requests.get(player_img_url, headers=headers)
+                        if img_response.status_code == 200:
+                            with open(full_img_path, 'wb') as img_file:
+                                img_file.write(img_response.content)
+                            print(f"Successfully downloaded image for {name}")
+                        else:
+                            print(f"Failed to download image for {name}: HTTP {img_response.status_code}")
+                            img_path = ''
                 except Exception as img_error:
                     print(f"Error downloading image for {name}: {img_error}")
                     img_path = ''
@@ -137,22 +146,46 @@ def scrape_team_squad(url, team_name):
     
     return players_data
 
-# Read the superliga.csv file
-teams_df = pd.read_csv('superliga.csv')
-
-# List to store all players from all teams
-all_players_data = []
-
-# Scrape data for each team
-for index, row in teams_df.iterrows():
-    print(f"Scraping data for {row['team']}...")
-    team_data = scrape_team_squad(row['link'], row['team'])
-    all_players_data.extend(team_data)
+def main():
+    # Read the leagues.csv file
+    leagues_df = pd.read_csv('leagues.csv')
     
-# Create DataFrame with all players
-all_players_df = pd.DataFrame(all_players_data)
+    # Process each league
+    for league in leagues_df['Liga'].unique():
+        print(f"\nProcessing {league}...")
+        
+        # Create league directory
+        league_dir = create_league_folders(league)
+        
+        # Get teams for this league
+        league_teams = leagues_df[leagues_df['Liga'] == league]
+        
+        # List to store all players from current league
+        league_players_data = []
+        
+        # Scrape data for each team in the league
+        for _, row in league_teams.iterrows():
+            print(f"\nScraping data for {row['Echipa']}...")
+            team_data = scrape_team_squad(row['Link'], row['Echipa'], league_dir)
+            
+            # Add league and country information to each player
+            for player in team_data:
+                player['League'] = league
+                player['Country'] = row['Tara']
+            
+            league_players_data.extend(team_data)
+        
+        # Create DataFrame with all players in the league
+        if league_players_data:
+            league_players_df = pd.DataFrame(league_players_data)
+            
+            # Save to CSV file with UTF-8 encoding
+            output_file = os.path.join(league_dir, f'{clean_text(league).lower().replace(" ", "_")}_players.csv')
+            league_players_df.to_csv(output_file, index=False, encoding='utf-8-sig')
+            print(f"\nData has been saved to '{output_file}'")
+        else:
+            print(f"\nNo data was collected for {league}")
 
-# Save to CSV file with UTF-8 encoding
-all_players_df.to_csv('superliga_players.csv', index=False, encoding='utf-8-sig')
-print("Data has been saved to 'superliga_players.csv'")
+if __name__ == "__main__":
+    main()
 

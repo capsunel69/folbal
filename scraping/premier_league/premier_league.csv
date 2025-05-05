@@ -1,0 +1,173 @@
+PlayerID,TeamID,Team,TeamLogo,Number,Name,Position,Age,Nationality,Market Value,Image,League,Country,Scor
+manchester_city_ederson,manchester_city,Manchester City,manchester_city.png,31,Ederson,Goalkeeper,"Aug 17, 1993 (31)",Brazil,â‚¬25.00m,manchester_city_ederson.jpg,Premier League,Anglia,4
+manchester_city_stefan_ortega,manchester_city,Manchester City,manchester_city.png,18,Stefan Ortega,Goalkeeper,"Nov 6, 1992 (32)",Germany,â‚¬9.00m,manchester_city_stefan_ortega.jpg,Premier League,Anglia,1
+manchester_city_scott_carson,manchester_city,Manchester City,manchester_city.png,33,Scott Carson,Goalkeeper,"Sep 3, 1985 (39)",England,â‚¬200k,manchester_city_scott_carson.jpg,Premier League,Anglia,1
+manchester_city_ruben_dias,manchester_city,Manchester City,manchester_city.png,3,Ruben Dias,Centre-Back,"May 14, 1997 (27)",Portugal,â‚¬70.00m,manchester_city_ruben_dias.jpg,Premier League,Anglia,4
+manchester_city_abdukodir_khusanov,manchester_city,Manchester City,manchester_city.png,45,Abdukodir Khusanov,Centre-Back,"Feb 29, 2004 (21)",Uzbekistan,â‚¬35.00m,manchester_city_abdukodir_khusanov.jpg,Premier League,Anglia,3
+manchester_city_nathan_ake,manchester_city,Manchester City,manchester_city.png,6,Nathan Ake,Centre-Back,"Feb 18, 1995 (30)",Netherlands,â‚¬32.00m,manchester_city_nathan_ake.jpg,Premier League,Anglia,4
+manchester_city_manuel_akanji,manchester_city,Manchester City,manchester_city.png,25,Manuel Akanji,Centre-Back,"Jul 19, 1995 (29)",Switzerland,â‚¬32.00m,manchester_city_manuel_akanji.jpg,Premier League,Anglia,3
+manchester_city_john_stones,manchester_city,Manchester City,manchester_city.png,5,John Stones,Centre-Back,"May 28, 1994 (30)",England,â‚¬30.00m,manchester_city_john_stones.jpg,Premier League,Anglia,4
+manchester_city_josko_gvardiol,manchester_city,Manchester City,manchester_city.png,24,Josko Gvardiol,Left-Back,"Jan 23, 2002 (23)",Croatia,â‚¬75.00m,manchester_city_josko_gvardiol.jpg,Premier League,Anglia,4
+manchester_city_rico_lewis,manchester_city,Manchester City,manchester_city.png,82,Rico Lewis,Right-Back,"Nov 21, 2004 (20)",England,â‚¬40.00m,manchester_city_rico_lewis.jpg,Premier League,Anglia,2
+manchester_city_rodri,manchester_city,Manchester City,manchester_city.png,16,Rodri,Defensive Midfield,"Jun 22, 1996 (28)",Spain,â‚¬130.00m,manchester_city_rodri.jpg,Premier League,Anglia,5
+manchester_city_nico_gonzalez,manchester_city,Manchester City,manchester_city.png,14,Nico Gonzalez,Central Midfield,"Jan 3, 2002 (23)",Spain,â‚¬40.00m,manchester_city_nico_gonzalez.jpg,Premier League,Anglia,2
+manchester_city_matheus_nunes,manchester_city,Manchester City,manchester_city.png,27,Matheus Nunes,Central Midfield,"Aug 27, 1998 (26)",Portugal,â‚¬35.00m,manchester_city_matheus_nunes.jpg,Premier League,Anglia,3
+manchester_city_mateo_kovacic,manchester_city,Manchester City,manchester_city.png,8,Mateo Kovacic,Central Midfield,"May 6, 1994 (30)",Croatia,â‚¬25.00m,manchester_city_mateo_kovacic.jpg,Premier League,Anglia,4
+manchester_city_ilkay_gundogan,manchester_city,Manchester City,manchester_city.png,19,Ilkay Gundogan,Central Midfield,"Oct 24, 1990 (34)",Germany,â‚¬7.00m,manchester_city_ilkay_gundogan.jpg,Premier League,Anglia,4
+manchester_city_bernardo_silva,manchester_city,Manchester City,manchester_city.png,20,Bernardo Silva,Attacking Midfield,"Aug 10, 1994 (30)",Portugal,â‚¬45.00m,manchester_city_bernardo_silva.jpg,Premier League,Anglia,5
+manchester_city_kevin_de_bruyne,manchester_city,Manchester City,manchester_city.png,17,Kevin De Bruyne,Attacking Midfield,"Jun 28, 1991 (33)",Belgium,â‚¬27.00m,manchester_city_kevin_de_bruyne.jpg,Premier League,Anglia,5
+manchester_city_james_mcatee,manchester_city,Manchester City,manchester_city.png,87,James McAtee,Attacking Midfield,"Oct 18, 2002 (22)",England,â‚¬18.00m,manchester_city_james_mcatee.jpg,Premier League,Anglia,2
+manchester_city_nico_o'reilly,manchester_city,Manchester City,manchester_city.png,75,Nico O'Reilly,Attacking Midfield,"Mar 21, 2005 (20)",England,â‚¬7.00m,manchester_city_nico_o'reilly.jpg,Premier League,Anglia,2
+manchester_city_jeremy_doku,manchester_city,Manchester City,manchester_city.png,11,Jeremy Doku,Left Winger,"May 27, 2002 (22)",Belgium,â‚¬55.00m,manchester_city_jeremy_doku.jpg,Premier League,Anglia,3
+manchester_city_jack_grealish,manchester_city,Manchester City,manchester_city.png,10,Jack Grealish,Left Winger,"Sep 10, 1995 (29)",England,â‚¬35.00m,manchester_city_jack_grealish.jpg,Premier League,Anglia,4
+manchester_city_phil_foden,manchester_city,Manchester City,manchester_city.png,47,Phil Foden,Right Winger,"May 28, 2000 (24)",England,â‚¬130.00m,manchester_city_phil_foden.jpg,Premier League,Anglia,4
+manchester_city_savinho,manchester_city,Manchester City,manchester_city.png,26,Savinho,Right Winger,"Apr 10, 2004 (21)",Brazil,â‚¬55.00m,manchester_city_savinho.jpg,Premier League,Anglia,3
+manchester_city_oscar_bobb,manchester_city,Manchester City,manchester_city.png,52,Oscar Bobb,Right Winger,"Jul 12, 2003 (21)",Norway,â‚¬25.00m,manchester_city_oscar_bobb.jpg,Premier League,Anglia,2
+manchester_city_erling_haaland,manchester_city,Manchester City,manchester_city.png,9,Erling Haaland,Centre-Forward,"Jul 21, 2000 (24)",Norway,â‚¬200.00m,manchester_city_erling_haaland.png,Premier League,Anglia,5
+manchester_city_omar_marmoush,manchester_city,Manchester City,manchester_city.png,7,Omar Marmoush,Centre-Forward,"Feb 7, 1999 (26)",Egypt,â‚¬75.00m,manchester_city_omar_marmoush.jpg,Premier League,Anglia,4
+arsenal_david_raya,arsenal,Arsenal,arsenal.png,22,David Raya,Goalkeeper,"Sep 15, 1995 (29)",Spain,â‚¬40.00m,arsenal_david_raya.jpg,Premier League,Anglia,4
+arsenal_neto,arsenal,Arsenal,arsenal.png,32,Neto,Goalkeeper,"Jul 19, 1989 (35)",Brazil,â‚¬2.00m,arsenal_neto.jpg,Premier League,Anglia,1
+arsenal_william_saliba,arsenal,Arsenal,arsenal.png,2,William Saliba,Centre-Back,"Mar 24, 2001 (24)",France,â‚¬80.00m,arsenal_william_saliba.jpg,Premier League,Anglia,4
+arsenal_gabriel_magalhaes,arsenal,Arsenal,arsenal.png,6,Gabriel Magalhaes,Centre-Back,"Dec 19, 1997 (27)",Brazil,â‚¬75.00m,arsenal_gabriel_magalhaes.jpg,Premier League,Anglia,3
+arsenal_jakub_kiwior,arsenal,Arsenal,arsenal.png,15,Jakub Kiwior,Centre-Back,"Feb 15, 2000 (25)",Poland,â‚¬22.00m,arsenal_jakub_kiwior.jpg,Premier League,Anglia,3
+arsenal_riccardo_calafiori,arsenal,Arsenal,arsenal.png,33,Riccardo Calafiori,Left-Back,"May 19, 2002 (22)",Italy,â‚¬40.00m,arsenal_riccardo_calafiori.jpg,Premier League,Anglia,3
+arsenal_myles_lewis-skelly,arsenal,Arsenal,arsenal.png,49,Myles Lewis-Skelly,Left-Back,"Sep 26, 2006 (18)",England,â‚¬28.00m,arsenal_myles_lewis-skelly.jpg,Premier League,Anglia,3
+arsenal_oleksandr_zinchenko,arsenal,Arsenal,arsenal.png,17,Oleksandr Zinchenko,Left-Back,"Dec 15, 1996 (28)",Ukraine,â‚¬22.00m,arsenal_oleksandr_zinchenko.jpg,Premier League,Anglia,2
+arsenal_kieran_tierney,arsenal,Arsenal,arsenal.png,3,Kieran Tierney,Left-Back,"Jun 5, 1997 (27)",Scotland,â‚¬10.00m,arsenal_kieran_tierney.jpg,Premier League,Anglia,2
+arsenal_ben_white,arsenal,Arsenal,arsenal.png,4,Ben White,Right-Back,"Oct 8, 1997 (27)",England,â‚¬50.00m,arsenal_ben_white.jpg,Premier League,Anglia,2
+arsenal_jurrien_timber,arsenal,Arsenal,arsenal.png,12,Jurrien Timber,Right-Back,"Jun 17, 2001 (23)",Netherlands,â‚¬50.00m,arsenal_jurrien_timber.jpg,Premier League,Anglia,3
+arsenal_takehiro_tomiyasu,arsenal,Arsenal,arsenal.png,18,Takehiro Tomiyasu,Right-Back,"Nov 5, 1998 (26)",Japan,â‚¬25.00m,arsenal_takehiro_tomiyasu.jpg,Premier League,Anglia,1
+arsenal_thomas_partey,arsenal,Arsenal,arsenal.png,5,Thomas Partey,Defensive Midfield,"Jun 13, 1993 (31)",Ghana,â‚¬15.00m,arsenal_thomas_partey.jpg,Premier League,Anglia,3
+arsenal_jorginho,arsenal,Arsenal,arsenal.png,20,Jorginho,Defensive Midfield,"Dec 20, 1991 (33)",Italy,â‚¬8.00m,arsenal_jorginho.jpg,Premier League,Anglia,3
+arsenal_declan_rice,arsenal,Arsenal,arsenal.png,41,Declan Rice,Central Midfield,"Jan 14, 1999 (26)",England,â‚¬110.00m,arsenal_declan_rice.jpg,Premier League,Anglia,5
+arsenal_mikel_merino,arsenal,Arsenal,arsenal.png,23,Mikel Merino,Central Midfield,"Jun 22, 1996 (28)",Spain,â‚¬35.00m,arsenal_mikel_merino.jpg,Premier League,Anglia,4
+arsenal_martin_degaard,arsenal,Arsenal,arsenal.png,8,Martin degaard,Attacking Midfield,"Dec 17, 1998 (26)",Norway,â‚¬100.00m,arsenal_martin_degaard.jpg,Premier League,Anglia,4
+arsenal_gabriel_martinelli,arsenal,Arsenal,arsenal.png,11,Gabriel Martinelli,Left Winger,"Jun 18, 2001 (23)",Brazil,â‚¬55.00m,arsenal_gabriel_martinelli.jpg,Premier League,Anglia,2
+arsenal_leandro_trossard,arsenal,Arsenal,arsenal.png,19,Leandro Trossard,Left Winger,"Dec 4, 1994 (30)",Belgium,â‚¬30.00m,arsenal_leandro_trossard.jpg,Premier League,Anglia,3
+arsenal_bukayo_saka,arsenal,Arsenal,arsenal.png,7,Bukayo Saka,Right Winger,"Sep 5, 2001 (23)",England,â‚¬150.00m,arsenal_bukayo_saka.jpg,Premier League,Anglia,5
+arsenal_ethan_nwaneri,arsenal,Arsenal,arsenal.png,53,Ethan Nwaneri,Right Winger,"Mar 21, 2007 (18)",England,â‚¬55.00m,arsenal_ethan_nwaneri.jpg,Premier League,Anglia,2
+arsenal_raheem_sterling,arsenal,Arsenal,arsenal.png,30,Raheem Sterling,Right Winger,"Dec 8, 1994 (30)",England,â‚¬15.00m,arsenal_raheem_sterling.jpg,Premier League,Anglia,3
+arsenal_kai_havertz,arsenal,Arsenal,arsenal.png,29,Kai Havertz,Centre-Forward,"Jun 11, 1999 (25)",Germany,â‚¬70.00m,arsenal_kai_havertz.jpg,Premier League,Anglia,4
+arsenal_gabriel_jesus,arsenal,Arsenal,arsenal.png,9,Gabriel Jesus,Centre-Forward,"Apr 3, 1997 (28)",Brazil,â‚¬40.00m,arsenal_gabriel_jesus.jpg,Premier League,Anglia,2
+liverpool_alisson,liverpool,Liverpool,liverpool.png,1,Alisson,Goalkeeper,"Oct 2, 1992 (32)",Brazil,â‚¬25.00m,liverpool_alisson.jpg,Premier League,Anglia,5
+liverpool_caoimhin_kelleher,liverpool,Liverpool,liverpool.png,62,Caoimhin Kelleher,Goalkeeper,"Nov 23, 1998 (26)",Ireland,â‚¬22.00m,liverpool_caoimhin_kelleher.jpg,Premier League,Anglia,1
+liverpool_harvey_davies,liverpool,Liverpool,liverpool.png,95,Harvey Davies,Goalkeeper,"Sep 3, 2003 (21)",England,â‚¬500k,liverpool_harvey_davies.jpg,Premier League,Anglia,1
+liverpool_ibrahima_konate,liverpool,Liverpool,liverpool.png,5,Ibrahima Konate,Centre-Back,"May 25, 1999 (25)",France,â‚¬60.00m,liverpool_ibrahima_konate.jpg,Premier League,Anglia,3
+liverpool_virgil_van_dijk,liverpool,Liverpool,liverpool.png,4,Virgil van Dijk,Centre-Back,"Jul 8, 1991 (33)",Netherlands,â‚¬28.00m,liverpool_virgil_van_dijk.jpg,Premier League,Anglia,5
+liverpool_joe_gomez,liverpool,Liverpool,liverpool.png,2,Joe Gomez,Centre-Back,"May 23, 1997 (27)",England,â‚¬25.00m,liverpool_joe_gomez.jpg,Premier League,Anglia,3
+liverpool_jarell_quansah,liverpool,Liverpool,liverpool.png,78,Jarell Quansah,Centre-Back,"Jan 29, 2003 (22)",England,â‚¬22.00m,liverpool_jarell_quansah.jpg,Premier League,Anglia,1
+liverpool_konstantinos_tsimikas,liverpool,Liverpool,liverpool.png,21,Konstantinos Tsimikas,Left-Back,"May 12, 1996 (28)",Greece,â‚¬20.00m,liverpool_konstantinos_tsimikas.jpg,Premier League,Anglia,2
+liverpool_andrew_robertson,liverpool,Liverpool,liverpool.png,26,Andrew Robertson,Left-Back,"Mar 11, 1994 (31)",Scotland,â‚¬20.00m,liverpool_andrew_robertson.jpg,Premier League,Anglia,3
+liverpool_trent_alexander-arnold,liverpool,Liverpool,liverpool.png,66,Trent Alexander-Arnold,Right-Back,"Oct 7, 1998 (26)",England,â‚¬75.00m,liverpool_trent_alexander-arnold.jpg,Premier League,Anglia,4
+liverpool_conor_bradley,liverpool,Liverpool,liverpool.png,84,Conor Bradley,Right-Back,"Jul 9, 2003 (21)",Northern Ireland,â‚¬25.00m,liverpool_conor_bradley.jpg,Premier League,Anglia,1
+liverpool_ryan_gravenberch,liverpool,Liverpool,liverpool.png,38,Ryan Gravenberch,Defensive Midfield,"May 16, 2002 (22)",Netherlands,â‚¬70.00m,liverpool_ryan_gravenberch.jpg,Premier League,Anglia,3
+liverpool_wataru_endo,liverpool,Liverpool,liverpool.png,3,Wataru Endo,Defensive Midfield,"Feb 9, 1993 (32)",Japan,â‚¬10.00m,liverpool_wataru_endo.jpg,Premier League,Anglia,2
+liverpool_alexis_mac_allister,liverpool,Liverpool,liverpool.png,10,Alexis Mac Allister,Central Midfield,"Dec 24, 1998 (26)",Argentina,â‚¬90.00m,liverpool_alexis_mac_allister.jpg,Premier League,Anglia,4
+liverpool_dominik_szoboszlai,liverpool,Liverpool,liverpool.png,8,Dominik Szoboszlai,Central Midfield,"Oct 25, 2000 (24)",Hungary,â‚¬80.00m,liverpool_dominik_szoboszlai.jpg,Premier League,Anglia,3
+liverpool_curtis_jones,liverpool,Liverpool,liverpool.png,17,Curtis Jones,Central Midfield,"Jan 30, 2001 (24)",England,â‚¬50.00m,liverpool_curtis_jones.jpg,Premier League,Anglia,3
+liverpool_harvey_elliott,liverpool,Liverpool,liverpool.png,19,Harvey Elliott,Central Midfield,"Apr 4, 2003 (22)",England,â‚¬35.00m,liverpool_harvey_elliott.jpg,Premier League,Anglia,3
+liverpool_luis_diaz,liverpool,Liverpool,liverpool.png,7,Luis Diaz,Left Winger,"Jan 13, 1997 (28)",Colombia,â‚¬85.00m,liverpool_luis_diaz.jpg,Premier League,Anglia,4
+liverpool_cody_gakpo,liverpool,Liverpool,liverpool.png,18,Cody Gakpo,Left Winger,"May 7, 1999 (25)",Netherlands,â‚¬70.00m,liverpool_cody_gakpo.jpg,Premier League,Anglia,3
+liverpool_mohamed_salah,liverpool,Liverpool,liverpool.png,11,Mohamed Salah,Right Winger,"Jun 15, 1992 (32)",Egypt,â‚¬55.00m,liverpool_mohamed_salah.jpg,Premier League,Anglia,5
+liverpool_federico_chiesa,liverpool,Liverpool,liverpool.png,14,Federico Chiesa,Right Winger,"Oct 25, 1997 (27)",Italy,â‚¬18.00m,liverpool_federico_chiesa.jpg,Premier League,Anglia,3
+liverpool_darwin_nunez,liverpool,Liverpool,liverpool.png,9,Darwin Nunez,Centre-Forward,"Jun 24, 1999 (25)",Uruguay,â‚¬50.00m,liverpool_darwin_nunez.jpg,Premier League,Anglia,5
+liverpool_diogo_jota,liverpool,Liverpool,liverpool.png,20,Diogo Jota,Centre-Forward,"Dec 4, 1996 (28)",Portugal,â‚¬45.00m,liverpool_diogo_jota.jpg,Premier League,Anglia,3
+chelsea_robert_sanchez,chelsea,Chelsea,chelsea.png,1,Robert Sanchez,Goalkeeper,"Nov 18, 1997 (27)",Spain,â‚¬20.00m,chelsea_robert_sanchez.jpg,Premier League,Anglia,3
+chelsea_levi_colwill,chelsea,Chelsea,chelsea.png,6,Levi Colwill,Centre-Back,"Feb 26, 2003 (22)",England,â‚¬55.00m,chelsea_levi_colwill.jpg,Premier League,Anglia,2
+chelsea_wesley_fofana,chelsea,Chelsea,chelsea.png,29,Wesley Fofana,Centre-Back,"Dec 17, 2000 (24)",France,â‚¬27.00m,chelsea_wesley_fofana.jpg,Premier League,Anglia,2
+chelsea_benoit_badiashile,chelsea,Chelsea,chelsea.png,5,Benoit Badiashile,Centre-Back,"Mar 26, 2001 (24)",France,â‚¬25.00m,chelsea_benoit_badiashile.jpg,Premier League,Anglia,2
+chelsea_tosin_adarabioyo,chelsea,Chelsea,chelsea.png,4,Tosin Adarabioyo,Centre-Back,"Sep 24, 1997 (27)",England,â‚¬20.00m,chelsea_tosin_adarabioyo.jpg,Premier League,Anglia,1
+chelsea_trevoh_chalobah,chelsea,Chelsea,chelsea.png,23,Trevoh Chalobah,Centre-Back,"Jul 5, 1999 (25)",England,â‚¬17.00m,chelsea_trevoh_chalobah.jpg,Premier League,Anglia,3
+chelsea_marc_cucurella,chelsea,Chelsea,chelsea.png,3,Marc Cucurella,Left-Back,"Jul 22, 1998 (26)",Spain,â‚¬30.00m,chelsea_marc_cucurella.jpg,Premier League,Anglia,4
+chelsea_malo_gusto,chelsea,Chelsea,chelsea.png,27,Malo Gusto,Right-Back,"May 19, 2003 (21)",France,â‚¬35.00m,chelsea_malo_gusto.jpg,Premier League,Anglia,2
+chelsea_reece_james,chelsea,Chelsea,chelsea.png,24,Reece James,Right-Back,"Dec 8, 1999 (25)",England,â‚¬30.00m,chelsea_reece_james.jpg,Premier League,Anglia,4
+chelsea_moises_caicedo,chelsea,Chelsea,chelsea.png,25,Moises Caicedo,Defensive Midfield,"Nov 2, 2001 (23)",Ecuador,â‚¬80.00m,chelsea_moises_caicedo.jpg,Premier League,Anglia,3
+chelsea_romeo_lavia,chelsea,Chelsea,chelsea.png,45,Romeo Lavia,Defensive Midfield,"Jan 6, 2004 (21)",Belgium,â‚¬40.00m,chelsea_romeo_lavia.jpg,Premier League,Anglia,3
+chelsea_enzo_fernandez,chelsea,Chelsea,chelsea.png,8,Enzo Fernandez,Central Midfield,"Jan 17, 2001 (24)",Argentina,â‚¬75.00m,chelsea_enzo_fernandez.jpg,Premier League,Anglia,4
+chelsea_cole_palmer,chelsea,Chelsea,chelsea.png,20,Cole Palmer,Attacking Midfield,"May 6, 2002 (22)",England,â‚¬130.00m,chelsea_cole_palmer.jpg,Premier League,Anglia,5
+chelsea_mykhaylo_mudryk,chelsea,Chelsea,chelsea.png,10,Mykhaylo Mudryk,Left Winger,"Jan 5, 2001 (24)",Ukraine,â‚¬30.00m,chelsea_mykhaylo_mudryk.jpg,Premier League,Anglia,4
+chelsea_jadon_sancho,chelsea,Chelsea,chelsea.png,19,Jadon Sancho,Left Winger,"Mar 25, 2000 (25)",England,â‚¬30.00m,chelsea_jadon_sancho.jpg,Premier League,Anglia,3
+chelsea_pedro_neto,chelsea,Chelsea,chelsea.png,7,Pedro Neto,Right Winger,"Mar 9, 2000 (25)",Portugal,â‚¬50.00m,chelsea_pedro_neto.jpg,Premier League,Anglia,3
+chelsea_noni_madueke,chelsea,Chelsea,chelsea.png,11,Noni Madueke,Right Winger,"Mar 10, 2002 (23)",England,â‚¬40.00m,chelsea_noni_madueke.jpg,Premier League,Anglia,3
+chelsea_nicolas_jackson,chelsea,Chelsea,chelsea.png,15,Nicolas Jackson,Centre-Forward,"Jun 20, 2001 (23)",Senegal,â‚¬55.00m,chelsea_nicolas_jackson.jpg,Premier League,Anglia,4
+chelsea_christopher_nkunku,chelsea,Chelsea,chelsea.png,18,Christopher Nkunku,Centre-Forward,"Nov 14, 1997 (27)",France,â‚¬45.00m,chelsea_christopher_nkunku.jpg,Premier League,Anglia,3
+chelsea_david_datro_fofana,chelsea,Chelsea,chelsea.png,-,David Datro Fofana,Centre-Forward,"Dec 22, 2002 (22)",Cote d'Ivoire,â‚¬8.50m,chelsea_david_datro_fofana.jpg,Premier League,Anglia,2
+chelsea_marc_guiu,chelsea,Chelsea,chelsea.png,38,Marc Guiu,Centre-Forward,"Jan 4, 2006 (19)",Spain,â‚¬8.00m,chelsea_marc_guiu.jpg,Premier League,Anglia,2
+tottenham_guglielmo_vicario,tottenham,Tottenham,tottenham.png,1,Guglielmo Vicario,Goalkeeper,"Oct 7, 1996 (28)",Italy,â‚¬35.00m,tottenham_guglielmo_vicario.jpg,Premier League,Anglia,3
+tottenham_brandon_austin,tottenham,Tottenham,tottenham.png,40,Brandon Austin,Goalkeeper,"Jan 8, 1999 (26)",England,â‚¬600k,tottenham_brandon_austin.jpg,Premier League,Anglia,1
+tottenham_alfie_whiteman,tottenham,Tottenham,tottenham.png,41,Alfie Whiteman,Goalkeeper,"Oct 2, 1998 (26)",England,â‚¬500k,tottenham_alfie_whiteman.jpg,Premier League,Anglia,1
+tottenham_cristian_romero,tottenham,Tottenham,tottenham.png,17,Cristian Romero,Centre-Back,"Apr 27, 1998 (26)",Argentina,â‚¬55.00m,tottenham_cristian_romero.jpg,Premier League,Anglia,4
+tottenham_micky_van_de_ven,tottenham,Tottenham,tottenham.png,37,Micky van de Ven,Centre-Back,"Apr 19, 2001 (24)",Netherlands,â‚¬55.00m,tottenham_micky_van_de_ven.jpg,Premier League,Anglia,4
+tottenham_kevin_danso,tottenham,Tottenham,tottenham.png,4,Kevin Danso,Centre-Back,"Sep 19, 1998 (26)",Austria,â‚¬25.00m,tottenham_kevin_danso.png,Premier League,Anglia,2
+tottenham_radu_dragusin,tottenham,Tottenham,tottenham.png,6,Radu Dragusin,Centre-Back,"Feb 3, 2002 (23)",Romania,â‚¬25.00m,tottenham_radu_dragusin.jpg,Premier League,Anglia,5
+tottenham_ben_davies,tottenham,Tottenham,tottenham.png,33,Ben Davies,Centre-Back,"Apr 24, 1993 (32)",Wales,â‚¬8.00m,tottenham_ben_davies.jpg,Premier League,Anglia,2
+tottenham_destiny_udogie,tottenham,Tottenham,tottenham.png,13,Destiny Udogie,Left-Back,"Nov 28, 2002 (22)",Italy,â‚¬45.00m,tottenham_destiny_udogie.jpg,Premier League,Anglia,3
+tottenham_sergio_reguilon,tottenham,Tottenham,tottenham.png,3,Sergio Reguilon,Left-Back,"Dec 16, 1996 (28)",Spain,â‚¬8.00m,tottenham_sergio_reguilon.jpg,Premier League,Anglia,2
+tottenham_pedro_porro,tottenham,Tottenham,tottenham.png,23,Pedro Porro,Right-Back,"Sep 13, 1999 (25)",Spain,â‚¬45.00m,tottenham_pedro_porro.jpg,Premier League,Anglia,3
+tottenham_archie_gray,tottenham,Tottenham,tottenham.png,14,Archie Gray,Right-Back,"Mar 12, 2006 (19)",England,â‚¬35.00m,tottenham_archie_gray.jpg,Premier League,Anglia,3
+tottenham_djed_spence,tottenham,Tottenham,tottenham.png,24,Djed Spence,Right-Back,"Aug 9, 2000 (24)",England,â‚¬15.00m,tottenham_djed_spence.jpg,Premier League,Anglia,1
+tottenham_rodrigo_bentancur,tottenham,Tottenham,tottenham.png,30,Rodrigo Bentancur,Defensive Midfield,"Jun 25, 1997 (27)",Uruguay,â‚¬30.00m,tottenham_rodrigo_bentancur.jpg,Premier League,Anglia,3
+tottenham_yves_bissouma,tottenham,Tottenham,tottenham.png,8,Yves Bissouma,Defensive Midfield,"Aug 30, 1996 (28)",Mali,â‚¬28.00m,tottenham_yves_bissouma.jpg,Premier League,Anglia,3
+tottenham_pape_matar_sarr,tottenham,Tottenham,tottenham.png,29,Pape Matar Sarr,Central Midfield,"Sep 14, 2002 (22)",Senegal,â‚¬40.00m,tottenham_pape_matar_sarr.jpg,Premier League,Anglia,4
+tottenham_dejan_kulusevski,tottenham,Tottenham,tottenham.png,21,Dejan Kulusevski,Attacking Midfield,"Apr 25, 2000 (25)",Sweden,â‚¬60.00m,tottenham_dejan_kulusevski.jpg,Premier League,Anglia,3
+tottenham_james_maddison,tottenham,Tottenham,tottenham.png,10,James Maddison,Attacking Midfield,"Nov 23, 1996 (28)",England,â‚¬50.00m,tottenham_james_maddison.jpg,Premier League,Anglia,3
+tottenham_heung-min_son,tottenham,Tottenham,tottenham.png,7,Heung-min Son,Left Winger,"Jul 8, 1992 (32)","Korea, South",â‚¬30.00m,tottenham_heung-min_son.jpg,Premier League,Anglia,5
+tottenham_timo_werner,tottenham,Tottenham,tottenham.png,16,Timo Werner,Left Winger,"Mar 6, 1996 (29)",Germany,â‚¬10.00m,tottenham_timo_werner.jpg,Premier League,Anglia,3
+tottenham_brennan_johnson,tottenham,Tottenham,tottenham.png,22,Brennan Johnson,Right Winger,"May 23, 2001 (23)",Wales,â‚¬50.00m,tottenham_brennan_johnson.jpg,Premier League,Anglia,3
+tottenham_dominic_solanke,tottenham,Tottenham,tottenham.png,19,Dominic Solanke,Centre-Forward,"Sep 14, 1997 (27)",England,â‚¬45.00m,tottenham_dominic_solanke.jpg,Premier League,Anglia,4
+tottenham_richarlison,tottenham,Tottenham,tottenham.png,9,Richarlison,Centre-Forward,"May 10, 1997 (27)",Brazil,â‚¬25.00m,tottenham_richarlison.jpg,Premier League,Anglia,4
+manchester_united_andre_onana,manchester_united,Manchester United,manchester_united.png,24,Andre Onana,Goalkeeper,"Apr 2, 1996 (29)",Cameroon,â‚¬32.00m,manchester_united_andre_onana.jpg,Premier League,Anglia,5
+manchester_united_altay_bayndr,manchester_united,Manchester United,manchester_united.png,1,Altay Bayndr,Goalkeeper,"Apr 14, 1998 (27)",TÃ¼rkiye,â‚¬10.00m,manchester_united_altay_bayndr.jpg,Premier League,Anglia,1
+manchester_united_leny_yoro,manchester_united,Manchester United,manchester_united.png,15,Leny Yoro,Centre-Back,"Nov 13, 2005 (19)",France,â‚¬55.00m,manchester_united_leny_yoro.jpg,Premier League,Anglia,2
+manchester_united_lisandro_martinez,manchester_united,Manchester United,manchester_united.png,6,Lisandro Martinez,Centre-Back,"Jan 18, 1998 (27)",Argentina,â‚¬45.00m,manchester_united_lisandro_martinez.jpg,Premier League,Anglia,3
+manchester_united_matthijs_de_ligt,manchester_united,Manchester United,manchester_united.png,4,Matthijs de Ligt,Centre-Back,"Aug 12, 1999 (25)",Netherlands,â‚¬40.00m,manchester_united_matthijs_de_ligt.jpg,Premier League,Anglia,3
+manchester_united_harry_maguire,manchester_united,Manchester United,manchester_united.png,5,Harry Maguire,Centre-Back,"Mar 5, 1993 (32)",England,â‚¬15.00m,manchester_united_harry_maguire.jpg,Premier League,Anglia,5
+manchester_united_victor_lindelof,manchester_united,Manchester United,manchester_united.png,2,Victor Lindelof,Centre-Back,"Jul 17, 1994 (30)",Sweden,â‚¬10.00m,manchester_united_victor_lindelof.jpg,Premier League,Anglia,2
+manchester_united_jonny_evans,manchester_united,Manchester United,manchester_united.png,35,Jonny Evans,Centre-Back,"Jan 3, 1988 (37)",Northern Ireland,â‚¬1.50m,manchester_united_jonny_evans.jpg,Premier League,Anglia,2
+manchester_united_patrick_dorgu,manchester_united,Manchester United,manchester_united.png,13,Patrick Dorgu,Left-Back,"Oct 26, 2004 (20)",Denmark,â‚¬25.00m,manchester_united_patrick_dorgu.jpg,Premier League,Anglia,3
+manchester_united_luke_shaw,manchester_united,Manchester United,manchester_united.png,23,Luke Shaw,Left-Back,"Jul 12, 1995 (29)",England,â‚¬16.00m,manchester_united_luke_shaw.jpg,Premier League,Anglia,3
+manchester_united_diogo_dalot,manchester_united,Manchester United,manchester_united.png,20,Diogo Dalot,Right-Back,"Mar 18, 1999 (26)",Portugal,â‚¬35.00m,manchester_united_diogo_dalot.jpg,Premier League,Anglia,3
+manchester_united_noussair_mazraoui,manchester_united,Manchester United,manchester_united.png,3,Noussair Mazraoui,Right-Back,"Nov 14, 1997 (27)",Morocco,â‚¬32.00m,manchester_united_noussair_mazraoui.jpg,Premier League,Anglia,3
+manchester_united_manuel_ugarte,manchester_united,Manchester United,manchester_united.png,25,Manuel Ugarte,Defensive Midfield,"Apr 11, 2001 (24)",Uruguay,â‚¬50.00m,manchester_united_manuel_ugarte.jpg,Premier League,Anglia,3
+manchester_united_casemiro,manchester_united,Manchester United,manchester_united.png,18,Casemiro,Defensive Midfield,"Feb 23, 1992 (33)",Brazil,â‚¬12.00m,manchester_united_casemiro.jpg,Premier League,Anglia,4
+manchester_united_kobbie_mainoo,manchester_united,Manchester United,manchester_united.png,37,Kobbie Mainoo,Central Midfield,"Apr 19, 2005 (20)",England,â‚¬55.00m,manchester_united_kobbie_mainoo.jpg,Premier League,Anglia,4
+manchester_united_christian_eriksen,manchester_united,Manchester United,manchester_united.png,14,Christian Eriksen,Central Midfield,"Feb 14, 1992 (33)",Denmark,â‚¬6.00m,manchester_united_christian_eriksen.jpg,Premier League,Anglia,4
+manchester_united_bruno_fernandes,manchester_united,Manchester United,manchester_united.png,8,Bruno Fernandes,Attacking Midfield,"Sep 8, 1994 (30)",Portugal,â‚¬55.00m,manchester_united_bruno_fernandes.jpg,Premier League,Anglia,5
+manchester_united_mason_mount,manchester_united,Manchester United,manchester_united.png,7,Mason Mount,Attacking Midfield,"Jan 10, 1999 (26)",England,â‚¬28.00m,manchester_united_mason_mount.jpg,Premier League,Anglia,2
+manchester_united_alejandro_garnacho,manchester_united,Manchester United,manchester_united.png,17,Alejandro Garnacho,Left Winger,"Jul 1, 2004 (20)",Argentina,â‚¬45.00m,manchester_united_alejandro_garnacho.jpg,Premier League,Anglia,4
+manchester_united_amad_diallo,manchester_united,Manchester United,manchester_united.png,16,Amad Diallo,Right Winger,"Jul 11, 2002 (22)",Cote d'Ivoire,â‚¬40.00m,manchester_united_amad_diallo.jpg,Premier League,Anglia,3
+manchester_united_rasmus_hjlund,manchester_united,Manchester United,manchester_united.png,9,Rasmus Hjlund,Centre-Forward,"Feb 4, 2003 (22)",Denmark,â‚¬45.00m,manchester_united_rasmus_hjlund.jpg,Premier League,Anglia,5
+manchester_united_joshua_zirkzee,manchester_united,Manchester United,manchester_united.png,11,Joshua Zirkzee,Centre-Forward,"May 22, 2001 (23)",Netherlands,â‚¬35.00m,manchester_united_joshua_zirkzee.jpg,Premier League,Anglia,3
+newcastle_united_nick_pope,newcastle_united,Newcastle United,newcastle_united.png,22,Nick Pope,Goalkeeper,"Apr 19, 1992 (33)",England,â‚¬10.00m,newcastle_united_nick_pope.jpg,Premier League,Anglia,3
+newcastle_united_fabian_schar,newcastle_united,Newcastle United,newcastle_united.png,5,Fabian Schar,Centre-Back,"Dec 20, 1991 (33)",Switzerland,â‚¬9.00m,newcastle_united_fabian_schar.jpg,Premier League,Anglia,2
+newcastle_united_dan_burn,newcastle_united,Newcastle United,newcastle_united.png,33,Dan Burn,Centre-Back,"May 9, 1992 (32)",England,â‚¬7.00m,newcastle_united_dan_burn.jpg,Premier League,Anglia,2
+newcastle_united_lewis_hall,newcastle_united,Newcastle United,newcastle_united.png,20,Lewis Hall,Left-Back,"Sep 8, 2004 (20)",England,â‚¬30.00m,newcastle_united_lewis_hall.jpg,Premier League,Anglia,3
+newcastle_united_tino_livramento,newcastle_united,Newcastle United,newcastle_united.png,21,Tino Livramento,Right-Back,"Nov 12, 2002 (22)",England,â‚¬35.00m,newcastle_united_tino_livramento.jpg,Premier League,Anglia,3
+newcastle_united_kieran_trippier,newcastle_united,Newcastle United,newcastle_united.png,2,Kieran Trippier,Right-Back,"Sep 19, 1990 (34)",England,â‚¬5.00m,newcastle_united_kieran_trippier.jpg,Premier League,Anglia,3
+newcastle_united_bruno_guimaraes,newcastle_united,Newcastle United,newcastle_united.png,39,Bruno Guimaraes,Defensive Midfield,"Nov 16, 1997 (27)",Brazil,â‚¬80.00m,newcastle_united_bruno_guimaraes.jpg,Premier League,Anglia,2
+newcastle_united_sandro_tonali,newcastle_united,Newcastle United,newcastle_united.png,8,Sandro Tonali,Central Midfield,"May 8, 2000 (24)",Italy,â‚¬45.00m,newcastle_united_sandro_tonali.jpg,Premier League,Anglia,4
+newcastle_united_joelinton,newcastle_united,Newcastle United,newcastle_united.png,7,Joelinton,Central Midfield,"Aug 14, 1996 (28)",Brazil,â‚¬40.00m,newcastle_united_joelinton.jpg,Premier League,Anglia,3
+newcastle_united_joe_willock,newcastle_united,Newcastle United,newcastle_united.png,28,Joe Willock,Central Midfield,"Aug 20, 1999 (25)",England,â‚¬28.00m,newcastle_united_joe_willock.jpg,Premier League,Anglia,3
+newcastle_united_sean_longstaff,newcastle_united,Newcastle United,newcastle_united.png,36,Sean Longstaff,Central Midfield,"Oct 30, 1997 (27)",England,â‚¬22.00m,newcastle_united_sean_longstaff.jpg,Premier League,Anglia,2
+newcastle_united_anthony_gordon,newcastle_united,Newcastle United,newcastle_united.png,10,Anthony Gordon,Left Winger,"Feb 24, 2001 (24)",England,â‚¬65.00m,newcastle_united_anthony_gordon.jpg,Premier League,Anglia,2
+newcastle_united_harvey_barnes,newcastle_united,Newcastle United,newcastle_united.png,11,Harvey Barnes,Left Winger,"Dec 9, 1997 (27)",England,â‚¬30.00m,newcastle_united_harvey_barnes.jpg,Premier League,Anglia,3
+newcastle_united_alexander_isak,newcastle_united,Newcastle United,newcastle_united.png,14,Alexander Isak,Centre-Forward,"Sep 21, 1999 (25)",Sweden,â‚¬100.00m,newcastle_united_alexander_isak.jpg,Premier League,Anglia,5
+newcastle_united_callum_wilson,newcastle_united,Newcastle United,newcastle_united.png,9,Callum Wilson,Centre-Forward,"Feb 27, 1992 (33)",England,â‚¬11.00m,newcastle_united_callum_wilson.jpg,Premier League,Anglia,3
+aston_villa_emiliano_martinez,aston_villa,Aston Villa,aston_villa.png,23,Emiliano Martinez,Goalkeeper,"Sep 2, 1992 (32)",Argentina,â‚¬25.00m,aston_villa_emiliano_martinez.jpg,Premier League,Anglia,4
+aston_villa_pau_torres,aston_villa,Aston Villa,aston_villa.png,14,Pau Torres,Centre-Back,"Jan 16, 1997 (28)",Spain,â‚¬40.00m,aston_villa_pau_torres.jpg,Premier League,Anglia,3
+aston_villa_ezri_konsa,aston_villa,Aston Villa,aston_villa.png,4,Ezri Konsa,Centre-Back,"Oct 23, 1997 (27)",England,â‚¬35.00m,aston_villa_ezri_konsa.jpg,Premier League,Anglia,2
+aston_villa_tyrone_mings,aston_villa,Aston Villa,aston_villa.png,5,Tyrone Mings,Centre-Back,"Mar 13, 1993 (32)",England,â‚¬6.00m,aston_villa_tyrone_mings.jpg,Premier League,Anglia,3
+aston_villa_ian_maatsen,aston_villa,Aston Villa,aston_villa.png,22,Ian Maatsen,Left-Back,"Mar 10, 2002 (23)",Netherlands,â‚¬28.00m,aston_villa_ian_maatsen.jpg,Premier League,Anglia,3
+aston_villa_lucas_digne,aston_villa,Aston Villa,aston_villa.png,12,Lucas Digne,Left-Back,"Jul 20, 1993 (31)",France,â‚¬12.00m,aston_villa_lucas_digne.jpg,Premier League,Anglia,3
+aston_villa_matty_cash,aston_villa,Aston Villa,aston_villa.png,2,Matty Cash,Right-Back,"Aug 7, 1997 (27)",Poland,â‚¬28.00m,aston_villa_matty_cash.jpg,Premier League,Anglia,1
+aston_villa_andres_garcia,aston_villa,Aston Villa,aston_villa.png,16,Andres Garcia,Right-Back,"Feb 7, 2003 (22)",Spain,â‚¬7.00m,aston_villa_andres_garcia.jpg,Premier League,Anglia,1
+aston_villa_amadou_onana,aston_villa,Aston Villa,aston_villa.png,24,Amadou Onana,Defensive Midfield,"Aug 16, 2001 (23)",Belgium,â‚¬55.00m,aston_villa_amadou_onana.jpg,Premier League,Anglia,1
+aston_villa_youri_tielemans,aston_villa,Aston Villa,aston_villa.png,8,Youri Tielemans,Central Midfield,"May 7, 1997 (27)",Belgium,â‚¬35.00m,aston_villa_youri_tielemans.jpg,Premier League,Anglia,3
+aston_villa_john_mcginn,aston_villa,Aston Villa,aston_villa.png,7,John McGinn,Central Midfield,"Oct 18, 1994 (30)",Scotland,â‚¬18.00m,aston_villa_john_mcginn.jpg,Premier League,Anglia,2
+aston_villa_ross_barkley,aston_villa,Aston Villa,aston_villa.png,6,Ross Barkley,Central Midfield,"Dec 5, 1993 (31)",England,â‚¬8.00m,aston_villa_ross_barkley.jpg,Premier League,Anglia,3
+aston_villa_morgan_rogers,aston_villa,Aston Villa,aston_villa.png,27,Morgan Rogers,Attacking Midfield,"Jul 26, 2002 (22)",England,â‚¬50.00m,aston_villa_morgan_rogers.jpg,Premier League,Anglia,3
+aston_villa_marcus_rashford,aston_villa,Aston Villa,aston_villa.png,9,Marcus Rashford,Left Winger,"Oct 31, 1997 (27)",England,â‚¬50.00m,aston_villa_marcus_rashford.jpg,Premier League,Anglia,5
+aston_villa_leon_bailey,aston_villa,Aston Villa,aston_villa.png,31,Leon Bailey,Right Winger,"Aug 9, 1997 (27)",Jamaica,â‚¬32.00m,aston_villa_leon_bailey.jpg,Premier League,Anglia,3
+aston_villa_donyell_malen,aston_villa,Aston Villa,aston_villa.png,17,Donyell Malen,Right Winger,"Jan 19, 1999 (26)",Netherlands,â‚¬25.00m,aston_villa_donyell_malen.jpg,Premier League,Anglia,2
+aston_villa_marco_asensio,aston_villa,Aston Villa,aston_villa.png,21,Marco Asensio,Right Winger,"Jan 21, 1996 (29)",Spain,â‚¬20.00m,aston_villa_marco_asensio.jpg,Premier League,Anglia,4
+aston_villa_ollie_watkins,aston_villa,Aston Villa,aston_villa.png,11,Ollie Watkins,Centre-Forward,"Dec 30, 1995 (29)",England,â‚¬50.00m,aston_villa_ollie_watkins.jpg,Premier League,Anglia,3

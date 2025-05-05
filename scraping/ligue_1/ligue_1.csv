@@ -1,0 +1,77 @@
+PlayerID,TeamID,Team,TeamLogo,Number,Name,Position,Age,Nationality,Market Value,Image,League,Country,Scor
+psg_gianluigi_donnarumma,psg,PSG,psg.png,1,Gianluigi Donnarumma,Goalkeeper,"Feb 25, 1999 (26)",Italy,â‚¬35.00m,psg_gianluigi_donnarumma.jpg,Ligue 1,Franta,5
+psg_matvey_safonov,psg,PSG,psg.png,39,Matvey Safonov,Goalkeeper,"Feb 25, 1999 (26)",Russia,â‚¬22.00m,psg_matvey_safonov.jpg,Ligue 1,Franta,1
+psg_willian_pacho,psg,PSG,psg.png,51,Willian Pacho,Centre-Back,"Oct 16, 2001 (23)",Ecuador,â‚¬45.00m,psg_willian_pacho.jpg,Ligue 1,Franta,2
+psg_marquinhos,psg,PSG,psg.png,5,Marquinhos,Centre-Back,"May 14, 1994 (30)",Brazil,â‚¬40.00m,psg_marquinhos.jpg,Ligue 1,Franta,4
+psg_lucas_beraldo,psg,PSG,psg.png,35,Lucas Beraldo,Centre-Back,"Nov 24, 2003 (21)",Brazil,â‚¬25.00m,psg_lucas_beraldo.jpg,Ligue 1,Franta,1
+psg_presnel_kimpembe,psg,PSG,psg.png,3,Presnel Kimpembe,Centre-Back,"Aug 13, 1995 (29)",France,â‚¬8.00m,psg_presnel_kimpembe.jpg,Ligue 1,Franta,3
+psg_nuno_mendes,psg,PSG,psg.png,25,Nuno Mendes,Left-Back,"Jun 19, 2002 (22)",Portugal,â‚¬55.00m,psg_nuno_mendes.jpg,Ligue 1,Franta,3
+psg_lucas_hernandez,psg,PSG,psg.png,21,Lucas Hernandez,Left-Back,"Feb 14, 1996 (29)",France,â‚¬30.00m,psg_lucas_hernandez.jpg,Ligue 1,Franta,3
+psg_achraf_hakimi,psg,PSG,psg.png,2,Achraf Hakimi,Right-Back,"Nov 4, 1998 (26)",Morocco,â‚¬65.00m,psg_achraf_hakimi.jpg,Ligue 1,Franta,4
+psg_joao_neves,psg,PSG,psg.png,87,Joao Neves,Defensive Midfield,"Sep 27, 2004 (20)",Portugal,â‚¬65.00m,psg_joao_neves.jpg,Ligue 1,Franta,3
+psg_vitinha,psg,PSG,psg.png,17,Vitinha,Central Midfield,"Feb 13, 2000 (25)",Portugal,â‚¬60.00m,psg_vitinha.jpg,Ligue 1,Franta,3
+psg_warren_zaire-emery,psg,PSG,psg.png,33,Warren Zaire-Emery,Central Midfield,"Mar 8, 2006 (19)",France,â‚¬60.00m,psg_warren_zaire-emery.jpg,Ligue 1,Franta,4
+psg_fabian_ruiz,psg,PSG,psg.png,8,Fabian Ruiz,Central Midfield,"Apr 3, 1996 (29)",Spain,â‚¬35.00m,psg_fabian_ruiz.jpg,Ligue 1,Franta,4
+psg_khvicha_kvaratskhelia,psg,PSG,psg.png,7,Khvicha Kvaratskhelia,Left Winger,"Feb 12, 2001 (24)",Georgia,â‚¬80.00m,psg_khvicha_kvaratskhelia.jpg,Ligue 1,Franta,5
+psg_bradley_barcola,psg,PSG,psg.png,29,Bradley Barcola,Left Winger,"Sep 2, 2002 (22)",France,â‚¬70.00m,psg_bradley_barcola.jpg,Ligue 1,Franta,4
+psg_desire_doue,psg,PSG,psg.png,14,Desire Doue,Left Winger,"Jun 3, 2005 (19)",France,â‚¬60.00m,psg_desire_doue.jpg,Ligue 1,Franta,4
+psg_ousmane_dembele,psg,PSG,psg.png,10,Ousmane Dembele,Right Winger,"May 15, 1997 (27)",France,â‚¬75.00m,psg_ousmane_dembele.jpg,Ligue 1,Franta,5
+psg_kang-in_lee,psg,PSG,psg.png,19,Kang-in Lee,Right Winger,"Feb 19, 2001 (24)","Korea, South",â‚¬30.00m,psg_kang-in_lee.jpg,Ligue 1,Franta,2
+psg_goncalo_ramos,psg,PSG,psg.png,9,Goncalo Ramos,Centre-Forward,"Jun 20, 2001 (23)",Portugal,â‚¬45.00m,psg_goncalo_ramos.jpg,Ligue 1,Franta,3
+as_monaco_radoslaw_majecki,as_monaco,AS Monaco,as_monaco.png,1,Radoslaw Majecki,Goalkeeper,"Nov 16, 1999 (25)",Poland,â‚¬7.00m,as_monaco_radoslaw_majecki.jpg,Ligue 1,Franta,2
+as_monaco_wilfried_singo,as_monaco,AS Monaco,as_monaco.png,17,Wilfried Singo,Centre-Back,"Dec 25, 2000 (24)",Cote d'Ivoire,â‚¬25.00m,as_monaco_wilfried_singo.jpg,Ligue 1,Franta,2
+as_monaco_thilo_kehrer,as_monaco,AS Monaco,as_monaco.png,5,Thilo Kehrer,Centre-Back,"Sep 21, 1996 (28)",Germany,â‚¬15.00m,as_monaco_thilo_kehrer.jpg,Ligue 1,Franta,2
+as_monaco_caio_henrique,as_monaco,AS Monaco,as_monaco.png,12,Caio Henrique,Left-Back,"Jul 31, 1997 (27)",Brazil,â‚¬15.00m,as_monaco_caio_henrique.jpg,Ligue 1,Franta,1
+as_monaco_vanderson,as_monaco,AS Monaco,as_monaco.png,2,Vanderson,Right-Back,"Jun 21, 2001 (23)",Brazil,â‚¬20.00m,as_monaco_vanderson.jpg,Ligue 1,Franta,2
+as_monaco_denis_zakaria,as_monaco,AS Monaco,as_monaco.png,6,Denis Zakaria,Defensive Midfield,"Nov 20, 1996 (28)",Switzerland,â‚¬30.00m,as_monaco_denis_zakaria.jpg,Ligue 1,Franta,3
+as_monaco_lamine_camara,as_monaco,AS Monaco,as_monaco.png,15,Lamine Camara,Central Midfield,"Jan 1, 2004 (21)",Senegal,â‚¬20.00m,as_monaco_lamine_camara.jpg,Ligue 1,Franta,1
+as_monaco_aleksandr_golovin,as_monaco,AS Monaco,as_monaco.png,10,Aleksandr Golovin,Attacking Midfield,"May 30, 1996 (28)",Russia,â‚¬25.00m,as_monaco_aleksandr_golovin.jpg,Ligue 1,Franta,2
+as_monaco_eliesse_ben_seghir,as_monaco,AS Monaco,as_monaco.png,7,Eliesse Ben Seghir,Left Winger,"Feb 16, 2005 (20)",Morocco,â‚¬30.00m,as_monaco_eliesse_ben_seghir.jpg,Ligue 1,Franta,2
+as_monaco_takumi_minamino,as_monaco,AS Monaco,as_monaco.png,18,Takumi Minamino,Left Winger,"Jan 16, 1995 (30)",Japan,â‚¬15.00m,as_monaco_takumi_minamino.jpg,Ligue 1,Franta,3
+as_monaco_maghnes_akliouche,as_monaco,AS Monaco,as_monaco.png,11,Maghnes Akliouche,Right Winger,"Feb 25, 2002 (23)",France,â‚¬40.00m,as_monaco_maghnes_akliouche.jpg,Ligue 1,Franta,2
+as_monaco_folarin_balogun,as_monaco,AS Monaco,as_monaco.png,9,Folarin Balogun,Centre-Forward,"Jul 3, 2001 (23)",United States,â‚¬20.00m,as_monaco_folarin_balogun.jpg,Ligue 1,Franta,3
+as_monaco_breel_embolo,as_monaco,AS Monaco,as_monaco.png,36,Breel Embolo,Centre-Forward,"Feb 14, 1997 (28)",Switzerland,â‚¬12.00m,as_monaco_breel_embolo.jpg,Ligue 1,Franta,3
+lille_lucas_chevalier,lille,Lille,lille.png,30,Lucas Chevalier,Goalkeeper,"Nov 6, 2001 (23)",France,â‚¬30.00m,lille_lucas_chevalier.jpg,Ligue 1,Franta,2
+lille_bafode_diakite,lille,Lille,lille.png,18,Bafode Diakite,Centre-Back,"Jan 6, 2001 (24)",France,â‚¬25.00m,lille_bafode_diakite.jpg,Ligue 1,Franta,2
+lille_alexsandro,lille,Lille,lille.png,4,Alexsandro,Centre-Back,"Aug 9, 1999 (25)",Brazil,â‚¬15.00m,lille_alexsandro.jpg,Ligue 1,Franta,2
+lille_samuel_umtiti,lille,Lille,lille.png,14,Samuel Umtiti,Centre-Back,"Nov 14, 1993 (31)",France,â‚¬2.00m,lille_samuel_umtiti.jpg,Ligue 1,Franta,4
+lille_tiago_santos,lille,Lille,lille.png,22,Tiago Santos,Right-Back,"Jul 23, 2002 (22)",Portugal,â‚¬15.00m,lille_tiago_santos.jpg,Ligue 1,Franta,2
+lille_thomas_meunier,lille,Lille,lille.png,12,Thomas Meunier,Right-Back,"Sep 12, 1991 (33)",Belgium,â‚¬2.00m,lille_thomas_meunier.jpg,Ligue 1,Franta,3
+lille_ngal'ayel_mukau,lille,Lille,lille.png,17,Ngal'ayel Mukau,Defensive Midfield,"Nov 3, 2004 (20)",DR Congo,â‚¬15.00m,lille_ngal'ayel_mukau.jpg,Ligue 1,Franta,2
+lille_nabil_bentaleb,lille,Lille,lille.png,6,Nabil Bentaleb,Defensive Midfield,"Nov 24, 1994 (30)",Algeria,â‚¬8.00m,lille_nabil_bentaleb.jpg,Ligue 1,Franta,3
+lille_ayyoub_bouaddi,lille,Lille,lille.png,32,Ayyoub Bouaddi,Central Midfield,"Oct 2, 2007 (17)",France,â‚¬30.00m,lille_ayyoub_bouaddi.jpg,Ligue 1,Franta,2
+lille_andre_gomes,lille,Lille,lille.png,26,Andre Gomes,Central Midfield,"Jul 30, 1993 (31)",Portugal,â‚¬8.00m,lille_andre_gomes.jpg,Ligue 1,Franta,3
+lille_ethan_mbappe,lille,Lille,lille.png,29,Ethan Mbappe,Central Midfield,"Dec 29, 2006 (18)",France,â‚¬5.00m,lille_ethan_mbappe.jpg,Ligue 1,Franta,3
+lille_angel_gomes,lille,Lille,lille.png,8,Angel Gomes,Attacking Midfield,"Aug 31, 2000 (24)",England,â‚¬20.00m,lille_angel_gomes.jpg,Ligue 1,Franta,2
+lille_remy_cabella,lille,Lille,lille.png,10,Remy Cabella,Attacking Midfield,"Mar 8, 1990 (35)",France,â‚¬3.00m,lille_remy_cabella.jpg,Ligue 1,Franta,2
+lille_edon_zhegrova,lille,Lille,lille.png,23,Edon Zhegrova,Right Winger,"Mar 31, 1999 (26)",Kosovo,â‚¬25.00m,lille_edon_zhegrova.jpg,Ligue 1,Franta,4
+lille_jonathan_david,lille,Lille,lille.png,9,Jonathan David,Centre-Forward,"Jan 14, 2000 (25)",Canada,â‚¬45.00m,lille_jonathan_david.jpg,Ligue 1,Franta,4
+lille_matias_fernandez-pardo,lille,Lille,lille.png,19,Matias Fernandez-Pardo,Centre-Forward,"Feb 3, 2005 (20)",Spain,â‚¬10.00m,lille_matias_fernandez-pardo.jpg,Ligue 1,Franta,1
+lille_chuba_akpom,lille,Lille,lille.png,24,Chuba Akpom,Centre-Forward,"Oct 9, 1995 (29)",England,â‚¬8.00m,lille_chuba_akpom.jpg,Ligue 1,Franta,1
+olympique_marseille_geronimo_rulli,olympique_marseille,Olympique Marseille,olympique_marseille.png,1,Geronimo Rulli,Goalkeeper,"May 20, 1992 (32)",Argentina,â‚¬8.00m,olympique_marseille_geronimo_rulli.jpg,Ligue 1,Franta,2
+olympique_marseille_leonardo_balerdi,olympique_marseille,Olympique Marseille,olympique_marseille.png,5,Leonardo Balerdi,Centre-Back,"Jan 26, 1999 (26)",Argentina,â‚¬20.00m,olympique_marseille_leonardo_balerdi.jpg,Ligue 1,Franta,2
+olympique_marseille_luiz_felipe,olympique_marseille,Olympique Marseille,olympique_marseille.png,4,Luiz Felipe,Centre-Back,"Mar 22, 1997 (28)",Italy,â‚¬6.00m,olympique_marseille_luiz_felipe.jpg,Ligue 1,Franta,1
+olympique_marseille_quentin_merlin,olympique_marseille,Olympique Marseille,olympique_marseille.png,3,Quentin Merlin,Left-Back,"May 16, 2002 (22)",France,â‚¬12.00m,olympique_marseille_quentin_merlin.jpg,Ligue 1,Franta,1
+olympique_marseille_amar_dedic,olympique_marseille,Olympique Marseille,olympique_marseille.png,77,Amar Dedic,Right-Back,"Aug 18, 2002 (22)",Bosnia-Herzegovina,â‚¬15.00m,olympique_marseille_amar_dedic.png,Ligue 1,Franta,1
+olympique_marseille_pierre-emile_hjbjerg,olympique_marseille,Olympique Marseille,olympique_marseille.png,23,Pierre-Emile Hjbjerg,Defensive Midfield,"Aug 5, 1995 (29)",Denmark,â‚¬20.00m,olympique_marseille_pierre-emile_hjbjerg.jpg,Ligue 1,Franta,3
+olympique_marseille_ismael_bennacer,olympique_marseille,Olympique Marseille,olympique_marseille.png,22,Ismael Bennacer,Defensive Midfield,"Dec 1, 1997 (27)",Algeria,â‚¬15.00m,olympique_marseille_ismael_bennacer.jpg,Ligue 1,Franta,3
+olympique_marseille_geoffrey_kondogbia,olympique_marseille,Olympique Marseille,olympique_marseille.png,19,Geoffrey Kondogbia,Defensive Midfield,"Feb 15, 1993 (32)",Central African Republic,â‚¬8.00m,olympique_marseille_geoffrey_kondogbia.jpg,Ligue 1,Franta,3
+olympique_marseille_adrien_rabiot,olympique_marseille,Olympique Marseille,olympique_marseille.png,25,Adrien Rabiot,Central Midfield,"Apr 3, 1995 (30)",France,â‚¬25.00m,olympique_marseille_adrien_rabiot.jpg,Ligue 1,Franta,4
+olympique_marseille_jonathan_rowe,olympique_marseille,Olympique Marseille,olympique_marseille.png,17,Jonathan Rowe,Left Winger,"Apr 30, 2003 (21)",England,â‚¬12.00m,olympique_marseille_jonathan_rowe.jpg,Ligue 1,Franta,1
+olympique_marseille_mason_greenwood,olympique_marseille,Olympique Marseille,olympique_marseille.png,10,Mason Greenwood,Right Winger,"Oct 1, 2001 (23)",England,â‚¬35.00m,olympique_marseille_mason_greenwood.jpg,Ligue 1,Franta,4
+olympique_marseille_luis_henrique,olympique_marseille,Olympique Marseille,olympique_marseille.png,44,Luis Henrique,Right Winger,"Dec 14, 2001 (23)",Brazil,â‚¬18.00m,olympique_marseille_luis_henrique.jpg,Ligue 1,Franta,2
+olympique_marseille_amine_gouiri,olympique_marseille,Olympique Marseille,olympique_marseille.png,9,Amine Gouiri,Centre-Forward,"Feb 16, 2000 (25)",Algeria,â‚¬20.00m,olympique_marseille_amine_gouiri.jpg,Ligue 1,Franta,2
+olympique_marseille_neal_maupay,olympique_marseille,Olympique Marseille,olympique_marseille.png,8,Neal Maupay,Centre-Forward,"Aug 14, 1996 (28)",France,â‚¬10.00m,olympique_marseille_neal_maupay.jpg,Ligue 1,Franta,3
+olympique_lyon_lucas_perri,olympique_lyon,Olympique Lyon,olympique_lyon.png,1,Lucas Perri,Goalkeeper,"Dec 10, 1997 (27)",Brazil,â‚¬10.00m,olympique_lyon_lucas_perri.jpg,Ligue 1,Franta,2
+olympique_lyon_moussa_niakhate,olympique_lyon,Olympique Lyon,olympique_lyon.png,19,Moussa Niakhate,Centre-Back,"Mar 8, 1996 (29)",Senegal,â‚¬15.00m,olympique_lyon_moussa_niakhate.jpg,Ligue 1,Franta,2
+olympique_lyon_duje_caleta-car,olympique_lyon,Olympique Lyon,olympique_lyon.png,55,Duje Caleta-Car,Centre-Back,"Sep 17, 1996 (28)",Croatia,â‚¬8.00m,olympique_lyon_duje_caleta-car.jpg,Ligue 1,Franta,2
+olympique_lyon_nicolas_tagliafico,olympique_lyon,Olympique Lyon,olympique_lyon.png,3,Nicolas Tagliafico,Left-Back,"Aug 31, 1992 (32)",Argentina,â‚¬7.00m,olympique_lyon_nicolas_tagliafico.jpg,Ligue 1,Franta,3
+olympique_lyon_ainsley_maitland-niles,olympique_lyon,Olympique Lyon,olympique_lyon.png,98,Ainsley Maitland-Niles,Right-Back,"Aug 29, 1997 (27)",England,â‚¬10.00m,olympique_lyon_ainsley_maitland-niles.jpg,Ligue 1,Franta,3
+olympique_lyon_nemanja_matic,olympique_lyon,Olympique Lyon,olympique_lyon.png,31,Nemanja Matic,Defensive Midfield,"Aug 1, 1988 (36)",Serbia,â‚¬2.50m,olympique_lyon_nemanja_matic.jpg,Ligue 1,Franta,4
+olympique_lyon_corentin_tolisso,olympique_lyon,Olympique Lyon,olympique_lyon.png,8,Corentin Tolisso,Central Midfield,"Aug 3, 1994 (30)",France,â‚¬10.00m,olympique_lyon_corentin_tolisso.jpg,Ligue 1,Franta,3
+olympique_lyon_jordan_veretout,olympique_lyon,Olympique Lyon,olympique_lyon.png,7,Jordan Veretout,Central Midfield,"Mar 1, 1993 (32)",France,â‚¬5.00m,olympique_lyon_jordan_veretout.jpg,Ligue 1,Franta,1
+olympique_lyon_thiago_almada,olympique_lyon,Olympique Lyon,olympique_lyon.png,23,Thiago Almada,Attacking Midfield,"Apr 26, 2001 (23)",Argentina,â‚¬25.00m,olympique_lyon_thiago_almada.jpg,Ligue 1,Franta,2
+olympique_lyon_malick_fofana,olympique_lyon,Olympique Lyon,olympique_lyon.png,11,Malick Fofana,Left Winger,"Mar 31, 2005 (20)",Belgium,â‚¬25.00m,olympique_lyon_malick_fofana.jpg,Ligue 1,Franta,2
+olympique_lyon_rayan_cherki,olympique_lyon,Olympique Lyon,olympique_lyon.png,18,Rayan Cherki,Right Winger,"Aug 17, 2003 (21)",France,â‚¬35.00m,olympique_lyon_rayan_cherki.jpg,Ligue 1,Franta,4
+olympique_lyon_georges_mikautadze,olympique_lyon,Olympique Lyon,olympique_lyon.png,69,Georges Mikautadze,Centre-Forward,"Oct 31, 2000 (24)",Georgia,â‚¬20.00m,olympique_lyon_georges_mikautadze.jpg,Ligue 1,Franta,4
+olympique_lyon_alexandre_lacazette,olympique_lyon,Olympique Lyon,olympique_lyon.png,10,Alexandre Lacazette,Centre-Forward,"May 28, 1991 (33)",France,â‚¬8.00m,olympique_lyon_alexandre_lacazette.jpg,Ligue 1,Franta,5

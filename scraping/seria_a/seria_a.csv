@@ -1,0 +1,193 @@
+PlayerID,TeamID,Team,TeamLogo,Number,Name,Position,Age,Nationality,Market Value,Image,League,Country,Scor
+inter_milano_yann_sommer,inter_milano,Inter Milano,inter_milano.png,1,Yann Sommer,Goalkeeper,"Dec 17, 1988 (36)",Switzerland,â‚¬4.00m,inter_milano_yann_sommer.jpg,Seria A,Italia,4
+inter_milano_alessandro_bastoni,inter_milano,Inter Milano,inter_milano.png,95,Alessandro Bastoni,Centre-Back,"Apr 13, 1999 (26)",Italy,â‚¬80.00m,inter_milano_alessandro_bastoni.jpg,Seria A,Italia,3
+inter_milano_benjamin_pavard,inter_milano,Inter Milano,inter_milano.png,28,Benjamin Pavard,Centre-Back,"Mar 28, 1996 (29)",France,â‚¬30.00m,inter_milano_benjamin_pavard.jpg,Seria A,Italia,4
+inter_milano_yann_bisseck,inter_milano,Inter Milano,inter_milano.png,31,Yann Bisseck,Centre-Back,"Nov 29, 2000 (24)",Germany,â‚¬30.00m,inter_milano_yann_bisseck.jpg,Seria A,Italia,3
+inter_milano_stefan_de_vrij,inter_milano,Inter Milano,inter_milano.png,6,Stefan de Vrij,Centre-Back,"Feb 5, 1992 (33)",Netherlands,â‚¬7.00m,inter_milano_stefan_de_vrij.jpg,Seria A,Italia,3
+inter_milano_francesco_acerbi,inter_milano,Inter Milano,inter_milano.png,15,Francesco Acerbi,Centre-Back,"Feb 10, 1988 (37)",Italy,â‚¬3.00m,inter_milano_francesco_acerbi.jpg,Seria A,Italia,4
+inter_milano_federico_dimarco,inter_milano,Inter Milano,inter_milano.png,32,Federico Dimarco,Left-Back,"Nov 10, 1997 (27)",Italy,â‚¬60.00m,inter_milano_federico_dimarco.jpg,Seria A,Italia,5
+inter_milano_carlos_augusto,inter_milano,Inter Milano,inter_milano.png,30,Carlos Augusto,Left-Back,"Jan 7, 1999 (26)",Brazil,â‚¬22.00m,inter_milano_carlos_augusto.jpg,Seria A,Italia,2
+inter_milano_denzel_dumfries,inter_milano,Inter Milano,inter_milano.png,2,Denzel Dumfries,Right-Back,"Apr 18, 1996 (29)",Netherlands,â‚¬28.00m,inter_milano_denzel_dumfries.jpg,Seria A,Italia,4
+inter_milano_matteo_darmian,inter_milano,Inter Milano,inter_milano.png,36,Matteo Darmian,Right-Back,"Dec 2, 1989 (35)",Italy,â‚¬4.00m,inter_milano_matteo_darmian.jpg,Seria A,Italia,5
+inter_milano_hakan_calhanoglu,inter_milano,Inter Milano,inter_milano.png,20,Hakan Calhanoglu,Defensive Midfield,"Feb 8, 1994 (31)",TÃ¼rkiye,â‚¬35.00m,inter_milano_hakan_calhanoglu.jpg,Seria A,Italia,3
+inter_milano_kristjan_asllani,inter_milano,Inter Milano,inter_milano.png,21,Kristjan Asllani,Defensive Midfield,"Mar 9, 2002 (23)",Albania,â‚¬15.00m,inter_milano_kristjan_asllani.jpg,Seria A,Italia,1
+inter_milano_nicolo_barella,inter_milano,Inter Milano,inter_milano.png,23,Nicolo Barella,Central Midfield,"Feb 7, 1997 (28)",Italy,â‚¬80.00m,inter_milano_nicolo_barella.jpg,Seria A,Italia,5
+inter_milano_davide_frattesi,inter_milano,Inter Milano,inter_milano.png,16,Davide Frattesi,Central Midfield,"Sep 22, 1999 (25)",Italy,â‚¬32.00m,inter_milano_davide_frattesi.jpg,Seria A,Italia,3
+inter_milano_piotr_zielinski,inter_milano,Inter Milano,inter_milano.png,7,Piotr Zielinski,Central Midfield,"May 20, 1994 (30)",Poland,â‚¬14.00m,inter_milano_piotr_zielinski.jpg,Seria A,Italia,2
+inter_milano_henrikh_mkhitaryan,inter_milano,Inter Milano,inter_milano.png,22,Henrikh Mkhitaryan,Central Midfield,"Jan 21, 1989 (36)",Armenia,â‚¬4.00m,inter_milano_henrikh_mkhitaryan.jpg,Seria A,Italia,4
+inter_milano_nicola_zalewski,inter_milano,Inter Milano,inter_milano.png,59,Nicola Zalewski,Left Midfield,"Jan 23, 2002 (23)",Poland,â‚¬10.00m,inter_milano_nicola_zalewski.jpg,Seria A,Italia,2
+inter_milano_valentin_carboni,inter_milano,Inter Milano,inter_milano.png,45,Valentin Carboni,Attacking Midfield,"Mar 5, 2005 (20)",Argentina,â‚¬12.00m,inter_milano_valentin_carboni.jpg,Seria A,Italia,1
+inter_milano_joaquin_correa,inter_milano,Inter Milano,inter_milano.png,11,Joaquin Correa,Second Striker,"Aug 13, 1994 (30)",Argentina,â‚¬3.00m,inter_milano_joaquin_correa.jpg,Seria A,Italia,3
+inter_milano_lautaro_martinez,inter_milano,Inter Milano,inter_milano.png,10,Lautaro Martinez,Centre-Forward,"Aug 22, 1997 (27)",Argentina,â‚¬95.00m,inter_milano_lautaro_martinez.jpg,Seria A,Italia,5
+inter_milano_marcus_thuram,inter_milano,Inter Milano,inter_milano.png,9,Marcus Thuram,Centre-Forward,"Aug 6, 1997 (27)",France,â‚¬75.00m,inter_milano_marcus_thuram.jpg,Seria A,Italia,4
+inter_milano_mehdi_taremi,inter_milano,Inter Milano,inter_milano.png,99,Mehdi Taremi,Centre-Forward,"Jul 18, 1992 (32)",Iran,â‚¬5.00m,inter_milano_mehdi_taremi.jpg,Seria A,Italia,3
+inter_milano_marko_arnautovic,inter_milano,Inter Milano,inter_milano.png,8,Marko Arnautovic,Centre-Forward,"Apr 19, 1989 (36)",Austria,â‚¬3.50m,inter_milano_marko_arnautovic.jpg,Seria A,Italia,3
+juventus_michele_di_gregorio,juventus,Juventus,juventus.png,29,Michele Di Gregorio,Goalkeeper,"Jul 27, 1997 (27)",Italy,â‚¬18.00m,juventus_michele_di_gregorio.jpg,Seria A,Italia,3
+juventus_mattia_perin,juventus,Juventus,juventus.png,1,Mattia Perin,Goalkeeper,"Nov 10, 1992 (32)",Italy,â‚¬3.00m,juventus_mattia_perin.jpg,Seria A,Italia,2
+juventus_bremer,juventus,Juventus,juventus.png,3,Bremer,Centre-Back,"Mar 18, 1997 (28)",Brazil,â‚¬50.00m,juventus_bremer.jpg,Seria A,Italia,2
+juventus_pierre_kalulu,juventus,Juventus,juventus.png,15,Pierre Kalulu,Centre-Back,"Jun 5, 2000 (24)",France,â‚¬26.00m,juventus_pierre_kalulu.jpg,Seria A,Italia,3
+juventus_federico_gatti,juventus,Juventus,juventus.png,4,Federico Gatti,Centre-Back,"Jun 24, 1998 (26)",Italy,â‚¬25.00m,juventus_federico_gatti.jpg,Seria A,Italia,2
+juventus_lloyd_kelly,juventus,Juventus,juventus.png,6,Lloyd Kelly,Centre-Back,"Oct 6, 1998 (26)",England,â‚¬18.00m,juventus_lloyd_kelly.jpg,Seria A,Italia,2
+juventus_renato_veiga,juventus,Juventus,juventus.png,12,Renato Veiga,Centre-Back,"Jul 29, 2003 (21)",Portugal,â‚¬18.00m,juventus_renato_veiga.jpg,Seria A,Italia,2
+juventus_andrea_cambiaso,juventus,Juventus,juventus.png,27,Andrea Cambiaso,Left-Back,"Feb 20, 2000 (25)",Italy,â‚¬40.00m,juventus_andrea_cambiaso.jpg,Seria A,Italia,2
+juventus_juan_cabal,juventus,Juventus,juventus.png,32,Juan Cabal,Left-Back,"Jan 8, 2001 (24)",Colombia,â‚¬9.00m,juventus_juan_cabal.jpg,Seria A,Italia,2
+juventus_jonas_rouhi,juventus,Juventus,juventus.png,40,Jonas Rouhi,Left-Back,"Jan 7, 2004 (21)",Sweden,â‚¬2.00m,juventus_jonas_rouhi.jpg,Seria A,Italia,2
+juventus_nicolo_savona,juventus,Juventus,juventus.png,37,Nicolo Savona,Right-Back,"Mar 19, 2003 (22)",Italy,â‚¬14.00m,juventus_nicolo_savona.jpg,Seria A,Italia,2
+juventus_alberto_costa,juventus,Juventus,juventus.png,2,Alberto Costa,Right-Back,"Sep 29, 2003 (21)",Portugal,â‚¬10.00m,juventus_alberto_costa.jpg,Seria A,Italia,1
+juventus_manuel_locatelli,juventus,Juventus,juventus.png,5,Manuel Locatelli,Defensive Midfield,"Jan 8, 1998 (27)",Italy,â‚¬28.00m,juventus_manuel_locatelli.jpg,Seria A,Italia,3
+juventus_khephren_thuram,juventus,Juventus,juventus.png,19,Khephren Thuram,Central Midfield,"Mar 26, 2001 (24)",France,â‚¬40.00m,juventus_khephren_thuram.jpg,Seria A,Italia,4
+juventus_douglas_luiz,juventus,Juventus,juventus.png,26,Douglas Luiz,Central Midfield,"May 9, 1998 (26)",Brazil,â‚¬38.00m,juventus_douglas_luiz.jpg,Seria A,Italia,4
+juventus_weston_mckennie,juventus,Juventus,juventus.png,16,Weston McKennie,Central Midfield,"Aug 28, 1998 (26)",United States,â‚¬24.00m,juventus_weston_mckennie.jpg,Seria A,Italia,4
+juventus_teun_koopmeiners,juventus,Juventus,juventus.png,8,Teun Koopmeiners,Attacking Midfield,"Feb 28, 1998 (27)",Netherlands,â‚¬40.00m,juventus_teun_koopmeiners.jpg,Seria A,Italia,3
+juventus_vasilije_adzic,juventus,Juventus,juventus.png,17,Vasilije Adzic,Attacking Midfield,"May 12, 2006 (18)",Montenegro,â‚¬3.00m,juventus_vasilije_adzic.jpg,Seria A,Italia,2
+juventus_kenan_yldz,juventus,Juventus,juventus.png,10,Kenan Yldz,Left Winger,"May 4, 2005 (19)",TÃ¼rkiye,â‚¬45.00m,juventus_kenan_yldz.png,Seria A,Italia,4
+juventus_samuel_mbangula,juventus,Juventus,juventus.png,51,Samuel Mbangula,Left Winger,"Jan 16, 2004 (21)",Belgium,â‚¬14.00m,juventus_samuel_mbangula.jpg,Seria A,Italia,3
+juventus_francisco_conceicao,juventus,Juventus,juventus.png,7,Francisco Conceicao,Right Winger,"Dec 14, 2002 (22)",Portugal,â‚¬36.00m,juventus_francisco_conceicao.png,Seria A,Italia,2
+juventus_nico_gonzalez,juventus,Juventus,juventus.png,11,Nico Gonzalez,Right Winger,"Apr 6, 1998 (27)",Argentina,â‚¬28.00m,juventus_nico_gonzalez.jpg,Seria A,Italia,3
+juventus_timothy_weah,juventus,Juventus,juventus.png,22,Timothy Weah,Right Winger,"Feb 22, 2000 (25)",United States,â‚¬17.00m,juventus_timothy_weah.jpg,Seria A,Italia,4
+juventus_dusan_vlahovic,juventus,Juventus,juventus.png,9,Dusan Vlahovic,Centre-Forward,"Jan 28, 2000 (25)",Serbia,â‚¬45.00m,juventus_dusan_vlahovic.jpg,Seria A,Italia,4
+juventus_randal_kolo_muani,juventus,Juventus,juventus.png,20,Randal Kolo Muani,Centre-Forward,"Dec 5, 1998 (26)",France,â‚¬30.00m,juventus_randal_kolo_muani.jpg,Seria A,Italia,5
+juventus_arkadiusz_milik,juventus,Juventus,juventus.png,14,Arkadiusz Milik,Centre-Forward,"Feb 28, 1994 (31)",Poland,â‚¬2.00m,juventus_arkadiusz_milik.jpg,Seria A,Italia,3
+ac_milan_mike_maignan,ac_milan,AC Milan,ac_milan.png,16,Mike Maignan,Goalkeeper,"Jul 3, 1995 (29)",France,â‚¬25.00m,ac_milan_mike_maignan.jpg,Seria A,Italia,5
+ac_milan_fikayo_tomori,ac_milan,AC Milan,ac_milan.png,23,Fikayo Tomori,Centre-Back,"Dec 19, 1997 (27)",England,â‚¬20.00m,ac_milan_fikayo_tomori.jpg,Seria A,Italia,4
+ac_milan_malick_thiaw,ac_milan,AC Milan,ac_milan.png,28,Malick Thiaw,Centre-Back,"Aug 8, 2001 (23)",Germany,â‚¬20.00m,ac_milan_malick_thiaw.jpg,Seria A,Italia,2
+ac_milan_strahinja_pavlovic,ac_milan,AC Milan,ac_milan.png,31,Strahinja Pavlovic,Centre-Back,"May 24, 2001 (23)",Serbia,â‚¬18.00m,ac_milan_strahinja_pavlovic.png,Seria A,Italia,3
+ac_milan_matteo_gabbia,ac_milan,AC Milan,ac_milan.png,46,Matteo Gabbia,Centre-Back,"Oct 21, 1999 (25)",Italy,â‚¬14.00m,ac_milan_matteo_gabbia.jpg,Seria A,Italia,2
+ac_milan_theo_hernandez,ac_milan,AC Milan,ac_milan.png,19,Theo Hernandez,Left-Back,"Oct 6, 1997 (27)",France,â‚¬40.00m,ac_milan_theo_hernandez.jpg,Seria A,Italia,5
+ac_milan_emerson_royal,ac_milan,AC Milan,ac_milan.png,22,Emerson Royal,Right-Back,"Jan 14, 1999 (26)",Brazil,â‚¬10.00m,ac_milan_emerson_royal.jpg,Seria A,Italia,1
+ac_milan_kyle_walker,ac_milan,AC Milan,ac_milan.png,32,Kyle Walker,Right-Back,"May 28, 1990 (34)",England,â‚¬6.00m,ac_milan_kyle_walker.jpg,Seria A,Italia,5
+ac_milan_alessandro_florenzi,ac_milan,AC Milan,ac_milan.png,24,Alessandro Florenzi,Right-Back,"Mar 11, 1991 (34)",Italy,â‚¬1.50m,ac_milan_alessandro_florenzi.jpg,Seria A,Italia,2
+ac_milan_youssouf_fofana,ac_milan,AC Milan,ac_milan.png,29,Youssouf Fofana,Defensive Midfield,"Jan 10, 1999 (26)",France,â‚¬30.00m,ac_milan_youssouf_fofana.jpg,Seria A,Italia,3
+ac_milan_tijjani_reijnders,ac_milan,AC Milan,ac_milan.png,14,Tijjani Reijnders,Central Midfield,"Jul 29, 1998 (26)",Netherlands,â‚¬50.00m,ac_milan_tijjani_reijnders.jpg,Seria A,Italia,4
+ac_milan_yunus_musah,ac_milan,AC Milan,ac_milan.png,80,Yunus Musah,Central Midfield,"Nov 29, 2002 (22)",United States,â‚¬22.00m,ac_milan_yunus_musah.jpg,Seria A,Italia,2
+ac_milan_ruben_loftus-cheek,ac_milan,AC Milan,ac_milan.png,8,Ruben Loftus-Cheek,Central Midfield,"Jan 23, 1996 (29)",England,â‚¬16.00m,ac_milan_ruben_loftus-cheek.jpg,Seria A,Italia,3
+ac_milan_rafael_leao,ac_milan,AC Milan,ac_milan.png,10,Rafael Leao,Left Winger,"Jun 10, 1999 (25)",Portugal,â‚¬75.00m,ac_milan_rafael_leao.jpg,Seria A,Italia,5
+ac_milan_christian_pulisic,ac_milan,AC Milan,ac_milan.png,11,Christian Pulisic,Right Winger,"Sep 18, 1998 (26)",United States,â‚¬50.00m,ac_milan_christian_pulisic.jpg,Seria A,Italia,5
+ac_milan_samuel_chukwueze,ac_milan,AC Milan,ac_milan.png,21,Samuel Chukwueze,Right Winger,"May 22, 1999 (25)",Nigeria,â‚¬14.00m,ac_milan_samuel_chukwueze.jpg,Seria A,Italia,2
+ac_milan_joao_felix,ac_milan,AC Milan,ac_milan.png,79,Joao Felix,Second Striker,"Nov 10, 1999 (25)",Portugal,â‚¬25.00m,ac_milan_joao_felix.jpg,Seria A,Italia,3
+ac_milan_santiago_gimenez,ac_milan,AC Milan,ac_milan.png,7,Santiago Gimenez,Centre-Forward,"Apr 18, 2001 (24)",Mexico,â‚¬37.00m,ac_milan_santiago_gimenez.jpg,Seria A,Italia,4
+ac_milan_tammy_abraham,ac_milan,AC Milan,ac_milan.png,90,Tammy Abraham,Centre-Forward,"Oct 2, 1997 (27)",England,â‚¬15.00m,ac_milan_tammy_abraham.jpg,Seria A,Italia,3
+ac_milan_luka_jovic,ac_milan,AC Milan,ac_milan.png,9,Luka Jovic,Centre-Forward,"Dec 23, 1997 (27)",Serbia,â‚¬2.50m,ac_milan_luka_jovic.jpg,Seria A,Italia,3
+atalanta_marco_carnesecchi,atalanta,Atalanta,atalanta.png,29,Marco Carnesecchi,Goalkeeper,"Jul 1, 2000 (24)",Italy,â‚¬25.00m,atalanta_marco_carnesecchi.jpg,Seria A,Italia,2
+atalanta_rui_patricio,atalanta,Atalanta,atalanta.png,28,Rui Patricio,Goalkeeper,"Feb 15, 1988 (37)",Portugal,â‚¬1.00m,atalanta_rui_patricio.jpg,Seria A,Italia,2
+atalanta_francesco_rossi,atalanta,Atalanta,atalanta.png,31,Francesco Rossi,Goalkeeper,"Apr 27, 1991 (33)",Italy,â‚¬100k,atalanta_francesco_rossi.jpg,Seria A,Italia,2
+atalanta_giorgio_scalvini,atalanta,Atalanta,atalanta.png,42,Giorgio Scalvini,Centre-Back,"Dec 11, 2003 (21)",Italy,â‚¬35.00m,atalanta_giorgio_scalvini.jpg,Seria A,Italia,2
+atalanta_isak_hien,atalanta,Atalanta,atalanta.png,4,Isak Hien,Centre-Back,"Jan 13, 1999 (26)",Sweden,â‚¬30.00m,atalanta_isak_hien.jpg,Seria A,Italia,2
+atalanta_odilon_kossounou,atalanta,Atalanta,atalanta.png,3,Odilon Kossounou,Centre-Back,"Jan 4, 2001 (24)",Cote d'Ivoire,â‚¬25.00m,atalanta_odilon_kossounou.jpg,Seria A,Italia,2
+atalanta_stefan_posch,atalanta,Atalanta,atalanta.png,5,Stefan Posch,Centre-Back,"May 14, 1997 (27)",Austria,â‚¬10.00m,atalanta_stefan_posch.jpg,Seria A,Italia,2
+atalanta_sead_kolasinac,atalanta,Atalanta,atalanta.png,23,Sead Kolasinac,Centre-Back,"Jun 20, 1993 (31)",Bosnia-Herzegovina,â‚¬10.00m,atalanta_sead_kolasinac.jpg,Seria A,Italia,3
+atalanta_berat_djimsiti,atalanta,Atalanta,atalanta.png,19,Berat Djimsiti,Centre-Back,"Feb 19, 1993 (32)",Albania,â‚¬8.00m,atalanta_berat_djimsiti.jpg,Seria A,Italia,2
+atalanta_rafael_toloi,atalanta,Atalanta,atalanta.png,2,Rafael Toloi,Centre-Back,"Oct 10, 1990 (34)",Italy,â‚¬1.50m,atalanta_rafael_toloi.jpg,Seria A,Italia,3
+atalanta_marten_de_roon,atalanta,Atalanta,atalanta.png,15,Marten de Roon,Defensive Midfield,"Mar 29, 1991 (34)",Netherlands,â‚¬7.00m,atalanta_marten_de_roon.jpg,Seria A,Italia,2
+atalanta_ibrahim_sulemana,atalanta,Atalanta,atalanta.png,6,Ibrahim Sulemana,Defensive Midfield,"May 22, 2003 (21)",Ghana,â‚¬6.00m,atalanta_ibrahim_sulemana.jpg,Seria A,Italia,2
+atalanta_ederson,atalanta,Atalanta,atalanta.png,13,Ederson,Central Midfield,"Jul 7, 1999 (25)",Brazil,â‚¬50.00m,atalanta_ederson.jpg,Seria A,Italia,2
+atalanta_lazar_samardzic,atalanta,Atalanta,atalanta.png,24,Lazar Samardzic,Central Midfield,"Feb 24, 2002 (23)",Serbia,â‚¬20.00m,atalanta_lazar_samardzic.jpg,Seria A,Italia,2
+atalanta_mario_pasalic,atalanta,Atalanta,atalanta.png,8,Mario Pasalic,Central Midfield,"Feb 9, 1995 (30)",Croatia,â‚¬13.00m,atalanta_mario_pasalic.jpg,Seria A,Italia,3
+atalanta_marco_brescianini,atalanta,Atalanta,atalanta.png,44,Marco Brescianini,Central Midfield,"Jan 20, 2000 (25)",Italy,â‚¬8.00m,atalanta_marco_brescianini.jpg,Seria A,Italia,2
+atalanta_raoul_bellanova,atalanta,Atalanta,atalanta.png,16,Raoul Bellanova,Right Midfield,"May 17, 2000 (24)",Italy,â‚¬22.00m,atalanta_raoul_bellanova.jpg,Seria A,Italia,2
+atalanta_davide_zappacosta,atalanta,Atalanta,atalanta.png,77,Davide Zappacosta,Right Midfield,"Jun 11, 1992 (32)",Italy,â‚¬6.00m,atalanta_davide_zappacosta.jpg,Seria A,Italia,3
+atalanta_marco_palestra,atalanta,Atalanta,atalanta.png,27,Marco Palestra,Right Midfield,"Mar 3, 2005 (20)",Italy,â‚¬3.00m,atalanta_marco_palestra.jpg,Seria A,Italia,3
+atalanta_juan_cuadrado,atalanta,Atalanta,atalanta.png,7,Juan Cuadrado,Right Midfield,"May 26, 1988 (36)",Colombia,â‚¬1.00m,atalanta_juan_cuadrado.jpg,Seria A,Italia,4
+atalanta_matteo_ruggeri,atalanta,Atalanta,atalanta.png,22,Matteo Ruggeri,Left Midfield,"Jul 11, 2002 (22)",Italy,â‚¬20.00m,atalanta_matteo_ruggeri.jpg,Seria A,Italia,2
+atalanta_charles_de_ketelaere,atalanta,Atalanta,atalanta.png,17,Charles De Ketelaere,Attacking Midfield,"Mar 10, 2001 (24)",Belgium,â‚¬38.00m,atalanta_charles_de_ketelaere.jpg,Seria A,Italia,4
+atalanta_daniel_maldini,atalanta,Atalanta,atalanta.png,70,Daniel Maldini,Attacking Midfield,"Oct 11, 2001 (23)",Italy,â‚¬10.00m,atalanta_daniel_maldini.jpg,Seria A,Italia,2
+atalanta_ademola_lookman,atalanta,Atalanta,atalanta.png,11,Ademola Lookman,Second Striker,"Oct 20, 1997 (27)",Nigeria,â‚¬60.00m,atalanta_ademola_lookman.jpg,Seria A,Italia,4
+atalanta_mateo_retegui,atalanta,Atalanta,atalanta.png,32,Mateo Retegui,Centre-Forward,"Apr 29, 1999 (25)",Italy,â‚¬45.00m,atalanta_mateo_retegui.jpg,Seria A,Italia,3
+atalanta_gianluca_scamacca,atalanta,Atalanta,atalanta.png,9,Gianluca Scamacca,Centre-Forward,"Jan 1, 1999 (26)",Italy,â‚¬24.00m,atalanta_gianluca_scamacca.jpg,Seria A,Italia,3
+napoli_alex_meret,napoli,Napoli,napoli.png,1,Alex Meret,Goalkeeper,"Mar 22, 1997 (28)",Italy,â‚¬12.00m,napoli_alex_meret.jpg,Seria A,Italia,2
+napoli_simone_scuffet,napoli,Napoli,napoli.png,96,Simone Scuffet,Goalkeeper,"May 31, 1996 (28)",Italy,â‚¬2.00m,napoli_simone_scuffet.jpg,Seria A,Italia,2
+napoli_nikita_contini,napoli,Napoli,napoli.png,14,Nikita Contini,Goalkeeper,"May 21, 1996 (28)",Italy,â‚¬400k,napoli_nikita_contini.jpg,Seria A,Italia,2
+napoli_claudio_turi,napoli,Napoli,napoli.png,12,Claudio Turi,Goalkeeper,"May 6, 2005 (19)",Italy,â‚¬150k,napoli_claudio_turi.jpg,Seria A,Italia,2
+napoli_alessandro_buongiorno,napoli,Napoli,napoli.png,4,Alessandro Buongiorno,Centre-Back,"Jun 6, 1999 (25)",Italy,â‚¬45.00m,napoli_alessandro_buongiorno.jpg,Seria A,Italia,1
+napoli_amir_rrahmani,napoli,Napoli,napoli.png,13,Amir Rrahmani,Centre-Back,"Feb 24, 1994 (31)",Kosovo,â‚¬12.00m,napoli_amir_rrahmani.jpg,Seria A,Italia,3
+napoli_rafa_marin,napoli,Napoli,napoli.png,16,Rafa Marin,Centre-Back,"May 19, 2002 (22)",Spain,â‚¬7.00m,napoli_rafa_marin.jpg,Seria A,Italia,2
+napoli_juan_jesus,napoli,Napoli,napoli.png,5,Juan Jesus,Centre-Back,"Jun 10, 1991 (33)",Brazil,â‚¬1.50m,napoli_juan_jesus.jpg,Seria A,Italia,3
+napoli_mathias_olivera,napoli,Napoli,napoli.png,17,Mathias Olivera,Left-Back,"Oct 31, 1997 (27)",Uruguay,â‚¬18.00m,napoli_mathias_olivera.jpg,Seria A,Italia,2
+napoli_leonardo_spinazzola,napoli,Napoli,napoli.png,37,Leonardo Spinazzola,Left-Back,"Mar 25, 1993 (32)",Italy,â‚¬3.50m,napoli_leonardo_spinazzola.jpg,Seria A,Italia,4
+napoli_giovanni_di_lorenzo,napoli,Napoli,napoli.png,22,Giovanni Di Lorenzo,Right-Back,"Aug 4, 1993 (31)",Italy,â‚¬15.00m,napoli_giovanni_di_lorenzo.jpg,Seria A,Italia,2
+napoli_pasquale_mazzocchi,napoli,Napoli,napoli.png,30,Pasquale Mazzocchi,Right-Back,"Jul 27, 1995 (29)",Italy,â‚¬3.00m,napoli_pasquale_mazzocchi.jpg,Seria A,Italia,2
+napoli_stanislav_lobotka,napoli,Napoli,napoli.png,68,Stanislav Lobotka,Defensive Midfield,"Nov 25, 1994 (30)",Slovakia,â‚¬25.00m,napoli_stanislav_lobotka.jpg,Seria A,Italia,3
+napoli_billy_gilmour,napoli,Napoli,napoli.png,6,Billy Gilmour,Defensive Midfield,"Jun 11, 2001 (23)",Scotland,â‚¬16.00m,napoli_billy_gilmour.jpg,Seria A,Italia,3
+napoli_scott_mctominay,napoli,Napoli,napoli.png,8,Scott McTominay,Central Midfield,"Dec 8, 1996 (28)",Scotland,â‚¬40.00m,napoli_scott_mctominay.jpg,Seria A,Italia,5
+napoli_frank_anguissa,napoli,Napoli,napoli.png,99,Frank Anguissa,Central Midfield,"Nov 16, 1995 (29)",Cameroon,â‚¬27.00m,napoli_frank_anguissa.jpg,Seria A,Italia,3
+napoli_philip_billing,napoli,Napoli,napoli.png,15,Philip Billing,Central Midfield,"Jun 11, 1996 (28)",Denmark,â‚¬12.00m,napoli_philip_billing.jpg,Seria A,Italia,2
+napoli_luis_hasa,napoli,Napoli,napoli.png,29,Luis Hasa,Central Midfield,"Jan 6, 2004 (21)",Italy,â‚¬1.00m,napoli_luis_hasa.jpg,Seria A,Italia,2
+napoli_david_neres,napoli,Napoli,napoli.png,7,David Neres,Left Winger,"Mar 3, 1997 (28)",Brazil,â‚¬30.00m,napoli_david_neres.jpg,Seria A,Italia,4
+napoli_noah_okafor,napoli,Napoli,napoli.png,9,Noah Okafor,Left Winger,"May 24, 2000 (24)",Switzerland,â‚¬15.00m,napoli_noah_okafor.jpg,Seria A,Italia,3
+napoli_matteo_politano,napoli,Napoli,napoli.png,21,Matteo Politano,Right Winger,"Aug 3, 1993 (31)",Italy,â‚¬10.00m,napoli_matteo_politano.jpg,Seria A,Italia,3
+napoli_cyril_ngonge,napoli,Napoli,napoli.png,26,Cyril Ngonge,Right Winger,"May 26, 2000 (24)",Belgium,â‚¬10.00m,napoli_cyril_ngonge.jpg,Seria A,Italia,2
+napoli_giacomo_raspadori,napoli,Napoli,napoli.png,81,Giacomo Raspadori,Second Striker,"Feb 18, 2000 (25)",Italy,â‚¬20.00m,napoli_giacomo_raspadori.jpg,Seria A,Italia,3
+napoli_romelu_lukaku,napoli,Napoli,napoli.png,11,Romelu Lukaku,Centre-Forward,"May 13, 1993 (31)",Belgium,â‚¬22.00m,napoli_romelu_lukaku.jpg,Seria A,Italia,5
+napoli_giovanni_simeone,napoli,Napoli,napoli.png,18,Giovanni Simeone,Centre-Forward,"Jul 5, 1995 (29)",Argentina,â‚¬8.00m,napoli_giovanni_simeone.jpg,Seria A,Italia,4
+as_roma_mile_svilar,as_roma,AS Roma,as_roma.png,99,Mile Svilar,Goalkeeper,"Aug 27, 1999 (25)",Serbia,â‚¬17.00m,as_roma_mile_svilar.jpg,Seria A,Italia,1
+as_roma_pierluigi_gollini,as_roma,AS Roma,as_roma.png,95,Pierluigi Gollini,Goalkeeper,"Mar 18, 1995 (30)",Italy,â‚¬1.00m,as_roma_pierluigi_gollini.jpg,Seria A,Italia,1
+as_roma_renato_marin,as_roma,AS Roma,as_roma.png,89,Renato Marin,Goalkeeper,"Jul 10, 2006 (18)",Italy,â‚¬500k,as_roma_renato_marin.jpg,Seria A,Italia,1
+as_roma_evan_ndicka,as_roma,AS Roma,as_roma.png,5,Evan Ndicka,Centre-Back,"Aug 20, 1999 (25)",Cote d'Ivoire,â‚¬25.00m,as_roma_evan_ndicka.jpg,Seria A,Italia,3
+as_roma_gianluca_mancini,as_roma,AS Roma,as_roma.png,23,Gianluca Mancini,Centre-Back,"Apr 17, 1996 (29)",Italy,â‚¬18.00m,as_roma_gianluca_mancini.jpg,Seria A,Italia,1
+as_roma_victor_nelsson,as_roma,AS Roma,as_roma.png,25,Victor Nelsson,Centre-Back,"Oct 14, 1998 (26)",Denmark,â‚¬14.00m,as_roma_victor_nelsson.jpg,Seria A,Italia,1
+as_roma_mats_hummels,as_roma,AS Roma,as_roma.png,15,Mats Hummels,Centre-Back,"Dec 16, 1988 (36)",Germany,â‚¬2.50m,as_roma_mats_hummels.jpg,Seria A,Italia,4
+as_roma_angelino,as_roma,AS Roma,as_roma.png,3,Angelino,Left-Back,"Jan 4, 1997 (28)",Spain,â‚¬15.00m,as_roma_angelino.jpg,Seria A,Italia,3
+as_roma_anass_salah-eddine,as_roma,AS Roma,as_roma.png,34,Anass Salah-Eddine,Left-Back,"Jan 18, 2002 (23)",Netherlands,â‚¬8.00m,as_roma_anass_salah-eddine.jpg,Seria A,Italia,2
+as_roma_devyne_rensch,as_roma,AS Roma,as_roma.png,2,Devyne Rensch,Right-Back,"Jan 18, 2003 (22)",Netherlands,â‚¬12.00m,as_roma_devyne_rensch.jpg,Seria A,Italia,2
+as_roma_zeki_celik,as_roma,AS Roma,as_roma.png,19,Zeki Celik,Right-Back,"Feb 17, 1997 (28)",TÃ¼rkiye,â‚¬5.00m,as_roma_zeki_celik.jpg,Seria A,Italia,2
+as_roma_saud_abdulhamid,as_roma,AS Roma,as_roma.png,12,Saud Abdulhamid,Right-Back,"Jul 18, 1999 (25)",Saudi Arabia,â‚¬4.00m,as_roma_saud_abdulhamid.jpg,Seria A,Italia,2
+as_roma_buba_sangare,as_roma,AS Roma,as_roma.png,66,Buba Sangare,Right-Back,"Aug 6, 2007 (17)",Spain,â‚¬1.00m,as_roma_buba_sangare.jpg,Seria A,Italia,2
+as_roma_lucas_gourna-douath,as_roma,AS Roma,as_roma.png,27,Lucas Gourna-Douath,Defensive Midfield,"Aug 5, 2003 (21)",France,â‚¬8.00m,as_roma_lucas_gourna-douath.png,Seria A,Italia,1
+as_roma_bryan_cristante,as_roma,AS Roma,as_roma.png,4,Bryan Cristante,Defensive Midfield,"Mar 3, 1995 (30)",Italy,â‚¬7.00m,as_roma_bryan_cristante.jpg,Seria A,Italia,3
+as_roma_leandro_paredes,as_roma,AS Roma,as_roma.png,16,Leandro Paredes,Defensive Midfield,"Jun 29, 1994 (30)",Argentina,â‚¬5.00m,as_roma_leandro_paredes.jpg,Seria A,Italia,3
+as_roma_manu_kone,as_roma,AS Roma,as_roma.png,17,Manu Kone,Central Midfield,"May 17, 2001 (23)",France,â‚¬35.00m,as_roma_manu_kone.jpg,Seria A,Italia,1
+as_roma_niccolo_pisilli,as_roma,AS Roma,as_roma.png,61,Niccolo Pisilli,Central Midfield,"Sep 23, 2004 (20)",Italy,â‚¬12.00m,as_roma_niccolo_pisilli.jpg,Seria A,Italia,1
+as_roma_lorenzo_pellegrini,as_roma,AS Roma,as_roma.png,7,Lorenzo Pellegrini,Attacking Midfield,"Jun 19, 1996 (28)",Italy,â‚¬14.00m,as_roma_lorenzo_pellegrini.jpg,Seria A,Italia,3
+as_roma_tommaso_baldanzi,as_roma,AS Roma,as_roma.png,35,Tommaso Baldanzi,Attacking Midfield,"Mar 23, 2003 (22)",Italy,â‚¬14.00m,as_roma_tommaso_baldanzi.jpg,Seria A,Italia,1
+as_roma_stephan_el_shaarawy,as_roma,AS Roma,as_roma.png,92,Stephan El Shaarawy,Left Winger,"Oct 27, 1992 (32)",Italy,â‚¬5.00m,as_roma_stephan_el_shaarawy.jpg,Seria A,Italia,4
+as_roma_matias_soule,as_roma,AS Roma,as_roma.png,18,Matias Soule,Right Winger,"Apr 15, 2003 (22)",Argentina,â‚¬22.00m,as_roma_matias_soule.jpg,Seria A,Italia,2
+as_roma_alexis_saelemaekers,as_roma,AS Roma,as_roma.png,56,Alexis Saelemaekers,Right Winger,"Jun 27, 1999 (25)",Belgium,â‚¬17.00m,as_roma_alexis_saelemaekers.jpg,Seria A,Italia,4
+as_roma_paulo_dybala,as_roma,AS Roma,as_roma.png,21,Paulo Dybala,Second Striker,"Nov 15, 1993 (31)",Argentina,â‚¬8.00m,as_roma_paulo_dybala.jpg,Seria A,Italia,5
+as_roma_artem_dovbyk,as_roma,AS Roma,as_roma.png,11,Artem Dovbyk,Centre-Forward,"Jun 21, 1997 (27)",Ukraine,â‚¬30.00m,as_roma_artem_dovbyk.jpg,Seria A,Italia,3
+as_roma_eldor_shomurodov,as_roma,AS Roma,as_roma.png,14,Eldor Shomurodov,Centre-Forward,"Jun 29, 1995 (29)",Uzbekistan,â‚¬4.00m,as_roma_eldor_shomurodov.jpg,Seria A,Italia,1
+lazio_ivan_provedel,lazio,Lazio,lazio.png,94,Ivan Provedel,Goalkeeper,"Mar 17, 1994 (31)",Italy,â‚¬7.00m,lazio_ivan_provedel.jpg,Seria A,Italia,1
+lazio_christos_mandas,lazio,Lazio,lazio.png,35,Christos Mandas,Goalkeeper,"Sep 17, 2001 (23)",Greece,â‚¬5.00m,lazio_christos_mandas.jpg,Seria A,Italia,1
+lazio_davide_renzetti,lazio,Lazio,lazio.png,59,Davide Renzetti,Goalkeeper,"Jun 9, 2006 (18)",Italy,â‚¬100k,lazio_davide_renzetti.jpg,Seria A,Italia,1
+lazio_alessio_furlanetto,lazio,Lazio,lazio.png,55,Alessio Furlanetto,Goalkeeper,"Feb 7, 2002 (23)",Italy,â‚¬50k,lazio_alessio_furlanetto.jpg,Seria A,Italia,1
+lazio_mario_gila,lazio,Lazio,lazio.png,34,Mario Gila,Centre-Back,"Aug 29, 2000 (24)",Spain,â‚¬28.00m,lazio_mario_gila.jpg,Seria A,Italia,1
+lazio_alessio_romagnoli,lazio,Lazio,lazio.png,13,Alessio Romagnoli,Centre-Back,"Jan 12, 1995 (30)",Italy,â‚¬12.00m,lazio_alessio_romagnoli.jpg,Seria A,Italia,3
+lazio_samuel_gigot,lazio,Lazio,lazio.png,2,Samuel Gigot,Centre-Back,"Oct 12, 1993 (31)",France,â‚¬4.00m,lazio_samuel_gigot.jpg,Seria A,Italia,1
+lazio_patric,lazio,Lazio,lazio.png,4,Patric,Centre-Back,"Apr 17, 1993 (32)",Spain,â‚¬4.00m,lazio_patric.jpg,Seria A,Italia,1
+lazio_oliver_provstgaard,lazio,Lazio,lazio.png,25,Oliver Provstgaard,Centre-Back,"Jun 4, 2003 (21)",Denmark,â‚¬3.50m,lazio_oliver_provstgaard.jpg,Seria A,Italia,1
+lazio_filipe_bordon,lazio,Lazio,lazio.png,76,Filipe Bordon,Centre-Back,"Jun 24, 2005 (19)",Brazil,â‚¬500k,lazio_filipe_bordon.jpg,Seria A,Italia,1
+lazio_nuno_tavares,lazio,Lazio,lazio.png,30,Nuno Tavares,Left-Back,"Jan 26, 2000 (25)",Portugal,â‚¬25.00m,lazio_nuno_tavares.jpg,Seria A,Italia,2
+lazio_luca_pellegrini,lazio,Lazio,lazio.png,3,Luca Pellegrini,Left-Back,"Mar 7, 1999 (26)",Italy,â‚¬2.50m,lazio_luca_pellegrini.jpg,Seria A,Italia,2
+lazio_adam_marusic,lazio,Lazio,lazio.png,77,Adam Marusic,Right-Back,"Oct 17, 1992 (32)",Montenegro,â‚¬4.00m,lazio_adam_marusic.jpg,Seria A,Italia,2
+lazio_elseid_hysaj,lazio,Lazio,lazio.png,23,Elseid Hysaj,Right-Back,"Feb 2, 1994 (31)",Albania,â‚¬2.00m,lazio_elseid_hysaj.jpg,Seria A,Italia,3
+lazio_nicolo_rovella,lazio,Lazio,lazio.png,6,Nicolo Rovella,Defensive Midfield,"Dec 4, 2001 (23)",Italy,â‚¬28.00m,lazio_nicolo_rovella.jpg,Seria A,Italia,1
+lazio_reda_belahyane,lazio,Lazio,lazio.png,21,Reda Belahyane,Defensive Midfield,"Jun 1, 2004 (20)",Morocco,â‚¬10.00m,lazio_reda_belahyane.jpg,Seria A,Italia,1
+lazio_matteo_guendouzi,lazio,Lazio,lazio.png,8,Matteo Guendouzi,Central Midfield,"Apr 14, 1999 (26)",France,â‚¬32.00m,lazio_matteo_guendouzi.jpg,Seria A,Italia,4
+lazio_matias_vecino,lazio,Lazio,lazio.png,5,Matias Vecino,Central Midfield,"Aug 24, 1991 (33)",Uruguay,â‚¬2.50m,lazio_matias_vecino.jpg,Seria A,Italia,2
+lazio_toma_basic,lazio,Lazio,lazio.png,26,Toma Basic,Central Midfield,"Nov 25, 1996 (28)",Croatia,â‚¬1.00m,lazio_toma_basic.jpg,Seria A,Italia,2
+lazio_manuel_lazzari,lazio,Lazio,lazio.png,29,Manuel Lazzari,Right Midfield,"Nov 29, 1993 (31)",Italy,â‚¬4.00m,lazio_manuel_lazzari.jpg,Seria A,Italia,2
+lazio_fisayo_dele-bashiru,lazio,Lazio,lazio.png,7,Fisayo Dele-Bashiru,Attacking Midfield,"Feb 6, 2001 (24)",Nigeria,â‚¬8.00m,lazio_fisayo_dele-bashiru.jpg,Seria A,Italia,2
+lazio_arijon_ibrahimovic,lazio,Lazio,lazio.png,27,Arijon Ibrahimovic,Attacking Midfield,"Dec 11, 2005 (19)",Germany,â‚¬4.00m,lazio_arijon_ibrahimovic.jpg,Seria A,Italia,1
+lazio_andre_anderson,lazio,Lazio,lazio.png,28,Andre Anderson,Attacking Midfield,"Sep 23, 1999 (25)",Italy,â‚¬200k,lazio_andre_anderson.jpg,Seria A,Italia,1
+lazio_mattia_zaccagni,lazio,Lazio,lazio.png,10,Mattia Zaccagni,Left Winger,"Jun 16, 1995 (29)",Italy,â‚¬20.00m,lazio_mattia_zaccagni.jpg,Seria A,Italia,1
+lazio_gustav_isaksen,lazio,Lazio,lazio.png,18,Gustav Isaksen,Right Winger,"Apr 19, 2001 (24)",Denmark,â‚¬20.00m,lazio_gustav_isaksen.jpg,Seria A,Italia,1
+lazio_tijjani_noslin,lazio,Lazio,lazio.png,14,Tijjani Noslin,Right Winger,"Jul 7, 1999 (25)",Netherlands,â‚¬12.00m,lazio_tijjani_noslin.jpg,Seria A,Italia,1
+lazio_loum_tchaouna,lazio,Lazio,lazio.png,20,Loum Tchaouna,Right Winger,"Sep 8, 2003 (21)",France,â‚¬10.00m,lazio_loum_tchaouna.jpg,Seria A,Italia,1
+lazio_pedro,lazio,Lazio,lazio.png,9,Pedro,Right Winger,"Jul 28, 1987 (37)",Spain,â‚¬1.00m,lazio_pedro.jpg,Seria A,Italia,3
+lazio_taty_castellanos,lazio,Lazio,lazio.png,11,Taty Castellanos,Centre-Forward,"Oct 3, 1998 (26)",Argentina,â‚¬25.00m,lazio_taty_castellanos.jpg,Seria A,Italia,1
+lazio_boulaye_dia,lazio,Lazio,lazio.png,19,Boulaye Dia,Centre-Forward,"Nov 16, 1996 (28)",Senegal,â‚¬15.00m,lazio_boulaye_dia.jpg,Seria A,Italia,1
+genoa_benjamin_siegrist,genoa,Genoa,genoa.png,31,Benjamin Siegrist,Goalkeeper,"Jan 31, 1992 (33)",Switzerland,â‚¬650k,genoa_benjamin_siegrist.jpg,Seria A,Italia,4
+genoa_milan_badelj,genoa,Genoa,genoa.png,47,Milan Badelj,Defensive Midfield,"Feb 25, 1989 (36)",Croatia,â‚¬800k,genoa_milan_badelj.jpg,Seria A,Italia,2
+genoa_ruslan_malinovskyi,genoa,Genoa,genoa.png,17,Ruslan Malinovskyi,Attacking Midfield,"May 4, 1993 (31)",Ukraine,â‚¬3.50m,genoa_ruslan_malinovskyi.jpg,Seria A,Italia,2
+genoa_andrea_pinamonti,genoa,Genoa,genoa.png,19,Andrea Pinamonti,Centre-Forward,"May 19, 1999 (25)",Italy,â‚¬16.00m,genoa_andrea_pinamonti.jpg,Seria A,Italia,2
+genoa_vitinha,genoa,Genoa,genoa.png,9,Vitinha,Centre-Forward,"Mar 15, 2000 (25)",Portugal,â‚¬10.00m,genoa_vitinha.jpg,Seria A,Italia,2
+genoa_mario_balotelli,genoa,Genoa,genoa.png,45,Mario Balotelli,Centre-Forward,"Aug 12, 1990 (34)",Italy,â‚¬500k,genoa_mario_balotelli.jpg,Seria A,Italia,4
+parma_zion_suzuki,parma,Parma,parma.png,31,Zion Suzuki,Goalkeeper,"Aug 21, 2002 (22)",Japan,â‚¬14.00m,parma_zion_suzuki.png,Seria A,Italia,3
+parma_emanuele_valeri,parma,Parma,parma.png,14,Emanuele Valeri,Left-Back,"Dec 7, 1998 (26)",Italy,â‚¬3.00m,parma_emanuele_valeri.jpg,Seria A,Italia,3
+parma_enrico_delprato,parma,Parma,parma.png,15,Enrico Delprato,Right-Back,"Nov 10, 1999 (25)",Italy,â‚¬6.00m,parma_enrico_delprato.jpg,Seria A,Italia,3
+parma_nahuel_estevez,parma,Parma,parma.png,8,Nahuel Estevez,Defensive Midfield,"Nov 14, 1995 (29)",Argentina,â‚¬3.50m,parma_nahuel_estevez.jpg,Seria A,Italia,1
+parma_adrian_bernabe,parma,Parma,parma.png,10,Adrian Bernabe,Central Midfield,"May 26, 2001 (23)",Spain,â‚¬15.00m,parma_adrian_bernabe.jpg,Seria A,Italia,3
+parma_valentin_mihaila,parma,Parma,parma.png,28,Valentin Mihaila,Left Winger,"Feb 2, 2000 (25)",Romania,â‚¬3.00m,parma_valentin_mihaila.jpg,Seria A,Italia,5
+parma_dennis_man,parma,Parma,parma.png,98,Dennis Man,Right Winger,"Aug 26, 1998 (26)",Romania,â‚¬12.50m,parma_dennis_man.jpg,Seria A,Italia,5
+cagliari_yerry_mina,cagliari,Cagliari,cagliari.png,26,Yerry Mina,Centre-Back,"Sep 23, 1994 (30)",Colombia,â‚¬3.00m,cagliari_yerry_mina.jpg,Seria A,Italia,3
+cagliari_razvan_marin,cagliari,Cagliari,cagliari.png,18,Razvan Marin,Defensive Midfield,"May 23, 1996 (28)",Romania,â‚¬3.50m,cagliari_razvan_marin.jpg,Seria A,Italia,5
+cagliari_florinel_coman,cagliari,Cagliari,cagliari.png,9,Florinel Coman,Left Winger,"Apr 10, 1998 (27)",Romania,â‚¬6.00m,cagliari_florinel_coman.jpg,Seria A,Italia,5

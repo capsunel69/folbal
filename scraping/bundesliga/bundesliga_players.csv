@@ -1,0 +1,107 @@
+﻿PlayerID,TeamID,Team,TeamLogo,Number,Name,Position,Age,Nationality,Market Value,Image,League,Country
+bayern_munchen_jonas_urbig,bayern_munchen,Bayern Munchen,bayern_munchen.png,40,Jonas Urbig,Goalkeeper,"Aug 8, 2003 (21)",Germany,€8.00m,bayern_munchen_jonas_urbig.jpg,Bundesliga,Germania
+bayern_munchen_manuel_neuer,bayern_munchen,Bayern Munchen,bayern_munchen.png,1,Manuel Neuer,Goalkeeper,"Mar 27, 1986 (39)",Germany,€4.00m,bayern_munchen_manuel_neuer.jpg,Bundesliga,Germania
+bayern_munchen_daniel_peretz,bayern_munchen,Bayern Munchen,bayern_munchen.png,18,Daniel Peretz,Goalkeeper,"Jul 10, 2000 (24)",Israel,€3.00m,bayern_munchen_daniel_peretz.jpg,Bundesliga,Germania
+bayern_munchen_sven_ulreich,bayern_munchen,Bayern Munchen,bayern_munchen.png,26,Sven Ulreich,Goalkeeper,"Aug 3, 1988 (36)",Germany,€500k,bayern_munchen_sven_ulreich.jpg,Bundesliga,Germania
+bayern_munchen_dayot_upamecano,bayern_munchen,Bayern Munchen,bayern_munchen.png,2,Dayot Upamecano,Centre-Back,"Oct 27, 1998 (26)",France,€50.00m,bayern_munchen_dayot_upamecano.jpg,Bundesliga,Germania
+bayern_munchen_min-jae_kim,bayern_munchen,Bayern Munchen,bayern_munchen.png,3,Min-jae Kim,Centre-Back,"Nov 15, 1996 (28)","Korea, South",€45.00m,bayern_munchen_min-jae_kim.jpg,Bundesliga,Germania
+bayern_munchen_hiroki_ito,bayern_munchen,Bayern Munchen,bayern_munchen.png,21,Hiroki Ito,Centre-Back,"May 12, 1999 (25)",Japan,€30.00m,bayern_munchen_hiroki_ito.jpg,Bundesliga,Germania
+bayern_munchen_eric_dier,bayern_munchen,Bayern Munchen,bayern_munchen.png,15,Eric Dier,Centre-Back,"Jan 15, 1994 (31)",England,€8.00m,bayern_munchen_eric_dier.jpg,Bundesliga,Germania
+bayern_munchen_tarek_buchmann,bayern_munchen,Bayern Munchen,bayern_munchen.png,28,Tarek Buchmann,Centre-Back,"Feb 28, 2005 (20)",Germany,€500k,bayern_munchen_tarek_buchmann.jpg,Bundesliga,Germania
+bayern_munchen_alphonso_davies,bayern_munchen,Bayern Munchen,bayern_munchen.png,19,Alphonso Davies,Left-Back,"Nov 2, 2000 (24)",Canada,€50.00m,bayern_munchen_alphonso_davies.jpg,Bundesliga,Germania
+bayern_munchen_raphael_guerreiro,bayern_munchen,Bayern Munchen,bayern_munchen.png,22,Raphael Guerreiro,Left-Back,"Dec 22, 1993 (31)",Portugal,€10.00m,bayern_munchen_raphael_guerreiro.jpg,Bundesliga,Germania
+bayern_munchen_josip_stanisic,bayern_munchen,Bayern Munchen,bayern_munchen.png,44,Josip Stanisic,Right-Back,"Apr 2, 2000 (25)",Croatia,€28.00m,bayern_munchen_josip_stanisic.jpg,Bundesliga,Germania
+bayern_munchen_sacha_boey,bayern_munchen,Bayern Munchen,bayern_munchen.png,23,Sacha Boey,Right-Back,"Sep 13, 2000 (24)",France,€18.00m,bayern_munchen_sacha_boey.jpg,Bundesliga,Germania
+bayern_munchen_joshua_kimmich,bayern_munchen,Bayern Munchen,bayern_munchen.png,6,Joshua Kimmich,Defensive Midfield,"Feb 8, 1995 (30)",Germany,€50.00m,bayern_munchen_joshua_kimmich.jpg,Bundesliga,Germania
+bayern_munchen_aleksandar_pavlovic,bayern_munchen,Bayern Munchen,bayern_munchen.png,45,Aleksandar Pavlovic,Defensive Midfield,"May 3, 2004 (20)",Germany,€50.00m,bayern_munchen_aleksandar_pavlovic.jpg,Bundesliga,Germania
+bayern_munchen_joao_palhinha,bayern_munchen,Bayern Munchen,bayern_munchen.png,16,Joao Palhinha,Defensive Midfield,"Jul 9, 1995 (29)",Portugal,€40.00m,bayern_munchen_joao_palhinha.jpg,Bundesliga,Germania
+bayern_munchen_konrad_laimer,bayern_munchen,Bayern Munchen,bayern_munchen.png,27,Konrad Laimer,Central Midfield,"May 27, 1997 (27)",Austria,€25.00m,bayern_munchen_konrad_laimer.jpg,Bundesliga,Germania
+bayern_munchen_leon_goretzka,bayern_munchen,Bayern Munchen,bayern_munchen.png,8,Leon Goretzka,Central Midfield,"Feb 6, 1995 (30)",Germany,€22.00m,bayern_munchen_leon_goretzka.jpg,Bundesliga,Germania
+bayern_munchen_jamal_musiala,bayern_munchen,Bayern Munchen,bayern_munchen.png,42,Jamal Musiala,Attacking Midfield,"Feb 26, 2003 (22)",Germany,€140.00m,bayern_munchen_jamal_musiala.jpg,Bundesliga,Germania
+bayern_munchen_kingsley_coman,bayern_munchen,Bayern Munchen,bayern_munchen.png,11,Kingsley Coman,Left Winger,"Jun 13, 1996 (28)",France,€35.00m,bayern_munchen_kingsley_coman.jpg,Bundesliga,Germania
+bayern_munchen_serge_gnabry,bayern_munchen,Bayern Munchen,bayern_munchen.png,7,Serge Gnabry,Left Winger,"Jul 14, 1995 (29)",Germany,€25.00m,bayern_munchen_serge_gnabry.jpg,Bundesliga,Germania
+bayern_munchen_michael_olise,bayern_munchen,Bayern Munchen,bayern_munchen.png,17,Michael Olise,Right Winger,"Dec 12, 2001 (23)",France,€80.00m,bayern_munchen_michael_olise.jpg,Bundesliga,Germania
+bayern_munchen_leroy_sane,bayern_munchen,Bayern Munchen,bayern_munchen.png,10,Leroy Sane,Right Winger,"Jan 11, 1996 (29)",Germany,€38.00m,bayern_munchen_leroy_sane.jpg,Bundesliga,Germania
+bayern_munchen_thomas_muller,bayern_munchen,Bayern Munchen,bayern_munchen.png,25,Thomas Muller,Second Striker,"Sep 13, 1989 (35)",Germany,€6.00m,bayern_munchen_thomas_muller.jpg,Bundesliga,Germania
+bayern_munchen_gabriel_vidovic,bayern_munchen,Bayern Munchen,bayern_munchen.png,24,Gabriel Vidovic,Second Striker,"Dec 1, 2003 (21)",Croatia,€3.00m,bayern_munchen_gabriel_vidovic.jpg,Bundesliga,Germania
+bayern_munchen_harry_kane,bayern_munchen,Bayern Munchen,bayern_munchen.png,9,Harry Kane,Centre-Forward,"Jul 28, 1993 (31)",England,€90.00m,bayern_munchen_harry_kane.jpg,Bundesliga,Germania
+bayer_leverkusen_matej_kovar,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,17,Matej Kovar,Goalkeeper,"May 17, 2000 (24)",Czech Republic,€7.00m,bayer_leverkusen_matej_kovar.jpg,Bundesliga,Germania
+bayer_leverkusen_lukas_hradecky,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,1,Lukas Hradecky,Goalkeeper,"Nov 24, 1989 (35)",Finland,€2.00m,bayer_leverkusen_lukas_hradecky.jpg,Bundesliga,Germania
+bayer_leverkusen_niklas_lomb,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,36,Niklas Lomb,Goalkeeper,"Jul 28, 1993 (31)",Germany,€250k,bayer_leverkusen_niklas_lomb.jpg,Bundesliga,Germania
+bayer_leverkusen_luca_novodomsky,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,48,Luca Novodomsky,Goalkeeper,"Apr 26, 2005 (19)",Germany,-,bayer_leverkusen_luca_novodomsky.png,Bundesliga,Germania
+bayer_leverkusen_piero_hincapie,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,3,Piero Hincapie,Centre-Back,"Jan 9, 2002 (23)",Ecuador,€50.00m,bayer_leverkusen_piero_hincapie.jpg,Bundesliga,Germania
+bayer_leverkusen_edmond_tapsoba,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,12,Edmond Tapsoba,Centre-Back,"Feb 2, 1999 (26)",Burkina Faso,€40.00m,bayer_leverkusen_edmond_tapsoba.jpg,Bundesliga,Germania
+bayer_leverkusen_jonathan_tah,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,4,Jonathan Tah,Centre-Back,"Feb 11, 1996 (29)",Germany,€30.00m,bayer_leverkusen_jonathan_tah.jpg,Bundesliga,Germania
+bayer_leverkusen_jeanuel_belocian,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,44,Jeanuel Belocian,Centre-Back,"Feb 17, 2005 (20)",France,€15.00m,bayer_leverkusen_jeanuel_belocian.jpg,Bundesliga,Germania
+bayer_leverkusen_mario_hermoso,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,5,Mario Hermoso,Centre-Back,"Jun 18, 1995 (29)",Spain,€10.00m,bayer_leverkusen_mario_hermoso.jpg,Bundesliga,Germania
+bayer_leverkusen_alejandro_grimaldo,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,20,Alejandro Grimaldo,Left-Back,"Sep 20, 1995 (29)",Spain,€40.00m,bayer_leverkusen_alejandro_grimaldo.jpg,Bundesliga,Germania
+bayer_leverkusen_nordi_mukiele,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,23,Nordi Mukiele,Right-Back,"Nov 1, 1997 (27)",France,€10.00m,bayer_leverkusen_nordi_mukiele.jpg,Bundesliga,Germania
+bayer_leverkusen_arthur,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,13,Arthur,Right-Back,"Mar 17, 2003 (22)",Brazil,€7.00m,bayer_leverkusen_arthur.jpg,Bundesliga,Germania
+bayer_leverkusen_granit_xhaka,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,34,Granit Xhaka,Defensive Midfield,"Sep 27, 1992 (32)",Switzerland,€17.00m,bayer_leverkusen_granit_xhaka.jpg,Bundesliga,Germania
+bayer_leverkusen_robert_andrich,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,8,Robert Andrich,Defensive Midfield,"Sep 22, 1994 (30)",Germany,€15.00m,bayer_leverkusen_robert_andrich.jpg,Bundesliga,Germania
+bayer_leverkusen_exequiel_palacios,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,25,Exequiel Palacios,Central Midfield,"Oct 5, 1998 (26)",Argentina,€40.00m,bayer_leverkusen_exequiel_palacios.jpg,Bundesliga,Germania
+bayer_leverkusen_aleix_garcia,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,24,Aleix Garcia,Central Midfield,"Jun 28, 1997 (27)",Spain,€20.00m,bayer_leverkusen_aleix_garcia.jpg,Bundesliga,Germania
+bayer_leverkusen_jeremie_frimpong,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,30,Jeremie Frimpong,Right Midfield,"Dec 10, 2000 (24)",Netherlands,€50.00m,bayer_leverkusen_jeremie_frimpong.jpg,Bundesliga,Germania
+bayer_leverkusen_nathan_tella,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,19,Nathan Tella,Right Midfield,"Jul 5, 1999 (25)",Nigeria,€18.00m,bayer_leverkusen_nathan_tella.jpg,Bundesliga,Germania
+bayer_leverkusen_florian_wirtz,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,10,Florian Wirtz,Attacking Midfield,"May 3, 2003 (21)",Germany,€140.00m,bayer_leverkusen_florian_wirtz.jpg,Bundesliga,Germania
+bayer_leverkusen_emiliano_buendia,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,16,Emiliano Buendia,Attacking Midfield,"Dec 25, 1996 (28)",Argentina,€18.00m,bayer_leverkusen_emiliano_buendia.jpg,Bundesliga,Germania
+bayer_leverkusen_jonas_hofmann,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,7,Jonas Hofmann,Attacking Midfield,"Jul 14, 1992 (32)",Germany,€3.00m,bayer_leverkusen_jonas_hofmann.jpg,Bundesliga,Germania
+bayer_leverkusen_amine_adli,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,21,Amine Adli,Left Winger,"May 10, 2000 (24)",Morocco,€22.00m,bayer_leverkusen_amine_adli.jpg,Bundesliga,Germania
+bayer_leverkusen_martin_terrier,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,11,Martin Terrier,Left Winger,"Mar 4, 1997 (28)",France,€17.00m,bayer_leverkusen_martin_terrier.jpg,Bundesliga,Germania
+bayer_leverkusen_victor_boniface,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,22,Victor Boniface,Centre-Forward,"Dec 23, 2000 (24)",Nigeria,€45.00m,bayer_leverkusen_victor_boniface.jpg,Bundesliga,Germania
+bayer_leverkusen_patrik_schick,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,14,Patrik Schick,Centre-Forward,"Jan 24, 1996 (29)",Czech Republic,€27.00m,bayer_leverkusen_patrik_schick.jpg,Bundesliga,Germania
+bayer_leverkusen_alejo_sarco,bayer_leverkusen,Bayer Leverkusen,bayer_leverkusen.png,18,Alejo Sarco,Centre-Forward,"Jan 6, 2006 (19)",Argentina,€800k,bayer_leverkusen_alejo_sarco.jpg,Bundesliga,Germania
+rb_leipzig_maarten_vandevoordt,rb_leipzig,RB Leipzig,rb_leipzig.png,26,Maarten Vandevoordt,Goalkeeper,"Feb 26, 2002 (23)",Belgium,€8.00m,rb_leipzig_maarten_vandevoordt.jpg,Bundesliga,Germania
+rb_leipzig_peter_gulacsi,rb_leipzig,RB Leipzig,rb_leipzig.png,1,Peter Gulacsi,Goalkeeper,"May 6, 1990 (34)",Hungary,€2.50m,rb_leipzig_peter_gulacsi.jpg,Bundesliga,Germania
+rb_leipzig_leopold_zingerle,rb_leipzig,RB Leipzig,rb_leipzig.png,25,Leopold Zingerle,Goalkeeper,"Apr 10, 1994 (31)",Germany,€400k,rb_leipzig_leopold_zingerle.jpg,Bundesliga,Germania
+rb_leipzig_castello_lukeba,rb_leipzig,RB Leipzig,rb_leipzig.png,23,Castello Lukeba,Centre-Back,"Dec 17, 2002 (22)",France,€50.00m,rb_leipzig_castello_lukeba.jpg,Bundesliga,Germania
+rb_leipzig_el_chadaille_bitshiabu,rb_leipzig,RB Leipzig,rb_leipzig.png,5,El Chadaille Bitshiabu,Centre-Back,"May 16, 2005 (19)",France,€12.00m,rb_leipzig_el_chadaille_bitshiabu.jpg,Bundesliga,Germania
+rb_leipzig_willi_orban,rb_leipzig,RB Leipzig,rb_leipzig.png,4,Willi Orban,Centre-Back,"Nov 3, 1992 (32)",Hungary,€10.00m,rb_leipzig_willi_orban.jpg,Bundesliga,Germania
+rb_leipzig_lukas_klostermann,rb_leipzig,RB Leipzig,rb_leipzig.png,16,Lukas Klostermann,Centre-Back,"Jun 3, 1996 (28)",Germany,€8.00m,rb_leipzig_lukas_klostermann.jpg,Bundesliga,Germania
+rb_leipzig_david_raum,rb_leipzig,RB Leipzig,rb_leipzig.png,22,David Raum,Left-Back,"Apr 22, 1998 (27)",Germany,€25.00m,rb_leipzig_david_raum.jpg,Bundesliga,Germania
+rb_leipzig_lutsharel_geertruida,rb_leipzig,RB Leipzig,rb_leipzig.png,3,Lutsharel Geertruida,Right-Back,"Jul 18, 2000 (24)",Netherlands,€27.00m,rb_leipzig_lutsharel_geertruida.jpg,Bundesliga,Germania
+rb_leipzig_benjamin_henrichs,rb_leipzig,RB Leipzig,rb_leipzig.png,39,Benjamin Henrichs,Right-Back,"Feb 23, 1997 (28)",Germany,€17.00m,rb_leipzig_benjamin_henrichs.jpg,Bundesliga,Germania
+rb_leipzig_kosta_nedeljkovic,rb_leipzig,RB Leipzig,rb_leipzig.png,21,Kosta Nedeljkovic,Right-Back,"Dec 16, 2005 (19)",Serbia,€8.50m,rb_leipzig_kosta_nedeljkovic.jpg,Bundesliga,Germania
+rb_leipzig_ridle_baku,rb_leipzig,RB Leipzig,rb_leipzig.png,17,Ridle Baku,Right-Back,"Apr 8, 1998 (27)",Germany,€7.00m,rb_leipzig_ridle_baku.jpg,Bundesliga,Germania
+rb_leipzig_arthur_vermeeren,rb_leipzig,RB Leipzig,rb_leipzig.png,18,Arthur Vermeeren,Defensive Midfield,"Feb 7, 2005 (20)",Belgium,€22.00m,rb_leipzig_arthur_vermeeren.jpg,Bundesliga,Germania
+rb_leipzig_amadou_haidara,rb_leipzig,RB Leipzig,rb_leipzig.png,8,Amadou Haidara,Central Midfield,"Jan 31, 1998 (27)",Mali,€20.00m,rb_leipzig_amadou_haidara.jpg,Bundesliga,Germania
+rb_leipzig_xaver_schlager,rb_leipzig,RB Leipzig,rb_leipzig.png,24,Xaver Schlager,Central Midfield,"Sep 28, 1997 (27)",Austria,€18.00m,rb_leipzig_xaver_schlager.jpg,Bundesliga,Germania
+rb_leipzig_nicolas_seiwald,rb_leipzig,RB Leipzig,rb_leipzig.png,13,Nicolas Seiwald,Central Midfield,"May 4, 2001 (23)",Austria,€16.00m,rb_leipzig_nicolas_seiwald.jpg,Bundesliga,Germania
+rb_leipzig_assan_ouedraogo,rb_leipzig,RB Leipzig,rb_leipzig.png,20,Assan Ouedraogo,Central Midfield,"May 9, 2006 (18)",Germany,€10.00m,rb_leipzig_assan_ouedraogo.jpg,Bundesliga,Germania
+rb_leipzig_kevin_kampl,rb_leipzig,RB Leipzig,rb_leipzig.png,44,Kevin Kampl,Central Midfield,"Oct 9, 1990 (34)",Slovenia,€3.00m,rb_leipzig_kevin_kampl.jpg,Bundesliga,Germania
+rb_leipzig_xavi_simons,rb_leipzig,RB Leipzig,rb_leipzig.png,10,Xavi Simons,Attacking Midfield,"Apr 21, 2003 (22)",Netherlands,€70.00m,rb_leipzig_xavi_simons.jpg,Bundesliga,Germania
+rb_leipzig_christoph_baumgartner,rb_leipzig,RB Leipzig,rb_leipzig.png,14,Christoph Baumgartner,Attacking Midfield,"Aug 1, 1999 (25)",Austria,€15.00m,rb_leipzig_christoph_baumgartner.jpg,Bundesliga,Germania
+rb_leipzig_viggo_gebel,rb_leipzig,RB Leipzig,rb_leipzig.png,47,Viggo Gebel,Attacking Midfield,"Nov 22, 2007 (17)",Germany,€350k,rb_leipzig_viggo_gebel.jpg,Bundesliga,Germania
+rb_leipzig_antonio_nusa,rb_leipzig,RB Leipzig,rb_leipzig.png,7,Antonio Nusa,Left Winger,"Apr 17, 2005 (20)",Norway,€28.00m,rb_leipzig_antonio_nusa.jpg,Bundesliga,Germania
+rb_leipzig_tidiam_gomis,rb_leipzig,RB Leipzig,rb_leipzig.png,27,Tidiam Gomis,Left Winger,"Aug 8, 2006 (18)",France,€3.00m,rb_leipzig_tidiam_gomis.jpg,Bundesliga,Germania
+rb_leipzig_benjamin_sesko,rb_leipzig,RB Leipzig,rb_leipzig.png,30,Benjamin Sesko,Centre-Forward,"May 31, 2003 (21)",Slovenia,€65.00m,rb_leipzig_benjamin_sesko.jpg,Bundesliga,Germania
+rb_leipzig_lois_openda,rb_leipzig,RB Leipzig,rb_leipzig.png,11,Lois Openda,Centre-Forward,"Feb 16, 2000 (25)",Belgium,€60.00m,rb_leipzig_lois_openda.jpg,Bundesliga,Germania
+rb_leipzig_yussuf_poulsen,rb_leipzig,RB Leipzig,rb_leipzig.png,9,Yussuf Poulsen,Centre-Forward,"Jun 15, 1994 (30)",Denmark,€5.00m,rb_leipzig_yussuf_poulsen.jpg,Bundesliga,Germania
+borussia_dortmund_gregor_kobel,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,1,Gregor Kobel,Goalkeeper,"Dec 6, 1997 (27)",Switzerland,€40.00m,borussia_dortmund_gregor_kobel.jpg,Bundesliga,Germania
+borussia_dortmund_marcel_lotka,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,35,Marcel Lotka,Goalkeeper,"May 25, 2001 (23)",Germany,€1.30m,borussia_dortmund_marcel_lotka.jpg,Bundesliga,Germania
+borussia_dortmund_alexander_meyer,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,33,Alexander Meyer,Goalkeeper,"Apr 13, 1991 (34)",Germany,€800k,borussia_dortmund_alexander_meyer.jpg,Bundesliga,Germania
+borussia_dortmund_silas_ostrzinski,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,31,Silas Ostrzinski,Goalkeeper,"Nov 19, 2003 (21)",Germany,€200k,borussia_dortmund_silas_ostrzinski.jpg,Bundesliga,Germania
+borussia_dortmund_nico_schlotterbeck,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,4,Nico Schlotterbeck,Centre-Back,"Dec 1, 1999 (25)",Germany,€40.00m,borussia_dortmund_nico_schlotterbeck.jpg,Bundesliga,Germania
+borussia_dortmund_waldemar_anton,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,3,Waldemar Anton,Centre-Back,"Jul 20, 1996 (28)",Germany,€18.00m,borussia_dortmund_waldemar_anton.jpg,Bundesliga,Germania
+borussia_dortmund_niklas_sule,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,25,Niklas Sule,Centre-Back,"Sep 3, 1995 (29)",Germany,€8.00m,borussia_dortmund_niklas_sule.jpg,Bundesliga,Germania
+borussia_dortmund_filippo_mane,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,39,Filippo Mane,Centre-Back,"Mar 8, 2005 (20)",Italy,€600k,borussia_dortmund_filippo_mane.jpg,Bundesliga,Germania
+borussia_dortmund_ramy_bensebaini,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,5,Ramy Bensebaini,Left-Back,"Apr 16, 1995 (30)",Algeria,€7.00m,borussia_dortmund_ramy_bensebaini.jpg,Bundesliga,Germania
+borussia_dortmund_daniel_svensson,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,24,Daniel Svensson,Left-Back,"Feb 12, 2002 (23)",Sweden,€5.50m,borussia_dortmund_daniel_svensson.jpg,Bundesliga,Germania
+borussia_dortmund_almugera_kabar,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,42,Almugera Kabar,Left-Back,"Jun 6, 2006 (18)",Germany,€1.00m,borussia_dortmund_almugera_kabar.jpg,Bundesliga,Germania
+borussia_dortmund_yan_couto,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,2,Yan Couto,Right-Back,"Jun 3, 2002 (22)",Brazil,€20.00m,borussia_dortmund_yan_couto.jpg,Bundesliga,Germania
+borussia_dortmund_julian_ryerson,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,26,Julian Ryerson,Right-Back,"Nov 17, 1997 (27)",Norway,€20.00m,borussia_dortmund_julian_ryerson.jpg,Bundesliga,Germania
+borussia_dortmund_emre_can,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,23,Emre Can,Defensive Midfield,"Jan 12, 1994 (31)",Germany,€7.00m,borussia_dortmund_emre_can.jpg,Bundesliga,Germania
+borussia_dortmund_salih_ozcan,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,6,Salih Ozcan,Defensive Midfield,"Jan 11, 1998 (27)",Türkiye,€5.00m,borussia_dortmund_salih_ozcan.jpg,Bundesliga,Germania
+borussia_dortmund_felix_nmecha,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,8,Felix Nmecha,Central Midfield,"Oct 10, 2000 (24)",Germany,€28.00m,borussia_dortmund_felix_nmecha.jpg,Bundesliga,Germania
+borussia_dortmund_carney_chukwuemeka,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,17,Carney Chukwuemeka,Central Midfield,"Oct 20, 2003 (21)",England,€15.00m,borussia_dortmund_carney_chukwuemeka.jpg,Bundesliga,Germania
+borussia_dortmund_marcel_sabitzer,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,20,Marcel Sabitzer,Central Midfield,"Mar 17, 1994 (31)",Austria,€10.00m,borussia_dortmund_marcel_sabitzer.jpg,Bundesliga,Germania
+borussia_dortmund_pascal_gro,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,13,Pascal Gro,Central Midfield,"Jun 15, 1991 (33)",Germany,€7.00m,borussia_dortmund_pascal_gro.jpg,Bundesliga,Germania
+borussia_dortmund_kjell_watjen,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,38,Kjell Watjen,Central Midfield,"Feb 16, 2006 (19)",Germany,€2.00m,borussia_dortmund_kjell_watjen.jpg,Bundesliga,Germania
+borussia_dortmund_julian_brandt,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,10,Julian Brandt,Attacking Midfield,"May 2, 1996 (28)",Germany,€25.00m,borussia_dortmund_julian_brandt.jpg,Bundesliga,Germania
+borussia_dortmund_giovanni_reyna,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,7,Giovanni Reyna,Attacking Midfield,"Nov 13, 2002 (22)",United States,€10.00m,borussia_dortmund_giovanni_reyna.jpg,Bundesliga,Germania
+borussia_dortmund_jamie_gittens,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,43,Jamie Gittens,Left Winger,"Aug 8, 2004 (20)",England,€50.00m,borussia_dortmund_jamie_gittens.jpg,Bundesliga,Germania
+borussia_dortmund_julien_duranville,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,16,Julien Duranville,Left Winger,"May 5, 2006 (18)",Belgium,€8.50m,borussia_dortmund_julien_duranville.jpg,Bundesliga,Germania
+borussia_dortmund_karim_adeyemi,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,27,Karim Adeyemi,Right Winger,"Jan 18, 2002 (23)",Germany,€40.00m,borussia_dortmund_karim_adeyemi.jpg,Bundesliga,Germania
+borussia_dortmund_cole_campbell,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,37,Cole Campbell,Right Winger,"Feb 20, 2006 (19)",United States,€1.50m,borussia_dortmund_cole_campbell.jpg,Bundesliga,Germania
+borussia_dortmund_serhou_guirassy,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,9,Serhou Guirassy,Centre-Forward,"Mar 12, 1996 (29)",Guinea,€40.00m,borussia_dortmund_serhou_guirassy.png,Bundesliga,Germania
+borussia_dortmund_maximilian_beier,borussia_dortmund,Borussia Dortmund,borussia_dortmund.png,14,Maximilian Beier,Centre-Forward,"Oct 17, 2002 (22)",Germany,€25.00m,borussia_dortmund_maximilian_beier.jpg,Bundesliga,Germania

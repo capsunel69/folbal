@@ -1,0 +1,109 @@
+PlayerID,TeamID,Team,TeamLogo,Number,Name,Position,Age,Nationality,Market Value,Image,League,Country,Scor
+real_madrid_thibaut_courtois,real_madrid,Real Madrid,real_madrid.png,1,Thibaut Courtois,Goalkeeper,"May 11, 1992 (32)",Belgium,â‚¬25.00m,real_madrid_thibaut_courtois.jpg,La Liga,Spania,5
+real_madrid_andriy_lunin,real_madrid,Real Madrid,real_madrid.png,13,Andriy Lunin,Goalkeeper,"Feb 11, 1999 (26)",Ukraine,â‚¬20.00m,real_madrid_andriy_lunin.jpg,La Liga,Spania,2
+real_madrid_eder_militao,real_madrid,Real Madrid,real_madrid.png,3,Eder Militao,Centre-Back,"Jan 18, 1998 (27)",Brazil,â‚¬40.00m,real_madrid_eder_militao.jpg,La Liga,Spania,3
+real_madrid_raul_asencio,real_madrid,Real Madrid,real_madrid.png,35,Raul Asencio,Centre-Back,"Feb 13, 2003 (22)",Spain,â‚¬30.00m,real_madrid_raul_asencio.jpg,La Liga,Spania,3
+real_madrid_antonio_rudiger,real_madrid,Real Madrid,real_madrid.png,22,Antonio Rudiger,Centre-Back,"Mar 3, 1993 (32)",Germany,â‚¬24.00m,real_madrid_antonio_rudiger.jpg,La Liga,Spania,4
+real_madrid_david_alaba,real_madrid,Real Madrid,real_madrid.png,4,David Alaba,Centre-Back,"Jun 24, 1992 (32)",Austria,â‚¬10.00m,real_madrid_david_alaba.jpeg,La Liga,Spania,2
+real_madrid_ferland_mendy,real_madrid,Real Madrid,real_madrid.png,23,Ferland Mendy,Left-Back,"Jun 8, 1995 (29)",France,â‚¬18.00m,real_madrid_ferland_mendy.jpg,La Liga,Spania,2
+real_madrid_fran_garcia,real_madrid,Real Madrid,real_madrid.png,20,Fran Garcia,Left-Back,"Aug 14, 1999 (25)",Spain,â‚¬15.00m,real_madrid_fran_garcia.jpg,La Liga,Spania,2
+real_madrid_daniel_carvajal,real_madrid,Real Madrid,real_madrid.png,2,Daniel Carvajal,Right-Back,"Jan 11, 1992 (33)",Spain,â‚¬10.00m,real_madrid_daniel_carvajal.jpg,La Liga,Spania,4
+real_madrid_lucas_vazquez,real_madrid,Real Madrid,real_madrid.png,17,Lucas Vazquez,Right-Back,"Jul 1, 1991 (33)",Spain,â‚¬3.50m,real_madrid_lucas_vazquez.jpg,La Liga,Spania,1
+real_madrid_aurelien_tchouameni,real_madrid,Real Madrid,real_madrid.png,14,Aurelien Tchouameni,Defensive Midfield,"Jan 27, 2000 (25)",France,â‚¬80.00m,real_madrid_aurelien_tchouameni.jpg,La Liga,Spania,3
+real_madrid_federico_valverde,real_madrid,Real Madrid,real_madrid.png,8,Federico Valverde,Central Midfield,"Jul 22, 1998 (26)",Uruguay,â‚¬130.00m,real_madrid_federico_valverde.jpg,La Liga,Spania,4
+real_madrid_eduardo_camavinga,real_madrid,Real Madrid,real_madrid.png,6,Eduardo Camavinga,Central Midfield,"Nov 10, 2002 (22)",France,â‚¬70.00m,real_madrid_eduardo_camavinga.jpg,La Liga,Spania,4
+real_madrid_dani_ceballos,real_madrid,Real Madrid,real_madrid.png,19,Dani Ceballos,Central Midfield,"Aug 7, 1996 (28)",Spain,â‚¬10.00m,real_madrid_dani_ceballos.jpg,La Liga,Spania,2
+real_madrid_luka_modric,real_madrid,Real Madrid,real_madrid.png,10,Luka Modric,Central Midfield,"Sep 9, 1985 (39)",Croatia,â‚¬5.00m,real_madrid_luka_modric.jpg,La Liga,Spania,3
+real_madrid_jude_bellingham,real_madrid,Real Madrid,real_madrid.png,5,Jude Bellingham,Attacking Midfield,"Jun 29, 2003 (21)",England,â‚¬180.00m,real_madrid_jude_bellingham.jpg,La Liga,Spania,5
+real_madrid_vinicius_junior,real_madrid,Real Madrid,real_madrid.png,7,Vinicius Junior,Left Winger,"Jul 12, 2000 (24)",Brazil,â‚¬200.00m,real_madrid_vinicius_junior.jpg,La Liga,Spania,5
+real_madrid_rodrygo,real_madrid,Real Madrid,real_madrid.png,11,Rodrygo,Right Winger,"Jan 9, 2001 (24)",Brazil,â‚¬100.00m,real_madrid_rodrygo.jpg,La Liga,Spania,3
+real_madrid_arda_guler,real_madrid,Real Madrid,real_madrid.png,15,Arda Guler,Right Winger,"Feb 25, 2005 (20)",TÃ¼rkiye,â‚¬45.00m,real_madrid_arda_guler.jpg,La Liga,Spania,2
+real_madrid_brahim_diaz,real_madrid,Real Madrid,real_madrid.png,21,Brahim Diaz,Right Winger,"Aug 3, 1999 (25)",Morocco,â‚¬45.00m,real_madrid_brahim_diaz.jpg,La Liga,Spania,2
+real_madrid_kylian_mbappe,real_madrid,Real Madrid,real_madrid.png,9,Kylian Mbappe,Centre-Forward,"Dec 20, 1998 (26)",France,â‚¬170.00m,real_madrid_kylian_mbappe.jpg,La Liga,Spania,5
+real_madrid_endrick,real_madrid,Real Madrid,real_madrid.png,16,Endrick,Centre-Forward,"Jul 21, 2006 (18)",Brazil,â‚¬40.00m,real_madrid_endrick.jpg,La Liga,Spania,3
+barcelona_marc-andre_ter_stegen,barcelona,Barcelona,barcelona.png,1,Marc-Andre ter Stegen,Goalkeeper,"Apr 30, 1992 (32)",Germany,â‚¬15.00m,barcelona_marc-andre_ter_stegen.jpg,La Liga,Spania,2
+barcelona_wojciech_szczesny,barcelona,Barcelona,barcelona.png,25,Wojciech Szczesny,Goalkeeper,"Apr 18, 1990 (35)",Poland,â‚¬1.00m,barcelona_wojciech_szczesny.jpg,La Liga,Spania,4
+barcelona_pau_cubarsi,barcelona,Barcelona,barcelona.png,2,Pau Cubarsi,Centre-Back,"Jan 22, 2007 (18)",Spain,â‚¬70.00m,barcelona_pau_cubarsi.jpg,La Liga,Spania,2
+barcelona_ronald_araujo,barcelona,Barcelona,barcelona.png,4,Ronald Araujo,Centre-Back,"Mar 7, 1999 (26)",Uruguay,â‚¬50.00m,barcelona_ronald_araujo.jpg,La Liga,Spania,3
+barcelona_andreas_christensen,barcelona,Barcelona,barcelona.png,15,Andreas Christensen,Centre-Back,"Apr 10, 1996 (29)",Denmark,â‚¬15.00m,barcelona_andreas_christensen.jpg,La Liga,Spania,1
+barcelona_eric_garcia,barcelona,Barcelona,barcelona.png,24,Eric Garcia,Centre-Back,"Jan 9, 2001 (24)",Spain,â‚¬15.00m,barcelona_eric_garcia.jpg,La Liga,Spania,2
+barcelona_inigo_martinez,barcelona,Barcelona,barcelona.png,5,Inigo Martinez,Centre-Back,"May 17, 1991 (33)",Spain,â‚¬5.00m,barcelona_inigo_martinez.jpg,La Liga,Spania,3
+barcelona_alejandro_balde,barcelona,Barcelona,barcelona.png,3,Alejandro Balde,Left-Back,"Oct 18, 2003 (21)",Spain,â‚¬60.00m,barcelona_alejandro_balde.jpg,La Liga,Spania,3
+barcelona_gerard_martin,barcelona,Barcelona,barcelona.png,35,Gerard Martin,Left-Back,"Feb 26, 2002 (23)",Spain,â‚¬7.50m,barcelona_gerard_martin.jpg,La Liga,Spania,3
+barcelona_jules_kounde,barcelona,Barcelona,barcelona.png,23,Jules Kounde,Right-Back,"Nov 12, 1998 (26)",France,â‚¬60.00m,barcelona_jules_kounde.jpg,La Liga,Spania,4
+barcelona_marc_casado,barcelona,Barcelona,barcelona.png,17,Marc Casado,Defensive Midfield,"Sep 14, 2003 (21)",Spain,â‚¬30.00m,barcelona_marc_casado.jpg,La Liga,Spania,3
+barcelona_pedri,barcelona,Barcelona,barcelona.png,8,Pedri,Central Midfield,"Nov 25, 2002 (22)",Spain,â‚¬120.00m,barcelona_pedri.jpg,La Liga,Spania,5
+barcelona_gavi,barcelona,Barcelona,barcelona.png,6,Gavi,Central Midfield,"Aug 5, 2004 (20)",Spain,â‚¬70.00m,barcelona_gavi.jpg,La Liga,Spania,4
+barcelona_frenkie_de_jong,barcelona,Barcelona,barcelona.png,21,Frenkie de Jong,Central Midfield,"May 12, 1997 (27)",Netherlands,â‚¬45.00m,barcelona_frenkie_de_jong.png,La Liga,Spania,3
+barcelona_dani_olmo,barcelona,Barcelona,barcelona.png,20,Dani Olmo,Attacking Midfield,"May 7, 1998 (26)",Spain,â‚¬60.00m,barcelona_dani_olmo.jpg,La Liga,Spania,3
+barcelona_fermin_lopez,barcelona,Barcelona,barcelona.png,16,Fermin Lopez,Attacking Midfield,"May 11, 2003 (21)",Spain,â‚¬50.00m,barcelona_fermin_lopez.jpg,La Liga,Spania,3
+barcelona_raphinha,barcelona,Barcelona,barcelona.png,11,Raphinha,Left Winger,"Dec 14, 1996 (28)",Brazil,â‚¬80.00m,barcelona_raphinha.png,La Liga,Spania,5
+barcelona_ansu_fati,barcelona,Barcelona,barcelona.png,10,Ansu Fati,Left Winger,"Oct 31, 2002 (22)",Spain,â‚¬5.00m,barcelona_ansu_fati.jpg,La Liga,Spania,3
+barcelona_lamine_yamal,barcelona,Barcelona,barcelona.png,19,Lamine Yamal,Right Winger,"Jul 13, 2007 (17)",Spain,â‚¬180.00m,barcelona_lamine_yamal.jpg,La Liga,Spania,5
+barcelona_ferran_torres,barcelona,Barcelona,barcelona.png,7,Ferran Torres,Right Winger,"Feb 29, 2000 (25)",Spain,â‚¬28.00m,barcelona_ferran_torres.jpg,La Liga,Spania,3
+barcelona_robert_lewandowski,barcelona,Barcelona,barcelona.png,9,Robert Lewandowski,Centre-Forward,"Aug 21, 1988 (36)",Poland,â‚¬15.00m,barcelona_robert_lewandowski.jpg,La Liga,Spania,4
+atletico_madrid_jan_oblak,atletico_madrid,Atletico Madrid,atletico_madrid.png,13,Jan Oblak,Goalkeeper,"Jan 7, 1993 (32)",Slovenia,â‚¬25.00m,atletico_madrid_jan_oblak.jpg,La Liga,Spania,5
+atletico_madrid_robin_le_normand,atletico_madrid,Atletico Madrid,atletico_madrid.png,24,Robin Le Normand,Centre-Back,"Nov 11, 1996 (28)",Spain,â‚¬40.00m,atletico_madrid_robin_le_normand.jpg,La Liga,Spania,3
+atletico_madrid_jose_maria_gimenez,atletico_madrid,Atletico Madrid,atletico_madrid.png,2,Jose Maria Gimenez,Centre-Back,"Jan 20, 1995 (30)",Uruguay,â‚¬20.00m,atletico_madrid_jose_maria_gimenez.jpg,La Liga,Spania,2
+atletico_madrid_clement_lenglet,atletico_madrid,Atletico Madrid,atletico_madrid.png,15,Clement Lenglet,Centre-Back,"Jun 17, 1995 (29)",France,â‚¬7.50m,atletico_madrid_clement_lenglet.jpg,La Liga,Spania,2
+atletico_madrid_axel_witsel,atletico_madrid,Atletico Madrid,atletico_madrid.png,20,Axel Witsel,Centre-Back,"Jan 12, 1989 (36)",Belgium,â‚¬2.50m,atletico_madrid_axel_witsel.jpg,La Liga,Spania,2
+atletico_madrid_cesar_azpilicueta,atletico_madrid,Atletico Madrid,atletico_madrid.png,3,Cesar Azpilicueta,Centre-Back,"Aug 28, 1989 (35)",Spain,â‚¬1.80m,atletico_madrid_cesar_azpilicueta.jpg,La Liga,Spania,3
+atletico_madrid_nahuel_molina,atletico_madrid,Atletico Madrid,atletico_madrid.png,16,Nahuel Molina,Right-Back,"Apr 6, 1998 (27)",Argentina,â‚¬25.00m,atletico_madrid_nahuel_molina.jpg,La Liga,Spania,2
+atletico_madrid_pablo_barrios,atletico_madrid,Atletico Madrid,atletico_madrid.png,8,Pablo Barrios,Central Midfield,"Jun 15, 2003 (21)",Spain,â‚¬50.00m,atletico_madrid_pablo_barrios.jpg,La Liga,Spania,3
+atletico_madrid_conor_gallagher,atletico_madrid,Atletico Madrid,atletico_madrid.png,4,Conor Gallagher,Central Midfield,"Feb 6, 2000 (25)",England,â‚¬40.00m,atletico_madrid_conor_gallagher.jpg,La Liga,Spania,3
+atletico_madrid_rodrigo_de_paul,atletico_madrid,Atletico Madrid,atletico_madrid.png,5,Rodrigo De Paul,Central Midfield,"May 24, 1994 (30)",Argentina,â‚¬25.00m,atletico_madrid_rodrigo_de_paul.jpg,La Liga,Spania,4
+atletico_madrid_koke,atletico_madrid,Atletico Madrid,atletico_madrid.png,6,Koke,Central Midfield,"Jan 8, 1992 (33)",Spain,â‚¬10.00m,atletico_madrid_koke.jpg,La Liga,Spania,4
+atletico_madrid_marcos_llorente,atletico_madrid,Atletico Madrid,atletico_madrid.png,14,Marcos Llorente,Right Midfield,"Jan 30, 1995 (30)",Spain,â‚¬28.00m,atletico_madrid_marcos_llorente.jpg,La Liga,Spania,3
+atletico_madrid_thomas_lemar,atletico_madrid,Atletico Madrid,atletico_madrid.png,11,Thomas Lemar,Attacking Midfield,"Nov 12, 1995 (29)",France,â‚¬5.00m,atletico_madrid_thomas_lemar.jpg,La Liga,Spania,1
+atletico_madrid_samuel_lino,atletico_madrid,Atletico Madrid,atletico_madrid.png,12,Samuel Lino,Left Winger,"Dec 23, 1999 (25)",Brazil,â‚¬25.00m,atletico_madrid_samuel_lino.jpg,La Liga,Spania,2
+atletico_madrid_rodrigo_riquelme,atletico_madrid,Atletico Madrid,atletico_madrid.png,17,Rodrigo Riquelme,Left Winger,"Apr 2, 2000 (25)",Spain,â‚¬18.00m,atletico_madrid_rodrigo_riquelme.jpg,La Liga,Spania,1
+atletico_madrid_giuliano_simeone,atletico_madrid,Atletico Madrid,atletico_madrid.png,22,Giuliano Simeone,Right Winger,"Dec 18, 2002 (22)",Argentina,â‚¬25.00m,atletico_madrid_giuliano_simeone.jpg,La Liga,Spania,2
+atletico_madrid_angel_correa,atletico_madrid,Atletico Madrid,atletico_madrid.png,10,Angel Correa,Right Winger,"Mar 9, 1995 (30)",Argentina,â‚¬15.00m,atletico_madrid_angel_correa.jpg,La Liga,Spania,3
+atletico_madrid_julian_alvarez,atletico_madrid,Atletico Madrid,atletico_madrid.png,19,Julian Alvarez,Centre-Forward,"Jan 31, 2000 (25)",Argentina,â‚¬90.00m,atletico_madrid_julian_alvarez.jpg,La Liga,Spania,4
+atletico_madrid_alexander_srloth,atletico_madrid,Atletico Madrid,atletico_madrid.png,9,Alexander Srloth,Centre-Forward,"Dec 5, 1995 (29)",Norway,â‚¬25.00m,atletico_madrid_alexander_srloth.jpg,La Liga,Spania,3
+atletico_madrid_antoine_griezmann,atletico_madrid,Atletico Madrid,atletico_madrid.png,7,Antoine Griezmann,Centre-Forward,"Mar 21, 1991 (34)",France,â‚¬22.00m,atletico_madrid_antoine_griezmann.jpg,La Liga,Spania,5
+real_sociedad_alex_remiro,real_sociedad,Real Sociedad,real_sociedad.png,1,Alex Remiro,Goalkeeper,"Mar 24, 1995 (30)",Spain,â‚¬25.00m,real_sociedad_alex_remiro.jpg,La Liga,Spania,2
+real_sociedad_nayef_aguerd,real_sociedad,Real Sociedad,real_sociedad.png,21,Nayef Aguerd,Centre-Back,"Mar 30, 1996 (29)",Morocco,â‚¬25.00m,real_sociedad_nayef_aguerd.jpg,La Liga,Spania,2
+real_sociedad_igor_zubeldia,real_sociedad,Real Sociedad,real_sociedad.png,5,Igor Zubeldia,Centre-Back,"Mar 30, 1997 (28)",Spain,â‚¬18.00m,real_sociedad_igor_zubeldia.jpg,La Liga,Spania,2
+real_sociedad_jon_aramburu,real_sociedad,Real Sociedad,real_sociedad.png,19,Jon Aramburu,Right-Back,"Jul 23, 2002 (22)",Venezuela,â‚¬12.00m,real_sociedad_jon_aramburu.jpg,La Liga,Spania,1
+real_sociedad_alvaro_odriozola,real_sociedad,Real Sociedad,real_sociedad.png,2,Alvaro Odriozola,Right-Back,"Dec 14, 1995 (29)",Spain,â‚¬1.20m,real_sociedad_alvaro_odriozola.jpg,La Liga,Spania,1
+real_sociedad_martin_zubimendi,real_sociedad,Real Sociedad,real_sociedad.png,4,Martin Zubimendi,Defensive Midfield,"Feb 2, 1999 (26)",Spain,â‚¬60.00m,real_sociedad_martin_zubimendi.jpg,La Liga,Spania,4
+real_sociedad_luka_sucic,real_sociedad,Real Sociedad,real_sociedad.png,24,Luka Sucic,Central Midfield,"Sep 8, 2002 (22)",Croatia,â‚¬18.00m,real_sociedad_luka_sucic.png,La Liga,Spania,2
+real_sociedad_benat_turrientes,real_sociedad,Real Sociedad,real_sociedad.png,22,Benat Turrientes,Central Midfield,"Jan 31, 2002 (23)",Spain,â‚¬16.00m,real_sociedad_benat_turrientes.jpg,La Liga,Spania,2
+real_sociedad_brais_mendez,real_sociedad,Real Sociedad,real_sociedad.png,23,Brais Mendez,Attacking Midfield,"Jan 7, 1997 (28)",Spain,â‚¬28.00m,real_sociedad_brais_mendez.jpg,La Liga,Spania,2
+real_sociedad_arsen_zakharyan,real_sociedad,Real Sociedad,real_sociedad.png,8,Arsen Zakharyan,Attacking Midfield,"May 26, 2003 (21)",Russia,â‚¬15.00m,real_sociedad_arsen_zakharyan.jpg,La Liga,Spania,1
+real_sociedad_ander_barrenetxea,real_sociedad,Real Sociedad,real_sociedad.png,7,Ander Barrenetxea,Left Winger,"Dec 27, 2001 (23)",Spain,â‚¬18.00m,real_sociedad_ander_barrenetxea.jpg,La Liga,Spania,1
+real_sociedad_takefusa_kubo,real_sociedad,Real Sociedad,real_sociedad.png,14,Takefusa Kubo,Right Winger,"Jun 4, 2001 (23)",Japan,â‚¬40.00m,real_sociedad_takefusa_kubo.jpg,La Liga,Spania,3
+real_sociedad_sergio_gomez,real_sociedad,Real Sociedad,real_sociedad.png,17,Sergio Gomez,Right Winger,"Sep 4, 2000 (24)",Spain,â‚¬20.00m,real_sociedad_sergio_gomez.jpg,La Liga,Spania,2
+real_sociedad_mikel_oyarzabal,real_sociedad,Real Sociedad,real_sociedad.png,10,Mikel Oyarzabal,Centre-Forward,"Apr 21, 1997 (28)",Spain,â‚¬30.00m,real_sociedad_mikel_oyarzabal.jpg,La Liga,Spania,3
+real_sociedad_orri_oskarsson,real_sociedad,Real Sociedad,real_sociedad.png,9,Orri Oskarsson,Centre-Forward,"Aug 29, 2004 (20)",Iceland,â‚¬18.00m,real_sociedad_orri_oskarsson.jpg,La Liga,Spania,1
+athletic_bilbao_unai_simon,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,1,Unai Simon,Goalkeeper,"Jun 11, 1997 (27)",Spain,â‚¬28.00m,athletic_bilbao_unai_simon.png,La Liga,Spania,3
+athletic_bilbao_dani_vivian,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,3,Dani Vivian,Centre-Back,"Jul 5, 1999 (25)",Spain,â‚¬40.00m,athletic_bilbao_dani_vivian.png,La Liga,Spania,2
+athletic_bilbao_aitor_paredes,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,4,Aitor Paredes,Centre-Back,"Apr 29, 2000 (24)",Spain,â‚¬22.00m,athletic_bilbao_aitor_paredes.png,La Liga,Spania,1
+athletic_bilbao_mikel_jauregizar,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,23,Mikel Jauregizar,Central Midfield,"Nov 13, 2003 (21)",Spain,â‚¬20.00m,athletic_bilbao_mikel_jauregizar.png,La Liga,Spania,1
+athletic_bilbao_benat_prados,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,24,Benat Prados,Central Midfield,"Feb 8, 2001 (24)",Spain,â‚¬18.00m,athletic_bilbao_benat_prados.png,La Liga,Spania,1
+athletic_bilbao_nico_williams,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,10,Nico Williams,Left Winger,"Jul 12, 2002 (22)",Spain,â‚¬70.00m,athletic_bilbao_nico_williams.png,La Liga,Spania,4
+athletic_bilbao_inaki_williams,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,9,Inaki Williams,Right Winger,"Jun 15, 1994 (30)",Ghana,â‚¬20.00m,athletic_bilbao_inaki_williams.png,La Liga,Spania,2
+villareal_diego_conde,villareal,Villareal,villareal.png,13,Diego Conde,Goalkeeper,"Oct 28, 1998 (26)",Spain,â‚¬10.00m,villareal_diego_conde.jpg,La Liga,Spania,1
+villareal_logan_costa,villareal,Villareal,villareal.png,2,Logan Costa,Centre-Back,"Apr 1, 2001 (24)",Cape Verde,â‚¬15.00m,villareal_logan_costa.jpg,La Liga,Spania,1
+villareal_juan_foyth,villareal,Villareal,villareal.png,8,Juan Foyth,Right-Back,"Jan 12, 1998 (27)",Argentina,â‚¬10.00m,villareal_juan_foyth.jpg,La Liga,Spania,2
+villareal_pape_gueye,villareal,Villareal,villareal.png,18,Pape Gueye,Defensive Midfield,"Jan 24, 1999 (26)",Senegal,â‚¬10.00m,villareal_pape_gueye.jpg,La Liga,Spania,1
+villareal_dani_parejo,villareal,Villareal,villareal.png,10,Dani Parejo,Central Midfield,"Apr 16, 1989 (36)",Spain,â‚¬2.00m,villareal_dani_parejo.jpg,La Liga,Spania,2
+villareal_denis_suarez,villareal,Villareal,villareal.png,6,Denis Suarez,Attacking Midfield,"Jan 6, 1994 (31)",Spain,â‚¬1.30m,villareal_denis_suarez.jpg,La Liga,Spania,2
+villareal_alex_baena,villareal,Villareal,villareal.png,16,Alex Baena,Left Winger,"Jul 20, 2001 (23)",Spain,â‚¬50.00m,villareal_alex_baena.jpg,La Liga,Spania,3
+villareal_yeremy_pino,villareal,Villareal,villareal.png,21,Yeremy Pino,Right Winger,"Oct 20, 2002 (22)",Spain,â‚¬30.00m,villareal_yeremy_pino.jpg,La Liga,Spania,3
+villareal_ilias_akhomach,villareal,Villareal,villareal.png,11,Ilias Akhomach,Right Winger,"Apr 16, 2004 (21)",Morocco,â‚¬15.00m,villareal_ilias_akhomach.jpg,La Liga,Spania,1
+villareal_nicolas_pepe,villareal,Villareal,villareal.png,19,Nicolas Pepe,Right Winger,"May 29, 1995 (29)",Cote d'Ivoire,â‚¬6.00m,villareal_nicolas_pepe.png,La Liga,Spania,3
+villareal_thierno_barry,villareal,Villareal,villareal.png,15,Thierno Barry,Centre-Forward,"Oct 21, 2002 (22)",France,â‚¬14.00m,villareal_thierno_barry.jpg,La Liga,Spania,1
+villareal_ayoze_perez,villareal,Villareal,villareal.png,22,Ayoze Perez,Centre-Forward,"Jul 29, 1993 (31)",Spain,â‚¬10.00m,villareal_ayoze_perez.jpg,La Liga,Spania,1
+villareal_gerard_moreno,villareal,Villareal,villareal.png,7,Gerard Moreno,Centre-Forward,"Apr 7, 1992 (33)",Spain,â‚¬5.00m,villareal_gerard_moreno.jpg,La Liga,Spania,1
+valencia_giorgi_mamardashvili,valencia,Valencia,valencia.png,25,Giorgi Mamardashvili,Goalkeeper,"Sep 29, 2000 (24)",Georgia,â‚¬30.00m,valencia_giorgi_mamardashvili.jpg,La Liga,Spania,3
+valencia_cristhian_mosquera,valencia,Valencia,valencia.png,3,Cristhian Mosquera,Centre-Back,"Jun 27, 2004 (20)",Spain,â‚¬30.00m,valencia_cristhian_mosquera.jpg,La Liga,Spania,2
+valencia_yarek_gasiorowski,valencia,Valencia,valencia.png,24,Yarek Gasiorowski,Centre-Back,"Jan 12, 2005 (20)",Spain,â‚¬12.00m,valencia_yarek_gasiorowski.jpg,La Liga,Spania,1
+valencia_jose_gaya,valencia,Valencia,valencia.png,14,Jose Gaya,Left-Back,"May 25, 1995 (29)",Spain,â‚¬15.00m,valencia_jose_gaya.jpg,La Liga,Spania,1
+valencia_max_aarons,valencia,Valencia,valencia.png,19,Max Aarons,Right-Back,"Jan 4, 2000 (25)",England,â‚¬12.00m,valencia_max_aarons.jpg,La Liga,Spania,1
+valencia_pepelu,valencia,Valencia,valencia.png,18,Pepelu,Defensive Midfield,"Aug 11, 1998 (26)",Spain,â‚¬12.00m,valencia_pepelu.jpg,La Liga,Spania,1
+valencia_javi_guerra,valencia,Valencia,valencia.png,8,Javi Guerra,Central Midfield,"May 13, 2003 (21)",Spain,â‚¬20.00m,valencia_javi_guerra.jpg,La Liga,Spania,2
+valencia_diego_lopez,valencia,Valencia,valencia.png,16,Diego Lopez,Right Winger,"May 13, 2002 (22)",Spain,â‚¬10.00m,valencia_diego_lopez.jpg,La Liga,Spania,1
+valencia_hugo_duro,valencia,Valencia,valencia.png,9,Hugo Duro,Centre-Forward,"Nov 10, 1999 (25)",Spain,â‚¬10.00m,valencia_hugo_duro.jpg,La Liga,Spania,1
+rayo_vallecano_andrei_ratiu,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,2,Andrei Ratiu,Right-Back,"Jun 20, 1998 (26)",Romania,â‚¬12.00m,rayo_vallecano_andrei_ratiu.jpg,La Liga,Spania,5
