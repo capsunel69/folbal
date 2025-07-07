@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import unicodedata
 import os
+import argparse
 
 def clean_text(text):
     # Remove special characters and normalize unicode
@@ -147,44 +148,105 @@ def scrape_team_squad(url, team_name, league_dir):
     return players_data
 
 def main():
+    # Set up command line argument parsing
+    parser = argparse.ArgumentParser(description='Scrape football league data from Transfermarkt')
+    parser.add_argument('--league', '-l', type=str, help='Specify which league to scrape (e.g., "Premier League", "La Liga")')
+    parser.add_argument('--list-leagues', action='store_true', help='List all available leagues and exit')
+    args = parser.parse_args()
+    
     # Read the leagues.csv file
     leagues_df = pd.read_csv('leagues.csv')
     
+    # If --list-leagues flag is used, show available leagues and exit
+    if args.list_leagues:
+        print("Available leagues:")
+        for league in leagues_df['Liga'].unique():
+            print(f"  - {league}")
+        return
+    
+    # Determine which leagues to process
+    if args.league:
+        # Check if the specified league exists
+        available_leagues = leagues_df['Liga'].unique()
+        if args.league not in available_leagues:
+            print(f"Error: League '{args.league}' not found.")
+            print("Available leagues:")
+            for league in available_leagues:
+                print(f"  - {league}")
+            return
+        leagues_to_process = [args.league]
+        print(f"Processing specified league: {args.league}")
+    else:
+        leagues_to_process = leagues_df['Liga'].unique()
+        print("No specific league specified. Processing all leagues...")
+    
     # Process each league
-    for league in leagues_df['Liga'].unique():
+    for league in leagues_to_process:
         print(f"\nProcessing {league}...")
         
         # Create league directory
         league_dir = create_league_folders(league)
         
+        # Check if CSV file already exists and load existing data
+        output_file = os.path.join(league_dir, f'{clean_text(league).lower().replace(" ", "_")}_players.csv')
+        existing_teams = set()
+        existing_data = []
+        
+        if os.path.exists(output_file):
+            try:
+                existing_df = pd.read_csv(output_file, encoding='utf-8-sig')
+                existing_teams = set(existing_df['Team'].unique()) if 'Team' in existing_df.columns else set()
+                existing_data = existing_df.to_dict('records')
+                print(f"Found existing CSV with {len(existing_teams)} teams: {', '.join(sorted(existing_teams))}")
+            except Exception as e:
+                print(f"Warning: Could not read existing CSV file: {e}")
+                existing_teams = set()
+                existing_data = []
+        
         # Get teams for this league
         league_teams = leagues_df[leagues_df['Liga'] == league]
         
-        # List to store all players from current league
-        league_players_data = []
+        # List to store all new players from current league
+        new_players_data = []
         
         # Scrape data for each team in the league
         for _, row in league_teams.iterrows():
-            print(f"\nScraping data for {row['Echipa']}...")
-            team_data = scrape_team_squad(row['Link'], row['Echipa'], league_dir)
+            team_name = row['Echipa']
             
-            # Add league and country information to each player
-            for player in team_data:
-                player['League'] = league
-                player['Country'] = row['Tara']
+            # Check if team data already exists
+            if team_name in existing_teams:
+                print(f"⏭️  Skipping {team_name} - data already exists in CSV")
+                continue
+                
+            print(f"\n🔄 Scraping data for {team_name}...")
+            team_data = scrape_team_squad(row['Link'], team_name, league_dir)
             
-            league_players_data.extend(team_data)
+            if team_data:
+                # Add league and country information to each player
+                for player in team_data:
+                    player['League'] = league
+                    player['Country'] = row['Tara']
+                
+                new_players_data.extend(team_data)
+                print(f"✅ Successfully scraped {len(team_data)} players from {team_name}")
+            else:
+                print(f"❌ No data found for {team_name}")
         
-        # Create DataFrame with all players in the league
-        if league_players_data:
-            league_players_df = pd.DataFrame(league_players_data)
+        # Combine existing data with new data and save
+        if new_players_data or existing_data:
+            all_players_data = existing_data + new_players_data
+            combined_df = pd.DataFrame(all_players_data)
             
             # Save to CSV file with UTF-8 encoding
-            output_file = os.path.join(league_dir, f'{clean_text(league).lower().replace(" ", "_")}_players.csv')
-            league_players_df.to_csv(output_file, index=False, encoding='utf-8-sig')
-            print(f"\nData has been saved to '{output_file}'")
+            combined_df.to_csv(output_file, index=False, encoding='utf-8-sig')
+            
+            if new_players_data:
+                print(f"\n✅ Added {len(new_players_data)} new players to '{output_file}'")
+                print(f"📊 Total players in league: {len(all_players_data)}")
+            else:
+                print(f"\n📋 No new data to add - all teams already exist in '{output_file}'")
         else:
-            print(f"\nNo data was collected for {league}")
+            print(f"\n❌ No data was collected for {league}")
 
 if __name__ == "__main__":
     main()
