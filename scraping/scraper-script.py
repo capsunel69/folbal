@@ -4,11 +4,49 @@ import pandas as pd
 import unicodedata
 import os
 import argparse
+import time
+import random
 
 def clean_text(text):
     # Remove special characters and normalize unicode
     cleaned = unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('utf-8')
     return cleaned
+
+def download_with_retry(url, headers, max_retries=3, base_delay=1):
+    """
+    Download content with retry logic and exponential backoff
+    """
+    for attempt in range(max_retries):
+        try:
+            # Add a random delay between requests to avoid rate limiting
+            if attempt > 0:
+                delay = base_delay * (2 ** attempt) + random.uniform(0, 1)
+                print(f"  Retry {attempt + 1}/{max_retries} after {delay:.1f}s delay...")
+                time.sleep(delay)
+            else:
+                # Even on first attempt, add a small delay
+                time.sleep(random.uniform(0.5, 1.5))
+            
+            response = requests.get(url, headers=headers, timeout=10)
+            
+            if response.status_code == 200:
+                return response
+            elif response.status_code in [502, 503, 429]:  # Bad Gateway, Service Unavailable, Too Many Requests
+                if attempt < max_retries - 1:
+                    continue
+                else:
+                    return response
+            else:
+                return response
+                
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                print(f"  Request failed: {e}, retrying...")
+                continue
+            else:
+                raise
+    
+    return None
 
 def create_league_folders(league_name):
     # Create main league directory
@@ -24,11 +62,20 @@ def create_league_folders(league_name):
 def scrape_team_squad(url, team_name, league_dir):
     # Headers to mimic browser request
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1'
     }
     
-    # Send request and get content
-    response = requests.get(url, headers=headers)
+    # Send request and get content with retry logic
+    response = download_with_retry(url, headers)
+    if not response or response.status_code != 200:
+        print(f"Failed to fetch page for {team_name}")
+        return []
+    
     soup = BeautifulSoup(response.content, 'html.parser')
     
     # Find and download team logo
@@ -50,13 +97,14 @@ def scrape_team_squad(url, team_name, league_dir):
             
             # Download logo if it doesn't exist
             if not os.path.exists(full_logo_path):
-                logo_response = requests.get(logo_url, headers=headers)
-                if logo_response.status_code == 200:
+                logo_response = download_with_retry(logo_url, headers)
+                if logo_response and logo_response.status_code == 200:
                     with open(full_logo_path, 'wb') as logo_file:
                         logo_file.write(logo_response.content)
                     print(f"Successfully downloaded logo for {team_name}")
                 else:
-                    print(f"Failed to download logo for {team_name}: HTTP {logo_response.status_code}")
+                    status = logo_response.status_code if logo_response else 'No response'
+                    print(f"Failed to download logo for {team_name}: HTTP {status}")
                     team_logo_path = ''
         except Exception as logo_error:
             print(f"Error downloading logo for {team_name}: {logo_error}")
@@ -104,13 +152,14 @@ def scrape_team_squad(url, team_name, league_dir):
                     
                     # Download image if it doesn't exist
                     if not os.path.exists(full_img_path):
-                        img_response = requests.get(player_img_url, headers=headers)
-                        if img_response.status_code == 200:
+                        img_response = download_with_retry(player_img_url, headers)
+                        if img_response and img_response.status_code == 200:
                             with open(full_img_path, 'wb') as img_file:
                                 img_file.write(img_response.content)
                             print(f"Successfully downloaded image for {name}")
                         else:
-                            print(f"Failed to download image for {name}: HTTP {img_response.status_code}")
+                            status = img_response.status_code if img_response else 'No response'
+                            print(f"Failed to download image for {name}: HTTP {status}")
                             img_path = ''
                 except Exception as img_error:
                     print(f"Error downloading image for {name}: {img_error}")
