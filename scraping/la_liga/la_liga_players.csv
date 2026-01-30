@@ -1,199 +1,200 @@
 ﻿PlayerID,TeamID,Team,TeamLogo,Number,Name,Position,Age,Nationality,Market Value,Image,League,Country
-real_madrid_thibaut_courtois,real_madrid,Real Madrid,real_madrid.png,1,Thibaut Courtois,Goalkeeper,"May 11, 1992 (32)",Belgium,€25.00m,real_madrid_thibaut_courtois.jpg,La Liga,Spania
-real_madrid_andriy_lunin,real_madrid,Real Madrid,real_madrid.png,13,Andriy Lunin,Goalkeeper,"Feb 11, 1999 (26)",Ukraine,€20.00m,real_madrid_andriy_lunin.jpg,La Liga,Spania
-real_madrid_fran_gonzalez,real_madrid,Real Madrid,real_madrid.png,26,Fran Gonzalez,Goalkeeper,"Jun 24, 2005 (19)",Spain,€400k,real_madrid_fran_gonzalez.jpg,La Liga,Spania
-real_madrid_eder_militao,real_madrid,Real Madrid,real_madrid.png,3,Eder Militao,Centre-Back,"Jan 18, 1998 (27)",Brazil,€40.00m,real_madrid_eder_militao.jpg,La Liga,Spania
-real_madrid_raul_asencio,real_madrid,Real Madrid,real_madrid.png,35,Raul Asencio,Centre-Back,"Feb 13, 2003 (22)",Spain,€30.00m,real_madrid_raul_asencio.jpg,La Liga,Spania
-real_madrid_antonio_rudiger,real_madrid,Real Madrid,real_madrid.png,22,Antonio Rudiger,Centre-Back,"Mar 3, 1993 (32)",Germany,€24.00m,real_madrid_antonio_rudiger.jpg,La Liga,Spania
-real_madrid_david_alaba,real_madrid,Real Madrid,real_madrid.png,4,David Alaba,Centre-Back,"Jun 24, 1992 (32)",Austria,€10.00m,real_madrid_david_alaba.jpeg,La Liga,Spania
-real_madrid_jesus_vallejo,real_madrid,Real Madrid,real_madrid.png,18,Jesus Vallejo,Centre-Back,"Jan 5, 1997 (28)",Spain,€1.00m,real_madrid_jesus_vallejo.jpg,La Liga,Spania
-real_madrid_ferland_mendy,real_madrid,Real Madrid,real_madrid.png,23,Ferland Mendy,Left-Back,"Jun 8, 1995 (29)",France,€18.00m,real_madrid_ferland_mendy.jpg,La Liga,Spania
-real_madrid_fran_garcia,real_madrid,Real Madrid,real_madrid.png,20,Fran Garcia,Left-Back,"Aug 14, 1999 (25)",Spain,€15.00m,real_madrid_fran_garcia.jpg,La Liga,Spania
-real_madrid_daniel_carvajal,real_madrid,Real Madrid,real_madrid.png,2,Daniel Carvajal,Right-Back,"Jan 11, 1992 (33)",Spain,€10.00m,real_madrid_daniel_carvajal.jpg,La Liga,Spania
-real_madrid_lucas_vazquez,real_madrid,Real Madrid,real_madrid.png,17,Lucas Vazquez,Right-Back,"Jul 1, 1991 (33)",Spain,€3.50m,real_madrid_lucas_vazquez.jpg,La Liga,Spania
-real_madrid_aurelien_tchouameni,real_madrid,Real Madrid,real_madrid.png,14,Aurelien Tchouameni,Defensive Midfield,"Jan 27, 2000 (25)",France,€80.00m,real_madrid_aurelien_tchouameni.jpg,La Liga,Spania
-real_madrid_federico_valverde,real_madrid,Real Madrid,real_madrid.png,8,Federico Valverde,Central Midfield,"Jul 22, 1998 (26)",Uruguay,€130.00m,real_madrid_federico_valverde.jpg,La Liga,Spania
-real_madrid_eduardo_camavinga,real_madrid,Real Madrid,real_madrid.png,6,Eduardo Camavinga,Central Midfield,"Nov 10, 2002 (22)",France,€70.00m,real_madrid_eduardo_camavinga.jpg,La Liga,Spania
-real_madrid_dani_ceballos,real_madrid,Real Madrid,real_madrid.png,19,Dani Ceballos,Central Midfield,"Aug 7, 1996 (28)",Spain,€10.00m,real_madrid_dani_ceballos.jpg,La Liga,Spania
-real_madrid_luka_modric,real_madrid,Real Madrid,real_madrid.png,10,Luka Modric,Central Midfield,"Sep 9, 1985 (39)",Croatia,€5.00m,real_madrid_luka_modric.jpg,La Liga,Spania
-real_madrid_jude_bellingham,real_madrid,Real Madrid,real_madrid.png,5,Jude Bellingham,Attacking Midfield,"Jun 29, 2003 (21)",England,€180.00m,real_madrid_jude_bellingham.jpg,La Liga,Spania
-real_madrid_vinicius_junior,real_madrid,Real Madrid,real_madrid.png,7,Vinicius Junior,Left Winger,"Jul 12, 2000 (24)",Brazil,€200.00m,real_madrid_vinicius_junior.jpg,La Liga,Spania
-real_madrid_rodrygo,real_madrid,Real Madrid,real_madrid.png,11,Rodrygo,Right Winger,"Jan 9, 2001 (24)",Brazil,€100.00m,real_madrid_rodrygo.jpg,La Liga,Spania
-real_madrid_arda_guler,real_madrid,Real Madrid,real_madrid.png,15,Arda Guler,Right Winger,"Feb 25, 2005 (20)",Türkiye,€45.00m,real_madrid_arda_guler.jpg,La Liga,Spania
-real_madrid_brahim_diaz,real_madrid,Real Madrid,real_madrid.png,21,Brahim Diaz,Right Winger,"Aug 3, 1999 (25)",Morocco,€45.00m,real_madrid_brahim_diaz.jpg,La Liga,Spania
-real_madrid_kylian_mbappe,real_madrid,Real Madrid,real_madrid.png,9,Kylian Mbappe,Centre-Forward,"Dec 20, 1998 (26)",France,€170.00m,real_madrid_kylian_mbappe.jpg,La Liga,Spania
-real_madrid_endrick,real_madrid,Real Madrid,real_madrid.png,16,Endrick,Centre-Forward,"Jul 21, 2006 (18)",Brazil,€40.00m,real_madrid_endrick.jpg,La Liga,Spania
-barcelona_marc-andre_ter_stegen,barcelona,Barcelona,barcelona.png,1,Marc-Andre ter Stegen,Goalkeeper,"Apr 30, 1992 (32)",Germany,€15.00m,barcelona_marc-andre_ter_stegen.jpg,La Liga,Spania
-barcelona_inaki_pena,barcelona,Barcelona,barcelona.png,13,Inaki Pena,Goalkeeper,"Mar 2, 1999 (26)",Spain,€10.00m,barcelona_inaki_pena.jpg,La Liga,Spania
-barcelona_wojciech_szczesny,barcelona,Barcelona,barcelona.png,25,Wojciech Szczesny,Goalkeeper,"Apr 18, 1990 (35)",Poland,€1.00m,barcelona_wojciech_szczesny.jpg,La Liga,Spania
-barcelona_pau_cubarsi,barcelona,Barcelona,barcelona.png,2,Pau Cubarsi,Centre-Back,"Jan 22, 2007 (18)",Spain,€70.00m,barcelona_pau_cubarsi.jpg,La Liga,Spania
-barcelona_ronald_araujo,barcelona,Barcelona,barcelona.png,4,Ronald Araujo,Centre-Back,"Mar 7, 1999 (26)",Uruguay,€50.00m,barcelona_ronald_araujo.jpg,La Liga,Spania
-barcelona_andreas_christensen,barcelona,Barcelona,barcelona.png,15,Andreas Christensen,Centre-Back,"Apr 10, 1996 (29)",Denmark,€15.00m,barcelona_andreas_christensen.jpg,La Liga,Spania
-barcelona_eric_garcia,barcelona,Barcelona,barcelona.png,24,Eric Garcia,Centre-Back,"Jan 9, 2001 (24)",Spain,€15.00m,barcelona_eric_garcia.jpg,La Liga,Spania
-barcelona_inigo_martinez,barcelona,Barcelona,barcelona.png,5,Inigo Martinez,Centre-Back,"May 17, 1991 (33)",Spain,€5.00m,barcelona_inigo_martinez.jpg,La Liga,Spania
-barcelona_alejandro_balde,barcelona,Barcelona,barcelona.png,3,Alejandro Balde,Left-Back,"Oct 18, 2003 (21)",Spain,€60.00m,barcelona_alejandro_balde.jpg,La Liga,Spania
-barcelona_gerard_martin,barcelona,Barcelona,barcelona.png,35,Gerard Martin,Left-Back,"Feb 26, 2002 (23)",Spain,€7.50m,barcelona_gerard_martin.jpg,La Liga,Spania
-barcelona_jules_kounde,barcelona,Barcelona,barcelona.png,23,Jules Kounde,Right-Back,"Nov 12, 1998 (26)",France,€60.00m,barcelona_jules_kounde.jpg,La Liga,Spania
-barcelona_hector_fort,barcelona,Barcelona,barcelona.png,32,Hector Fort,Right-Back,"Aug 2, 2006 (18)",Spain,€10.00m,barcelona_hector_fort.jpg,La Liga,Spania
-barcelona_marc_casado,barcelona,Barcelona,barcelona.png,17,Marc Casado,Defensive Midfield,"Sep 14, 2003 (21)",Spain,€30.00m,barcelona_marc_casado.jpg,La Liga,Spania
-barcelona_marc_bernal,barcelona,Barcelona,barcelona.png,28,Marc Bernal,Defensive Midfield,"May 26, 2007 (17)",Spain,€5.00m,barcelona_marc_bernal.jpg,La Liga,Spania
-barcelona_pedri,barcelona,Barcelona,barcelona.png,8,Pedri,Central Midfield,"Nov 25, 2002 (22)",Spain,€120.00m,barcelona_pedri.jpg,La Liga,Spania
-barcelona_gavi,barcelona,Barcelona,barcelona.png,6,Gavi,Central Midfield,"Aug 5, 2004 (20)",Spain,€70.00m,barcelona_gavi.jpg,La Liga,Spania
-barcelona_frenkie_de_jong,barcelona,Barcelona,barcelona.png,21,Frenkie de Jong,Central Midfield,"May 12, 1997 (27)",Netherlands,€45.00m,barcelona_frenkie_de_jong.png,La Liga,Spania
-barcelona_dani_olmo,barcelona,Barcelona,barcelona.png,20,Dani Olmo,Attacking Midfield,"May 7, 1998 (26)",Spain,€60.00m,barcelona_dani_olmo.jpg,La Liga,Spania
-barcelona_fermin_lopez,barcelona,Barcelona,barcelona.png,16,Fermin Lopez,Attacking Midfield,"May 11, 2003 (21)",Spain,€50.00m,barcelona_fermin_lopez.jpg,La Liga,Spania
-barcelona_pablo_torre,barcelona,Barcelona,barcelona.png,14,Pablo Torre,Attacking Midfield,"Apr 3, 2003 (22)",Spain,€7.50m,barcelona_pablo_torre.jpg,La Liga,Spania
-barcelona_raphinha,barcelona,Barcelona,barcelona.png,11,Raphinha,Left Winger,"Dec 14, 1996 (28)",Brazil,€80.00m,barcelona_raphinha.png,La Liga,Spania
-barcelona_ansu_fati,barcelona,Barcelona,barcelona.png,10,Ansu Fati,Left Winger,"Oct 31, 2002 (22)",Spain,€5.00m,barcelona_ansu_fati.jpg,La Liga,Spania
-barcelona_lamine_yamal,barcelona,Barcelona,barcelona.png,19,Lamine Yamal,Right Winger,"Jul 13, 2007 (17)",Spain,€180.00m,barcelona_lamine_yamal.jpg,La Liga,Spania
-barcelona_ferran_torres,barcelona,Barcelona,barcelona.png,7,Ferran Torres,Right Winger,"Feb 29, 2000 (25)",Spain,€28.00m,barcelona_ferran_torres.jpg,La Liga,Spania
-barcelona_robert_lewandowski,barcelona,Barcelona,barcelona.png,9,Robert Lewandowski,Centre-Forward,"Aug 21, 1988 (36)",Poland,€15.00m,barcelona_robert_lewandowski.jpg,La Liga,Spania
-barcelona_pau_victor,barcelona,Barcelona,barcelona.png,18,Pau Victor,Centre-Forward,"Nov 26, 2001 (23)",Spain,€5.00m,barcelona_pau_victor.jpg,La Liga,Spania
-atletico_madrid_jan_oblak,atletico_madrid,Atletico Madrid,atletico_madrid.png,13,Jan Oblak,Goalkeeper,"Jan 7, 1993 (32)",Slovenia,€25.00m,atletico_madrid_jan_oblak.jpg,La Liga,Spania
-atletico_madrid_juan_musso,atletico_madrid,Atletico Madrid,atletico_madrid.png,1,Juan Musso,Goalkeeper,"May 6, 1994 (30)",Argentina,€4.00m,atletico_madrid_juan_musso.jpg,La Liga,Spania
-atletico_madrid_robin_le_normand,atletico_madrid,Atletico Madrid,atletico_madrid.png,24,Robin Le Normand,Centre-Back,"Nov 11, 1996 (28)",Spain,€40.00m,atletico_madrid_robin_le_normand.jpg,La Liga,Spania
-atletico_madrid_jose_maria_gimenez,atletico_madrid,Atletico Madrid,atletico_madrid.png,2,Jose Maria Gimenez,Centre-Back,"Jan 20, 1995 (30)",Uruguay,€20.00m,atletico_madrid_jose_maria_gimenez.jpg,La Liga,Spania
-atletico_madrid_clement_lenglet,atletico_madrid,Atletico Madrid,atletico_madrid.png,15,Clement Lenglet,Centre-Back,"Jun 17, 1995 (29)",France,€7.50m,atletico_madrid_clement_lenglet.jpg,La Liga,Spania
-atletico_madrid_axel_witsel,atletico_madrid,Atletico Madrid,atletico_madrid.png,20,Axel Witsel,Centre-Back,"Jan 12, 1989 (36)",Belgium,€2.50m,atletico_madrid_axel_witsel.jpg,La Liga,Spania
-atletico_madrid_cesar_azpilicueta,atletico_madrid,Atletico Madrid,atletico_madrid.png,3,Cesar Azpilicueta,Centre-Back,"Aug 28, 1989 (35)",Spain,€1.80m,atletico_madrid_cesar_azpilicueta.jpg,La Liga,Spania
-atletico_madrid_reinildo_mandava,atletico_madrid,Atletico Madrid,atletico_madrid.png,23,Reinildo Mandava,Left-Back,"Jan 21, 1994 (31)",Mozambique,€8.00m,atletico_madrid_reinildo_mandava.jpg,La Liga,Spania
-atletico_madrid_javi_galan,atletico_madrid,Atletico Madrid,atletico_madrid.png,21,Javi Galan,Left-Back,"Nov 19, 1994 (30)",Spain,€4.00m,atletico_madrid_javi_galan.jpg,La Liga,Spania
-atletico_madrid_nahuel_molina,atletico_madrid,Atletico Madrid,atletico_madrid.png,16,Nahuel Molina,Right-Back,"Apr 6, 1998 (27)",Argentina,€25.00m,atletico_madrid_nahuel_molina.jpg,La Liga,Spania
-atletico_madrid_pablo_barrios,atletico_madrid,Atletico Madrid,atletico_madrid.png,8,Pablo Barrios,Central Midfield,"Jun 15, 2003 (21)",Spain,€50.00m,atletico_madrid_pablo_barrios.jpg,La Liga,Spania
-atletico_madrid_conor_gallagher,atletico_madrid,Atletico Madrid,atletico_madrid.png,4,Conor Gallagher,Central Midfield,"Feb 6, 2000 (25)",England,€40.00m,atletico_madrid_conor_gallagher.jpg,La Liga,Spania
-atletico_madrid_rodrigo_de_paul,atletico_madrid,Atletico Madrid,atletico_madrid.png,5,Rodrigo De Paul,Central Midfield,"May 24, 1994 (30)",Argentina,€25.00m,atletico_madrid_rodrigo_de_paul.jpg,La Liga,Spania
-atletico_madrid_koke,atletico_madrid,Atletico Madrid,atletico_madrid.png,6,Koke,Central Midfield,"Jan 8, 1992 (33)",Spain,€10.00m,atletico_madrid_koke.jpg,La Liga,Spania
-atletico_madrid_marcos_llorente,atletico_madrid,Atletico Madrid,atletico_madrid.png,14,Marcos Llorente,Right Midfield,"Jan 30, 1995 (30)",Spain,€28.00m,atletico_madrid_marcos_llorente.jpg,La Liga,Spania
-atletico_madrid_thomas_lemar,atletico_madrid,Atletico Madrid,atletico_madrid.png,11,Thomas Lemar,Attacking Midfield,"Nov 12, 1995 (29)",France,€5.00m,atletico_madrid_thomas_lemar.jpg,La Liga,Spania
-atletico_madrid_samuel_lino,atletico_madrid,Atletico Madrid,atletico_madrid.png,12,Samuel Lino,Left Winger,"Dec 23, 1999 (25)",Brazil,€25.00m,atletico_madrid_samuel_lino.jpg,La Liga,Spania
-atletico_madrid_rodrigo_riquelme,atletico_madrid,Atletico Madrid,atletico_madrid.png,17,Rodrigo Riquelme,Left Winger,"Apr 2, 2000 (25)",Spain,€18.00m,atletico_madrid_rodrigo_riquelme.jpg,La Liga,Spania
-atletico_madrid_giuliano_simeone,atletico_madrid,Atletico Madrid,atletico_madrid.png,22,Giuliano Simeone,Right Winger,"Dec 18, 2002 (22)",Argentina,€25.00m,atletico_madrid_giuliano_simeone.jpg,La Liga,Spania
-atletico_madrid_angel_correa,atletico_madrid,Atletico Madrid,atletico_madrid.png,10,Angel Correa,Right Winger,"Mar 9, 1995 (30)",Argentina,€15.00m,atletico_madrid_angel_correa.jpg,La Liga,Spania
-atletico_madrid_julian_alvarez,atletico_madrid,Atletico Madrid,atletico_madrid.png,19,Julian Alvarez,Centre-Forward,"Jan 31, 2000 (25)",Argentina,€90.00m,atletico_madrid_julian_alvarez.jpg,La Liga,Spania
-atletico_madrid_alexander_srloth,atletico_madrid,Atletico Madrid,atletico_madrid.png,9,Alexander Srloth,Centre-Forward,"Dec 5, 1995 (29)",Norway,€25.00m,atletico_madrid_alexander_srloth.jpg,La Liga,Spania
-atletico_madrid_antoine_griezmann,atletico_madrid,Atletico Madrid,atletico_madrid.png,7,Antoine Griezmann,Centre-Forward,"Mar 21, 1991 (34)",France,€22.00m,atletico_madrid_antoine_griezmann.jpg,La Liga,Spania
-real_sociedad_alex_remiro,real_sociedad,Real Sociedad,real_sociedad.png,1,Alex Remiro,Goalkeeper,"Mar 24, 1995 (30)",Spain,€25.00m,real_sociedad_alex_remiro.jpg,La Liga,Spania
-real_sociedad_unai_marrero,real_sociedad,Real Sociedad,real_sociedad.png,13,Unai Marrero,Goalkeeper,"Oct 9, 2001 (23)",Spain,€600k,real_sociedad_unai_marrero.jpg,La Liga,Spania
-real_sociedad_nayef_aguerd,real_sociedad,Real Sociedad,real_sociedad.png,21,Nayef Aguerd,Centre-Back,"Mar 30, 1996 (29)",Morocco,€25.00m,real_sociedad_nayef_aguerd.jpg,La Liga,Spania
-real_sociedad_igor_zubeldia,real_sociedad,Real Sociedad,real_sociedad.png,5,Igor Zubeldia,Centre-Back,"Mar 30, 1997 (28)",Spain,€18.00m,real_sociedad_igor_zubeldia.jpg,La Liga,Spania
-real_sociedad_jon_pacheco,real_sociedad,Real Sociedad,real_sociedad.png,20,Jon Pacheco,Centre-Back,"Jan 8, 2001 (24)",Spain,€7.50m,real_sociedad_jon_pacheco.jpg,La Liga,Spania
-real_sociedad_aritz_elustondo,real_sociedad,Real Sociedad,real_sociedad.png,6,Aritz Elustondo,Centre-Back,"Mar 28, 1994 (31)",Spain,€4.00m,real_sociedad_aritz_elustondo.jpg,La Liga,Spania
-real_sociedad_jon_martin,real_sociedad,Real Sociedad,real_sociedad.png,31,Jon Martin,Centre-Back,"Apr 23, 2006 (19)",Spain,€2.00m,real_sociedad_jon_martin.png,La Liga,Spania
-real_sociedad_javi_lopez,real_sociedad,Real Sociedad,real_sociedad.png,12,Javi Lopez,Left-Back,"Mar 25, 2002 (23)",Spain,€7.50m,real_sociedad_javi_lopez.jpg,La Liga,Spania
-real_sociedad_aihen_munoz,real_sociedad,Real Sociedad,real_sociedad.png,3,Aihen Munoz,Left-Back,"Aug 16, 1997 (27)",Spain,€5.00m,real_sociedad_aihen_munoz.jpg,La Liga,Spania
-real_sociedad_jon_aramburu,real_sociedad,Real Sociedad,real_sociedad.png,19,Jon Aramburu,Right-Back,"Jul 23, 2002 (22)",Venezuela,€12.00m,real_sociedad_jon_aramburu.jpg,La Liga,Spania
-real_sociedad_hamari_traore,real_sociedad,Real Sociedad,real_sociedad.png,18,Hamari Traore,Right-Back,"Jan 27, 1992 (33)",Mali,€3.00m,real_sociedad_hamari_traore.jpg,La Liga,Spania
-real_sociedad_alvaro_odriozola,real_sociedad,Real Sociedad,real_sociedad.png,2,Alvaro Odriozola,Right-Back,"Dec 14, 1995 (29)",Spain,€1.20m,real_sociedad_alvaro_odriozola.jpg,La Liga,Spania
-real_sociedad_martin_zubimendi,real_sociedad,Real Sociedad,real_sociedad.png,4,Martin Zubimendi,Defensive Midfield,"Feb 2, 1999 (26)",Spain,€60.00m,real_sociedad_martin_zubimendi.jpg,La Liga,Spania
-real_sociedad_luka_sucic,real_sociedad,Real Sociedad,real_sociedad.png,24,Luka Sucic,Central Midfield,"Sep 8, 2002 (22)",Croatia,€18.00m,real_sociedad_luka_sucic.png,La Liga,Spania
-real_sociedad_benat_turrientes,real_sociedad,Real Sociedad,real_sociedad.png,22,Benat Turrientes,Central Midfield,"Jan 31, 2002 (23)",Spain,€16.00m,real_sociedad_benat_turrientes.jpg,La Liga,Spania
-real_sociedad_jon_ander_olasagasti,real_sociedad,Real Sociedad,real_sociedad.png,16,Jon Ander Olasagasti,Central Midfield,"Aug 16, 2000 (24)",Spain,€2.50m,real_sociedad_jon_ander_olasagasti.jpg,La Liga,Spania
-real_sociedad_brais_mendez,real_sociedad,Real Sociedad,real_sociedad.png,23,Brais Mendez,Attacking Midfield,"Jan 7, 1997 (28)",Spain,€28.00m,real_sociedad_brais_mendez.jpg,La Liga,Spania
-real_sociedad_arsen_zakharyan,real_sociedad,Real Sociedad,real_sociedad.png,8,Arsen Zakharyan,Attacking Midfield,"May 26, 2003 (21)",Russia,€15.00m,real_sociedad_arsen_zakharyan.jpg,La Liga,Spania
-real_sociedad_pablo_marin,real_sociedad,Real Sociedad,real_sociedad.png,28,Pablo Marin,Attacking Midfield,"Jul 3, 2003 (21)",Spain,€3.00m,real_sociedad_pablo_marin.jpg,La Liga,Spania
-real_sociedad_ander_barrenetxea,real_sociedad,Real Sociedad,real_sociedad.png,7,Ander Barrenetxea,Left Winger,"Dec 27, 2001 (23)",Spain,€18.00m,real_sociedad_ander_barrenetxea.jpg,La Liga,Spania
-real_sociedad_sheraldo_becker,real_sociedad,Real Sociedad,real_sociedad.png,11,Sheraldo Becker,Left Winger,"Feb 9, 1995 (30)",Suriname,€4.00m,real_sociedad_sheraldo_becker.jpg,La Liga,Spania
-real_sociedad_arkaitz_mariezkurrena,real_sociedad,Real Sociedad,real_sociedad.png,40,Arkaitz Mariezkurrena,Left Winger,"Apr 5, 2005 (20)",Spain,€500k,real_sociedad_arkaitz_mariezkurrena.png,La Liga,Spania
-real_sociedad_takefusa_kubo,real_sociedad,Real Sociedad,real_sociedad.png,14,Takefusa Kubo,Right Winger,"Jun 4, 2001 (23)",Japan,€40.00m,real_sociedad_takefusa_kubo.jpg,La Liga,Spania
-real_sociedad_sergio_gomez,real_sociedad,Real Sociedad,real_sociedad.png,17,Sergio Gomez,Right Winger,"Sep 4, 2000 (24)",Spain,€20.00m,real_sociedad_sergio_gomez.jpg,La Liga,Spania
-real_sociedad_mikel_oyarzabal,real_sociedad,Real Sociedad,real_sociedad.png,10,Mikel Oyarzabal,Centre-Forward,"Apr 21, 1997 (28)",Spain,€30.00m,real_sociedad_mikel_oyarzabal.jpg,La Liga,Spania
-real_sociedad_orri_oskarsson,real_sociedad,Real Sociedad,real_sociedad.png,9,Orri Oskarsson,Centre-Forward,"Aug 29, 2004 (20)",Iceland,€18.00m,real_sociedad_orri_oskarsson.jpg,La Liga,Spania
-athletic_bilbao_unai_simon,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,1,Unai Simon,Goalkeeper,"Jun 11, 1997 (27)",Spain,€28.00m,athletic_bilbao_unai_simon.png,La Liga,Spania
-athletic_bilbao_julen_agirrezabala,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,13,Julen Agirrezabala,Goalkeeper,"Dec 26, 2000 (24)",Spain,€15.00m,athletic_bilbao_julen_agirrezabala.png,La Liga,Spania
-athletic_bilbao_dani_vivian,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,3,Dani Vivian,Centre-Back,"Jul 5, 1999 (25)",Spain,€40.00m,athletic_bilbao_dani_vivian.png,La Liga,Spania
-athletic_bilbao_aitor_paredes,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,4,Aitor Paredes,Centre-Back,"Apr 29, 2000 (24)",Spain,€22.00m,athletic_bilbao_aitor_paredes.png,La Liga,Spania
-athletic_bilbao_yeray_alvarez,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,5,Yeray Alvarez,Centre-Back,"Jan 24, 1995 (30)",Spain,€7.50m,athletic_bilbao_yeray_alvarez.png,La Liga,Spania
-athletic_bilbao_unai_nunez,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,14,Unai Nunez,Centre-Back,"Jan 30, 1997 (28)",Spain,€3.00m,athletic_bilbao_unai_nunez.jpg,La Liga,Spania
-athletic_bilbao_adama_boiro,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,32,Adama Boiro,Left-Back,"Jun 22, 2002 (22)",Spain,€2.50m,athletic_bilbao_adama_boiro.png,La Liga,Spania
-athletic_bilbao_yuri_berchiche,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,17,Yuri Berchiche,Left-Back,"Feb 10, 1990 (35)",Spain,€1.50m,athletic_bilbao_yuri_berchiche.png,La Liga,Spania
-athletic_bilbao_andoni_gorosabel,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,2,Andoni Gorosabel,Right-Back,"Aug 4, 1996 (28)",Spain,€5.00m,athletic_bilbao_andoni_gorosabel.jpeg,La Liga,Spania
-athletic_bilbao_inigo_lekue,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,15,Inigo Lekue,Right-Back,"May 4, 1993 (31)",Spain,€2.50m,athletic_bilbao_inigo_lekue.png,La Liga,Spania
-athletic_bilbao_oscar_de_marcos,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,18,Oscar de Marcos,Right-Back,"Apr 14, 1989 (36)",Spain,€1.50m,athletic_bilbao_oscar_de_marcos.png,La Liga,Spania
-athletic_bilbao_mikel_vesga,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,6,Mikel Vesga,Defensive Midfield,"Apr 8, 1993 (32)",Spain,€3.00m,athletic_bilbao_mikel_vesga.png,La Liga,Spania
-athletic_bilbao_mikel_jauregizar,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,23,Mikel Jauregizar,Central Midfield,"Nov 13, 2003 (21)",Spain,€20.00m,athletic_bilbao_mikel_jauregizar.png,La Liga,Spania
-athletic_bilbao_benat_prados,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,24,Benat Prados,Central Midfield,"Feb 8, 2001 (24)",Spain,€18.00m,athletic_bilbao_benat_prados.png,La Liga,Spania
-athletic_bilbao_inigo_ruiz_de_galarreta,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,16,Inigo Ruiz de Galarreta,Central Midfield,"Aug 6, 1993 (31)",Spain,€4.00m,athletic_bilbao_inigo_ruiz_de_galarreta.png,La Liga,Spania
-athletic_bilbao_oihan_sancet,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,8,Oihan Sancet,Attacking Midfield,"Apr 25, 2000 (25)",Spain,€60.00m,athletic_bilbao_oihan_sancet.png,La Liga,Spania
-athletic_bilbao_unai_gomez,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,20,Unai Gomez,Attacking Midfield,"May 25, 2003 (21)",Spain,€6.00m,athletic_bilbao_unai_gomez.png,La Liga,Spania
-athletic_bilbao_peio_canales,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,28,Peio Canales,Attacking Midfield,"Jan 17, 2005 (20)",Spain,€500k,athletic_bilbao_peio_canales.png,La Liga,Spania
-athletic_bilbao_nico_williams,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,10,Nico Williams,Left Winger,"Jul 12, 2002 (22)",Spain,€70.00m,athletic_bilbao_nico_williams.png,La Liga,Spania
-athletic_bilbao_alex_berenguer,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,7,Alex Berenguer,Left Winger,"Jul 4, 1995 (29)",Spain,€12.00m,athletic_bilbao_alex_berenguer.png,La Liga,Spania
-athletic_bilbao_alvaro_djalo,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,11,Alvaro Djalo,Left Winger,"Aug 16, 1999 (25)",Spain,€8.00m,athletic_bilbao_alvaro_djalo.jpg,La Liga,Spania
-athletic_bilbao_inaki_williams,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,9,Inaki Williams,Right Winger,"Jun 15, 1994 (30)",Ghana,€20.00m,athletic_bilbao_inaki_williams.png,La Liga,Spania
-athletic_bilbao_gorka_guruzeta,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,12,Gorka Guruzeta,Centre-Forward,"Sep 12, 1996 (28)",Spain,€12.00m,athletic_bilbao_gorka_guruzeta.png,La Liga,Spania
-athletic_bilbao_maroan_sannadi,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,21,Maroan Sannadi,Centre-Forward,"Feb 1, 2001 (24)",Spain,€5.00m,athletic_bilbao_maroan_sannadi.jpg,La Liga,Spania
-villareal_diego_conde,villareal,Villareal,villareal.png,13,Diego Conde,Goalkeeper,"Oct 28, 1998 (26)",Spain,€10.00m,villareal_diego_conde.jpg,La Liga,Spania
-villareal_luiz_junior,villareal,Villareal,villareal.png,1,Luiz Junior,Goalkeeper,"Jan 14, 2001 (24)",Brazil,€5.00m,villareal_luiz_junior.jpg,La Liga,Spania
-villareal_iker_alvarez,villareal,Villareal,villareal.png,31,Iker Alvarez,Goalkeeper,"Jul 25, 2001 (23)",Andorra,€800k,villareal_iker_alvarez.jpg,La Liga,Spania
-villareal_logan_costa,villareal,Villareal,villareal.png,2,Logan Costa,Centre-Back,"Apr 1, 2001 (24)",Cape Verde,€15.00m,villareal_logan_costa.jpg,La Liga,Spania
-villareal_willy_kambwala,villareal,Villareal,villareal.png,5,Willy Kambwala,Centre-Back,"Aug 25, 2004 (20)",France,€4.00m,villareal_willy_kambwala.jpg,La Liga,Spania
-villareal_eric_bailly,villareal,Villareal,villareal.png,4,Eric Bailly,Centre-Back,"Apr 12, 1994 (31)",Cote d'Ivoire,€2.50m,villareal_eric_bailly.png,La Liga,Spania
-villareal_raul_albiol,villareal,Villareal,villareal.png,3,Raul Albiol,Centre-Back,"Sep 4, 1985 (39)",Spain,€1.30m,villareal_raul_albiol.jpg,La Liga,Spania
-villareal_pau_navarro,villareal,Villareal,villareal.png,26,Pau Navarro,Centre-Back,"Apr 25, 2005 (20)",Spain,€1.00m,villareal_pau_navarro.jpg,La Liga,Spania
-villareal_sergi_cardona,villareal,Villareal,villareal.png,23,Sergi Cardona,Left-Back,"Jul 8, 1999 (25)",Spain,€8.00m,villareal_sergi_cardona.jpg,La Liga,Spania
-villareal_alfonso_pedraza,villareal,Villareal,villareal.png,24,Alfonso Pedraza,Left-Back,"Apr 9, 1996 (29)",Spain,€2.50m,villareal_alfonso_pedraza.jpg,La Liga,Spania
-villareal_juan_foyth,villareal,Villareal,villareal.png,8,Juan Foyth,Right-Back,"Jan 12, 1998 (27)",Argentina,€10.00m,villareal_juan_foyth.jpg,La Liga,Spania
-villareal_kiko_femenia,villareal,Villareal,villareal.png,17,Kiko Femenia,Right-Back,"Feb 2, 1991 (34)",Spain,€1.20m,villareal_kiko_femenia.jpg,La Liga,Spania
-villareal_pape_gueye,villareal,Villareal,villareal.png,18,Pape Gueye,Defensive Midfield,"Jan 24, 1999 (26)",Senegal,€10.00m,villareal_pape_gueye.jpg,La Liga,Spania
-villareal_santi_comesana,villareal,Villareal,villareal.png,14,Santi Comesana,Central Midfield,"Oct 5, 1996 (28)",Spain,€8.00m,villareal_santi_comesana.jpg,La Liga,Spania
-villareal_dani_parejo,villareal,Villareal,villareal.png,10,Dani Parejo,Central Midfield,"Apr 16, 1989 (36)",Spain,€2.00m,villareal_dani_parejo.jpg,La Liga,Spania
-villareal_denis_suarez,villareal,Villareal,villareal.png,6,Denis Suarez,Attacking Midfield,"Jan 6, 1994 (31)",Spain,€1.30m,villareal_denis_suarez.jpg,La Liga,Spania
-villareal_alex_baena,villareal,Villareal,villareal.png,16,Alex Baena,Left Winger,"Jul 20, 2001 (23)",Spain,€50.00m,villareal_alex_baena.jpg,La Liga,Spania
-villareal_yeremy_pino,villareal,Villareal,villareal.png,21,Yeremy Pino,Right Winger,"Oct 20, 2002 (22)",Spain,€30.00m,villareal_yeremy_pino.jpg,La Liga,Spania
-villareal_ilias_akhomach,villareal,Villareal,villareal.png,11,Ilias Akhomach,Right Winger,"Apr 16, 2004 (21)",Morocco,€15.00m,villareal_ilias_akhomach.jpg,La Liga,Spania
-villareal_tajon_buchanan,villareal,Villareal,villareal.png,9,Tajon Buchanan,Right Winger,"Feb 8, 1999 (26)",Canada,€6.00m,villareal_tajon_buchanan.jpg,La Liga,Spania
-villareal_nicolas_pepe,villareal,Villareal,villareal.png,19,Nicolas Pepe,Right Winger,"May 29, 1995 (29)",Cote d'Ivoire,€6.00m,villareal_nicolas_pepe.png,La Liga,Spania
-villareal_thierno_barry,villareal,Villareal,villareal.png,15,Thierno Barry,Centre-Forward,"Oct 21, 2002 (22)",France,€14.00m,villareal_thierno_barry.jpg,La Liga,Spania
-villareal_ayoze_perez,villareal,Villareal,villareal.png,22,Ayoze Perez,Centre-Forward,"Jul 29, 1993 (31)",Spain,€10.00m,villareal_ayoze_perez.jpg,La Liga,Spania
-villareal_gerard_moreno,villareal,Villareal,villareal.png,7,Gerard Moreno,Centre-Forward,"Apr 7, 1992 (33)",Spain,€5.00m,villareal_gerard_moreno.jpg,La Liga,Spania
-valencia_giorgi_mamardashvili,valencia,Valencia,valencia.png,25,Giorgi Mamardashvili,Goalkeeper,"Sep 29, 2000 (24)",Georgia,€30.00m,valencia_giorgi_mamardashvili.jpg,La Liga,Spania
-valencia_stole_dimitrievski,valencia,Valencia,valencia.png,13,Stole Dimitrievski,Goalkeeper,"Dec 25, 1993 (31)",North Macedonia,€3.00m,valencia_stole_dimitrievski.jpg,La Liga,Spania
-valencia_jaume_domenech,valencia,Valencia,valencia.png,1,Jaume Domenech,Goalkeeper,"Nov 5, 1990 (34)",Spain,€600k,valencia_jaume_domenech.jpg,La Liga,Spania
-valencia_cristhian_mosquera,valencia,Valencia,valencia.png,3,Cristhian Mosquera,Centre-Back,"Jun 27, 2004 (20)",Spain,€30.00m,valencia_cristhian_mosquera.jpg,La Liga,Spania
-valencia_yarek_gasiorowski,valencia,Valencia,valencia.png,24,Yarek Gasiorowski,Centre-Back,"Jan 12, 2005 (20)",Spain,€12.00m,valencia_yarek_gasiorowski.jpg,La Liga,Spania
-valencia_cesar_tarrega,valencia,Valencia,valencia.png,15,Cesar Tarrega,Centre-Back,"Feb 26, 2002 (23)",Spain,€6.00m,valencia_cesar_tarrega.jpg,La Liga,Spania
-valencia_mouctar_diakhaby,valencia,Valencia,valencia.png,4,Mouctar Diakhaby,Centre-Back,"Dec 19, 1996 (28)",Guinea,€2.00m,valencia_mouctar_diakhaby.jpg,La Liga,Spania
-valencia_jose_gaya,valencia,Valencia,valencia.png,14,Jose Gaya,Left-Back,"May 25, 1995 (29)",Spain,€15.00m,valencia_jose_gaya.jpg,La Liga,Spania
-valencia_jesus_vazquez,valencia,Valencia,valencia.png,21,Jesus Vazquez,Left-Back,"Jan 2, 2003 (22)",Spain,€3.00m,valencia_jesus_vazquez.jpg,La Liga,Spania
-valencia_max_aarons,valencia,Valencia,valencia.png,19,Max Aarons,Right-Back,"Jan 4, 2000 (25)",England,€12.00m,valencia_max_aarons.jpg,La Liga,Spania
-valencia_thierry_correia,valencia,Valencia,valencia.png,-,Thierry Correia,Right-Back,"Mar 9, 1999 (26)",Portugal,€6.00m,valencia_thierry_correia.jpg,La Liga,Spania
-valencia_dimitri_foulquier,valencia,Valencia,valencia.png,20,Dimitri Foulquier,Right-Back,"Mar 23, 1993 (32)",Guadeloupe,€2.00m,valencia_dimitri_foulquier.jpg,La Liga,Spania
-valencia_pepelu,valencia,Valencia,valencia.png,18,Pepelu,Defensive Midfield,"Aug 11, 1998 (26)",Spain,€12.00m,valencia_pepelu.jpg,La Liga,Spania
-valencia_enzo_barrenechea,valencia,Valencia,valencia.png,5,Enzo Barrenechea,Defensive Midfield,"May 22, 2001 (23)",Argentina,€7.50m,valencia_enzo_barrenechea.jpg,La Liga,Spania
-valencia_hugo_guillamon,valencia,Valencia,valencia.png,6,Hugo Guillamon,Defensive Midfield,"Jan 31, 2000 (25)",Spain,€5.00m,valencia_hugo_guillamon.jpg,La Liga,Spania
-valencia_javi_guerra,valencia,Valencia,valencia.png,8,Javi Guerra,Central Midfield,"May 13, 2003 (21)",Spain,€20.00m,valencia_javi_guerra.jpg,La Liga,Spania
-valencia_andre_almeida,valencia,Valencia,valencia.png,10,Andre Almeida,Attacking Midfield,"May 30, 2000 (24)",Portugal,€8.00m,valencia_andre_almeida.png,La Liga,Spania
-valencia_ivan_jaime,valencia,Valencia,valencia.png,17,Ivan Jaime,Attacking Midfield,"Sep 26, 2000 (24)",Spain,€7.00m,valencia_ivan_jaime.png,La Liga,Spania
-valencia_martin_tejon,valencia,Valencia,valencia.png,32,Martin Tejon,Attacking Midfield,"Apr 12, 2004 (21)",Spain,€500k,valencia_martin_tejon.jpg,La Liga,Spania
-valencia_luis_rioja,valencia,Valencia,valencia.png,22,Luis Rioja,Left Winger,"Oct 16, 1993 (31)",Spain,€2.00m,valencia_luis_rioja.jpg,La Liga,Spania
-valencia_sergi_canos,valencia,Valencia,valencia.png,7,Sergi Canos,Left Winger,"Feb 2, 1997 (28)",Spain,€1.50m,valencia_sergi_canos.jpg,La Liga,Spania
-valencia_diego_lopez,valencia,Valencia,valencia.png,16,Diego Lopez,Right Winger,"May 13, 2002 (22)",Spain,€10.00m,valencia_diego_lopez.jpg,La Liga,Spania
-valencia_fran_perez,valencia,Valencia,valencia.png,23,Fran Perez,Right Winger,"Sep 9, 2002 (22)",Spain,€4.00m,valencia_fran_perez.jpg,La Liga,Spania
-valencia_hugo_duro,valencia,Valencia,valencia.png,9,Hugo Duro,Centre-Forward,"Nov 10, 1999 (25)",Spain,€10.00m,valencia_hugo_duro.jpg,La Liga,Spania
-valencia_umar_sadiq,valencia,Valencia,valencia.png,12,Umar Sadiq,Centre-Forward,"Feb 2, 1997 (28)",Nigeria,€5.00m,valencia_umar_sadiq.jpg,La Liga,Spania
-valencia_rafa_mir,valencia,Valencia,valencia.png,11,Rafa Mir,Centre-Forward,"Jun 18, 1997 (27)",Spain,€800k,valencia_rafa_mir.jpg,La Liga,Spania
-rayo_vallecano_augusto_batalla,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,13,Augusto Batalla,Goalkeeper,"Apr 30, 1996 (28)",Argentina,€6.00m,rayo_vallecano_augusto_batalla.JPG,La Liga,Spania
-rayo_vallecano_dani_cardenas,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,1,Dani Cardenas,Goalkeeper,"Mar 28, 1997 (28)",Spain,€1.80m,rayo_vallecano_dani_cardenas.jpg,La Liga,Spania
-rayo_vallecano_abdul_mumin,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,16,Abdul Mumin,Centre-Back,"Jun 6, 1998 (26)",Ghana,€5.00m,rayo_vallecano_abdul_mumin.jpg,La Liga,Spania
-rayo_vallecano_florian_lejeune,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,24,Florian Lejeune,Centre-Back,"May 20, 1991 (33)",France,€2.80m,rayo_vallecano_florian_lejeune.jpg,La Liga,Spania
-rayo_vallecano_pelayo_fernandez,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,27,Pelayo Fernandez,Centre-Back,"Apr 29, 2003 (21)",Spain,€500k,rayo_vallecano_pelayo_fernandez.jpg,La Liga,Spania
-rayo_vallecano_aridane_hernandez,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,5,Aridane Hernandez,Centre-Back,"Mar 23, 1989 (36)",Spain,€400k,rayo_vallecano_aridane_hernandez.jpg,La Liga,Spania
-rayo_vallecano_pep_chavarria,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,3,Pep Chavarria,Left-Back,"Apr 10, 1998 (27)",Spain,€3.50m,rayo_vallecano_pep_chavarria.jpg,La Liga,Spania
-rayo_vallecano_alfonso_espino,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,22,Alfonso Espino,Left-Back,"Jan 5, 1992 (33)",Uruguay,€1.50m,rayo_vallecano_alfonso_espino.jpg,La Liga,Spania
-rayo_vallecano_andrei_ratiu,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,2,Andrei Ratiu,Right-Back,"Jun 20, 1998 (26)",Romania,€12.00m,rayo_vallecano_andrei_ratiu.jpg,La Liga,Spania
-rayo_vallecano_ivan_balliu,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,20,Ivan Balliu,Right-Back,"Jan 1, 1992 (33)",Albania,€1.50m,rayo_vallecano_ivan_balliu.jpg,La Liga,Spania
-rayo_vallecano_gerard_gumbau,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,15,Gerard Gumbau,Defensive Midfield,"Dec 18, 1994 (30)",Spain,€2.00m,rayo_vallecano_gerard_gumbau.jpg,La Liga,Spania
-rayo_vallecano_oscar_valentin,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,23,Oscar Valentin,Central Midfield,"Aug 20, 1994 (30)",Spain,€3.50m,rayo_vallecano_oscar_valentin.jpg,La Liga,Spania
-rayo_vallecano_unai_lopez,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,17,Unai Lopez,Central Midfield,"Oct 30, 1995 (29)",Spain,€2.80m,rayo_vallecano_unai_lopez.jpg,La Liga,Spania
-rayo_vallecano_pedro_diaz,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,4,Pedro Diaz,Central Midfield,"Jun 5, 1998 (26)",Spain,€2.50m,rayo_vallecano_pedro_diaz.jpg,La Liga,Spania
-rayo_vallecano_pathe_ciss,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,6,Pathe Ciss,Central Midfield,"Mar 16, 1994 (31)",Senegal,€2.00m,rayo_vallecano_pathe_ciss.jpg,La Liga,Spania
-rayo_vallecano_randy_nteka,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,11,Randy Nteka,Attacking Midfield,"Dec 6, 1997 (27)",Angola,€1.50m,rayo_vallecano_randy_nteka.jpg,La Liga,Spania
-rayo_vallecano_joni_montiel,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,25,Joni Montiel,Attacking Midfield,"Sep 3, 1998 (26)",Spain,€900k,rayo_vallecano_joni_montiel.jpg,La Liga,Spania
-rayo_vallecano_oscar_trejo,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,8,Oscar Trejo,Attacking Midfield,"Apr 26, 1988 (36)",Argentina,€800k,rayo_vallecano_oscar_trejo.jpg,La Liga,Spania
-rayo_vallecano_alvaro_garcia,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,18,Alvaro Garcia,Left Winger,"Oct 27, 1992 (32)",Spain,€2.50m,rayo_vallecano_alvaro_garcia.jpg,La Liga,Spania
-rayo_vallecano_jorge_de_frutos,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,19,Jorge de Frutos,Right Winger,"Feb 20, 1997 (28)",Spain,€4.00m,rayo_vallecano_jorge_de_frutos.jpg,La Liga,Spania
-rayo_vallecano_adrian_embarba,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,21,Adrian Embarba,Right Winger,"May 7, 1992 (32)",Spain,€1.50m,rayo_vallecano_adrian_embarba.jpg,La Liga,Spania
-rayo_vallecano_isi_palazon,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,7,Isi Palazon,Second Striker,"Dec 27, 1994 (30)",Spain,€4.00m,rayo_vallecano_isi_palazon.jpg,La Liga,Spania
-rayo_vallecano_sergio_camello,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,14,Sergio Camello,Centre-Forward,"Feb 10, 2001 (24)",Spain,€3.50m,rayo_vallecano_sergio_camello.jpg,La Liga,Spania
-rayo_vallecano_raul_de_tomas,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,9,Raul de Tomas,Centre-Forward,"Oct 17, 1994 (30)",Spain,€800k,rayo_vallecano_raul_de_tomas.jpg,La Liga,Spania
-rayo_vallecano_sergi_guardiola,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,12,Sergi Guardiola,Centre-Forward,"May 29, 1991 (33)",Spain,€600k,rayo_vallecano_sergi_guardiola.jpg,La Liga,Spania
+real_madrid_thibaut_courtois,real_madrid,Real Madrid,real_madrid.png,1,Thibaut Courtois,Goalkeeper,33,Belgium,€18.00m,real_madrid_thibaut_courtois.jpg,La Liga,Spania
+real_madrid_andriy_lunin,real_madrid,Real Madrid,real_madrid.png,13,Andriy Lunin,Goalkeeper,26,Ukraine,€15.00m,real_madrid_andriy_lunin.jpg,La Liga,Spania
+real_madrid_fran_gonzalez,real_madrid,Real Madrid,real_madrid.png,26,Fran Gonzalez,Goalkeeper,20,Spain,€1.00m,real_madrid_fran_gonzalez.jpg,La Liga,Spania
+real_madrid_dean_huijsen,real_madrid,Real Madrid,real_madrid.png,24,Dean Huijsen,Centre-Back,20,Spain,€70.00m,real_madrid_dean_huijsen.jpg,La Liga,Spania
+real_madrid_eder_militao,real_madrid,Real Madrid,real_madrid.png,3,Eder Militao,Centre-Back,28,Brazil,€30.00m,real_madrid_eder_militao.jpg,La Liga,Spania
+real_madrid_raul_asencio,real_madrid,Real Madrid,real_madrid.png,17,Raul Asencio,Centre-Back,22,Spain,€30.00m,real_madrid_raul_asencio.jpg,La Liga,Spania
+real_madrid_antonio_rudiger,real_madrid,Real Madrid,real_madrid.png,22,Antonio Rudiger,Centre-Back,32,Germany,€12.00m,real_madrid_antonio_rudiger.jpg,La Liga,Spania
+real_madrid_david_alaba,real_madrid,Real Madrid,real_madrid.png,4,David Alaba,Centre-Back,33,Austria,€4.00m,real_madrid_david_alaba.jpeg,La Liga,Spania
+real_madrid_alvaro_carreras,real_madrid,Real Madrid,real_madrid.png,18,Alvaro Carreras,Left-Back,22,Spain,€60.00m,real_madrid_alvaro_carreras.jpg,La Liga,Spania
+real_madrid_fran_garcia,real_madrid,Real Madrid,real_madrid.png,20,Fran Garcia,Left-Back,26,Spain,€15.00m,real_madrid_fran_garcia.jpg,La Liga,Spania
+real_madrid_ferland_mendy,real_madrid,Real Madrid,real_madrid.png,23,Ferland Mendy,Left-Back,30,France,€8.00m,real_madrid_ferland_mendy.jpg,La Liga,Spania
+real_madrid_trent_alexander-arnold,real_madrid,Real Madrid,real_madrid.png,12,Trent Alexander-Arnold,Right-Back,27,England,€70.00m,real_madrid_trent_alexander-arnold.jpg,La Liga,Spania
+real_madrid_daniel_carvajal,real_madrid,Real Madrid,real_madrid.png,2,Daniel Carvajal,Right-Back,34,Spain,€7.00m,real_madrid_daniel_carvajal.jpg,La Liga,Spania
+real_madrid_aurelien_tchouameni,real_madrid,Real Madrid,real_madrid.png,14,Aurelien Tchouameni,Defensive Midfield,26,France,€75.00m,real_madrid_aurelien_tchouameni.jpg,La Liga,Spania
+real_madrid_federico_valverde,real_madrid,Real Madrid,real_madrid.png,8,Federico Valverde,Central Midfield,27,Uruguay,€120.00m,real_madrid_federico_valverde.jpg,La Liga,Spania
+real_madrid_eduardo_camavinga,real_madrid,Real Madrid,real_madrid.png,6,Eduardo Camavinga,Central Midfield,23,France,€50.00m,real_madrid_eduardo_camavinga.jpg,La Liga,Spania
+real_madrid_dani_ceballos,real_madrid,Real Madrid,real_madrid.png,19,Dani Ceballos,Central Midfield,29,Spain,€8.00m,real_madrid_dani_ceballos.jpg,La Liga,Spania
+real_madrid_jude_bellingham,real_madrid,Real Madrid,real_madrid.png,5,Jude Bellingham,Attacking Midfield,22,England,€160.00m,real_madrid_jude_bellingham.jpg,La Liga,Spania
+real_madrid_arda_guler,real_madrid,Real Madrid,real_madrid.png,15,Arda Guler,Attacking Midfield,20,Türkiye,€90.00m,real_madrid_arda_guler.jpg,La Liga,Spania
+real_madrid_vinicius_junior,real_madrid,Real Madrid,real_madrid.png,7,Vinicius Junior,Left Winger,25,Brazil,€150.00m,real_madrid_vinicius_junior.jpg,La Liga,Spania
+real_madrid_rodrygo,real_madrid,Real Madrid,real_madrid.png,11,Rodrygo,Right Winger,25,Brazil,€60.00m,real_madrid_rodrygo.jpg,La Liga,Spania
+real_madrid_franco_mastantuono,real_madrid,Real Madrid,real_madrid.png,30,Franco Mastantuono,Right Winger,18,Argentina,€50.00m,real_madrid_franco_mastantuono.jpg,La Liga,Spania
+real_madrid_brahim_diaz,real_madrid,Real Madrid,real_madrid.png,21,Brahim Diaz,Right Winger,26,Morocco,€35.00m,real_madrid_brahim_diaz.jpg,La Liga,Spania
+real_madrid_kylian_mbappe,real_madrid,Real Madrid,real_madrid.png,10,Kylian Mbappe,Centre-Forward,27,France,€200.00m,real_madrid_kylian_mbappe.jpg,La Liga,Spania
+real_madrid_gonzalo_garcia,real_madrid,Real Madrid,real_madrid.png,16,Gonzalo Garcia,Centre-Forward,21,Spain,€15.00m,real_madrid_gonzalo_garcia.jpg,La Liga,Spania
+barcelona_joan_garcia,barcelona,Barcelona,barcelona.png,13,Joan Garcia,Goalkeeper,24,Spain,€30.00m,barcelona_joan_garcia.jpg,La Liga,Spania
+barcelona_wojciech_szczesny,barcelona,Barcelona,barcelona.png,25,Wojciech Szczesny,Goalkeeper,35,Poland,€900k,barcelona_wojciech_szczesny.jpg,La Liga,Spania
+barcelona_pau_cubarsi,barcelona,Barcelona,barcelona.png,5,Pau Cubarsi,Centre-Back,19,Spain,€80.00m,barcelona_pau_cubarsi.jpg,La Liga,Spania
+barcelona_eric_garcia,barcelona,Barcelona,barcelona.png,24,Eric Garcia,Centre-Back,25,Spain,€30.00m,barcelona_eric_garcia.jpg,La Liga,Spania
+barcelona_ronald_araujo,barcelona,Barcelona,barcelona.png,4,Ronald Araujo,Centre-Back,26,Uruguay,€25.00m,barcelona_ronald_araujo.jpg,La Liga,Spania
+barcelona_andreas_christensen,barcelona,Barcelona,barcelona.png,15,Andreas Christensen,Centre-Back,29,Denmark,€10.00m,barcelona_andreas_christensen.jpg,La Liga,Spania
+barcelona_alejandro_balde,barcelona,Barcelona,barcelona.png,3,Alejandro Balde,Left-Back,22,Spain,€60.00m,barcelona_alejandro_balde.jpg,La Liga,Spania
+barcelona_gerard_martin,barcelona,Barcelona,barcelona.png,18,Gerard Martin,Left-Back,23,Spain,€20.00m,barcelona_gerard_martin.jpg,La Liga,Spania
+barcelona_jules_kounde,barcelona,Barcelona,barcelona.png,23,Jules Kounde,Right-Back,27,France,€65.00m,barcelona_jules_kounde.jpg,La Liga,Spania
+barcelona_joao_cancelo,barcelona,Barcelona,barcelona.png,2,Joao Cancelo,Right-Back,31,Portugal,€10.00m,barcelona_joao_cancelo.jpg,La Liga,Spania
+barcelona_marc_casado,barcelona,Barcelona,barcelona.png,17,Marc Casado,Defensive Midfield,22,Spain,€25.00m,barcelona_marc_casado.jpg,La Liga,Spania
+barcelona_marc_bernal,barcelona,Barcelona,barcelona.png,22,Marc Bernal,Defensive Midfield,18,Spain,€10.00m,barcelona_marc_bernal.jpg,La Liga,Spania
+barcelona_pedri,barcelona,Barcelona,barcelona.png,8,Pedri,Central Midfield,23,Spain,€140.00m,barcelona_pedri.jpg,La Liga,Spania
+barcelona_frenkie_de_jong,barcelona,Barcelona,barcelona.png,21,Frenkie de Jong,Central Midfield,28,Netherlands,€45.00m,barcelona_frenkie_de_jong.jpg,La Liga,Spania
+barcelona_gavi,barcelona,Barcelona,barcelona.png,6,Gavi,Central Midfield,21,Spain,€40.00m,barcelona_gavi.jpg,La Liga,Spania
+barcelona_fermin_lopez,barcelona,Barcelona,barcelona.png,16,Fermin Lopez,Attacking Midfield,22,Spain,€70.00m,barcelona_fermin_lopez.jpg,La Liga,Spania
+barcelona_dani_olmo,barcelona,Barcelona,barcelona.png,20,Dani Olmo,Attacking Midfield,27,Spain,€60.00m,barcelona_dani_olmo.jpg,La Liga,Spania
+barcelona_raphinha,barcelona,Barcelona,barcelona.png,11,Raphinha,Left Winger,29,Brazil,€80.00m,barcelona_raphinha.png,La Liga,Spania
+barcelona_marcus_rashford,barcelona,Barcelona,barcelona.png,14,Marcus Rashford,Left Winger,28,England,€40.00m,barcelona_marcus_rashford.jpg,La Liga,Spania
+barcelona_lamine_yamal,barcelona,Barcelona,barcelona.png,10,Lamine Yamal,Right Winger,18,Spain,€200.00m,barcelona_lamine_yamal.jpg,La Liga,Spania
+barcelona_roony_bardghji,barcelona,Barcelona,barcelona.png,19,Roony Bardghji,Right Winger,20,Sweden,€10.00m,barcelona_roony_bardghji.jpg,La Liga,Spania
+barcelona_ferran_torres,barcelona,Barcelona,barcelona.png,7,Ferran Torres,Centre-Forward,25,Spain,€50.00m,barcelona_ferran_torres.jpg,La Liga,Spania
+barcelona_robert_lewandowski,barcelona,Barcelona,barcelona.png,9,Robert Lewandowski,Centre-Forward,37,Poland,€9.00m,barcelona_robert_lewandowski.jpg,La Liga,Spania
+atletico_madrid_jan_oblak,atletico_madrid,Atletico Madrid,atletico_madrid.png,13,Jan Oblak,Goalkeeper,33,Slovenia,€17.00m,atletico_madrid_jan_oblak.jpg,La Liga,Spania
+atletico_madrid_juan_musso,atletico_madrid,Atletico Madrid,atletico_madrid.png,1,Juan Musso,Goalkeeper,31,Argentina,€3.00m,atletico_madrid_juan_musso.jpg,La Liga,Spania
+atletico_madrid_david_hancko,atletico_madrid,Atletico Madrid,atletico_madrid.png,17,David Hancko,Centre-Back,28,Slovakia,€30.00m,atletico_madrid_david_hancko.jpg,La Liga,Spania
+atletico_madrid_robin_le_normand,atletico_madrid,Atletico Madrid,atletico_madrid.png,24,Robin Le Normand,Centre-Back,29,Spain,€30.00m,atletico_madrid_robin_le_normand.jpg,La Liga,Spania
+atletico_madrid_marc_pubill,atletico_madrid,Atletico Madrid,atletico_madrid.png,18,Marc Pubill,Centre-Back,22,Spain,€15.00m,atletico_madrid_marc_pubill.jpg,La Liga,Spania
+atletico_madrid_jose_maria_gimenez,atletico_madrid,Atletico Madrid,atletico_madrid.png,2,Jose Maria Gimenez,Centre-Back,31,Uruguay,€14.00m,atletico_madrid_jose_maria_gimenez.jpg,La Liga,Spania
+atletico_madrid_clement_lenglet,atletico_madrid,Atletico Madrid,atletico_madrid.png,15,Clement Lenglet,Centre-Back,30,France,€6.00m,atletico_madrid_clement_lenglet.jpg,La Liga,Spania
+atletico_madrid_matteo_ruggeri,atletico_madrid,Atletico Madrid,atletico_madrid.png,3,Matteo Ruggeri,Left-Back,23,Italy,€15.00m,atletico_madrid_matteo_ruggeri.jpg,La Liga,Spania
+atletico_madrid_marcos_llorente,atletico_madrid,Atletico Madrid,atletico_madrid.png,14,Marcos Llorente,Right-Back,30,Spain,€22.00m,atletico_madrid_marcos_llorente.jpg,La Liga,Spania
+atletico_madrid_nahuel_molina,atletico_madrid,Atletico Madrid,atletico_madrid.png,16,Nahuel Molina,Right-Back,27,Argentina,€15.00m,atletico_madrid_nahuel_molina.jpg,La Liga,Spania
+atletico_madrid_johnny_cardoso,atletico_madrid,Atletico Madrid,atletico_madrid.png,5,Johnny Cardoso,Defensive Midfield,24,United States,€22.00m,atletico_madrid_johnny_cardoso.jpg,La Liga,Spania
+atletico_madrid_pablo_barrios,atletico_madrid,Atletico Madrid,atletico_madrid.png,8,Pablo Barrios,Central Midfield,22,Spain,€60.00m,atletico_madrid_pablo_barrios.jpg,La Liga,Spania
+atletico_madrid_koke,atletico_madrid,Atletico Madrid,atletico_madrid.png,6,Koke,Central Midfield,34,Spain,€7.00m,atletico_madrid_koke.jpg,La Liga,Spania
+atletico_madrid_alex_baena,atletico_madrid,Atletico Madrid,atletico_madrid.png,10,Alex Baena,Left Winger,24,Spain,€55.00m,atletico_madrid_alex_baena.jpg,La Liga,Spania
+atletico_madrid_nico_gonzalez,atletico_madrid,Atletico Madrid,atletico_madrid.png,23,Nico Gonzalez,Left Winger,27,Argentina,€24.00m,atletico_madrid_nico_gonzalez.jpg,La Liga,Spania
+atletico_madrid_thiago_almada,atletico_madrid,Atletico Madrid,atletico_madrid.png,11,Thiago Almada,Left Winger,24,Argentina,€20.00m,atletico_madrid_thiago_almada.jpg,La Liga,Spania
+atletico_madrid_giuliano_simeone,atletico_madrid,Atletico Madrid,atletico_madrid.png,20,Giuliano Simeone,Right Winger,23,Argentina,€40.00m,atletico_madrid_giuliano_simeone.jpg,La Liga,Spania
+atletico_madrid_antoine_griezmann,atletico_madrid,Atletico Madrid,atletico_madrid.png,7,Antoine Griezmann,Second Striker,34,France,€11.00m,atletico_madrid_antoine_griezmann.jpg,La Liga,Spania
+atletico_madrid_julian_alvarez,atletico_madrid,Atletico Madrid,atletico_madrid.png,19,Julian Alvarez,Centre-Forward,25,Argentina,€100.00m,atletico_madrid_julian_alvarez.jpg,La Liga,Spania
+atletico_madrid_alexander_srloth,atletico_madrid,Atletico Madrid,atletico_madrid.png,9,Alexander Srloth,Centre-Forward,30,Norway,€20.00m,atletico_madrid_alexander_srloth.jpg,La Liga,Spania
+real_sociedad_alex_remiro,real_sociedad,Real Sociedad,real_sociedad.png,1,Alex Remiro,Goalkeeper,30,Spain,€14.00m,real_sociedad_alex_remiro.jpg,La Liga,Spania
+real_sociedad_unai_marrero,real_sociedad,Real Sociedad,real_sociedad.png,13,Unai Marrero,Goalkeeper,24,Spain,€600k,real_sociedad_unai_marrero.jpg,La Liga,Spania
+real_sociedad_jon_martin,real_sociedad,Real Sociedad,real_sociedad.png,31,Jon Martin,Centre-Back,19,Spain,€10.00m,real_sociedad_jon_martin.png,La Liga,Spania
+real_sociedad_igor_zubeldia,real_sociedad,Real Sociedad,real_sociedad.png,5,Igor Zubeldia,Centre-Back,28,Spain,€9.00m,real_sociedad_igor_zubeldia.jpg,La Liga,Spania
+real_sociedad_duje_caleta-car,real_sociedad,Real Sociedad,real_sociedad.png,16,Duje Caleta-Car,Centre-Back,29,Croatia,€3.00m,real_sociedad_duje_caleta-car.jpg,La Liga,Spania
+real_sociedad_aritz_elustondo,real_sociedad,Real Sociedad,real_sociedad.png,6,Aritz Elustondo,Centre-Back,31,Spain,€1.80m,real_sociedad_aritz_elustondo.jpg,La Liga,Spania
+real_sociedad_sergio_gomez,real_sociedad,Real Sociedad,real_sociedad.png,17,Sergio Gomez,Left-Back,25,Spain,€15.00m,real_sociedad_sergio_gomez.jpg,La Liga,Spania
+real_sociedad_aihen_munoz,real_sociedad,Real Sociedad,real_sociedad.png,3,Aihen Munoz,Left-Back,28,Spain,€3.50m,real_sociedad_aihen_munoz.jpg,La Liga,Spania
+real_sociedad_jon_aramburu,real_sociedad,Real Sociedad,real_sociedad.png,2,Jon Aramburu,Right-Back,23,Venezuela,€15.00m,real_sociedad_jon_aramburu.jpg,La Liga,Spania
+real_sociedad_alvaro_odriozola,real_sociedad,Real Sociedad,real_sociedad.png,20,Alvaro Odriozola,Right-Back,30,Spain,€800k,real_sociedad_alvaro_odriozola.jpg,La Liga,Spania
+real_sociedad_jon_gorrotxategi,real_sociedad,Real Sociedad,real_sociedad.png,4,Jon Gorrotxategi,Defensive Midfield,23,Spain,€15.00m,real_sociedad_jon_gorrotxategi.jpg,La Liga,Spania
+real_sociedad_luka_sucic,real_sociedad,Real Sociedad,real_sociedad.png,24,Luka Sucic,Central Midfield,23,Croatia,€10.00m,real_sociedad_luka_sucic.png,La Liga,Spania
+real_sociedad_yangel_herrera,real_sociedad,Real Sociedad,real_sociedad.png,12,Yangel Herrera,Central Midfield,28,Venezuela,€9.00m,real_sociedad_yangel_herrera.jpg,La Liga,Spania
+real_sociedad_benat_turrientes,real_sociedad,Real Sociedad,real_sociedad.png,8,Benat Turrientes,Central Midfield,23,Spain,€8.00m,real_sociedad_benat_turrientes.jpg,La Liga,Spania
+real_sociedad_carlos_soler,real_sociedad,Real Sociedad,real_sociedad.png,18,Carlos Soler,Central Midfield,29,Spain,€8.00m,real_sociedad_carlos_soler.jpg,La Liga,Spania
+real_sociedad_brais_mendez,real_sociedad,Real Sociedad,real_sociedad.png,23,Brais Mendez,Attacking Midfield,29,Spain,€12.00m,real_sociedad_brais_mendez.jpg,La Liga,Spania
+real_sociedad_pablo_marin,real_sociedad,Real Sociedad,real_sociedad.png,28,Pablo Marin,Attacking Midfield,22,Spain,€8.00m,real_sociedad_pablo_marin.jpg,La Liga,Spania
+real_sociedad_arsen_zakharyan,real_sociedad,Real Sociedad,real_sociedad.png,21,Arsen Zakharyan,Attacking Midfield,22,Russia,€7.50m,real_sociedad_arsen_zakharyan.jpg,La Liga,Spania
+real_sociedad_ander_barrenetxea,real_sociedad,Real Sociedad,real_sociedad.png,7,Ander Barrenetxea,Left Winger,24,Spain,€20.00m,real_sociedad_ander_barrenetxea.jpg,La Liga,Spania
+real_sociedad_goncalo_guedes,real_sociedad,Real Sociedad,real_sociedad.png,11,Goncalo Guedes,Left Winger,29,Portugal,€6.00m,real_sociedad_goncalo_guedes.jpg,La Liga,Spania
+real_sociedad_takefusa_kubo,real_sociedad,Real Sociedad,real_sociedad.png,14,Takefusa Kubo,Right Winger,24,Japan,€30.00m,real_sociedad_takefusa_kubo.jpg,La Liga,Spania
+real_sociedad_mikel_oyarzabal,real_sociedad,Real Sociedad,real_sociedad.png,10,Mikel Oyarzabal,Centre-Forward,28,Spain,€25.00m,real_sociedad_mikel_oyarzabal.jpg,La Liga,Spania
+real_sociedad_orri_oskarsson,real_sociedad,Real Sociedad,real_sociedad.png,9,Orri Oskarsson,Centre-Forward,21,Iceland,€12.00m,real_sociedad_orri_oskarsson.jpg,La Liga,Spania
+real_sociedad_jon_karrikaburu,real_sociedad,Real Sociedad,real_sociedad.png,19,Jon Karrikaburu,Centre-Forward,23,Spain,€2.00m,real_sociedad_jon_karrikaburu.jpg,La Liga,Spania
+athletic_bilbao_unai_simon,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,1,Unai Simon,Goalkeeper,28,Spain,€25.00m,athletic_bilbao_unai_simon.png,La Liga,Spania
+athletic_bilbao_alex_padilla,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,27,Alex Padilla,Goalkeeper,22,Mexico,€3.00m,athletic_bilbao_alex_padilla.png,La Liga,Spania
+athletic_bilbao_dani_vivian,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,3,Dani Vivian,Centre-Back,26,Spain,€30.00m,athletic_bilbao_dani_vivian.png,La Liga,Spania
+athletic_bilbao_aitor_paredes,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,4,Aitor Paredes,Centre-Back,25,Spain,€18.00m,athletic_bilbao_aitor_paredes.png,La Liga,Spania
+athletic_bilbao_aymeric_laporte,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,14,Aymeric Laporte,Centre-Back,31,Spain,€9.00m,athletic_bilbao_aymeric_laporte.jpg,La Liga,Spania
+athletic_bilbao_yeray_alvarez,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,5,Yeray Alvarez,Centre-Back,31,Spain,€1.00m,athletic_bilbao_yeray_alvarez.png,La Liga,Spania
+athletic_bilbao_unai_egiluz,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,29,Unai Egiluz,Centre-Back,23,Spain,€600k,athletic_bilbao_unai_egiluz.png,La Liga,Spania
+athletic_bilbao_adama_boiro,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,19,Adama Boiro,Left-Back,23,Spain,€3.00m,athletic_bilbao_adama_boiro.png,La Liga,Spania
+athletic_bilbao_yuri_berchiche,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,17,Yuri Berchiche,Left-Back,35,Spain,€1.20m,athletic_bilbao_yuri_berchiche.png,La Liga,Spania
+athletic_bilbao_jesus_areso,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,12,Jesus Areso,Right-Back,26,Spain,€10.00m,athletic_bilbao_jesus_areso.jpg,La Liga,Spania
+athletic_bilbao_andoni_gorosabel,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,2,Andoni Gorosabel,Right-Back,29,Spain,€4.00m,athletic_bilbao_andoni_gorosabel.jpeg,La Liga,Spania
+athletic_bilbao_inigo_lekue,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,15,Inigo Lekue,Right-Back,32,Spain,€1.20m,athletic_bilbao_inigo_lekue.png,La Liga,Spania
+athletic_bilbao_mikel_vesga,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,6,Mikel Vesga,Defensive Midfield,32,Spain,€1.50m,athletic_bilbao_mikel_vesga.png,La Liga,Spania
+athletic_bilbao_mikel_jauregizar,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,18,Mikel Jauregizar,Central Midfield,22,Spain,€30.00m,athletic_bilbao_mikel_jauregizar.png,La Liga,Spania
+athletic_bilbao_benat_prados,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,24,Benat Prados,Central Midfield,24,Spain,€18.00m,athletic_bilbao_benat_prados.png,La Liga,Spania
+athletic_bilbao_alejandro_rego,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,30,Alejandro Rego,Central Midfield,22,Spain,€3.00m,athletic_bilbao_alejandro_rego.png,La Liga,Spania
+athletic_bilbao_selton_sanchez,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,44,Selton Sanchez,Central Midfield,18,Spain,€3.00m,athletic_bilbao_selton_sanchez.png,La Liga,Spania
+athletic_bilbao_inigo_ruiz_de_galarreta,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,16,Inigo Ruiz de Galarreta,Central Midfield,32,Spain,€2.50m,athletic_bilbao_inigo_ruiz_de_galarreta.png,La Liga,Spania
+athletic_bilbao_oihan_sancet,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,8,Oihan Sancet,Attacking Midfield,25,Spain,€40.00m,athletic_bilbao_oihan_sancet.png,La Liga,Spania
+athletic_bilbao_unai_gomez,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,20,Unai Gomez,Attacking Midfield,22,Spain,€5.00m,athletic_bilbao_unai_gomez.png,La Liga,Spania
+athletic_bilbao_nico_williams,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,10,Nico Williams,Left Winger,23,Spain,€60.00m,athletic_bilbao_nico_williams.png,La Liga,Spania
+athletic_bilbao_alex_berenguer,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,7,Alex Berenguer,Left Winger,30,Spain,€5.00m,athletic_bilbao_alex_berenguer.png,La Liga,Spania
+athletic_bilbao_nico_serrano,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,22,Nico Serrano,Left Winger,22,Spain,€1.50m,athletic_bilbao_nico_serrano.png,La Liga,Spania
+athletic_bilbao_inaki_williams,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,9,Inaki Williams,Right Winger,31,Ghana,€10.00m,athletic_bilbao_inaki_williams.png,La Liga,Spania
+athletic_bilbao_robert_navarro,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,23,Robert Navarro,Right Winger,23,Spain,€6.00m,athletic_bilbao_robert_navarro.jpg,La Liga,Spania
+athletic_bilbao_gorka_guruzeta,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,11,Gorka Guruzeta,Centre-Forward,29,Spain,€5.00m,athletic_bilbao_gorka_guruzeta.png,La Liga,Spania
+athletic_bilbao_maroan_sannadi,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,21,Maroan Sannadi,Centre-Forward,24,Morocco,€5.00m,athletic_bilbao_maroan_sannadi.jpg,La Liga,Spania
+athletic_bilbao_urko_izeta,athletic_bilbao,Athletic Bilbao,athletic_bilbao.png,25,Urko Izeta,Centre-Forward,26,Spain,€1.50m,athletic_bilbao_urko_izeta.png,La Liga,Spania
+villareal_luiz_junior,villareal,Villareal,villareal.png,1,Luiz Junior,Goalkeeper,25,Brazil,€12.00m,villareal_luiz_junior.jpg,La Liga,Spania
+villareal_diego_conde,villareal,Villareal,villareal.png,13,Diego Conde,Goalkeeper,27,Spain,€4.00m,villareal_diego_conde.jpg,La Liga,Spania
+villareal_arnau_tenas,villareal,Villareal,villareal.png,25,Arnau Tenas,Goalkeeper,24,Spain,€4.00m,villareal_arnau_tenas.jpg,La Liga,Spania
+villareal_renato_veiga,villareal,Villareal,villareal.png,12,Renato Veiga,Centre-Back,22,Portugal,€25.00m,villareal_renato_veiga.jpg,La Liga,Spania
+villareal_logan_costa,villareal,Villareal,villareal.png,2,Logan Costa,Centre-Back,24,Cape Verde,€18.00m,villareal_logan_costa.jpg,La Liga,Spania
+villareal_juan_foyth,villareal,Villareal,villareal.png,8,Juan Foyth,Centre-Back,28,Argentina,€15.00m,villareal_juan_foyth.jpg,La Liga,Spania
+villareal_rafa_marin,villareal,Villareal,villareal.png,4,Rafa Marin,Centre-Back,23,Spain,€12.00m,villareal_rafa_marin.jpg,La Liga,Spania
+villareal_willy_kambwala,villareal,Villareal,villareal.png,5,Willy Kambwala,Centre-Back,21,France,€4.00m,villareal_willy_kambwala.jpg,La Liga,Spania
+villareal_sergi_cardona,villareal,Villareal,villareal.png,23,Sergi Cardona,Left-Back,26,Spain,€10.00m,villareal_sergi_cardona.jpg,La Liga,Spania
+villareal_alfonso_pedraza,villareal,Villareal,villareal.png,24,Alfonso Pedraza,Left-Back,29,Spain,€2.50m,villareal_alfonso_pedraza.jpg,La Liga,Spania
+villareal_santiago_mourino,villareal,Villareal,villareal.png,15,Santiago Mourino,Right-Back,23,Uruguay,€10.00m,villareal_santiago_mourino.jpg,La Liga,Spania
+villareal_pau_navarro,villareal,Villareal,villareal.png,26,Pau Navarro,Right-Back,20,Spain,€5.00m,villareal_pau_navarro.jpg,La Liga,Spania
+villareal_pape_gueye,villareal,Villareal,villareal.png,18,Pape Gueye,Defensive Midfield,27,Senegal,€20.00m,villareal_pape_gueye.jpg,La Liga,Spania
+villareal_thomas_partey,villareal,Villareal,villareal.png,16,Thomas Partey,Defensive Midfield,32,Ghana,€5.00m,villareal_thomas_partey.jpg,La Liga,Spania
+villareal_santi_comesana,villareal,Villareal,villareal.png,14,Santi Comesana,Central Midfield,29,Spain,€8.00m,villareal_santi_comesana.jpg,La Liga,Spania
+villareal_dani_parejo,villareal,Villareal,villareal.png,10,Dani Parejo,Central Midfield,36,Spain,€1.20m,villareal_dani_parejo.jpg,La Liga,Spania
+villareal_carlos_macia,villareal,Villareal,villareal.png,37,Carlos Macia,Central Midfield,17,Spain,€1.00m,villareal_carlos_macia.png,La Liga,Spania
+villareal_alberto_moleiro,villareal,Villareal,villareal.png,20,Alberto Moleiro,Left Winger,22,Spain,€30.00m,villareal_alberto_moleiro.jpg,La Liga,Spania
+villareal_alfon_gonzalez,villareal,Villareal,villareal.png,-,Alfon Gonzalez,Left Winger,26,Spain,€4.00m,villareal_alfon_gonzalez.jpg,La Liga,Spania
+villareal_tajon_buchanan,villareal,Villareal,villareal.png,17,Tajon Buchanan,Right Winger,26,Canada,€10.00m,villareal_tajon_buchanan.jpg,La Liga,Spania
+villareal_nicolas_pepe,villareal,Villareal,villareal.png,19,Nicolas Pepe,Right Winger,30,Cote d'Ivoire,€6.00m,villareal_nicolas_pepe.jpg,La Liga,Spania
+villareal_georges_mikautadze,villareal,Villareal,villareal.png,9,Georges Mikautadze,Centre-Forward,25,Georgia,€28.00m,villareal_georges_mikautadze.jpg,La Liga,Spania
+villareal_tani_oluwaseyi,villareal,Villareal,villareal.png,21,Tani Oluwaseyi,Centre-Forward,25,Canada,€8.00m,villareal_tani_oluwaseyi.jpg,La Liga,Spania
+villareal_ayoze_perez,villareal,Villareal,villareal.png,22,Ayoze Perez,Centre-Forward,32,Spain,€6.00m,villareal_ayoze_perez.jpg,La Liga,Spania
+villareal_gerard_moreno,villareal,Villareal,villareal.png,7,Gerard Moreno,Centre-Forward,33,Spain,€2.80m,villareal_gerard_moreno.jpg,La Liga,Spania
+villareal_pau_cabanes,villareal,Villareal,villareal.png,33,Pau Cabanes,Centre-Forward,20,Spain,€800k,villareal_pau_cabanes.jpg,La Liga,Spania
+valencia_julen_agirrezabala,valencia,Valencia,valencia.png,25,Julen Agirrezabala,Goalkeeper,25,Spain,€15.00m,valencia_julen_agirrezabala.png,La Liga,Spania
+valencia_stole_dimitrievski,valencia,Valencia,valencia.png,1,Stole Dimitrievski,Goalkeeper,32,North Macedonia,€2.00m,valencia_stole_dimitrievski.jpg,La Liga,Spania
+valencia_cristian_rivero,valencia,Valencia,valencia.png,13,Cristian Rivero,Goalkeeper,27,Spain,€100k,valencia_cristian_rivero.jpg,La Liga,Spania
+valencia_cesar_tarrega,valencia,Valencia,valencia.png,5,Cesar Tarrega,Centre-Back,23,Spain,€15.00m,valencia_cesar_tarrega.jpg,La Liga,Spania
+valencia_jose_copete,valencia,Valencia,valencia.png,3,Jose Copete,Centre-Back,26,Spain,€4.00m,valencia_jose_copete.JPG,La Liga,Spania
+valencia_unai_nunez,valencia,Valencia,valencia.png,-,Unai Nunez,Centre-Back,28,Spain,€3.50m,valencia_unai_nunez.jpg,La Liga,Spania
+valencia_mouctar_diakhaby,valencia,Valencia,valencia.png,4,Mouctar Diakhaby,Centre-Back,29,Guinea,€2.80m,valencia_mouctar_diakhaby.jpg,La Liga,Spania
+valencia_eray_comert,valencia,Valencia,valencia.png,24,Eray Comert,Centre-Back,27,Switzerland,€2.00m,valencia_eray_comert.jpg,La Liga,Spania
+valencia_jose_gaya,valencia,Valencia,valencia.png,14,Jose Gaya,Left-Back,30,Spain,€5.00m,valencia_jose_gaya.jpg,La Liga,Spania
+valencia_jesus_vazquez,valencia,Valencia,valencia.png,21,Jesus Vazquez,Left-Back,23,Spain,€3.00m,valencia_jesus_vazquez.jpg,La Liga,Spania
+valencia_thierry_correia,valencia,Valencia,valencia.png,12,Thierry Correia,Right-Back,26,Portugal,€3.00m,valencia_thierry_correia.jpg,La Liga,Spania
+valencia_dimitri_foulquier,valencia,Valencia,valencia.png,20,Dimitri Foulquier,Right-Back,32,Guadeloupe,€1.20m,valencia_dimitri_foulquier.jpg,La Liga,Spania
+valencia_pepelu,valencia,Valencia,valencia.png,18,Pepelu,Defensive Midfield,27,Spain,€9.00m,valencia_pepelu.jpg,La Liga,Spania
+valencia_guido_rodriguez,valencia,Valencia,valencia.png,-,Guido Rodriguez,Defensive Midfield,31,Argentina,€6.00m,valencia_guido_rodriguez.jpg,La Liga,Spania
+valencia_baptiste_santamaria,valencia,Valencia,valencia.png,22,Baptiste Santamaria,Defensive Midfield,30,France,€4.50m,valencia_baptiste_santamaria.jpg,La Liga,Spania
+valencia_javi_guerra,valencia,Valencia,valencia.png,8,Javi Guerra,Central Midfield,22,Spain,€25.00m,valencia_javi_guerra.jpg,La Liga,Spania
+valencia_filip_ugrinic,valencia,Valencia,valencia.png,23,Filip Ugrinic,Central Midfield,27,Switzerland,€6.00m,valencia_filip_ugrinic.png,La Liga,Spania
+valencia_andre_almeida,valencia,Valencia,valencia.png,10,Andre Almeida,Attacking Midfield,25,Portugal,€9.00m,valencia_andre_almeida.png,La Liga,Spania
+valencia_largie_ramazani,valencia,Valencia,valencia.png,17,Largie Ramazani,Left Winger,24,Belgium,€6.00m,valencia_largie_ramazani.jpg,La Liga,Spania
+valencia_arnaut_danjuma,valencia,Valencia,valencia.png,7,Arnaut Danjuma,Left Winger,28,Netherlands,€4.00m,valencia_arnaut_danjuma.jpg,La Liga,Spania
+valencia_luis_rioja,valencia,Valencia,valencia.png,11,Luis Rioja,Left Winger,32,Spain,€2.00m,valencia_luis_rioja.jpg,La Liga,Spania
+valencia_diego_lopez,valencia,Valencia,valencia.png,16,Diego Lopez,Right Winger,23,Spain,€15.00m,valencia_diego_lopez.jpg,La Liga,Spania
+valencia_dani_raba,valencia,Valencia,valencia.png,19,Dani Raba,Second Striker,30,Spain,€2.40m,valencia_dani_raba.jpg,La Liga,Spania
+valencia_hugo_duro,valencia,Valencia,valencia.png,9,Hugo Duro,Centre-Forward,26,Spain,€12.00m,valencia_hugo_duro.jpg,La Liga,Spania
+valencia_lucas_beltran,valencia,Valencia,valencia.png,15,Lucas Beltran,Centre-Forward,24,Argentina,€8.00m,valencia_lucas_beltran.jpg,La Liga,Spania
+valencia_umar_sadiq,valencia,Valencia,valencia.png,6,Umar Sadiq,Centre-Forward,28,Nigeria,€4.00m,valencia_umar_sadiq.jpg,La Liga,Spania
+rayo_vallecano_augusto_batalla,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,13,Augusto Batalla,Goalkeeper,29,Argentina,€6.00m,rayo_vallecano_augusto_batalla.JPG,La Liga,Spania
+rayo_vallecano_dani_cardenas,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,1,Dani Cardenas,Goalkeeper,28,Spain,€1.80m,rayo_vallecano_dani_cardenas.jpg,La Liga,Spania
+rayo_vallecano_nobel_mendy,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,32,Nobel Mendy,Centre-Back,21,Senegal,€6.00m,rayo_vallecano_nobel_mendy.jpg,La Liga,Spania
+rayo_vallecano_abdul_mumin,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,16,Abdul Mumin,Centre-Back,27,Ghana,€4.00m,rayo_vallecano_abdul_mumin.jpg,La Liga,Spania
+rayo_vallecano_luiz_felipe,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,5,Luiz Felipe,Centre-Back,28,Italy,€3.00m,rayo_vallecano_luiz_felipe.jpg,La Liga,Spania
+rayo_vallecano_jozhua_vertrouwd,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,33,Jozhua Vertrouwd,Centre-Back,21,Netherlands,€3.00m,rayo_vallecano_jozhua_vertrouwd.jpg,La Liga,Spania
+rayo_vallecano_florian_lejeune,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,24,Florian Lejeune,Centre-Back,34,France,€2.00m,rayo_vallecano_florian_lejeune.jpg,La Liga,Spania
+rayo_vallecano_pep_chavarria,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,3,Pep Chavarria,Left-Back,27,Spain,€10.00m,rayo_vallecano_pep_chavarria.jpg,La Liga,Spania
+rayo_vallecano_alfonso_espino,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,22,Alfonso Espino,Left-Back,34,Uruguay,€1.00m,rayo_vallecano_alfonso_espino.jpg,La Liga,Spania
+rayo_vallecano_andrei_ratiu,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,2,Andrei Ratiu,Right-Back,27,Romania,€18.00m,rayo_vallecano_andrei_ratiu.jpg,La Liga,Spania
+rayo_vallecano_ivan_balliu,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,20,Ivan Balliu,Right-Back,34,Albania,€1.20m,rayo_vallecano_ivan_balliu.jpg,La Liga,Spania
+rayo_vallecano_gerard_gumbau,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,15,Gerard Gumbau,Defensive Midfield,31,Spain,€1.40m,rayo_vallecano_gerard_gumbau.jpg,La Liga,Spania
+rayo_vallecano_pedro_diaz,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,4,Pedro Diaz,Central Midfield,27,Spain,€3.00m,rayo_vallecano_pedro_diaz.jpg,La Liga,Spania
+rayo_vallecano_unai_lopez,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,17,Unai Lopez,Central Midfield,30,Spain,€2.50m,rayo_vallecano_unai_lopez.jpg,La Liga,Spania
+rayo_vallecano_oscar_valentin,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,23,Oscar Valentin,Central Midfield,31,Spain,€2.20m,rayo_vallecano_oscar_valentin.jpg,La Liga,Spania
+rayo_vallecano_pathe_ciss,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,6,Pathe Ciss,Central Midfield,31,Senegal,€2.00m,rayo_vallecano_pathe_ciss.jpg,La Liga,Spania
+rayo_vallecano_samu_becerra,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,28,Samu Becerra,Central Midfield,19,Spain,€300k,rayo_vallecano_samu_becerra.jpg,La Liga,Spania
+rayo_vallecano_randy_nteka,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,11,Randy Nteka,Attacking Midfield,28,Angola,€1.20m,rayo_vallecano_randy_nteka.jpg,La Liga,Spania
+rayo_vallecano_oscar_trejo,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,8,Oscar Trejo,Attacking Midfield,37,Argentina,€400k,rayo_vallecano_oscar_trejo.jpg,La Liga,Spania
+rayo_vallecano_carlos_martin,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,14,Carlos Martin,Left Winger,23,Spain,€2.50m,rayo_vallecano_carlos_martin.jpg,La Liga,Spania
+rayo_vallecano_alvaro_garcia,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,18,Alvaro Garcia,Left Winger,33,Spain,€1.80m,rayo_vallecano_alvaro_garcia.jpg,La Liga,Spania
+rayo_vallecano_ilias_akhomach,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,12,Ilias Akhomach,Right Winger,21,Morocco,€12.00m,rayo_vallecano_ilias_akhomach.jpg,La Liga,Spania
+rayo_vallecano_jorge_de_frutos,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,19,Jorge de Frutos,Right Winger,28,Spain,€12.00m,rayo_vallecano_jorge_de_frutos.jpg,La Liga,Spania
+rayo_vallecano_fran_perez,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,21,Fran Perez,Right Winger,23,Spain,€3.00m,rayo_vallecano_fran_perez.jpg,La Liga,Spania
+rayo_vallecano_isi_palazon,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,7,Isi Palazon,Second Striker,31,Spain,€3.00m,rayo_vallecano_isi_palazon.jpg,La Liga,Spania
+rayo_vallecano_alemao,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,9,Alemao,Centre-Forward,27,Brazil,€3.50m,rayo_vallecano_alemao.jpg,La Liga,Spania
+rayo_vallecano_sergio_camello,rayo_vallecano,Rayo Vallecano,rayo_vallecano.png,10,Sergio Camello,Centre-Forward,24,Spain,€2.00m,rayo_vallecano_sergio_camello.jpg,La Liga,Spania

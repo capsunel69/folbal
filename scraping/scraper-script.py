@@ -9,8 +9,9 @@ import random
 
 def clean_text(text):
     # Remove special characters and normalize unicode
+    # NFKD decomposition separates characters from their diacritics
     cleaned = unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('utf-8')
-    return cleaned
+    return cleaned.strip()
 
 def download_with_retry(url, headers, max_retries=3, base_delay=1):
     """
@@ -124,15 +125,31 @@ def scrape_team_squad(url, team_name, league_dir):
         try:
             # Extract player information
             number = row.find('div', {'class': 'rn_nummer'}).text if row.find('div', {'class': 'rn_nummer'}) else ''
-            name_cell = row.find('td', {'class': 'hauptlink'})
-            name = clean_text(name_cell.find('a').text.strip()) if name_cell else ''
+            
+            # Find name - it's inside the inline-table structure
+            inline_table = row.find('table', {'class': 'inline-table'})
+            if not inline_table:
+                print(f"Skipping row - no inline-table found")
+                continue
+                
+            name_cell = inline_table.find('td', {'class': 'hauptlink'})
+            if not name_cell or not name_cell.find('a'):
+                print(f"Skipping row - no name found")
+                continue
+                
+            name = clean_text(name_cell.find('a').text.strip())
+            
+            if not name:
+                print(f"  ⚠️  Skipping row - empty name")
+                continue
+            
+            print(f"  Processing: {name}")
             
             # Generate unique player ID
             player_id = f"{clean_text(team_name)}_{clean_text(name)}".lower().replace(' ', '_')
             
-            # Find the image in the inline-table structure
-            img_cell = row.find('table', {'class': 'inline-table'})
-            player_img = img_cell.find('img', {'class': 'bilderrahmen-fixed'}) if img_cell else None
+            # Find the image in the inline-table structure (we already have inline_table from above)
+            player_img = inline_table.find('img', {'class': 'bilderrahmen-fixed'}) if inline_table else None
             player_img_url = player_img['data-src'] if player_img and 'data-src' in player_img.attrs else (player_img['src'] if player_img and 'src' in player_img.attrs else '')
 
             # Initialize img_path as empty
@@ -156,18 +173,18 @@ def scrape_team_squad(url, team_name, league_dir):
                         if img_response and img_response.status_code == 200:
                             with open(full_img_path, 'wb') as img_file:
                                 img_file.write(img_response.content)
-                            print(f"Successfully downloaded image for {name}")
+                            print(f"  ✓ Downloaded image for {name}")
                         else:
                             status = img_response.status_code if img_response else 'No response'
-                            print(f"Failed to download image for {name}: HTTP {status}")
+                            print(f"  ✗ Failed to download image for {name}: HTTP {status}")
                             img_path = ''
                 except Exception as img_error:
-                    print(f"Error downloading image for {name}: {img_error}")
+                    print(f"  ✗ Error downloading image for {name}: {img_error}")
                     img_path = ''
 
-            # Continue with existing data extraction
-            position_cell = row.find('table', {'class': 'inline-table'})
-            position = position_cell.find_all('tr')[1].find('td').text.strip() if position_cell else ''
+            # Extract position from the inline-table
+            position_rows = inline_table.find_all('tr') if inline_table else []
+            position = position_rows[1].find('td').text.strip() if len(position_rows) > 1 and position_rows[1].find('td') else ''
             age_cells = row.find_all('td', {'class': 'zentriert'})
             age = age_cells[1].text.strip() if len(age_cells) > 1 else ''
             nationality_img = row.find('img', {'class': 'flaggenrahmen'})
@@ -200,7 +217,9 @@ def main():
     # Set up command line argument parsing
     parser = argparse.ArgumentParser(description='Scrape football league data from Transfermarkt')
     parser.add_argument('--league', '-l', type=str, help='Specify which league to scrape (e.g., "Premier League", "La Liga")')
+    parser.add_argument('--team', '-t', type=str, help='Specify which team to scrape (e.g., "Real Madrid", "AC Milan")')
     parser.add_argument('--list-leagues', action='store_true', help='List all available leagues and exit')
+    parser.add_argument('--list-teams', action='store_true', help='List all available teams and exit')
     args = parser.parse_args()
     
     # Read the leagues.csv file
@@ -211,6 +230,22 @@ def main():
         print("Available leagues:")
         for league in leagues_df['Liga'].unique():
             print(f"  - {league}")
+        return
+    
+    # If --list-teams flag is used, show available teams and exit
+    if args.list_teams:
+        print("Available teams:")
+        if args.league:
+            teams = leagues_df[leagues_df['Liga'] == args.league]['Echipa'].tolist()
+            print(f"\nTeams in {args.league}:")
+            for team in teams:
+                print(f"  - {team}")
+        else:
+            for league in leagues_df['Liga'].unique():
+                print(f"\n{league}:")
+                teams = leagues_df[leagues_df['Liga'] == league]['Echipa'].tolist()
+                for team in teams:
+                    print(f"  - {team}")
         return
     
     # Determine which leagues to process
@@ -254,6 +289,18 @@ def main():
         
         # Get teams for this league
         league_teams = leagues_df[leagues_df['Liga'] == league]
+        
+        # Filter by team if specified
+        if args.team:
+            league_teams = league_teams[league_teams['Echipa'] == args.team]
+            if league_teams.empty:
+                print(f"Error: Team '{args.team}' not found in league '{league}'.")
+                available_teams = leagues_df[leagues_df['Liga'] == league]['Echipa'].tolist()
+                print(f"Available teams in {league}:")
+                for team in available_teams:
+                    print(f"  - {team}")
+                continue
+            print(f"Processing specified team: {args.team}")
         
         # List to store all new players from current league
         new_players_data = []
